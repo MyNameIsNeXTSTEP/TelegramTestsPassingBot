@@ -1,4 +1,4 @@
-# TelegramTestsPassingBot
+# Telegram Tests Passing Bot
 A telegram bot, admin panel and personal account for passing tests like in universities or schools
 
 ## Development plan
