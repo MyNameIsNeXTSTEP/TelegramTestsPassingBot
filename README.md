@@ -37,6 +37,7 @@ Better to manage the tarifs/plans for subscriptions, i.e. the price, details - i
 
 Use only native nodejs fetch.
 The API should be a RESTful http.
+As the main backend framework - use Fastify.
 
 #### Basics:
 
@@ -49,6 +50,10 @@ Tests api:
 
 Statistics api:
 - Track progress and statistics of a user
+
+### Database
+
+As the database of tests use the `db` folder where there're `.json` files for differect types of subjects.
 
 ### Prod and Deployment
 
