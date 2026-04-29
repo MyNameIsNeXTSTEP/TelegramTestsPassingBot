@@ -31,7 +31,7 @@ export class SessionService {
   }): Promise<StartSessionResponse> {
     const user = await this.userRepository.findById(params.userId);
     if (!user) {
-      throw new Error(`User '${params.userId}' not found`);
+      throw new Error(`Пользователь '${params.userId}' не найден`);
     }
 
     await this.subscriptionService.assertCanStartSession(user);
@@ -39,7 +39,7 @@ export class SessionService {
 
     const questions = await this.testRepository.getQuestions(params.subjectId);
     if (questions.length === 0) {
-      throw new Error(`No questions found for subject '${params.subjectId}'`);
+      throw new Error(`Вопросы не найдены для предмета '${params.subjectId}'`);
     }
 
     const questionIds = pickQuestionIds(params.mode, questions);
@@ -97,29 +97,29 @@ export class SessionService {
   }): Promise<SubmitAnswerResponse> {
     const session = await this.requireOwnedSession(params.userId, params.sessionId);
     if (session.status !== "active") {
-      throw new Error(`Session '${session.id}' is not active`);
+      throw new Error(`Сессия '${session.id}' не активна`);
     }
 
     const questions = await this.testRepository.getQuestions(session.subjectId);
     const map = questionById(questions);
     const currentQuestionId = session.questionIds[session.progress.currentQuestionIndex];
     if (!currentQuestionId || currentQuestionId !== params.questionId) {
-      throw new Error("Answer must be submitted for current question");
+      throw new Error("Ответ должен быть на текущий вопрос");
     }
 
     const question = map.get(params.questionId);
     if (!question) {
-      throw new Error(`Question '${params.questionId}' not found`);
+      throw new Error(`Вопрос '${params.questionId}' не найден`);
     }
 
     const selectedOption = question.options.find((item) => item.optionId === params.selectedOptionId);
     if (!selectedOption) {
-      throw new Error(`Option '${params.selectedOptionId}' is invalid for question '${question.id}'`);
+      throw new Error(`Вариант '${params.selectedOptionId}' недопустим для вопроса '${question.id}'`);
     }
 
     const correctOption = question.options.find((item) => item.isCorrect);
     if (!correctOption) {
-      throw new Error(`Question '${question.id}' has no correct option`);
+      throw new Error(`Вопрос '${question.id}' не имеет правильного варианта`);
     }
 
     const now = new Date().toISOString();
@@ -139,7 +139,7 @@ export class SessionService {
     if (session.mode === "exam-prep" && !isCorrect && session.errors.length < session.maxAllowedErrors) {
       const user = await this.userRepository.findById(session.userId);
       if (!user) {
-        throw new Error(`User '${session.userId}' not found`);
+        throw new Error(`Пользователь '${session.userId}' не найден`);
       }
       const limits = await this.subscriptionService.resolveLimitsForUser(user);
       const penalties = pickPenaltyQuestionIds(session.questionIds, questions, limits.examPrepPenaltyQuestions);
@@ -187,10 +187,10 @@ export class SessionService {
   private async requireOwnedSession(userId: string, sessionId: string): Promise<Session> {
     const session = await this.sessionRepository.findById(sessionId);
     if (!session) {
-      throw new Error(`Session '${sessionId}' not found`);
+      throw new Error(`Сессия '${sessionId}' не найдена`);
     }
     if (session.userId !== userId) {
-      throw new Error("Access denied for session");
+      throw new Error("Доступ к сессии запрещен");
     }
     return session;
   }

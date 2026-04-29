@@ -23,7 +23,7 @@ interface ChatState {
   activeQuestionId?: number;
 }
 
-const MENU_KEYBOARD = Markup.keyboard([["Practice tests", "Plans"], ["Status"]]).resize();
+const MENU_KEYBOARD = Markup.keyboard([["Практика", "Тарифы"], ["Статус"]]).resize();
 
 export function buildBot(config: BotConfig): Telegraf {
   const bot = new Telegraf(config.token);
@@ -35,9 +35,9 @@ export function buildBot(config: BotConfig): Telegraf {
       const state = await upsertUserState(ctx.chat.id, stateByChatId, api, ctx.from?.first_name);
       await ctx.reply(
         [
-          `Welcome, ${state.user.name}!`,
-          `Current plan: ${state.user.planCode}`,
-          "Choose an action from the menu below.",
+          `Добро пожаловать, ${state.user.name}!`,
+          `Текущий тариф: ${state.user.planCode}`,
+          "Выберите действие из меню ниже.",
         ].join("\n"),
         MENU_KEYBOARD,
       );
@@ -54,23 +54,23 @@ export function buildBot(config: BotConfig): Telegraf {
     await showPlans(ctx.chat.id, stateByChatId, api, ctx);
   });
 
-  bot.hears("Practice tests", async (ctx) => {
+  bot.hears("Практика", async (ctx) => {
     await startPracticeFlow(ctx.chat.id, stateByChatId, api, ctx);
   });
 
-  bot.hears("Plans", async (ctx) => {
+  bot.hears("Тарифы", async (ctx) => {
     await showPlans(ctx.chat.id, stateByChatId, api, ctx);
   });
 
-  bot.hears("Status", async (ctx) => {
+  bot.hears("Статус", async (ctx) => {
     try {
       const state = await upsertUserState(ctx.chat.id, stateByChatId, api, ctx.from?.first_name);
       await ctx.reply(
         [
-          `User: ${state.user.name}`,
-          `Plan: ${state.user.planCode}`,
-          `Daily sessions: ${state.user.dailyUsage.sessionsStarted}`,
-          `Daily answered questions: ${state.user.dailyUsage.questionsAnswered}`,
+          `Пользователь: ${state.user.name}`,
+          `Тариф: ${state.user.planCode}`,
+          `Сессий за день: ${state.user.dailyUsage.sessionsStarted}`,
+          `Ответов за день: ${state.user.dailyUsage.questionsAnswered}`,
         ].join("\n"),
       );
     } catch (error) {
@@ -83,7 +83,7 @@ export function buildBot(config: BotConfig): Telegraf {
     try {
       const state = requireState(ctx.chat?.id, stateByChatId);
       if (state.step !== "choose-faculty") {
-        await ctx.reply("Restart flow with /practice.");
+        await ctx.reply("Перезапустите процесс командой /practice.");
         return;
       }
 
@@ -91,7 +91,7 @@ export function buildBot(config: BotConfig): Telegraf {
       const faculties = uniqueSorted(state.subjects.map((subject) => subject.faculty));
       const faculty = faculties[index];
       if (!faculty) {
-        await ctx.reply("Faculty not found. Run /practice again.");
+        await ctx.reply("Факультет не найден. Запустите /practice снова.");
         return;
       }
 
@@ -102,7 +102,7 @@ export function buildBot(config: BotConfig): Telegraf {
         state.subjects.filter((subject) => subject.faculty === faculty).map((subject) => subject.subject),
       );
       await ctx.reply(
-        `Faculty: ${faculty}\nChoose a subject:`,
+        `Факультет: ${faculty}\nВыберите предмет:`,
         Markup.inlineKeyboard(
           subjectNames.map((subjectName, subjectIndex) =>
             Markup.button.callback(subjectName, `subject:${subjectIndex}`),
@@ -119,7 +119,7 @@ export function buildBot(config: BotConfig): Telegraf {
     try {
       const state = requireState(ctx.chat?.id, stateByChatId);
       if (state.step !== "choose-subject" || !state.selectedFaculty) {
-        await ctx.reply("Restart flow with /practice.");
+        await ctx.reply("Перезапустите процесс командой /practice.");
         return;
       }
 
@@ -131,7 +131,7 @@ export function buildBot(config: BotConfig): Telegraf {
       );
       const subjectName = subjectNames[index];
       if (!subjectName) {
-        await ctx.reply("Subject not found. Run /practice again.");
+        await ctx.reply("Предмет не найден. Запустите /practice снова.");
         return;
       }
 
@@ -148,7 +148,7 @@ export function buildBot(config: BotConfig): Telegraf {
       );
 
       await ctx.reply(
-        `Subject: ${subjectName}\nChoose test type:`,
+        `Предмет: ${subjectName}\nВыберите тип теста:`,
         Markup.inlineKeyboard(
           testTypes.map((testType) => Markup.button.callback(testType, `test-type:${testType}`)),
         ),
@@ -163,18 +163,18 @@ export function buildBot(config: BotConfig): Telegraf {
     try {
       const state = requireState(ctx.chat?.id, stateByChatId);
       if (state.step !== "choose-test-type") {
-        await ctx.reply("Restart flow with /practice.");
+        await ctx.reply("Перезапустите процесс командой /practice.");
         return;
       }
 
       state.selectedTestType = ctx.match[1] as TestType;
       state.step = "choose-mode";
       await ctx.reply(
-        "Choose mode:",
+        "Выберите режим:",
         Markup.inlineKeyboard([
-          [Markup.button.callback("Single", "mode:single")],
-          [Markup.button.callback("Pack (10 questions)", "mode:pack")],
-          [Markup.button.callback("Exam prep (30 + penalties)", "mode:exam-prep")],
+          [Markup.button.callback("Одиночный вопрос", "mode:single")],
+          [Markup.button.callback("Пакет (10 вопросов)", "mode:pack")],
+          [Markup.button.callback("Подготовка к экзамену (30 + штрафы)", "mode:exam-prep")],
         ]),
       );
     } catch (error) {
@@ -192,7 +192,7 @@ export function buildBot(config: BotConfig): Telegraf {
         !state.selectedSubject ||
         !state.selectedTestType
       ) {
-        await ctx.reply("Restart flow with /practice.");
+        await ctx.reply("Перезапустите процесс командой /practice.");
         return;
       }
 
@@ -205,7 +205,7 @@ export function buildBot(config: BotConfig): Telegraf {
       );
 
       if (!selectedSubject) {
-        await ctx.reply("Could not resolve selected subject. Run /practice again.");
+        await ctx.reply("Не удалось определить выбранный предмет. Запустите /practice снова.");
         return;
       }
 
@@ -220,11 +220,11 @@ export function buildBot(config: BotConfig): Telegraf {
       state.activeQuestionId = started.firstQuestion?.id;
 
       if (!started.firstQuestion) {
-        await ctx.reply("Session started, but no questions were returned.");
+        await ctx.reply("Сессия начата, но вопросы не были получены.");
         return;
       }
 
-      await ctx.reply(`Session started in mode: ${mode}`);
+      await ctx.reply(`Сессия начата в режиме: ${mode}`);
       await sendQuestion(ctx, started.firstQuestion, started.session.progress);
     } catch (error) {
       await ctx.reply(toErrorText(error));
@@ -240,7 +240,7 @@ export function buildBot(config: BotConfig): Telegraf {
         !state.activeSessionId ||
         typeof state.activeQuestionId !== "number"
       ) {
-        await ctx.reply("No active session. Start with /practice.");
+        await ctx.reply("Нет активной сессии. Начните с /practice.");
         return;
       }
 
@@ -253,8 +253,8 @@ export function buildBot(config: BotConfig): Telegraf {
       });
 
       const answerText = result.isCorrect
-        ? "Correct."
-        : `Incorrect. Correct option id: ${result.correctOptionId}.`;
+        ? "Правильно."
+        : `Неправильно. Правильный ответ: ${result.correctOptionId}.`;
       await ctx.reply(answerText);
 
       if (result.nextQuestion) {
@@ -268,9 +268,9 @@ export function buildBot(config: BotConfig): Telegraf {
       state.activeQuestionId = undefined;
       await ctx.reply(
         [
-          `Session finished with status: ${result.session.status}`,
-          `Correct answers: ${result.session.progress.correctAnswers}/${result.session.progress.answeredQuestions}`,
-          `Errors: ${result.session.errors.length}`,
+          `Сессия завершена со статусом: ${result.session.status}`,
+          `Правильных ответов: ${result.session.progress.correctAnswers}/${result.session.progress.answeredQuestions}`,
+          `Ошибок: ${result.session.errors.length}`,
         ].join("\n"),
         MENU_KEYBOARD,
       );
@@ -285,11 +285,11 @@ export function buildBot(config: BotConfig): Telegraf {
       const state = requireState(ctx.chat?.id, stateByChatId);
       const planCode = ctx.match[1];
       if (!planCode) {
-        await ctx.reply("Plan code is missing.");
+        await ctx.reply("Код тарифа отсутствует.");
         return;
       }
       state.user = await api.changeMyPlan(state.user.id, planCode);
-      await ctx.reply(`Plan updated successfully. Current plan: ${state.user.planCode}`, MENU_KEYBOARD);
+      await ctx.reply(`Тариф успешно обновлен. Текущий тариф: ${state.user.planCode}`, MENU_KEYBOARD);
     } catch (error) {
       await ctx.reply(toErrorText(error));
     }
@@ -308,7 +308,7 @@ async function startPracticeFlow(
     const state = await upsertUserState(chatId, stateByChatId, api, ctx.from?.first_name);
     const subjects = await api.listSubjects();
     if (subjects.length === 0) {
-      await ctx.reply("No subjects available.");
+      await ctx.reply("Нет доступных предметов.");
       return;
     }
 
@@ -322,7 +322,7 @@ async function startPracticeFlow(
 
     const faculties = uniqueSorted(subjects.map((subject) => subject.faculty));
     await ctx.reply(
-      "Choose your faculty:",
+      "Выберите ваш факультет:",
       Markup.inlineKeyboard(
         faculties.map((faculty, index) => [Markup.button.callback(faculty, `faculty:${index}`)]),
       ),
@@ -342,13 +342,13 @@ async function showPlans(
     const state = await upsertUserState(chatId, stateByChatId, api, ctx.from?.first_name);
     const plans = (await api.listPlans()).filter((plan) => plan.isActive);
     if (plans.length === 0) {
-      await ctx.reply("No active plans found.");
+      await ctx.reply("Не найдено активных тарифов.");
       return;
     }
 
     await ctx.reply(
       [
-        `Current plan: ${state.user.planCode}`,
+        `Текущий тариф: ${state.user.planCode}`,
         "",
         ...plans.map(
           (plan) =>
@@ -356,7 +356,7 @@ async function showPlans(
         ),
       ].join("\n"),
       Markup.inlineKeyboard(
-        plans.map((plan) => [Markup.button.callback(`Select ${plan.name}`, `plan:${plan.code}`)]),
+        plans.map((plan) => [Markup.button.callback(`Выбрать ${plan.name}`, `plan:${plan.code}`)]),
       ),
     );
   } catch (error) {
@@ -396,8 +396,8 @@ async function sendQuestion(
   errorsCount = 0,
 ): Promise<void> {
   const text = [
-    `Question ${progress.answeredQuestions + 1}/${progress.totalQuestions}`,
-    `Errors: ${errorsCount}`,
+    `Вопрос ${progress.answeredQuestions + 1}/${progress.totalQuestions}`,
+    `Ошибок: ${errorsCount}`,
     "",
     question.title,
   ].join("\n");
@@ -414,12 +414,12 @@ async function sendQuestion(
 
 function requireState(chatId: number | undefined, store: Map<number, ChatState>): ChatState {
   if (typeof chatId !== "number") {
-    throw new Error("Chat is unavailable");
+    throw new Error("Чат недоступен");
   }
 
   const state = store.get(chatId);
   if (!state) {
-    throw new Error("Session state is missing. Use /start first.");
+    throw new Error("Состояние сессии отсутствует. Используйте /start.");
   }
 
   return state;
@@ -430,5 +430,5 @@ function uniqueSorted(values: string[]): string[] {
 }
 
 function toErrorText(error: unknown): string {
-  return error instanceof Error ? error.message : "Unexpected error";
+  return error instanceof Error ? error.message : "Неожиданная ошибка";
 }

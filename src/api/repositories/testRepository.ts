@@ -38,7 +38,7 @@ export class TestRepository {
   public async getQuestions(subjectId: string): Promise<Question[]> {
     const record = await this.getSubjectById(subjectId);
     if (!record) {
-      throw new Error(`Subject '${subjectId}' not found`);
+      throw new Error(`Предмет '${subjectId}' не найден`);
     }
 
     return readQuestionsFile(record.path);
@@ -48,7 +48,7 @@ export class TestRepository {
     const validQuestion = validateQuestion(question);
     const record = await this.getSubjectById(subjectId);
     if (!record) {
-      throw new Error(`Subject '${subjectId}' not found`);
+      throw new Error(`Предмет '${subjectId}' не найден`);
     }
 
     await updateJsonFileValidated({
@@ -74,7 +74,7 @@ export class TestRepository {
   public async deleteQuestion(subjectId: string, questionId: number): Promise<boolean> {
     const record = await this.getSubjectById(subjectId);
     if (!record) {
-      throw new Error(`Subject '${subjectId}' not found`);
+      throw new Error(`Предмет '${subjectId}' не найден`);
     }
 
     let deleted = false;
@@ -137,14 +137,14 @@ function readQuestionsFile(path: string): Promise<Question[]> {
 
 function parseQuestionsArray(value: unknown): Question[] {
   if (!Array.isArray(value)) {
-    throw new Error("Subject file must contain an array of questions");
+    throw new Error("Файл предмета должен содержать массив вопросов");
   }
 
   const questions = value.map((item, index) => parseQuestion(item, index));
   const ids = new Set<number>();
   for (const question of questions) {
     if (ids.has(question.id)) {
-      throw new Error(`Duplicate question id '${question.id}' in subject file`);
+      throw new Error(`Дублирующийся ID вопроса '${question.id}' в файле предмета`);
     }
     ids.add(question.id);
   }
@@ -154,22 +154,22 @@ function parseQuestionsArray(value: unknown): Question[] {
 
 function parseQuestion(value: unknown, index?: number): Question {
   if (!isRecord(value)) {
-    throw new Error(withQuestionPrefix(index, "Question must be an object"));
+    throw new Error(withQuestionPrefix(index, "Вопрос должен быть объектом"));
   }
 
   const id = value.id;
   if (!isPositiveInt(id)) {
-    throw new Error(withQuestionPrefix(index, "Question id must be a positive integer"));
+    throw new Error(withQuestionPrefix(index, "ID вопроса должен быть положительным целым числом"));
   }
 
   const title = value.title;
   if (typeof title !== "string" || !title.trim()) {
-    throw new Error(withQuestionPrefix(index, "Question title must not be empty"));
+    throw new Error(withQuestionPrefix(index, "Заголовок вопроса не должен быть пустым"));
   }
 
   const options = value.options;
   if (!Array.isArray(options) || options.length < 2) {
-    throw new Error(withQuestionPrefix(index, "Question must have at least two options"));
+    throw new Error(withQuestionPrefix(index, "Вопрос должен иметь минимум два варианта ответа"));
   }
 
   const parsedOptions = options.map((option, optionIndex) =>
@@ -177,13 +177,13 @@ function parseQuestion(value: unknown, index?: number): Question {
   );
   const correctCount = parsedOptions.filter((option) => option.isCorrect).length;
   if (correctCount !== 1) {
-    throw new Error(withQuestionPrefix(index, "Question must have exactly one correct option"));
+    throw new Error(withQuestionPrefix(index, "Вопрос должен иметь ровно один правильный ответ"));
   }
 
   const optionIds = new Set<number>();
   for (const option of parsedOptions) {
     if (optionIds.has(option.optionId)) {
-      throw new Error(withQuestionPrefix(index, `Duplicate option id '${option.optionId}'`));
+      throw new Error(withQuestionPrefix(index, `Дублирующийся ID варианта '${option.optionId}'`));
     }
     optionIds.add(option.optionId);
   }
@@ -197,21 +197,21 @@ function parseQuestion(value: unknown, index?: number): Question {
 
 function parseQuestionOption(value: unknown, questionId: number, optionIndex: number) {
   if (!isRecord(value)) {
-    throw new Error(`Question ${questionId} option #${optionIndex + 1} must be an object`);
+    throw new Error(`Вопрос ${questionId} вариант №${optionIndex + 1} должен быть объектом`);
   }
 
   if (!isPositiveInt(value.optionId)) {
     throw new Error(
-      `Question ${questionId} option #${optionIndex + 1} optionId must be a positive integer`,
+      `Вопрос ${questionId} вариант №${optionIndex + 1} optionId должен быть положительным целым числом`,
     );
   }
 
   if (typeof value.text !== "string" || !value.text.trim()) {
-    throw new Error(`Question ${questionId} option #${optionIndex + 1} text must not be empty`);
+    throw new Error(`Вопрос ${questionId} вариант №${optionIndex + 1} текст не должен быть пустым`);
   }
 
   if (typeof value.isCorrect !== "boolean") {
-    throw new Error(`Question ${questionId} option #${optionIndex + 1} isCorrect must be boolean`);
+    throw new Error(`Вопрос ${questionId} вариант №${optionIndex + 1} isCorrect должен быть булевым значением`);
   }
 
   return {
@@ -234,5 +234,5 @@ function withQuestionPrefix(index: number | undefined, message: string): string 
     return message;
   }
 
-  return `Question #${index + 1}: ${message}`;
+  return `Вопрос №${index + 1}: ${message}`;
 }

@@ -26,7 +26,7 @@ export class SubscriptionService {
   public async changeUserPlan(userId: string, planCode: string): Promise<User> {
     const plan = await this.planRepository.getByCode(planCode);
     if (!plan || !plan.isActive) {
-      throw new Error(`Plan '${planCode}' is not available`);
+      throw new Error(`Тариф '${planCode}' недоступен`);
     }
 
     return this.userRepository.updatePlanCode(userId, planCode);
@@ -56,7 +56,7 @@ export class SubscriptionService {
 
     if (currentUsage >= dailyLimit) {
       throw new Error(
-        `Daily quota reached (${dailyLimit} sessions). Upgrade to pro-student for unlimited access.`,
+        `Достигнут дневной лимит (${dailyLimit} сессий). Перейдите на тариф pro-student для неограниченного доступа.`,
       );
     }
   }

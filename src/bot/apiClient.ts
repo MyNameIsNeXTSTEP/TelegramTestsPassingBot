@@ -90,7 +90,7 @@ export class BotApiClient {
 
     const payload = (await response.json()) as ApiResponse<T>;
     if (!response.ok || !payload.ok || !payload.data) {
-      const message = payload.error?.message ?? "API request failed";
+      const message = payload.error?.message ?? "Ошибка API запроса";
       throw new Error(message);
     }
 

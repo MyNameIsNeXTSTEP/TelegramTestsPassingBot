@@ -62,7 +62,7 @@ export class UserRepository {
     const users = await this.readAll();
     const user = users.find((item) => item.id === userId);
     if (!user) {
-      throw new Error(`User '${userId}' not found`);
+      throw new Error(`Пользователь '${userId}' не найден`);
     }
 
     user.planCode = planCode;
@@ -79,7 +79,7 @@ export class UserRepository {
     const users = await this.readAll();
     const user = users.find((item) => item.id === userId);
     if (!user) {
-      throw new Error(`User '${userId}' not found`);
+      throw new Error(`Пользователь '${userId}' не найден`);
     }
 
     const usageDate = atIso.slice(0, 10);
