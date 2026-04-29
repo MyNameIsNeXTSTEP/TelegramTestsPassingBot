@@ -567,11 +567,15 @@ function buildAnswerKeyboard(
 ) {
   const selectedIds = new Set(state?.selectedOptionIds ?? []);
   const isCompleted = state?.questionCompleted ?? false;
+  const hasIncorrectSelection = question.options.some(
+    (option) => selectedIds.has(option.optionId) && !option.isCorrect,
+  );
 
   return Markup.inlineKeyboard(
     question.options.map((option) => {
       const isSelected = selectedIds.has(option.optionId);
-      const prefix = isSelected ? (option.isCorrect ? "✅" : "❌") : "";
+      const shouldMarkAsCorrect = option.isCorrect && (isSelected || hasIncorrectSelection || isCompleted);
+      const prefix = shouldMarkAsCorrect ? "✅" : isSelected ? "❌" : "";
       const callbackData = isCompleted || isSelected ? `done:${option.optionId}` : `answer:${option.optionId}`;
       return [
         Markup.button.callback(`${prefix} ${option.optionId}. ${option.text}`, callbackData)
