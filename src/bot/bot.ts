@@ -252,9 +252,23 @@ export function buildBot(config: BotConfig): Telegraf {
         selectedOptionId,
       });
 
+      await refreshCurrentQuestionKeyboard(ctx, result.question, {
+        selectedOptionIds: result.selectedOptionIds,
+        questionCompleted: result.questionCompleted,
+      });
+
+      if (!result.questionCompleted) {
+        const hintText = result.isCorrect
+          ? "Верно. Выберите следующий вариант ответа."
+          : "Этот вариант неверный. Продолжайте выбирать ответы.";
+        await ctx.reply(hintText);
+        return;
+      }
+
+      const correctOptionsText = result.correctOptionIds.join(", ");
       const answerText = result.isCorrect
         ? "Правильно."
-        : `Неправильно. Правильный ответ: ${result.correctOptionId}.`;
+        : `Неправильно. Правильные варианты: ${correctOptionsText}.`;
       await ctx.reply(answerText);
 
       if (result.nextQuestion) {
@@ -277,6 +291,10 @@ export function buildBot(config: BotConfig): Telegraf {
     } catch (error) {
       await ctx.reply(toErrorText(error));
     }
+  });
+
+  bot.action(/^done:(\d+)$/, async (ctx) => {
+    await ctx.answerCbQuery("Этот вариант уже зафиксирован.");
   });
 
   bot.action(/^plan:(.+)$/, async (ctx) => {
@@ -404,11 +422,41 @@ async function sendQuestion(
 
   await ctx.reply(
     text,
-    Markup.inlineKeyboard(
-      question.options.map((option) => [
-        Markup.button.callback(`${option.optionId}. ${option.text}`, `answer:${option.optionId}`),
-      ]),
-    ),
+    buildAnswerKeyboard(question),
+  );
+}
+
+async function refreshCurrentQuestionKeyboard(
+  ctx: {
+    editMessageReplyMarkup: (...args: any[]) => Promise<unknown>;
+  },
+  question: Question,
+  state: { selectedOptionIds: number[]; questionCompleted: boolean },
+): Promise<void> {
+  await ctx.editMessageReplyMarkup(
+    buildAnswerKeyboard(question, {
+      selectedOptionIds: state.selectedOptionIds,
+      questionCompleted: state.questionCompleted,
+    }).reply_markup,
+  );
+}
+
+function buildAnswerKeyboard(
+  question: Question,
+  state?: { selectedOptionIds?: number[]; questionCompleted?: boolean },
+) {
+  const selectedIds = new Set(state?.selectedOptionIds ?? []);
+  const isCompleted = state?.questionCompleted ?? false;
+
+  return Markup.inlineKeyboard(
+    question.options.map((option) => {
+      const isSelected = selectedIds.has(option.optionId);
+      const prefix = isSelected ? (option.isCorrect ? "✅" : "❌") : "";
+      const callbackData = isCompleted || isSelected ? `done:${option.optionId}` : `answer:${option.optionId}`;
+      return [
+        Markup.button.callback(`${prefix} ${option.text}`, callbackData)
+      ];
+    }),
   );
 }
 

@@ -112,11 +112,29 @@ function normalizeSession(value: unknown): Session {
     questionIds: value.questionIds,
     progress: parsedProgress,
     errors: parsedErrors,
+    currentQuestionSelectedOptionIds: parsePositiveIntegerArray(
+      value.currentQuestionSelectedOptionIds,
+      "currentQuestionSelectedOptionIds",
+    ),
+    currentQuestionHadWrongAttempt:
+      typeof value.currentQuestionHadWrongAttempt === "boolean"
+        ? value.currentQuestionHadWrongAttempt
+        : false,
     maxAllowedErrors: asNonNegativeInteger(value.maxAllowedErrors, "maxAllowedErrors"),
     startedAtIso: asNonEmptyString(value.startedAtIso, "startedAtIso"),
     updatedAtIso: asNonEmptyString(value.updatedAtIso, "updatedAtIso"),
     completedAtIso: typeof value.completedAtIso === "string" ? value.completedAtIso : undefined,
   };
+}
+
+function parsePositiveIntegerArray(value: unknown, field: string): number[] {
+  if (value === undefined) {
+    return [];
+  }
+  if (!Array.isArray(value) || !value.every(isPositiveInteger)) {
+    throw new Error(`Session ${field} must be an array of positive integers`);
+  }
+  return [...new Set(value)];
 }
 
 function asPositiveInteger(value: unknown, field: string): number {

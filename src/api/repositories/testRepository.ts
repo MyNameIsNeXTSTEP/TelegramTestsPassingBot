@@ -176,8 +176,8 @@ function parseQuestion(value: unknown, index?: number): Question {
     parseQuestionOption(option, id, optionIndex),
   );
   const correctCount = parsedOptions.filter((option) => option.isCorrect).length;
-  if (correctCount !== 1) {
-    throw new Error(withQuestionPrefix(index, "Вопрос должен иметь ровно один правильный ответ"));
+  if (correctCount < 1) {
+    throw new Error(withQuestionPrefix(index, "Вопрос должен иметь хотя бы один правильный ответ"));
   }
 
   const optionIds = new Set<number>();

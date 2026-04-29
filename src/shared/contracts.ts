@@ -86,6 +86,8 @@ export interface Session {
   questionIds: number[];
   progress: SessionProgress;
   errors: SessionError[];
+  currentQuestionSelectedOptionIds?: number[];
+  currentQuestionHadWrongAttempt?: boolean;
   maxAllowedErrors: number;
   startedAtIso: string;
   updatedAtIso: string;
@@ -197,8 +199,12 @@ export interface SubmitAnswerRequest {
 
 export interface SubmitAnswerResponse {
   session: Session;
+  question: Question;
   isCorrect: boolean;
-  correctOptionId: number;
+  correctOptionIds: number[];
+  selectedOptionIds: number[];
+  questionCompleted: boolean;
+  currentQuestion: Question | null;
   nextQuestion: Question | null;
 }
 

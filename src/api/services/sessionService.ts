@@ -58,6 +58,8 @@ export class SessionService {
         correctAnswers: 0,
       },
       errors: [],
+      currentQuestionSelectedOptionIds: [],
+      currentQuestionHadWrongAttempt: false,
       maxAllowedErrors:
         params.mode === "exam-prep" ? limits.maxErrorsInExamPrep : SESSION_RULES.examPrepMaxErrors,
       startedAtIso: now,
@@ -117,26 +119,48 @@ export class SessionService {
       throw new Error(`Вариант '${params.selectedOptionId}' недопустим для вопроса '${question.id}'`);
     }
 
-    const correctOption = question.options.find((item) => item.isCorrect);
-    if (!correctOption) {
+    const correctOptionIds = question.options.filter((item) => item.isCorrect).map((item) => item.optionId);
+    if (correctOptionIds.length === 0) {
       throw new Error(`Вопрос '${question.id}' не имеет правильного варианта`);
     }
 
     const now = new Date().toISOString();
     const isCorrect = selectedOption.isCorrect;
-    session.progress.answeredQuestions += 1;
-    if (isCorrect) {
-      session.progress.correctAnswers += 1;
-    } else {
+    const selectedOptionIds = new Set(session.currentQuestionSelectedOptionIds ?? []);
+    const isRepeatedSelection = selectedOptionIds.has(params.selectedOptionId);
+    if (!isRepeatedSelection) {
+      selectedOptionIds.add(params.selectedOptionId);
+    }
+    session.currentQuestionSelectedOptionIds = [...selectedOptionIds];
+
+    if (!isCorrect && !isRepeatedSelection) {
+      session.currentQuestionHadWrongAttempt = true;
       session.errors.push({
         questionId: question.id,
         selectedOptionId: params.selectedOptionId,
-        correctOptionId: correctOption.optionId,
+        correctOptionId: correctOptionIds[0] as number,
         createdAtIso: now,
       });
     }
 
-    if (session.mode === "exam-prep" && !isCorrect && session.errors.length < session.maxAllowedErrors) {
+    const selectedCorrectCount = session.currentQuestionSelectedOptionIds.filter((optionId) =>
+      correctOptionIds.includes(optionId),
+    ).length;
+    const selectedOptionIdsForQuestion = [...(session.currentQuestionSelectedOptionIds ?? [])];
+    const questionCompleted =
+      correctOptionIds.length === 1 || selectedCorrectCount >= correctOptionIds.length;
+
+    const isQuestionCorrect =
+      questionCompleted &&
+      !session.currentQuestionHadWrongAttempt &&
+      correctOptionIds.every((optionId) => session.currentQuestionSelectedOptionIds?.includes(optionId));
+
+    if (
+      questionCompleted &&
+      session.mode === "exam-prep" &&
+      !isQuestionCorrect &&
+      session.errors.length < session.maxAllowedErrors
+    ) {
       const user = await this.userRepository.findById(session.userId);
       if (!user) {
         throw new Error(`Пользователь '${session.userId}' не найден`);
@@ -147,21 +171,32 @@ export class SessionService {
       session.progress.totalQuestions = session.questionIds.length;
     }
 
-    session.progress.currentQuestionIndex += 1;
+    if (questionCompleted) {
+      session.progress.answeredQuestions += 1;
+      if (isQuestionCorrect) {
+        session.progress.correctAnswers += 1;
+      }
+      session.progress.currentQuestionIndex += 1;
+      session.currentQuestionSelectedOptionIds = [];
+      session.currentQuestionHadWrongAttempt = false;
+    }
+
     finalizeSessionStatus(session);
     session.updatedAtIso = now;
 
     await this.sessionRepository.upsert(session);
-    await this.userRepository.incrementDailyUsage(params.userId, { questionsAnswered: 1 }, now);
-    await this.statisticsRepository.recordAnswer({
-      userId: session.userId,
-      sessionId: session.id,
-      subjectId: session.subjectId,
-      questionId: question.id,
-      selectedOptionId: params.selectedOptionId,
-      isCorrect,
-      answeredAtIso: now,
-    });
+    if (!isRepeatedSelection) {
+      await this.userRepository.incrementDailyUsage(params.userId, { questionsAnswered: 1 }, now);
+      await this.statisticsRepository.recordAnswer({
+        userId: session.userId,
+        sessionId: session.id,
+        subjectId: session.subjectId,
+        questionId: question.id,
+        selectedOptionId: params.selectedOptionId,
+        isCorrect,
+        answeredAtIso: now,
+      });
+    }
 
     if (session.status !== "active") {
       await this.statisticsRepository.recordSession({
@@ -178,9 +213,15 @@ export class SessionService {
     const nextQuestionId = session.questionIds[session.progress.currentQuestionIndex];
     return {
       session,
+      question,
       isCorrect,
-      correctOptionId: correctOption.optionId,
-      nextQuestion: nextQuestionId ? map.get(nextQuestionId) ?? null : null,
+      correctOptionIds,
+      selectedOptionIds: selectedOptionIdsForQuestion.filter((optionId) =>
+        question.options.some((option) => option.optionId === optionId),
+      ),
+      questionCompleted,
+      currentQuestion: questionCompleted ? null : question,
+      nextQuestion: questionCompleted && nextQuestionId ? map.get(nextQuestionId) ?? null : null,
     };
   }
 
