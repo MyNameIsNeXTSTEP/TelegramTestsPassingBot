@@ -10,7 +10,8 @@ type ChatStep =
   | "choose-subject"
   | "choose-test-type"
   | "choose-mode"
-  | "in-session";
+  | "in-session"
+  | "single-finished";
 
 interface ChatState {
   user: User;
@@ -268,12 +269,29 @@ export function buildBot(config: BotConfig): Telegraf {
       const correctOptionsText = result.correctOptionIds.join(", ");
       const answerText = result.isCorrect
         ? "Правильно."
-        : `Неправильно. Правильные варианты: ${correctOptionsText}.`;
+        : `К сожалению ответ неверный. Правильный(е) вариант(ы):\n${correctOptionsText}.`;
       await ctx.reply(answerText);
 
       if (result.nextQuestion) {
         state.activeQuestionId = result.nextQuestion.id;
         await sendQuestion(ctx, result.nextQuestion, result.session.progress, result.session.errors.length);
+        return;
+      }
+
+      if (result.session.mode === "single") {
+        state.step = "single-finished";
+        state.activeSessionId = undefined;
+        state.activeQuestionId = undefined;
+        await ctx.reply(
+          "Выберите следующее действие:",
+          Markup.inlineKeyboard([
+            [
+              Markup.button.callback("Еще вопрос", "single-next"),
+              Markup.button.callback("Сменить режим", "single-change-mode"),
+            ],
+            [Markup.button.callback("Сменить предмет", "single-change-subject")],
+          ]),
+        );
         return;
       }
 
@@ -295,6 +313,79 @@ export function buildBot(config: BotConfig): Telegraf {
 
   bot.action(/^done:(\d+)$/, async (ctx) => {
     await ctx.answerCbQuery("Этот вариант уже зафиксирован.");
+  });
+
+  bot.action("single-next", async (ctx) => {
+    await ctx.answerCbQuery();
+    try {
+      const state = requireState(ctx.chat?.id, stateByChatId);
+      if (state.step !== "single-finished") {
+        await ctx.reply("Сначала завершите вопрос в режиме single.");
+        return;
+      }
+
+      const selectedSubject = findSelectedSubject(state);
+      if (!selectedSubject) {
+        await ctx.reply("Не удалось определить предмет. Запустите /practice снова.");
+        return;
+      }
+
+      const started = await api.startSession({
+        userId: state.user.id,
+        subjectId: selectedSubject.id,
+        mode: "single",
+      });
+
+      if (!started.firstQuestion) {
+        await ctx.reply("Сессия начата, но вопрос не был получен.");
+        return;
+      }
+
+      state.step = "in-session";
+      state.activeSessionId = started.session.id;
+      state.activeQuestionId = started.firstQuestion.id;
+      await sendQuestion(ctx, started.firstQuestion, started.session.progress);
+    } catch (error) {
+      await ctx.reply(toErrorText(error));
+    }
+  });
+
+  bot.action("single-change-mode", async (ctx) => {
+    await ctx.answerCbQuery();
+    try {
+      const state = requireState(ctx.chat?.id, stateByChatId);
+      if (state.step !== "single-finished" || !state.selectedSubject || !state.selectedTestType) {
+        await ctx.reply("Не удалось сменить режим. Запустите /practice снова.");
+        return;
+      }
+
+      state.step = "choose-mode";
+      state.activeSessionId = undefined;
+      state.activeQuestionId = undefined;
+      await sendModeSelection(ctx);
+    } catch (error) {
+      await ctx.reply(toErrorText(error));
+    }
+  });
+
+  bot.action("single-change-subject", async (ctx) => {
+    await ctx.answerCbQuery();
+    try {
+      const state = requireState(ctx.chat?.id, stateByChatId);
+      if (state.step !== "single-finished" || !state.selectedFaculty) {
+        await ctx.reply("Не удалось сменить предмет. Запустите /practice снова.");
+        return;
+      }
+
+      state.step = "choose-subject";
+      state.selectedSubject = undefined;
+      state.selectedTestType = undefined;
+      state.activeSessionId = undefined;
+      state.activeQuestionId = undefined;
+      await sendSubjectSelection(ctx, state.subjects, state.selectedFaculty);
+    } catch (error) {
+      await ctx.reply(toErrorText(error));
+    }
   });
 
   bot.action(/^plan:(.+)$/, async (ctx) => {
@@ -426,6 +517,35 @@ async function sendQuestion(
   );
 }
 
+async function sendModeSelection(ctx: { reply: (...args: any[]) => Promise<unknown> }): Promise<void> {
+  await ctx.reply(
+    "Выберите режим:",
+    Markup.inlineKeyboard([
+      [Markup.button.callback("Одиночный вопрос", "mode:single")],
+      [Markup.button.callback("Пакет (10 вопросов)", "mode:pack")],
+      [Markup.button.callback("Подготовка к экзамену (30 + штрафы)", "mode:exam-prep")],
+    ]),
+  );
+}
+
+async function sendSubjectSelection(
+  ctx: { reply: (...args: any[]) => Promise<unknown> },
+  subjects: Subject[],
+  selectedFaculty: string,
+): Promise<void> {
+  const subjectNames = uniqueSorted(
+    subjects.filter((subject) => subject.faculty === selectedFaculty).map((subject) => subject.subject),
+  );
+  await ctx.reply(
+    `Факультет: ${selectedFaculty}\nВыберите предмет:`,
+    Markup.inlineKeyboard(
+      subjectNames.map((subjectName, subjectIndex) =>
+        Markup.button.callback(subjectName, `subject:${subjectIndex}`),
+      ),
+    ),
+  );
+}
+
 async function refreshCurrentQuestionKeyboard(
   ctx: {
     editMessageReplyMarkup: (...args: any[]) => Promise<unknown>;
@@ -454,9 +574,22 @@ function buildAnswerKeyboard(
       const prefix = isSelected ? (option.isCorrect ? "✅" : "❌") : "";
       const callbackData = isCompleted || isSelected ? `done:${option.optionId}` : `answer:${option.optionId}`;
       return [
-        Markup.button.callback(`${prefix} ${option.text}`, callbackData)
+        Markup.button.callback(`${prefix} ${option.optionId}. ${option.text}`, callbackData)
       ];
     }),
+  );
+}
+
+function findSelectedSubject(state: ChatState): Subject | undefined {
+  if (!state.selectedFaculty || !state.selectedSubject || !state.selectedTestType) {
+    return undefined;
+  }
+
+  return state.subjects.find(
+    (subject) =>
+      subject.faculty === state.selectedFaculty &&
+      subject.subject === state.selectedSubject &&
+      subject.testType === state.selectedTestType,
   );
 }
 
