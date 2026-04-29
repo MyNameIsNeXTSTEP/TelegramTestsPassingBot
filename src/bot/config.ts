@@ -11,6 +11,6 @@ export function loadBotConfig(): BotConfig {
 
   return {
     token,
-    apiBaseUrl: (process.env.BOT_API_BASE_URL ?? "http://127.0.0.1:3000").replace(/\/+$/, ""),
+    apiBaseUrl: (process.env.BOT_API_BASE_URL ?? "http://127.0.0.1:3001").replace(/\/+$/, ""),
   };
 }

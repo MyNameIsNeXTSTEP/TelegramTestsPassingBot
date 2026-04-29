@@ -1,4 +1,5 @@
 import Fastify, { type FastifyInstance } from "fastify";
+import cors from "@fastify/cors";
 
 import { loadConfig, type ApiConfig } from "./config.js";
 import { SessionRepository } from "./repositories/sessionRepository.js";
@@ -40,6 +41,10 @@ export function buildApi(config: ApiConfig = loadConfig()): FastifyInstance {
   app.decorate("sessionRepository", sessionRepository);
   app.decorate("subscriptionService", subscriptionService);
   app.decorate("sessionService", sessionService);
+
+  void app.register(cors, {
+    origin: true,
+  });
 
   app.get("/health", async () => ({ ok: true }));
   app.register(authRoutes, { prefix: "/auth" });

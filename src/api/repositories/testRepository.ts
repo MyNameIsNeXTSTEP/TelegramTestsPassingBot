@@ -177,6 +177,7 @@ function parseQuestion(value: unknown, index?: number): Question {
   );
   const correctCount = parsedOptions.filter((option) => option.isCorrect).length;
   if (correctCount < 1) {
+    console.log("parsedOptions", parsedOptions);
     throw new Error(withQuestionPrefix(index, "Вопрос должен иметь хотя бы один правильный ответ"));
   }
 
