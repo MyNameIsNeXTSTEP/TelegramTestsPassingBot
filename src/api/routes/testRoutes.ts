@@ -2,10 +2,15 @@ import type { FastifyPluginAsync } from "fastify";
 
 import type {
   DeleteQuestionRequest,
+  GetSessionResponse,
   ListQuestionsQuery,
   ListQuestionsResponse,
   ListSubjectsQuery,
   ListSubjectsResponse,
+  StartSessionRequest,
+  StartSessionResponse,
+  SubmitAnswerRequest,
+  SubmitAnswerResponse,
   TestType,
   UpsertQuestionRequest,
 } from "../../shared/index.js";
@@ -51,6 +56,96 @@ export const testRoutes: FastifyPluginAsync = async (app) => {
       sendOk(reply, payload);
     } catch (error) {
       sendError(reply, 404, "SUBJECT_NOT_FOUND", toErrorMessage(error));
+    }
+  });
+
+  app.post<{ Body: StartSessionRequest }>("/sessions/start", async (request, reply) => {
+    const userId = readUserIdFromHeader(request.headers["x-user-id"]);
+    if (!userId) {
+      sendError(reply, 400, "VALIDATION_ERROR", "x-user-id header is required");
+      return;
+    }
+
+    const { subjectId, mode } = request.body ?? {};
+    if (!subjectId?.trim() || !isMode(mode)) {
+      sendError(reply, 400, "VALIDATION_ERROR", "subjectId and valid mode are required");
+      return;
+    }
+
+    try {
+      const result = await app.sessionService.startSession({
+        userId,
+        subjectId: subjectId.trim(),
+        mode,
+      });
+
+      const payload: StartSessionResponse = result;
+      sendOk(reply, payload);
+    } catch (error) {
+      sendError(reply, 400, "START_SESSION_FAILED", toErrorMessage(error));
+    }
+  });
+
+  app.post<{ Body: SubmitAnswerRequest }>("/sessions/answer", async (request, reply) => {
+    const userId = readUserIdFromHeader(request.headers["x-user-id"]);
+    if (!userId) {
+      sendError(reply, 400, "VALIDATION_ERROR", "x-user-id header is required");
+      return;
+    }
+
+    const { sessionId, questionId, selectedOptionId } = request.body ?? {};
+    if (
+      !sessionId?.trim() ||
+      typeof questionId !== "number" ||
+      typeof selectedOptionId !== "number"
+    ) {
+      sendError(
+        reply,
+        400,
+        "VALIDATION_ERROR",
+        "sessionId, questionId and selectedOptionId are required",
+      );
+      return;
+    }
+
+    try {
+      const result = await app.sessionService.submitAnswer({
+        userId,
+        sessionId: sessionId.trim(),
+        questionId,
+        selectedOptionId,
+      });
+
+      const payload: SubmitAnswerResponse = result;
+      sendOk(reply, payload);
+    } catch (error) {
+      sendError(reply, 400, "SUBMIT_ANSWER_FAILED", toErrorMessage(error));
+    }
+  });
+
+  app.get<{ Params: { sessionId: string } }>("/sessions/:sessionId", async (request, reply) => {
+    const userId = readUserIdFromHeader(request.headers["x-user-id"]);
+    if (!userId) {
+      sendError(reply, 400, "VALIDATION_ERROR", "x-user-id header is required");
+      return;
+    }
+
+    const { sessionId } = request.params;
+    if (!sessionId?.trim()) {
+      sendError(reply, 400, "VALIDATION_ERROR", "sessionId is required");
+      return;
+    }
+
+    try {
+      const result = await app.sessionService.getSessionState({
+        userId,
+        sessionId: sessionId.trim(),
+      });
+
+      const payload: GetSessionResponse = result;
+      sendOk(reply, payload);
+    } catch (error) {
+      sendError(reply, 400, "GET_SESSION_FAILED", toErrorMessage(error));
     }
   });
 
@@ -113,6 +208,17 @@ function sanitizeTestType(value?: string): TestType | null {
     return value;
   }
 
+  return null;
+}
+
+function isMode(value: string | undefined): value is StartSessionRequest["mode"] {
+  return value === "single" || value === "pack" || value === "exam-prep";
+}
+
+function readUserIdFromHeader(value: string | string[] | undefined): string | null {
+  if (typeof value === "string" && value.trim()) {
+    return value.trim();
+  }
   return null;
 }
 

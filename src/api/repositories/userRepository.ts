@@ -58,6 +58,47 @@ export class UserRepository {
     return newUser;
   }
 
+  public async updatePlanCode(userId: string, planCode: string): Promise<User> {
+    const users = await this.readAll();
+    const user = users.find((item) => item.id === userId);
+    if (!user) {
+      throw new Error(`User '${userId}' not found`);
+    }
+
+    user.planCode = planCode;
+    user.updatedAtIso = new Date().toISOString();
+    await this.writeAll(users);
+    return user;
+  }
+
+  public async incrementDailyUsage(
+    userId: string,
+    increments: { sessionsStarted?: number; questionsAnswered?: number },
+    atIso = new Date().toISOString(),
+  ): Promise<User> {
+    const users = await this.readAll();
+    const user = users.find((item) => item.id === userId);
+    if (!user) {
+      throw new Error(`User '${userId}' not found`);
+    }
+
+    const usageDate = atIso.slice(0, 10);
+    if (user.dailyUsage.dateIso !== usageDate) {
+      user.dailyUsage = {
+        dateIso: usageDate,
+        sessionsStarted: 0,
+        questionsAnswered: 0,
+      };
+    }
+
+    user.dailyUsage.sessionsStarted += Math.max(0, increments.sessionsStarted ?? 0);
+    user.dailyUsage.questionsAnswered += Math.max(0, increments.questionsAnswered ?? 0);
+    user.updatedAtIso = atIso;
+
+    await this.writeAll(users);
+    return user;
+  }
+
   private async readAll(): Promise<User[]> {
     return readJsonFile<User[]>(this.path, []);
   }
