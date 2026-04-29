@@ -54,8 +54,37 @@ export const subscriptionRoutes: FastifyPluginAsync = async (app) => {
       sendError(reply, 400, "CHANGE_USER_PLAN_FAILED", toErrorMessage(error));
     }
   });
+
+  app.patch<{ Body: { planCode: string } }>("/me/plan", async (request, reply) => {
+    const userId = readUserIdFromHeader(request.headers["x-user-id"]);
+    if (!userId) {
+      sendError(reply, 400, "VALIDATION_ERROR", "x-user-id header is required");
+      return;
+    }
+
+    const { planCode } = request.body ?? {};
+    if (!planCode?.trim()) {
+      sendError(reply, 400, "VALIDATION_ERROR", "planCode is required");
+      return;
+    }
+
+    try {
+      const user = await app.subscriptionService.changeUserPlan(userId, planCode.trim());
+      sendOk(reply, { user });
+    } catch (error) {
+      sendError(reply, 400, "CHANGE_USER_PLAN_FAILED", toErrorMessage(error));
+    }
+  });
 };
 
 function toErrorMessage(error: unknown): string {
   return error instanceof Error ? error.message : "Unknown error";
+}
+
+function readUserIdFromHeader(value: string | string[] | undefined): string | null {
+  if (typeof value === "string" && value.trim()) {
+    return value.trim();
+  }
+
+  return null;
 }

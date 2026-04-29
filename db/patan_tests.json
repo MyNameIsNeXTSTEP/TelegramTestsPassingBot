@@ -11414,7 +11414,7 @@
       {
         "optionId": 1,
         "text": "Инвазия",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -14235,7 +14235,7 @@
       {
         "optionId": 1,
         "text": "BCL2 Cyclin D1",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -21391,7 +21391,7 @@
       {
         "optionId": 1,
         "text": "Гипертрофия и увеличение массы сердечной мышцы",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -21401,12 +21401,12 @@
       {
         "optionId": 3,
         "text": "Расширение полостей с истончением стенок сердца",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 4,
         "text": "Фиброз и разрастание соединительной ткани",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
