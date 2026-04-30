@@ -12,9 +12,11 @@ const DEFAULT_STORE: PlansStore = {
   plans: [
     createDefaultPlan({
       code: "free",
-      name: "Free",
-      description: "Limited daily access for practicing tests",
-      priceCents: 0,
+      name: "Бесплатный",
+      description: `
+        • Ограниченный доступ к практическим тестам\n• Ограниченный функционал статистики и работы над ошибками
+      `,
+      price: 0,
       currency: "RUB",
       limits: {
         dailySessionsLimit: 3,
@@ -23,10 +25,26 @@ const DEFAULT_STORE: PlansStore = {
       },
     }),
     createDefaultPlan({
-      code: "pro-student",
-      name: "Pro Student",
-      description: "Unlimited daily sessions with full access",
-      priceCents: 299,
+      code: "basic",
+      name: "Базовый",
+      description: `
+        • Неограниченный доступ к практическим тестам\n• Ограниченный функционал статистики и работы над ошибками
+      `,
+      price: 299,
+      currency: "RUB",
+      limits: {
+        dailySessionsLimit: null,
+        maxErrorsInExamPrep: SESSION_RULES.examPrepMaxErrors,
+        examPrepPenaltyQuestions: SESSION_RULES.examPrepPenaltyQuestions,
+      },
+    }),
+    createDefaultPlan({
+      code: "pro",
+      name: "Pro",
+      description: `
+        • Неограниченный доступ к практическим тестам\n• Полный функционал статистики и работы над ошибками
+      `,
+      price: 349,
       currency: "RUB",
       limits: {
         dailySessionsLimit: null,
@@ -85,7 +103,7 @@ function createDefaultPlan(input: {
   code: string;
   name: string;
   description: string;
-  priceCents: number;
+  price: number;
   currency: string;
   limits: SubscriptionPlan["limits"];
 }): SubscriptionPlan {
@@ -126,7 +144,7 @@ function normalizePlan(value: unknown): SubscriptionPlan {
     code,
     name: asNonEmptyString(value.name, "name"),
     description: asNonEmptyString(value.description, "description"),
-    priceCents: asNonNegativeInt(value.priceCents, "priceCents"),
+    price: asNonNegativeInt(value.price, "price"),
     currency: asNonEmptyString(value.currency, "currency").toUpperCase(),
     isActive: typeof value.isActive === "boolean" ? value.isActive : true,
     limits,

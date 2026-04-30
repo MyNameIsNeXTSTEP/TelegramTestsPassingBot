@@ -24,7 +24,7 @@ export interface SubscriptionPlan {
   code: PlanCode | string;
   name: string;
   description: string;
-  priceCents: number;
+  price: number;
   currency: string;
   isActive: boolean;
   limits: PlanLimits;

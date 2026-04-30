@@ -26,6 +26,12 @@ interface ChatState {
 
 const MENU_KEYBOARD = Markup.keyboard([["Практика", "Тарифы"], ["Статус"]]).resize();
 
+const mapCurrentPlanToEmoji = {
+  "free": "Бесплатный 🤓",
+  "basic": "Базовый 🧑‍🎓",
+  "pro": "Pro 🏆",
+};
+
 export function buildBot(config: BotConfig): Telegraf {
   const bot = new Telegraf(config.token);
   const api = new BotApiClient(config.apiBaseUrl);
@@ -37,7 +43,8 @@ export function buildBot(config: BotConfig): Telegraf {
       await ctx.reply(
         [
           `Добро пожаловать, ${state.user.name}!`,
-          `Текущий тариф: ${state.user.planCode}`,
+          // @ts-ignore
+          `Текущий тариф: ${mapCurrentPlanToEmoji[state.user.planCode]}`,
           "Выберите действие из меню ниже.",
         ].join("\n"),
         MENU_KEYBOARD,
@@ -398,7 +405,8 @@ export function buildBot(config: BotConfig): Telegraf {
         return;
       }
       state.user = await api.changeMyPlan(state.user.id, planCode);
-      await ctx.reply(`Тариф успешно обновлен. Текущий тариф: ${state.user.planCode}`, MENU_KEYBOARD);
+      // @ts-ignore
+      await ctx.reply(`Тариф успешно обновлен 🎉.\nТекущий тариф: ${mapCurrentPlanToEmoji[state.user.planCode]}`, MENU_KEYBOARD);
     } catch (error) {
       await ctx.reply(toErrorText(error));
     }
@@ -457,16 +465,17 @@ async function showPlans(
 
     await ctx.reply(
       [
-        `Текущий тариф: ${state.user.planCode}`,
+        // @ts-ignore
+        `Текущий тариф: <b>${mapCurrentPlanToEmoji[state.user.planCode]}</b>`,
         "",
-        ...plans.map(
-          (plan) =>
-            `${plan.name} (${plan.code}) - ${plan.priceCents / 100} ${plan.currency}\n${plan.description}`,
-        ),
+        ...plans.map((plan) => formatPlanQuote(plan)),
       ].join("\n"),
-      Markup.inlineKeyboard(
-        plans.map((plan) => [Markup.button.callback(`Выбрать ${plan.name}`, `plan:${plan.code}`)]),
-      ),
+      {
+        parse_mode: "HTML",
+        reply_markup: Markup.inlineKeyboard(
+          plans.map((plan) => [Markup.button.callback(`Выбрать "${plan.name}"`, `plan:${plan.code}`)]),
+        ).reply_markup,
+      },
     );
   } catch (error) {
     await ctx.reply(toErrorText(error));
@@ -612,6 +621,25 @@ function requireState(chatId: number | undefined, store: Map<number, ChatState>)
 
 function uniqueSorted(values: string[]): string[] {
   return [...new Set(values)].sort((a, b) => a.localeCompare(b));
+}
+
+function formatPlanQuote(plan: {
+  name: string;
+  code: string;
+  price: number;
+  currency: string;
+  description: string;
+}): string {
+  console.log(plan.description);
+  const planLines = [
+    `<b>${escapeHtml(plan.name)} (${escapeHtml(plan.code)})</b>: ${plan.price} ${escapeHtml(plan.currency)}`,
+    `<blockquote>${(plan.description)}</blockquote>\n`,
+  ];
+  return planLines.join("\n");
+}
+
+function escapeHtml(value: string): string {
+  return value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 }
 
 function toErrorText(error: unknown): string {
