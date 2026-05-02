@@ -41,10 +41,14 @@ a:hover {
   gap: 16px;
 }
 
+.header-hero-top {
+  background: #1d4ed8;
+}
+
 .brand {
   font-weight: 700;
   font-size: 20px;
-  color: #0b1324;
+  color: white;
 }
 
 .cta {
@@ -118,10 +122,56 @@ h2 {
   padding: 24px 0;
 }
 
+.section-intro {
+  margin: 0 0 16px;
+}
+
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
+}
+
+.plans-grid {
+  align-items: stretch;
+}
+
+.plan-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-card h3 {
+  margin: 0 0 8px;
+}
+
+.plan-code {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #1e3a8a;
+}
+
+.plan-price {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.plan-features {
+  margin: 16px 0 22px;
+}
+
+.plan-card .cta {
+  width: 100%;
+  margin-top: auto;
+}
+
+.plan-card-highlight {
+  border-color: #93c5fd;
+  box-shadow: 0 8px 24px rgba(29, 78, 216, 0.1);
 }
 
 .list {
