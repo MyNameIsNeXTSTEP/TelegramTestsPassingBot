@@ -53,6 +53,7 @@ export interface UserPreferences {
 
 export interface Subject {
   id: string;
+  course: number;
   faculty: string;
   subject: string;
   testType: TestType;
@@ -180,6 +181,7 @@ export interface UpdatePreferencesResponse {
 }
 
 export interface ListSubjectsQuery {
+  course?: number;
   faculty?: string;
   testType?: TestType;
 }

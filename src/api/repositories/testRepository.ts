@@ -1,5 +1,6 @@
+import type { Dirent } from "node:fs";
 import { readdir } from "node:fs/promises";
-import { join } from "node:path";
+import { basename, join, relative, sep } from "node:path";
 
 import type { Question, Subject, TestType } from "../../shared/index.js";
 import {
@@ -16,6 +17,7 @@ export class TestRepository {
   public constructor(private readonly dbDir: string) {}
 
   public async listSubjects(filters?: {
+    course?: number;
     faculty?: string;
     testType?: TestType;
   }): Promise<Subject[]> {
@@ -23,6 +25,10 @@ export class TestRepository {
     return records
       .map((record) => record.subject)
       .filter((subject) => {
+        if (typeof filters?.course === "number" && subject.course !== filters.course) {
+          return false;
+        }
+
         if (filters?.faculty && subject.faculty !== filters.faculty) {
           return false;
         }
@@ -98,29 +104,98 @@ export class TestRepository {
   }
 
   private async getSubjectRecords(): Promise<SubjectRecord[]> {
-    const entries = await readdir(this.dbDir, { withFileTypes: true });
-    const files = entries.filter(
-      (entry) => entry.isFile() && entry.name.endsWith("_tests.json"),
-    );
+    const facultiesDir = join(this.dbDir, "faculties");
+    const files = await collectTestsFiles(facultiesDir);
 
     return files
-      .map((entry) => {
-        const fileName = entry.name;
-        const stem = fileName.replace("_tests.json", "");
-        const subjectLabel = stem.replaceAll("_", " ").trim();
-
-        const subject: Subject = {
-          id: stem,
-          faculty: "general",
-          subject: subjectLabel,
-          testType: inferTestType(stem),
-          sourceFile: fileName,
-        };
-
-        return { subject, path: join(this.dbDir, fileName) };
-      })
-      .sort((a, b) => a.subject.subject.localeCompare(b.subject.subject));
+      .map((path) => this.parseRecordFromPath(path))
+      .filter((record): record is SubjectRecord => record !== null)
+      .sort((a, b) => {
+        if (a.subject.faculty !== b.subject.faculty) {
+          return a.subject.faculty.localeCompare(b.subject.faculty);
+        }
+        if (a.subject.course !== b.subject.course) {
+          return a.subject.course - b.subject.course;
+        }
+        if (a.subject.subject !== b.subject.subject) {
+          return a.subject.subject.localeCompare(b.subject.subject);
+        }
+        return a.subject.testType.localeCompare(b.subject.testType);
+      });
   }
+
+  private parseRecordFromPath(path: string): SubjectRecord | null {
+    const fileName = basename(path);
+    if (!fileName.endsWith("_tests.json")) {
+      return null;
+    }
+
+    const pathParts = relative(this.dbDir, path).split(sep);
+    if (pathParts.length !== 5 || pathParts[0] !== "faculties" || pathParts[2] !== "courses") {
+      return null;
+    }
+
+    const facultyRaw = pathParts[1];
+    const courseRaw = pathParts[3];
+    if (!facultyRaw || !courseRaw) {
+      return null;
+    }
+
+    const faculty = facultyRaw.trim();
+    const course = Number(courseRaw);
+    if (!faculty || !Number.isInteger(course) || course < 1) {
+      return null;
+    }
+
+    const stem = fileName.replace("_tests.json", "");
+    const subjectLabel = stem.replaceAll("_", " ").trim();
+    if (!subjectLabel) {
+      return null;
+    }
+
+    const subject: Subject = {
+      id: `${faculty}__${course}__${stem}`,
+      course,
+      faculty,
+      subject: subjectLabel,
+      testType: inferTestType(stem),
+      sourceFile: pathParts.join("/"),
+    };
+
+    return { subject, path };
+  }
+}
+
+async function collectTestsFiles(dirPath: string): Promise<string[]> {
+  let entries: Dirent[] = [];
+  try {
+    entries = await readdir(dirPath, { withFileTypes: true, encoding: "utf8" });
+  } catch (error) {
+    if (isMissingDirectoryError(error)) {
+      return [];
+    }
+    throw error;
+  }
+
+  const nested = await Promise.all(
+    entries
+      .filter((entry) => entry.isDirectory())
+      .map((entry) => collectTestsFiles(join(dirPath, entry.name))),
+  );
+  const files = entries
+    .filter((entry) => entry.isFile() && entry.name.endsWith("_tests.json"))
+    .map((entry) => join(dirPath, entry.name));
+
+  return [...files, ...nested.flat()];
+}
+
+function isMissingDirectoryError(error: unknown): boolean {
+  return (
+    typeof error === "object" &&
+    error !== null &&
+    "code" in error &&
+    error.code === "ENOENT"
+  );
 }
 
 function inferTestType(stem: string): TestType {

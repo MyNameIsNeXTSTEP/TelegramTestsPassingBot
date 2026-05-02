@@ -24,8 +24,14 @@ export const testRoutes: FastifyPluginAsync = async (app) => {
       sendError(reply, 400, "VALIDATION_ERROR", "testType must be 'exam' or 'credit'");
       return;
     }
+    const course = sanitizeCourse(request.query.course);
+    if (request.query.course !== undefined && course === null) {
+      sendError(reply, 400, "VALIDATION_ERROR", "course must be an integer from 1 to 9");
+      return;
+    }
 
     const subjects = await app.testRepository.listSubjects({
+      course: course ?? undefined,
       faculty: request.query.faculty?.trim() || undefined,
       testType: testType ?? undefined,
     });
@@ -208,6 +214,19 @@ function sanitizeTestType(value?: string): TestType | null {
     return value;
   }
 
+  return null;
+}
+
+function sanitizeCourse(value: unknown): number | null {
+  if (typeof value === "number" && Number.isInteger(value) && value > 0) {
+    return value;
+  }
+  if (typeof value === "string" && value.trim()) {
+    const parsed = Number(value);
+    if (Number.isInteger(parsed) && parsed > 0) {
+      return parsed;
+    }
+  }
   return null;
 }
 

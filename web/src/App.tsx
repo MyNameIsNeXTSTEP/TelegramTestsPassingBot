@@ -5,7 +5,6 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 
 type TestType = "exam" | "credit";
@@ -36,6 +35,7 @@ interface User {
 
 interface Subject {
   id: string;
+  course: number;
   faculty: string;
   subject: string;
   testType: TestType;
@@ -89,7 +89,6 @@ interface SubmitAnswerResult {
   nextQuestion: Question | null;
 }
 
-const COURSES = [1, 2, 3, 4, 5] as const;
 const MODE_ITEMS: Array<{ mode: SessionMode; label: string; subtitle: string }> = [
   { mode: "single", label: "Одиночный", subtitle: "1 вопрос" },
   { mode: "pack", label: "Практика", subtitle: "10 вопросов" },
@@ -170,7 +169,17 @@ function App() {
   const [singleFinished, setSingleFinished] = useState(false);
 
   const faculties = useMemo(
-    () => [...new Set(subjects.map((subject) => subject.faculty))].sort((a, b) => a.localeCompare(b)),
+    () =>
+      selectedCourse
+        ? [...new Set(subjects.filter((subject) => subject.course === selectedCourse).map((subject) => subject.faculty))].sort((a, b) =>
+            a.localeCompare(b),
+          )
+        : [],
+    [selectedCourse, subjects],
+  );
+
+  const availableCourses = useMemo(
+    () => [...new Set(subjects.map((subject) => subject.course))].sort((a, b) => a - b),
     [subjects],
   );
 
@@ -179,9 +188,9 @@ function App() {
       return [];
     }
     return subjects
-      .filter((subject) => subject.faculty === selectedFaculty)
+      .filter((subject) => subject.course === selectedCourse && subject.faculty === selectedFaculty)
       .sort((left, right) => left.subject.localeCompare(right.subject));
-  }, [selectedFaculty, subjects]);
+  }, [selectedCourse, selectedFaculty, subjects]);
 
   const selectedSubject = useMemo(
     () => subjects.find((subject) => subject.id === selectedSubjectId) ?? null,
@@ -272,6 +281,8 @@ function App() {
 
   async function applyCourse(course: number): Promise<void> {
     setSelectedCourse(course);
+    setSelectedFaculty(null);
+    setSelectedSubjectId(null);
     resetQuestionView();
     await savePreferences({ course });
   }
@@ -349,16 +360,22 @@ function App() {
       setUser(loginData.user);
       setPlans(plansData.plans.filter((plan) => plan.isActive));
       setSubjects(subjectsData.subjects);
+      const fetchedCourses = [...new Set(subjectsData.subjects.map((subject) => subject.course))].sort(
+        (a, b) => a - b,
+      );
 
       const preferenceCourse = loginData.user.preferences?.course;
-      if (typeof preferenceCourse === "number" && COURSES.includes(preferenceCourse as (typeof COURSES)[number])) {
+      if (typeof preferenceCourse === "number" && fetchedCourses.includes(preferenceCourse)) {
         setSelectedCourse(preferenceCourse);
       }
 
       const preferenceFaculty = loginData.user.preferences?.faculty;
       if (
         typeof preferenceFaculty === "string" &&
-        subjectsData.subjects.some((subject) => subject.faculty === preferenceFaculty)
+        typeof preferenceCourse === "number" &&
+        subjectsData.subjects.some(
+          (subject) => subject.course === preferenceCourse && subject.faculty === preferenceFaculty,
+        )
       ) {
         setSelectedFaculty(preferenceFaculty);
       }
@@ -366,9 +383,31 @@ function App() {
       const preferenceSubjectId = loginData.user.preferences?.subjectId;
       if (
         typeof preferenceSubjectId === "string" &&
-        subjectsData.subjects.some((subject) => subject.id === preferenceSubjectId)
+        typeof preferenceCourse === "number" &&
+        typeof preferenceFaculty === "string" &&
+        subjectsData.subjects.some(
+          (subject) =>
+            subject.id === preferenceSubjectId &&
+            subject.course === preferenceCourse &&
+            subject.faculty === preferenceFaculty,
+        )
       ) {
         setSelectedSubjectId(preferenceSubjectId);
+      } else if (
+        typeof preferenceSubjectId === "string" &&
+        typeof preferenceCourse === "number" &&
+        typeof preferenceFaculty === "string"
+      ) {
+        const staleSubject = subjectsData.subjects.find((subject) => subject.id === preferenceSubjectId);
+        if (staleSubject) {
+          setError(
+            formatNoTestsForSelectionError(
+              preferenceFaculty,
+              preferenceCourse,
+              staleSubject.subject,
+            ),
+          );
+        }
       }
 
       const preferenceMode = loginData.user.preferences?.mode;
@@ -412,7 +451,18 @@ function App() {
   }
 
   async function startSession(): Promise<void> {
-    if (!user || !selectedSubject) {
+    if (!user) {
+      return;
+    }
+    if (!selectedSubject) {
+      if (selectedCourse && selectedFaculty && selectedSubjectId) {
+        const staleSubject = subjects.find((subject) => subject.id === selectedSubjectId);
+        if (staleSubject) {
+          setError(
+            formatNoTestsForSelectionError(selectedFaculty, selectedCourse, staleSubject.subject),
+          );
+        }
+      }
       return;
     }
 
@@ -480,7 +530,7 @@ function App() {
       }
 
       setResultText(
-        data.isCorrect ? "Правильно." : `Неверно. Верный вариант: ${data.correctOptionIds.join(", ")}`,
+        data.isCorrect ? "Правильно 👏" : `К сожалению ответ неверный 🥲\nВерный вариант: ${data.correctOptionIds.join(", ")}`,
       );
 
       if (data.nextQuestion) {
@@ -523,7 +573,6 @@ function App() {
               </div>
               <div>
                 <p className="text-sm font-semibold">{user?.name || "Ampula"}</p>
-                <p className="text-xs text-slate-400">Exam Mini App</p>
               </div>
             </div>
             <div className="relative">
@@ -560,11 +609,11 @@ function App() {
               ) : null}
             </div>
           </div>
-          <div className="mt-2 flex items-center gap-2">
-            <Badge variant="outline" className="border-sky-400/60 text-sky-200">
-              {user?.planCode ?? "plan"}
+          <div className="mt-2 flex items-center gap-2 h-8">
+            <Badge variant="outline" className="border-sky-400/60 text-sky-200 h-8 w-16">
+              {user?.planCode.toUpperCase() ?? "plan"}
             </Badge>
-            {selectedCourse ? <Badge className="bg-[#314760] text-slate-100">Курс {selectedCourse}</Badge> : null}
+            {selectedCourse ? <Badge className="bg-[#314760] text-slate-100 h-8 w-16">Курс {selectedCourse}</Badge> : null}
           </div>
         </CardHeader>
         {error ? <CardContent className="pt-0 text-xs text-red-300">{error}</CardContent> : null}
@@ -607,7 +656,7 @@ function App() {
 
             {settingPanel === "course" ? (
               <div className="grid grid-cols-5 gap-2">
-                {COURSES.map((course) => (
+                {availableCourses.map((course) => (
                   <Button
                     key={course}
                     variant={selectedCourse === course ? "default" : "outline"}
@@ -692,7 +741,7 @@ function App() {
           <CardContent className="space-y-3">
             {setupStep === "course" ? (
               <div className="grid grid-cols-5 gap-2">
-                {COURSES.map((course) => (
+                {availableCourses.map((course) => (
                   <Button
                     key={course}
                     variant={selectedCourse === course ? "default" : "outline"}
@@ -747,6 +796,7 @@ function App() {
             <CardTitle className="text-base">{selectedSubject?.subject}</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
+            <p className="text-sm text-slate-200">Выберите режим тренировки тестов</p>
             <div className="grid grid-cols-3 gap-2">
               {MODE_ITEMS.map((item) => (
                 <Button
@@ -778,7 +828,7 @@ function App() {
       {session && currentQuestion ? (
         <Card className="mt-4 border-[#30445f] bg-[#1a2739]">
           <CardHeader className="space-y-2 pb-2">
-            <CardTitle className="text-base">{session.mode}</CardTitle>
+            <CardTitle className="text-base">{selectedSubject?.subject}</CardTitle>
             <p className="text-xs text-slate-400">
               {session.progress.answeredQuestions + 1}/{session.progress.totalQuestions} · Ошибок {session.errors.length}
             </p>
@@ -786,7 +836,6 @@ function App() {
           </CardHeader>
           <CardContent className="space-y-3">
             <p className="text-sm leading-6">{currentQuestion.title}</p>
-            <Separator className="bg-[#415674]" />
             <div className="space-y-2">
               {currentQuestion.options.map((option) => {
                 const selected = selectedOptionIds.includes(option.optionId);
@@ -816,28 +865,18 @@ function App() {
 
             {singleFinished ? (
               <div className="space-y-2">
-                <Button className="w-full" onClick={() => void continueSingleMode()} disabled={busy}>
+                <Button variant="default" className="w-full h-10 bg-[#4f9fff] text-white hover:bg-[#3f8feb]" onClick={() => void continueSingleMode()} disabled={busy}>
                   Еще вопрос
                 </Button>
                 <Button
-                  className="w-full"
+                  className="w-full h-10"
                   variant="outline"
                   onClick={() => {
                     resetQuestionView();
-                    setSettingPanel("mode");
+                    setSettingPanel(null);
                   }}
                 >
-                  Сменить режим
-                </Button>
-                <Button
-                  className="w-full"
-                  variant="outline"
-                  onClick={() => {
-                    resetQuestionView();
-                    setSelectedSubjectId(null);
-                  }}
-                >
-                  Сменить предмет
+                  Закрыть
                 </Button>
               </div>
             ) : null}
@@ -845,10 +884,12 @@ function App() {
             {!singleFinished && session.status !== "active" ? (
               <div className="space-y-2">
                 <p className="text-sm text-slate-200">
-                  Сессия завершена: {session.status}. Правильных {session.progress.correctAnswers}/
-                  {session.progress.answeredQuestions}
+                  Сессия завершена 🏁<br />
+                  Правильных ответов: 🎯 {session.progress.correctAnswers}/
+                  {session.progress.answeredQuestions}<br />
+                  Ошибок: 🥲 {session.errors.length}
                 </p>
-                <Button className="w-full" onClick={resetQuestionView}>
+                <Button variant="default" className="w-full h-10 bg-[#4f9fff] text-white hover:bg-[#3f8feb]" onClick={resetQuestionView}>
                   Закрыть результат
                 </Button>
               </div>
@@ -861,3 +902,11 @@ function App() {
 }
 
 export default App;
+
+function formatNoTestsForSelectionError(
+  facultyName: string,
+  courseNumber: number,
+  subjectName: string,
+): string {
+  return `Для факультета ${facultyName} по курсу ${courseNumber} для предмета ${subjectName} на данный момент тестов нет.`;
+}
