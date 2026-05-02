@@ -38,9 +38,17 @@ export interface User {
   name: string;
   role: UserRole;
   planCode: PlanCode | string;
+  preferences?: UserPreferences;
   dailyUsage: DailyUsage;
   createdAtIso: string;
   updatedAtIso: string;
+}
+
+export interface UserPreferences {
+  mode?: SessionMode;
+  course?: number;
+  faculty?: string;
+  subjectId?: string;
 }
 
 export interface Subject {
@@ -157,6 +165,17 @@ export interface AuthLoginRequest {
 }
 
 export interface AuthLoginResponse {
+  user: User;
+}
+
+export interface UpdatePreferencesRequest {
+  mode?: SessionMode;
+  course?: number;
+  faculty?: string;
+  subjectId?: string;
+}
+
+export interface UpdatePreferencesResponse {
   user: User;
 }
 

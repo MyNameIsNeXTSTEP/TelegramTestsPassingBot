@@ -6,6 +6,7 @@ import type { Question, SessionMode, Subject, TestType, User } from "../shared/i
 
 type ChatStep =
   | "idle"
+  | "choose-course"
   | "choose-faculty"
   | "choose-subject"
   | "choose-test-type"
@@ -17,6 +18,7 @@ interface ChatState {
   user: User;
   step: ChatStep;
   subjects: Subject[];
+  selectedCourse?: number;
   selectedFaculty?: string;
   selectedSubject?: string;
   selectedTestType?: TestType;
@@ -25,6 +27,7 @@ interface ChatState {
 }
 
 const MENU_KEYBOARD = Markup.keyboard([["Практика", "Тарифы"], ["Статус"]]).resize();
+const COURSES = [1, 2, 3, 4, 5] as const;
 
 const mapCurrentPlanToEmoji = {
   "free": "Бесплатный 🤓",
@@ -105,6 +108,7 @@ export function buildBot(config: BotConfig): Telegraf {
 
       state.selectedFaculty = faculty;
       state.step = "choose-subject";
+      state.user = await api.updatePreferences(state.user.id, { faculty });
 
       const subjectNames = uniqueSorted(
         state.subjects.filter((subject) => subject.faculty === faculty).map((subject) => subject.subject),
@@ -115,6 +119,32 @@ export function buildBot(config: BotConfig): Telegraf {
           subjectNames.map((subjectName, subjectIndex) =>
             Markup.button.callback(subjectName, `subject:${subjectIndex}`),
           ),
+        ),
+      );
+    } catch (error) {
+      await ctx.reply(toErrorText(error));
+    }
+  });
+
+  bot.action(/^course:([1-5])$/, async (ctx) => {
+    await ctx.answerCbQuery();
+    try {
+      const state = requireState(ctx.chat?.id, stateByChatId);
+      if (state.step !== "choose-course") {
+        await ctx.reply("Перезапустите процесс командой /practice.");
+        return;
+      }
+
+      const course = Number(ctx.match[1]);
+      state.selectedCourse = course;
+      state.step = "choose-faculty";
+      state.user = await api.updatePreferences(state.user.id, { course });
+
+      const faculties = uniqueSorted(state.subjects.map((subject) => subject.faculty));
+      await ctx.reply(
+        `Курс: ${course}\nВыберите факультет:`,
+        Markup.inlineKeyboard(
+          faculties.map((faculty, facultyIndex) => [Markup.button.callback(faculty, `faculty:${facultyIndex}`)]),
         ),
       );
     } catch (error) {
@@ -180,9 +210,9 @@ export function buildBot(config: BotConfig): Telegraf {
       await ctx.reply(
         "Выберите режим:",
         Markup.inlineKeyboard([
-          [Markup.button.callback("Одиночный вопрос", "mode:single")],
-          [Markup.button.callback("Пакет (10 вопросов)", "mode:pack")],
-          [Markup.button.callback("Подготовка к экзамену (30 + штрафы)", "mode:exam-prep")],
+          [Markup.button.callback("Один вопрос", "mode:single")],
+          [Markup.button.callback("Практика 10 вопросов", "mode:pack")],
+          [Markup.button.callback("Экзамен", "mode:exam-prep")],
         ]),
       );
     } catch (error) {
@@ -217,6 +247,13 @@ export function buildBot(config: BotConfig): Telegraf {
         return;
       }
 
+      state.user = await api.updatePreferences(state.user.id, {
+        mode,
+        ...(state.selectedCourse ? { course: state.selectedCourse } : {}),
+        ...(state.selectedFaculty ? { faculty: state.selectedFaculty } : {}),
+        subjectId: selectedSubject.id,
+      });
+
       const started = await api.startSession({
         userId: state.user.id,
         subjectId: selectedSubject.id,
@@ -232,7 +269,7 @@ export function buildBot(config: BotConfig): Telegraf {
         return;
       }
 
-      await ctx.reply(`Сессия начата в режиме: ${mode}`);
+      await ctx.reply(`Сессия начата в режиме: ${formatModeLabel(mode)}`);
       await sendQuestion(ctx, started.firstQuestion, started.session.progress);
     } catch (error) {
       await ctx.reply(toErrorText(error));
@@ -276,7 +313,7 @@ export function buildBot(config: BotConfig): Telegraf {
       const correctOptionsText = result.correctOptionIds.join(", ");
       const answerText = result.isCorrect
         ? "Правильно."
-        : `К сожалению ответ неверный. Правильный(е) вариант(ы):\n${correctOptionsText}.`;
+        : `К сожалению ответ неверный. Правильный(е) вариант(ы): ${correctOptionsText}.`;
       await ctx.reply(answerText);
 
       if (result.nextQuestion) {
@@ -292,10 +329,8 @@ export function buildBot(config: BotConfig): Telegraf {
         await ctx.reply(
           "Выберите следующее действие:",
           Markup.inlineKeyboard([
-            [
-              Markup.button.callback("Еще вопрос", "single-next"),
-              Markup.button.callback("Сменить режим", "single-change-mode"),
-            ],
+            [Markup.button.callback("Еще вопрос", "single-next")],
+            [Markup.button.callback("Сменить режим", "single-change-mode")],
             [Markup.button.callback("Сменить предмет", "single-change-subject")],
           ]),
         );
@@ -430,18 +465,24 @@ async function startPracticeFlow(
     }
 
     state.subjects = subjects;
-    state.step = "choose-faculty";
+    state.step = "choose-course";
+    const preferenceCourse = state.user.preferences?.course;
+    state.selectedCourse =
+      typeof preferenceCourse === "number" && Number.isInteger(preferenceCourse) && preferenceCourse >= 1 && preferenceCourse <= 5
+        ? preferenceCourse
+        : undefined;
     state.selectedFaculty = undefined;
     state.selectedSubject = undefined;
     state.selectedTestType = undefined;
     state.activeSessionId = undefined;
     state.activeQuestionId = undefined;
 
-    const faculties = uniqueSorted(subjects.map((subject) => subject.faculty));
     await ctx.reply(
-      "Выберите ваш факультет:",
+      state.selectedCourse
+        ? `Сохраненный курс: ${state.selectedCourse}\nВыберите курс (можно изменить):`
+        : "Выберите курс:",
       Markup.inlineKeyboard(
-        faculties.map((faculty, index) => [Markup.button.callback(faculty, `faculty:${index}`)]),
+        COURSES.map((course) => [Markup.button.callback(String(course), `course:${course}`)]),
       ),
     );
   } catch (error) {
@@ -530,9 +571,9 @@ async function sendModeSelection(ctx: { reply: (...args: any[]) => Promise<unkno
   await ctx.reply(
     "Выберите режим:",
     Markup.inlineKeyboard([
-      [Markup.button.callback("Одиночный вопрос", "mode:single")],
-      [Markup.button.callback("Пакет (10 вопросов)", "mode:pack")],
-      [Markup.button.callback("Подготовка к экзамену (30 + штрафы)", "mode:exam-prep")],
+      [Markup.button.callback("Один вопрос", "mode:single")],
+      [Markup.button.callback("Практика 10 вопросов", "mode:pack")],
+      [Markup.button.callback("Экзамен", "mode:exam-prep")],
     ]),
   );
 }
@@ -644,4 +685,14 @@ function escapeHtml(value: string): string {
 
 function toErrorText(error: unknown): string {
   return error instanceof Error ? error.message : "Неожиданная ошибка";
+}
+
+function formatModeLabel(mode: SessionMode): string {
+  if (mode === "single") {
+    return "Один вопрос";
+  }
+  if (mode === "pack") {
+    return "Практика 10 вопросов";
+  }
+  return "Экзамен";
 }

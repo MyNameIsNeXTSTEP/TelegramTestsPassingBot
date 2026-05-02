@@ -6,6 +6,7 @@ import type {
   SessionMode,
   StartSessionResponse,
   SubmitAnswerResponse,
+  UpdatePreferencesResponse,
   User,
 } from "../shared/index.js";
 
@@ -74,6 +75,21 @@ export class BotApiClient {
         "x-user-id": userId,
       },
       body: JSON.stringify({ planCode }),
+    });
+
+    return data.user;
+  }
+
+  public async updatePreferences(
+    userId: string,
+    preferences: { mode?: SessionMode; course?: number; faculty?: string; subjectId?: string },
+  ): Promise<User> {
+    const data = await this.request<UpdatePreferencesResponse>("/auth/preferences", {
+      method: "PATCH",
+      headers: {
+        "x-user-id": userId,
+      },
+      body: JSON.stringify(preferences),
     });
 
     return data.user;

@@ -1,7 +1,7 @@
 import { randomUUID } from "node:crypto";
 import { join } from "node:path";
 
-import type { User, UserRole } from "../../shared/index.js";
+import type { SessionMode, User, UserRole } from "../../shared/index.js";
 import { readJsonFile, writeJsonFile } from "../storage/jsonStore.js";
 
 export class UserRepository {
@@ -95,6 +95,35 @@ export class UserRepository {
     user.dailyUsage.questionsAnswered += Math.max(0, increments.questionsAnswered ?? 0);
     user.updatedAtIso = atIso;
 
+    await this.writeAll(users);
+    return user;
+  }
+
+  public async updatePreferences(
+    userId: string,
+    preferences: {
+      mode?: SessionMode;
+      course?: number;
+      faculty?: string;
+      subjectId?: string;
+    },
+  ): Promise<User> {
+    const users = await this.readAll();
+    const user = users.find((item) => item.id === userId);
+    if (!user) {
+      throw new Error(`Пользователь '${userId}' не найден`);
+    }
+
+    const nextPreferences: User["preferences"] = {
+      ...(user.preferences ?? {}),
+      ...(preferences.mode ? { mode: preferences.mode } : {}),
+      ...(typeof preferences.course === "number" ? { course: preferences.course } : {}),
+      ...(typeof preferences.faculty === "string" ? { faculty: preferences.faculty } : {}),
+      ...(typeof preferences.subjectId === "string" ? { subjectId: preferences.subjectId } : {}),
+    };
+
+    user.preferences = nextPreferences;
+    user.updatedAtIso = new Date().toISOString();
     await this.writeAll(users);
     return user;
   }
