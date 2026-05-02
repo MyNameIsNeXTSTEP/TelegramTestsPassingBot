@@ -71,3 +71,28 @@ services:
       retries: 3
       start_period: 10s
     restart: unless-stopped
+
+  landing_site:
+    build:
+      context: .
+      dockerfile: docker/landing.Dockerfile
+      args:
+        LANDING_BRAND_NAME: ${LANDING_BRAND_NAME:-Bashlarova Tests}
+        LANDING_DOMAIN: ${LANDING_DOMAIN:-bashlarovatests.ru}
+        LANDING_BOT_URL: ${LANDING_BOT_URL:-https://t.me/bashlarovatests_bot}
+        LANDING_CONTACT_EMAIL: ${LANDING_CONTACT_EMAIL:-support@bashlarovatests.ru}
+        LANDING_CONTACT_TELEGRAM: ${LANDING_CONTACT_TELEGRAM:-@bashlarova_support}
+        LANDING_CONTACT_PHONE: ${LANDING_CONTACT_PHONE:-+7 (900) 000-00-00}
+        LANDING_SELLER_NAME: ${LANDING_SELLER_NAME:-ИП Фамилия Имя Отчество}
+        LANDING_SELLER_INN: ${LANDING_SELLER_INN:-000000000000}
+        LANDING_SELLER_OGRNIP: ${LANDING_SELLER_OGRNIP:-000000000000000}
+        LANDING_SELLER_CITY: ${LANDING_SELLER_CITY:-г. Москва}
+    ports:
+      - "${LANDING_PORT:-8080}:80"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O - http://127.0.0.1/ >/dev/null 2>&1 || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped

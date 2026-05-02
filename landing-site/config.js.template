@@ -1,0 +1,12 @@
+window.LANDING_CONFIG = {
+  brandName: "${LANDING_BRAND_NAME}",
+  domain: "${LANDING_DOMAIN}",
+  botUrl: "${LANDING_BOT_URL}",
+  contactEmail: "${LANDING_CONTACT_EMAIL}",
+  contactTelegram: "${LANDING_CONTACT_TELEGRAM}",
+  contactPhone: "${LANDING_CONTACT_PHONE}",
+  sellerName: "${LANDING_SELLER_NAME}",
+  sellerInn: "${LANDING_SELLER_INN}",
+  sellerOgrnip: "${LANDING_SELLER_OGRNIP}",
+  sellerCity: "${LANDING_SELLER_CITY}",
+};

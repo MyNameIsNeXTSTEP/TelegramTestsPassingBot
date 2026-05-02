@@ -7,6 +7,7 @@
     "dev:api": "tsx watch src/api/server.ts",
     "dev:bot": "tsx --env-file=.env --watch src/bot/server.ts",
     "dev:webapp": "npm --prefix web run dev",
+    "dev:landing": "docker compose up --build landing_site -d",
     "start": "node dist/api/server.js",
     "start:bot": "node --env-file=.env dist/bot/server.js",
     "build:webapp": "npm --prefix web run build",
