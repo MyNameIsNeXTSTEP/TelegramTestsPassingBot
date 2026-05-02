@@ -11,7 +11,8 @@
     "start:bot": "node --env-file=.env dist/bot/server.js",
     "build:webapp": "npm --prefix web run build",
     "build": "tsc -p tsconfig.json",
-    "typecheck": "tsc --noEmit -p tsconfig.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "docker:up": "docker compose up --build -d"
   },
   "dependencies": {
     "@fastify/cors": "^11.2.0",
