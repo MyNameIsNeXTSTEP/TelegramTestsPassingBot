@@ -836,8 +836,6 @@ function buildPlanInvoice(
   currency: string;
   prices: Array<{ label: string; amount: number }>;
   start_parameter: string;
-  need_email: boolean;
-  send_email_to_provider: boolean;
   provider_data: string;
 } {
   const normalizedCurrency = plan.currency.toUpperCase();
@@ -854,14 +852,15 @@ function buildPlanInvoice(
       },
     ],
     start_parameter: `plan-${plan.code}`,
-    need_email: true,
-    send_email_to_provider: true,
     provider_data: JSON.stringify({
       amount: {
         value: toMajorAmountString(plan.price, normalizedCurrency),
         currency: normalizedCurrency,
       },
       receipt: {
+        customer: {
+          email: "test@example.com",
+        },
         items: [
           {
             description: `Подписка ${plan.name}`,
