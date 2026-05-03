@@ -1,4 +1,5 @@
 import { Markup, Telegraf } from "telegraf";
+import { randomUUID } from "node:crypto";
 
 import type { BotConfig } from "./config.js";
 import { BotApiClient } from "./apiClient.js";
@@ -29,6 +30,7 @@ interface ChatState {
 const MENU_KEYBOARD = Markup.keyboard([["Практика", "Тарифы"], ["Статус"]]).resize();
 const PAID_PLAN_CODES = new Set(["basic", "pro"]);
 const PAYMENT_PAYLOAD_PREFIX = "plan:";
+const SBP_PAYMENT_CHECK_CALLBACK_PREFIX = "plan-sbp-check";
 const CURRENCY_EXPONENT_BY_CODE: Record<string, number> = {
   RUB: 2,
 };
@@ -43,6 +45,7 @@ export function buildBot(config: BotConfig): Telegraf {
   const bot = new Telegraf(config.token);
   const api = new BotApiClient(config.apiBaseUrl);
   const stateByChatId = new Map<number, ChatState>();
+  const pendingSbpPayments = new Map<string, { userId: string; planCode: string; chatId: number }>();
 
   bot.start(async (ctx) => {
     try {
@@ -496,8 +499,12 @@ export function buildBot(config: BotConfig): Telegraf {
       }
 
       if (isPaidPlanCode(selectedPlan.code)) {
-        await ctx.replyWithInvoice(
-          buildPlanInvoice(selectedPlan, state.user.id, config.testYooKassaToken),
+        await ctx.reply(
+          `Выберите способ оплаты для тарифа "${selectedPlan.name}":`,
+          Markup.inlineKeyboard([
+            [Markup.button.callback("Банковская карта / YooMoney", `plan-pay-card:${selectedPlan.code}`)],
+            [Markup.button.callback("СБП", `plan-pay-sbp:${selectedPlan.code}`)],
+          ]),
         );
         return;
       }
@@ -507,6 +514,109 @@ export function buildBot(config: BotConfig): Telegraf {
       await ctx.reply(`Тариф успешно обновлен 🎉.\nТекущий тариф: ${mapCurrentPlanToEmoji[state.user.planCode]}`, MENU_KEYBOARD);
     } catch (error) {
       await ctx.reply(toErrorText(error));
+    }
+  });
+
+  bot.action(/^plan-pay-card:(.+)$/, async (ctx) => {
+    await ctx.answerCbQuery();
+    try {
+      const state = requireState(ctx.chat?.id, stateByChatId);
+      const planCode = ctx.match[1];
+      if (!planCode) {
+        await ctx.reply("Код тарифа отсутствует.");
+        return;
+      }
+      const selectedPlan = (await api.listPlans()).find((plan) => plan.code === planCode && plan.isActive);
+      if (!selectedPlan || !isPaidPlanCode(selectedPlan.code)) {
+        await ctx.reply("Тариф недоступен для оплаты.");
+        return;
+      }
+
+      await ctx.replyWithInvoice(
+        buildPlanInvoice(selectedPlan, state.user.id, config.testYooKassaToken),
+      );
+    } catch (error) {
+      await ctx.reply(toErrorText(error));
+    }
+  });
+
+  bot.action(/^plan-pay-sbp:(.+)$/, async (ctx) => {
+    await ctx.answerCbQuery();
+    try {
+      const state = requireState(ctx.chat?.id, stateByChatId);
+      const planCode = ctx.match[1];
+      if (!planCode) {
+        await ctx.reply("Код тарифа отсутствует.");
+        return;
+      }
+      const selectedPlan = (await api.listPlans()).find((plan) => plan.code === planCode && plan.isActive);
+      if (!selectedPlan || !isPaidPlanCode(selectedPlan.code)) {
+        await ctx.reply("Тариф недоступен для оплаты.");
+        return;
+      }
+
+      const payment = await createYooKassaSbpPayment(config, {
+        userId: state.user.id,
+        planCode: selectedPlan.code,
+        planName: selectedPlan.name,
+        price: selectedPlan.price,
+        currency: selectedPlan.currency,
+      });
+      const chatId = ctx.chat?.id;
+      if (typeof chatId !== "number") {
+        await ctx.reply("Не удалось определить чат для СБП-платежа.");
+        return;
+      }
+      pendingSbpPayments.set(payment.id, {
+        userId: state.user.id,
+        planCode: selectedPlan.code,
+        chatId,
+      });
+
+      await ctx.reply(
+        "Для оплаты через СБП нажмите кнопку ниже, затем вернитесь и нажмите \"Проверить оплату\".",
+        buildSbpPaymentKeyboard(payment.confirmationUrl, payment.id, selectedPlan.code),
+      );
+    } catch (error) {
+      await ctx.reply(`Не удалось создать СБП-платеж: ${toErrorText(error)}`);
+    }
+  });
+
+  bot.action(/^plan-sbp-check:([^:]+):(.+)$/, async (ctx) => {
+    await ctx.answerCbQuery();
+    try {
+      const state = requireState(ctx.chat?.id, stateByChatId);
+      const paymentId = ctx.match[1];
+      const planCode = ctx.match[2];
+      if (!paymentId || !planCode) {
+        await ctx.reply("Некорректные данные платежа.");
+        return;
+      }
+
+      const payment = await getYooKassaPayment(config, paymentId);
+      if (payment.status === "succeeded") {
+        const expected = pendingSbpPayments.get(paymentId);
+        if (expected && expected.userId !== state.user.id) {
+          await ctx.reply("Этот платеж создан для другого пользователя.");
+          return;
+        }
+
+        state.user = await api.changeMyPlan(state.user.id, planCode);
+        pendingSbpPayments.delete(paymentId);
+        // @ts-ignore
+        await ctx.reply(`Платеж через СБП прошел успешно ✅\nТариф активирован: ${mapCurrentPlanToEmoji[state.user.planCode]}`, MENU_KEYBOARD);
+        return;
+      }
+
+      if (payment.status === "canceled") {
+        pendingSbpPayments.delete(paymentId);
+        await ctx.reply("СБП-платеж отменен. Попробуйте снова.");
+        return;
+      }
+
+      await ctx.reply("Платеж еще не завершен. После оплаты нажмите \"Проверить оплату\" еще раз.");
+    } catch (error) {
+      await ctx.reply(`Не удалось проверить СБП-платеж: ${toErrorText(error)}`);
     }
   });
 
@@ -877,6 +987,13 @@ function buildPlanInvoice(
   };
 }
 
+function buildSbpPaymentKeyboard(confirmationUrl: string, paymentId: string, planCode: string) {
+  return Markup.inlineKeyboard([
+    [Markup.button.url("Оплатить по СБП", confirmationUrl)],
+    [Markup.button.callback("Проверить оплату", `${SBP_PAYMENT_CHECK_CALLBACK_PREFIX}:${paymentId}:${planCode}`)],
+  ]);
+}
+
 function isPaidPlanCode(planCode: string): boolean {
   return PAID_PLAN_CODES.has(planCode);
 }
@@ -920,6 +1037,122 @@ function toMinorAmount(price: number, currency: string): number {
 function toMajorAmountString(price: number, currency: string): string {
   const exponent = CURRENCY_EXPONENT_BY_CODE[currency.toUpperCase()] ?? 2;
   return price.toFixed(exponent);
+}
+
+async function createYooKassaSbpPayment(
+  config: BotConfig,
+  input: { userId: string; planCode: string; planName: string; price: number; currency: string },
+): Promise<{ id: string; confirmationUrl: string }> {
+  const currency = input.currency.toUpperCase();
+  const response = await fetch("https://api.yookassa.ru/v3/payments", {
+    method: "POST",
+    headers: {
+      Authorization: buildYooKassaAuthHeader(config),
+      "Content-Type": "application/json",
+      "Idempotence-Key": randomUUID(),
+    },
+    body: JSON.stringify({
+      amount: {
+        value: toMajorAmountString(input.price, currency),
+        currency,
+      },
+      capture: true,
+      description: `Оплата тарифа ${input.planName}`,
+      payment_method_data: {
+        type: "sbp",
+      },
+      confirmation: {
+        type: "redirect",
+        return_url: "https://t.me",
+      },
+      metadata: {
+        userId: input.userId,
+        planCode: input.planCode,
+        source: "telegram-bot",
+      },
+      receipt: {
+        customer: {
+          email: "test@example.com",
+        },
+        items: [
+          {
+            description: `Подписка ${input.planName}`,
+            quantity: "1",
+            amount: {
+              value: toMajorAmountString(input.price, currency),
+              currency,
+            },
+            vat_code: 1,
+          },
+        ],
+      },
+    }),
+  });
+
+  const raw = await response.text();
+  if (!response.ok) {
+    throw new Error(`YooKassa error ${response.status}: ${raw}`);
+  }
+  const data = tryParseJson(raw);
+  if (!isRecord(data)) {
+    throw new Error("Некорректный ответ YooKassa");
+  }
+  const id = asNonEmptyString(data.id, "id");
+  const confirmation = data.confirmation;
+  if (!isRecord(confirmation)) {
+    throw new Error("В ответе YooKassa отсутствует confirmation");
+  }
+  const confirmationUrl = asNonEmptyString(confirmation.confirmation_url, "confirmation_url");
+  return { id, confirmationUrl };
+}
+
+async function getYooKassaPayment(
+  config: BotConfig,
+  paymentId: string,
+): Promise<{ status: string }> {
+  const response = await fetch(`https://api.yookassa.ru/v3/payments/${encodeURIComponent(paymentId)}`, {
+    method: "GET",
+    headers: {
+      Authorization: buildYooKassaAuthHeader(config),
+      "Content-Type": "application/json",
+    },
+  });
+
+  const raw = await response.text();
+  if (!response.ok) {
+    throw new Error(`YooKassa error ${response.status}: ${raw}`);
+  }
+  const data = tryParseJson(raw);
+  if (!isRecord(data)) {
+    throw new Error("Некорректный ответ YooKassa");
+  }
+  return {
+    status: asNonEmptyString(data.status, "status"),
+  };
+}
+
+function buildYooKassaAuthHeader(config: BotConfig): string {
+  const creds = `${config.testYooKassaShopId}:${config.testYooKassaSecretKey}`;
+  return `Basic ${Buffer.from(creds).toString("base64")}`;
+}
+
+function tryParseJson(value: string): unknown {
+  try {
+    return JSON.parse(value);
+  } catch {
+    return null;
+  }
+}
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null;
+}
+
+function asNonEmptyString(value: unknown, field: string): string {
+  if (typeof value !== "string" || !value.trim()) {
+    throw new Error(`Expected ${field} to be a non-empty string`);
+  }
+  return value;
 }
 
 function escapeHtml(value: string): string {

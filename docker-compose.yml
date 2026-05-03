@@ -30,6 +30,8 @@ services:
       BOT_TOKEN: ${BOT_TOKEN}
       BOT_API_BASE_URL: ${BOT_INTERNAL_API_BASE_URL:-http://api:3001}
       TEST_YOOKASSA_TOKEN: ${TEST_YOOKASSA_TOKEN}
+      TEST_YOOKASSA_SHOP_ID: ${TEST_YOOKASSA_SHOP_ID}
+      TEST_YOOKASSA_SECRET_KEY: ${TEST_YOOKASSA_SECRET_KEY}
     depends_on:
       api:
         condition: service_healthy
