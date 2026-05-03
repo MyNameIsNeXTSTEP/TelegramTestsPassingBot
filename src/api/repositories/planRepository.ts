@@ -30,7 +30,7 @@ const DEFAULT_STORE: PlansStore = {
       description: `
         • Неограниченный доступ к практическим тестам\n• Ограниченный функционал статистики и работы над ошибками
       `,
-      price: 299,
+      price: 1,
       currency: "RUB",
       limits: {
         dailySessionsLimit: null,
