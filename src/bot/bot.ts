@@ -30,10 +30,11 @@ interface ChatState {
 const MENU_KEYBOARD = Markup.keyboard([["Практика", "Тарифы"], ["Статус"]]).resize();
 const PAID_PLAN_CODES = new Set(["basic", "pro"]);
 const PAYMENT_PAYLOAD_PREFIX = "plan:";
-const SBP_PAYMENT_CHECK_CALLBACK_PREFIX = "plan-sbp-check";
 const CURRENCY_EXPONENT_BY_CODE: Record<string, number> = {
   RUB: 2,
 };
+const SBP_STATUS_POLL_INTERVAL_MS = 5000;
+const SBP_STATUS_POLL_ATTEMPTS = 120;
 
 const mapCurrentPlanToEmoji = {
   "free": "Бесплатный 🤓",
@@ -574,49 +575,19 @@ export function buildBot(config: BotConfig): Telegraf {
       });
 
       await ctx.reply(
-        "Для оплаты через СБП нажмите кнопку ниже, затем вернитесь и нажмите \"Проверить оплату\".",
-        buildSbpPaymentKeyboard(payment.confirmationUrl, payment.id, selectedPlan.code),
+        "Для оплаты через СБП нажмите кнопку ниже. После оплаты бот проверит статус автоматически и пришлет уведомление.",
+        buildSbpPaymentKeyboard(payment.confirmationUrl),
       );
+      void monitorSbpPayment({
+        paymentId: payment.id,
+        pendingSbpPayments,
+        stateByChatId,
+        api,
+        bot,
+        config,
+      });
     } catch (error) {
       await ctx.reply(`Не удалось создать СБП-платеж: ${toErrorText(error)}`);
-    }
-  });
-
-  bot.action(/^plan-sbp-check:([^:]+):(.+)$/, async (ctx) => {
-    await ctx.answerCbQuery();
-    try {
-      const state = requireState(ctx.chat?.id, stateByChatId);
-      const paymentId = ctx.match[1];
-      const planCode = ctx.match[2];
-      if (!paymentId || !planCode) {
-        await ctx.reply("Некорректные данные платежа.");
-        return;
-      }
-
-      const payment = await getYooKassaPayment(config, paymentId);
-      if (payment.status === "succeeded") {
-        const expected = pendingSbpPayments.get(paymentId);
-        if (expected && expected.userId !== state.user.id) {
-          await ctx.reply("Этот платеж создан для другого пользователя.");
-          return;
-        }
-
-        state.user = await api.changeMyPlan(state.user.id, planCode);
-        pendingSbpPayments.delete(paymentId);
-        // @ts-ignore
-        await ctx.reply(`Платеж через СБП прошел успешно ✅\nТариф активирован: ${mapCurrentPlanToEmoji[state.user.planCode]}`, MENU_KEYBOARD);
-        return;
-      }
-
-      if (payment.status === "canceled") {
-        pendingSbpPayments.delete(paymentId);
-        await ctx.reply("СБП-платеж отменен. Попробуйте снова.");
-        return;
-      }
-
-      await ctx.reply("Платеж еще не завершен. После оплаты нажмите \"Проверить оплату\" еще раз.");
-    } catch (error) {
-      await ctx.reply(`Не удалось проверить СБП-платеж: ${toErrorText(error)}`);
     }
   });
 
@@ -992,10 +963,9 @@ function buildPlanInvoice(
   };
 }
 
-function buildSbpPaymentKeyboard(confirmationUrl: string, paymentId: string, planCode: string) {
+function buildSbpPaymentKeyboard(confirmationUrl: string) {
   return Markup.inlineKeyboard([
     [Markup.button.url("Оплатить по СБП", confirmationUrl)],
-    [Markup.button.callback("Проверить оплату", `${SBP_PAYMENT_CHECK_CALLBACK_PREFIX}:${paymentId}:${planCode}`)],
   ]);
 }
 
@@ -1138,6 +1108,62 @@ async function getYooKassaPayment(
   };
 }
 
+async function monitorSbpPayment(params: {
+  paymentId: string;
+  pendingSbpPayments: Map<string, { userId: string; planCode: string; chatId: number }>;
+  stateByChatId: Map<number, ChatState>;
+  api: BotApiClient;
+  bot: Telegraf;
+  config: BotConfig;
+}): Promise<void> {
+  for (let attempt = 0; attempt < SBP_STATUS_POLL_ATTEMPTS; attempt += 1) {
+    const pending = params.pendingSbpPayments.get(params.paymentId);
+    if (!pending) {
+      return;
+    }
+
+    try {
+      const payment = await getYooKassaPayment(params.config, params.paymentId);
+      if (payment.status === "succeeded") {
+        const updatedUser = await params.api.changeMyPlan(pending.userId, pending.planCode);
+        const chatState = params.stateByChatId.get(pending.chatId);
+        if (chatState && chatState.user.id === pending.userId) {
+          chatState.user = updatedUser;
+        }
+
+        params.pendingSbpPayments.delete(params.paymentId);
+        // @ts-ignore
+        await params.bot.telegram.sendMessage(
+          pending.chatId,
+          `Платеж через СБП прошел успешно ✅\nТариф активирован: ${formatPlanLabel(updatedUser.planCode)}`,
+          MENU_KEYBOARD,
+        );
+        return;
+      }
+
+      if (payment.status === "canceled") {
+        params.pendingSbpPayments.delete(params.paymentId);
+        await params.bot.telegram.sendMessage(pending.chatId, "СБП-платеж отменен. Попробуйте снова.");
+        return;
+      }
+    } catch (_error) {
+      // Keep polling; transient network/provider errors are expected.
+    }
+
+    await sleep(SBP_STATUS_POLL_INTERVAL_MS);
+  }
+
+  const pending = params.pendingSbpPayments.get(params.paymentId);
+  if (!pending) {
+    return;
+  }
+  params.pendingSbpPayments.delete(params.paymentId);
+  await params.bot.telegram.sendMessage(
+    pending.chatId,
+    "Не удалось автоматически подтвердить СБП-платеж за отведенное время. Если вы уже оплатили, напишите в поддержку.",
+  );
+}
+
 function buildYooKassaAuthHeader(config: BotConfig): string {
   const creds = `${config.testYooKassaShopId}:${config.testYooKassaSecretKey}`;
   return `Basic ${Buffer.from(creds).toString("base64")}`;
@@ -1160,6 +1186,16 @@ function asNonEmptyString(value: unknown, field: string): string {
     throw new Error(`Expected ${field} to be a non-empty string`);
   }
   return value;
+}
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+function formatPlanLabel(planCode: string): string {
+  return mapCurrentPlanToEmoji[planCode as keyof typeof mapCurrentPlanToEmoji] ?? planCode;
 }
 
 function escapeHtml(value: string): string {

@@ -56,7 +56,7 @@ export class SubscriptionService {
 
     if (currentUsage >= dailyLimit) {
       throw new Error(
-        `Достигнут дневной лимит (${dailyLimit} сессий). Перейдите на тариф pro-student для неограниченного доступа.`,
+        `Достигнут дневной лимит (${dailyLimit} сессий).\nПерейдите на тариф "Базовый" или "Pro" для неограниченного доступа.`,
       );
     }
   }
