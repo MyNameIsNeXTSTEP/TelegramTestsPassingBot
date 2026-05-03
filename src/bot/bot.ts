@@ -857,18 +857,20 @@ function buildPlanInvoice(
     need_email: true,
     send_email_to_provider: true,
     provider_data: JSON.stringify({
+      amount: {
+        value: toMajorAmountString(plan.price, normalizedCurrency),
+        currency: normalizedCurrency,
+      },
       receipt: {
         items: [
           {
             description: `Подписка ${plan.name}`,
-            quantity: "1.00",
+            quantity: "1",
             amount: {
               value: toMajorAmountString(plan.price, normalizedCurrency),
               currency: normalizedCurrency,
             },
             vat_code: 1,
-            payment_mode: "full_payment",
-            payment_subject: "service",
           },
         ],
       },
