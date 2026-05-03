@@ -1,6 +1,7 @@
 export interface BotConfig {
   token: string;
   apiBaseUrl: string;
+  testYooKassaToken: string;
 }
 
 export function loadBotConfig(): BotConfig {
@@ -8,9 +9,14 @@ export function loadBotConfig(): BotConfig {
   if (!token) {
     throw new Error("BOT_TOKEN is required");
   }
+  const testYooKassaToken = process.env.TEST_YOOKASSA_TOKEN?.trim();
+  if (!testYooKassaToken) {
+    throw new Error("TEST_YOOKASSA_TOKEN is required");
+  }
 
   return {
     token,
     apiBaseUrl: (process.env.BOT_API_BASE_URL ?? "http://127.0.0.1:3001").replace(/\/+$/, ""),
+    testYooKassaToken,
   };
 }

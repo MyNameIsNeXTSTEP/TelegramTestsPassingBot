@@ -27,6 +27,11 @@ interface ChatState {
 }
 
 const MENU_KEYBOARD = Markup.keyboard([["Практика", "Тарифы"], ["Статус"]]).resize();
+const PAID_PLAN_CODES = new Set(["basic", "pro"]);
+const PAYMENT_PAYLOAD_PREFIX = "plan:";
+const CURRENCY_EXPONENT_BY_CODE: Record<string, number> = {
+  RUB: 2,
+};
 
 const mapCurrentPlanToEmoji = {
   "free": "Бесплатный 🤓",
@@ -484,11 +489,85 @@ export function buildBot(config: BotConfig): Telegraf {
         await ctx.reply("Код тарифа отсутствует.");
         return;
       }
-      state.user = await api.changeMyPlan(state.user.id, planCode);
+      const selectedPlan = (await api.listPlans()).find((plan) => plan.code === planCode && plan.isActive);
+      if (!selectedPlan) {
+        await ctx.reply("Тариф недоступен.");
+        return;
+      }
+
+      if (isPaidPlanCode(selectedPlan.code)) {
+        await ctx.replyWithInvoice(
+          buildPlanInvoice(selectedPlan, state.user.id, config.testYooKassaToken),
+        );
+        return;
+      }
+
+      state.user = await api.changeMyPlan(state.user.id, selectedPlan.code);
       // @ts-ignore
       await ctx.reply(`Тариф успешно обновлен 🎉.\nТекущий тариф: ${mapCurrentPlanToEmoji[state.user.planCode]}`, MENU_KEYBOARD);
     } catch (error) {
       await ctx.reply(toErrorText(error));
+    }
+  });
+
+  bot.on("pre_checkout_query", async (ctx) => {
+    try {
+      const payload = parsePlanPaymentPayload(ctx.update.pre_checkout_query.invoice_payload);
+      if (!payload || !isPaidPlanCode(payload.planCode)) {
+        await ctx.answerPreCheckoutQuery(false, "Некорректные данные платежа.");
+        return;
+      }
+
+      const chatId = ctx.from?.id;
+      if (typeof chatId !== "number") {
+        await ctx.answerPreCheckoutQuery(false, "Не удалось определить пользователя.");
+        return;
+      }
+      const state = await upsertUserState(chatId, stateByChatId, api, ctx.from?.first_name);
+      if (payload.userId !== state.user.id) {
+        await ctx.answerPreCheckoutQuery(false, "Платеж привязан к другому пользователю.");
+        return;
+      }
+
+      const plan = (await api.listPlans()).find(
+        (item) => item.code === payload.planCode && item.isActive,
+      );
+      if (!plan) {
+        await ctx.answerPreCheckoutQuery(false, "Тариф недоступен.");
+        return;
+      }
+
+      await ctx.answerPreCheckoutQuery(true);
+    } catch (_error) {
+      await ctx.answerPreCheckoutQuery(false, "Не удалось обработать платеж.");
+    }
+  });
+
+  bot.on("successful_payment", async (ctx) => {
+    try {
+      const payment = ctx.message.successful_payment;
+      const payload = parsePlanPaymentPayload(payment.invoice_payload);
+      if (!payload || !isPaidPlanCode(payload.planCode)) {
+        await ctx.reply("Оплата получена, но тариф не удалось определить. Напишите в поддержку.");
+        return;
+      }
+
+      const state = await upsertUserState(
+        ctx.chat.id,
+        stateByChatId,
+        api,
+        ctx.from?.first_name,
+      );
+      if (payload.userId !== state.user.id) {
+        await ctx.reply("Оплата получена для другого пользователя. Напишите в поддержку.");
+        return;
+      }
+
+      state.user = await api.changeMyPlan(state.user.id, payload.planCode);
+      // @ts-ignore
+      await ctx.reply(`Платеж прошел успешно ✅\nТариф активирован: ${mapCurrentPlanToEmoji[state.user.planCode]}`, MENU_KEYBOARD);
+    } catch (error) {
+      await ctx.reply(`Оплата прошла, но не удалось активировать тариф: ${toErrorText(error)}`);
     }
   });
 
@@ -743,6 +822,103 @@ function formatPlanQuote(plan: {
     `<blockquote>${(plan.description)}</blockquote>\n`,
   ];
   return planLines.join("\n");
+}
+
+function buildPlanInvoice(
+  plan: { code: string; name: string; description: string; price: number; currency: string },
+  userId: string,
+  providerToken: string,
+): {
+  title: string;
+  description: string;
+  payload: string;
+  provider_token: string;
+  currency: string;
+  prices: Array<{ label: string; amount: number }>;
+  start_parameter: string;
+  need_email: boolean;
+  send_email_to_provider: boolean;
+  provider_data: string;
+} {
+  const normalizedCurrency = plan.currency.toUpperCase();
+  return {
+    title: `Тариф ${plan.name}`,
+    description: compactText(plan.description),
+    payload: createPlanPaymentPayload(userId, plan.code),
+    provider_token: providerToken,
+    currency: normalizedCurrency,
+    prices: [
+      {
+        label: `Оплата тарифа ${plan.name}`,
+        amount: toMinorAmount(plan.price, normalizedCurrency),
+      },
+    ],
+    start_parameter: `plan-${plan.code}`,
+    need_email: true,
+    send_email_to_provider: true,
+    provider_data: JSON.stringify({
+      receipt: {
+        items: [
+          {
+            description: `Подписка ${plan.name}`,
+            quantity: "1.00",
+            amount: {
+              value: toMajorAmountString(plan.price, normalizedCurrency),
+              currency: normalizedCurrency,
+            },
+            vat_code: 1,
+            payment_mode: "full_payment",
+            payment_subject: "service",
+          },
+        ],
+      },
+    }),
+  };
+}
+
+function isPaidPlanCode(planCode: string): boolean {
+  return PAID_PLAN_CODES.has(planCode);
+}
+
+function createPlanPaymentPayload(userId: string, planCode: string): string {
+  return `${PAYMENT_PAYLOAD_PREFIX}${userId}:${planCode}`;
+}
+
+function parsePlanPaymentPayload(payload: string): { userId: string; planCode: string } | null {
+  if (!payload.startsWith(PAYMENT_PAYLOAD_PREFIX)) {
+    return null;
+  }
+
+  const raw = payload.slice(PAYMENT_PAYLOAD_PREFIX.length);
+  const separatorIndex = raw.lastIndexOf(":");
+  if (separatorIndex <= 0) {
+    return null;
+  }
+
+  const userId = raw.slice(0, separatorIndex).trim();
+  const planCode = raw.slice(separatorIndex + 1).trim();
+  if (!userId || !planCode) {
+    return null;
+  }
+
+  return { userId, planCode };
+}
+
+function compactText(value: string): string {
+  return value
+    .replaceAll("\n", " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function toMinorAmount(price: number, currency: string): number {
+  const exponent = CURRENCY_EXPONENT_BY_CODE[currency.toUpperCase()] ?? 2;
+  return Math.round(price * 10 ** exponent);
+}
+
+function toMajorAmountString(price: number, currency: string): string {
+  const exponent = CURRENCY_EXPONENT_BY_CODE[currency.toUpperCase()] ?? 2;
+  return price.toFixed(exponent);
 }
 
 function escapeHtml(value: string): string {
