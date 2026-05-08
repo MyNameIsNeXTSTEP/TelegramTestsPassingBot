@@ -1,5 +1,6 @@
 import { Markup, Telegraf } from "telegraf";
 import { randomUUID } from "node:crypto";
+import { readFile } from "node:fs/promises";
 
 import type { BotConfig } from "./config.js";
 import { BotApiClient } from "./apiClient.js";
@@ -41,6 +42,8 @@ const CURRENCY_EXPONENT_BY_CODE: Record<string, number> = {
 };
 const SBP_STATUS_POLL_INTERVAL_MS = 5000;
 const SBP_STATUS_POLL_ATTEMPTS = 120;
+const BROADCAST_COMMAND_NAME = "broadcast";
+const BROADCAST_CANCEL_COMMAND_NAME = "cancel_broadcast";
 
 const mapCurrentPlanToEmoji = {
   "free": "Бесплатный 🤓",
@@ -59,6 +62,7 @@ export function buildBot(config: BotConfig): Telegraf {
   const api = new BotApiClient(config.apiBaseUrl);
   const stateByChatId = new Map<number, ChatState>();
   const pendingSbpPayments = new Map<string, { userId: string; planCode: string; chatId: number }>();
+  const pendingBroadcastByChatId = new Set<number>();
 
   bot.start(async (ctx) => {
     try {
@@ -86,6 +90,74 @@ export function buildBot(config: BotConfig): Telegraf {
 
   bot.command("plans", async (ctx) => {
     await showPlans(ctx.chat.id, stateByChatId, api, ctx);
+  });
+
+  bot.command(BROADCAST_COMMAND_NAME, async (ctx) => {
+    if (!isAdminChatId(ctx.chat.id, config.adminTelegramId)) {
+      await ctx.reply("Команда доступна только администратору.");
+      return;
+    }
+
+    pendingBroadcastByChatId.add(ctx.chat.id);
+    await ctx.reply(
+      [
+        "Режим рассылки включен.",
+        "Отправьте следующим сообщением текст для рассылки всем пользователям.",
+        `Для отмены используйте /${BROADCAST_CANCEL_COMMAND_NAME}.`,
+      ].join("\n"),
+    );
+  });
+
+  bot.command(BROADCAST_CANCEL_COMMAND_NAME, async (ctx) => {
+    if (!isAdminChatId(ctx.chat.id, config.adminTelegramId)) {
+      await ctx.reply("Команда доступна только администратору.");
+      return;
+    }
+
+    if (!pendingBroadcastByChatId.has(ctx.chat.id)) {
+      await ctx.reply("Активной рассылки нет.");
+      return;
+    }
+
+    pendingBroadcastByChatId.delete(ctx.chat.id);
+    await ctx.reply("Рассылка отменена.");
+  });
+
+  bot.on("text", async (ctx, next) => {
+    if (!isAdminChatId(ctx.chat.id, config.adminTelegramId)) {
+      await next();
+      return;
+    }
+    if (!pendingBroadcastByChatId.has(ctx.chat.id)) {
+      await next();
+      return;
+    }
+
+    const commandName = getCommandName(ctx.message.text);
+    if (commandName === BROADCAST_CANCEL_COMMAND_NAME) {
+      pendingBroadcastByChatId.delete(ctx.chat.id);
+      await ctx.reply("Рассылка отменена.");
+      return;
+    }
+    if (commandName) {
+      await ctx.reply(`Сейчас включен режим рассылки. Для отмены используйте /${BROADCAST_CANCEL_COMMAND_NAME}.`);
+      return;
+    }
+
+    pendingBroadcastByChatId.delete(ctx.chat.id);
+    try {
+      const result = await sendBroadcastMessage(bot, ctx.message.text);
+      await ctx.reply(
+        [
+          "Рассылка завершена.",
+          `Всего пользователей: ${result.total}`,
+          `Успешно отправлено: ${result.sent}`,
+          `Не доставлено: ${result.failed}`,
+        ].join("\n"),
+      );
+    } catch (error) {
+      await ctx.reply(`Не удалось выполнить рассылку: ${toErrorText(error)}`);
+    }
   });
 
   bot.hears("Практика", async (ctx) => {
@@ -1456,4 +1528,88 @@ function formatModeLabel(mode: SessionMode): string {
     return "Практика 10 вопросов";
   }
   return "Экзамен";
+}
+
+function isAdminChatId(chatId: number, adminTelegramId: string): boolean {
+  return String(chatId) === adminTelegramId;
+}
+
+function getCommandName(text: string): string | null {
+  const firstToken = text.trim().split(/\s+/, 1)[0];
+  if (typeof firstToken !== "string" || !firstToken.startsWith("/")) {
+    return null;
+  }
+
+  const commandToken = firstToken.slice(1).split("@", 1)[0];
+  if (typeof commandToken !== "string" || !commandToken) {
+    return null;
+  }
+  return commandToken.toLowerCase();
+}
+
+async function sendBroadcastMessage(
+  bot: Telegraf,
+  messageText: string,
+): Promise<{ total: number; sent: number; failed: number }> {
+  const telegramChatIds = await loadRegisteredTelegramChatIds();
+  let sent = 0;
+  let failed = 0;
+
+  for (const chatId of telegramChatIds) {
+    try {
+      await bot.telegram.sendMessage(chatId, messageText);
+      sent += 1;
+    } catch {
+      failed += 1;
+    }
+  }
+
+  return {
+    total: telegramChatIds.length,
+    sent,
+    failed,
+  };
+}
+
+async function loadRegisteredTelegramChatIds(): Promise<number[]> {
+  const rawUsers = await readFile(new URL("../../data/users.json", import.meta.url), "utf8");
+  const parsedUsers: unknown = JSON.parse(rawUsers);
+  if (!Array.isArray(parsedUsers)) {
+    throw new Error("Некорректный формат users.json");
+  }
+
+  const chatIds = new Set<number>();
+  for (const user of parsedUsers) {
+    const chatId = getUserTelegramChatId(user);
+    if (typeof chatId === "number") {
+      chatIds.add(chatId);
+    }
+  }
+
+  return Array.from(chatIds);
+}
+
+function getUserTelegramChatId(value: unknown): number | null {
+  if (!isRecord(value)) {
+    return null;
+  }
+
+  const rawTelegramId = value.telegramId;
+  if (typeof rawTelegramId === "number" && Number.isInteger(rawTelegramId) && rawTelegramId > 0) {
+    return rawTelegramId;
+  }
+  if (typeof rawTelegramId !== "string") {
+    return null;
+  }
+
+  const normalized = rawTelegramId.trim();
+  if (!/^\d+$/.test(normalized)) {
+    return null;
+  }
+  const parsed = Number(normalized);
+  if (!Number.isSafeInteger(parsed) || parsed <= 0) {
+    return null;
+  }
+
+  return parsed;
 }

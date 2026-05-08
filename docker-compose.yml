@@ -35,6 +35,7 @@ services:
       TEST_YOOKASSA_TOKEN: ${TEST_YOOKASSA_TOKEN}
       TEST_YOOKASSA_SHOP_ID: ${TEST_YOOKASSA_SHOP_ID}
       TEST_YOOKASSA_SECRET_KEY: ${TEST_YOOKASSA_SECRET_KEY}
+      ADMIN_TELEGRAM_ID: ${ADMIN_TELEGRAM_ID:-1309182112}
     depends_on:
       api:
         condition: service_healthy

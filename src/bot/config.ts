@@ -1,6 +1,7 @@
 export interface BotConfig {
   token: string;
   apiBaseUrl: string;
+  adminTelegramId: string;
   testYooKassaToken: string;
   testYooKassaShopId: string;
   testYooKassaSecretKey: string;
@@ -10,6 +11,10 @@ export function loadBotConfig(): BotConfig {
   const token = process.env.BOT_TOKEN?.trim();
   if (!token) {
     throw new Error("BOT_TOKEN is required");
+  }
+  const adminTelegramId = process.env.ADMIN_TELEGRAM_ID?.trim();
+  if (!adminTelegramId) {
+    throw new Error("ADMIN_TELEGRAM_ID is required");
   }
   const testYooKassaToken = process.env.TEST_YOOKASSA_TOKEN?.trim();
   if (!testYooKassaToken) {
@@ -27,6 +32,7 @@ export function loadBotConfig(): BotConfig {
   return {
     token,
     apiBaseUrl: (process.env.BOT_API_BASE_URL ?? "http://127.0.0.1:3001").replace(/\/+$/, ""),
+    adminTelegramId,
     testYooKassaToken,
     testYooKassaShopId,
     testYooKassaSecretKey,
