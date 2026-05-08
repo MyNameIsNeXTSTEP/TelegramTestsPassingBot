@@ -44,6 +44,8 @@ export class UserRepository {
       name,
       role,
       planCode: "free",
+      planStartAtIso: null,
+      planEndAtIso: null,
       dailyUsage: {
         dateIso: now.slice(0, 10),
         sessionsStarted: 0,
@@ -58,7 +60,11 @@ export class UserRepository {
     return newUser;
   }
 
-  public async updatePlanCode(userId: string, planCode: string): Promise<User> {
+  public async updatePlanCode(
+    userId: string,
+    planCode: string,
+    period?: { startAtIso: string | null; endAtIso: string | null },
+  ): Promise<User> {
     const users = await this.readAll();
     const user = users.find((item) => item.id === userId);
     if (!user) {
@@ -66,6 +72,10 @@ export class UserRepository {
     }
 
     user.planCode = planCode;
+    if (period) {
+      user.planStartAtIso = period.startAtIso;
+      user.planEndAtIso = period.endAtIso;
+    }
     user.updatedAtIso = new Date().toISOString();
     await this.writeAll(users);
     return user;

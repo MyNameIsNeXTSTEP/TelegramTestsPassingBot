@@ -15,10 +15,13 @@ type ChatStep =
   | "in-session"
   | "single-finished";
 
+type FlowIntent = "practice" | "change-selection";
+
 interface ChatState {
   user: User;
   step: ChatStep;
   subjects: Subject[];
+  flowIntent?: FlowIntent;
   selectedCourse?: number;
   selectedFaculty?: string;
   selectedSubject?: string;
@@ -27,7 +30,10 @@ interface ChatState {
   activeQuestionId?: number;
 }
 
-const MENU_KEYBOARD = Markup.keyboard([["Практика", "Тарифы"], ["Статус"]]).resize();
+const MENU_KEYBOARD = Markup.keyboard([
+  ["Практика", "Тарифы"],
+  ["Сменить факультет/курс", "Статус"],
+]).resize();
 const PAID_PLAN_CODES = new Set(["basic", "pro"]);
 const PAYMENT_PAYLOAD_PREFIX = "plan:";
 const CURRENCY_EXPONENT_BY_CODE: Record<string, number> = {
@@ -59,12 +65,15 @@ export function buildBot(config: BotConfig): Telegraf {
       const state = await upsertUserState(ctx.chat.id, stateByChatId, api, ctx.from?.first_name);
       await ctx.reply(
         [
-          `Добро пожаловать, ${state.user.name}!`,
+          `Добро пожаловать, ${state.user.name}!\n`,
           // @ts-ignore
-          `Текущий тариф: ${mapCurrentPlanToEmoji[state.user.planCode]}`,
+          `<b>Текущий тариф:</b> ${mapCurrentPlanToEmoji[state.user.planCode]}\n`,
           "Выберите действие из меню ниже.",
         ].join("\n"),
-        MENU_KEYBOARD,
+        {
+          parse_mode: "HTML",
+          reply_markup: MENU_KEYBOARD.reply_markup,
+        },
       );
     } catch (error) {
       await ctx.reply(toErrorText(error));
@@ -83,6 +92,10 @@ export function buildBot(config: BotConfig): Telegraf {
     await startPracticeFlow(ctx.chat.id, stateByChatId, api, ctx);
   });
 
+  bot.hears("Сменить факультет/курс", async (ctx) => {
+    await startSelectionFlow(ctx.chat.id, stateByChatId, api, ctx);
+  });
+
   bot.hears("Тарифы", async (ctx) => {
     await showPlans(ctx.chat.id, stateByChatId, api, ctx);
   });
@@ -92,11 +105,15 @@ export function buildBot(config: BotConfig): Telegraf {
       const state = await upsertUserState(ctx.chat.id, stateByChatId, api, ctx.from?.first_name);
       await ctx.reply(
         [
-          `Пользователь: ${state.user.name}`,
-          `Тариф: ${state.user.planCode}`,
-          `Сессий за день: ${state.user.dailyUsage.sessionsStarted}`,
-          `Ответов за день: ${state.user.dailyUsage.questionsAnswered}`,
+          `<b>Пользователь:</b> ${state.user.name}`,
+          // @ts-ignore
+          `<b>Тариф:</b> ${mapCurrentPlanToEmoji[state.user.planCode]} (до ${formatPlanEndDate(state.user.planEndAtIso)})\n`,
+          `<b>Сессий за день:</b> ${state.user.dailyUsage.sessionsStarted}`,
+          `<b>Ответов за день:</b> ${state.user.dailyUsage.questionsAnswered}`,
         ].join("\n"),
+        {
+          parse_mode: "HTML",
+        },
       );
     } catch (error) {
       await ctx.reply(toErrorText(error));
@@ -143,17 +160,9 @@ export function buildBot(config: BotConfig): Telegraf {
         await ctx.reply(`Для курса ${state.selectedCourse} и факультета ${faculty} на данный момент тестов нет.`);
         return;
       }
-      const size = 2;
-      const chunks = splitArrayIntoChunks(subjectNames, size);
       await ctx.reply(
         `Курс: ${state.selectedCourse}\nФакультет: ${faculty}\nВыберите предмет:`,
-        Markup.inlineKeyboard(
-          chunks.map((chunk) =>
-            chunk.map((subjectName, subjectIndex) =>
-            Markup.button.callback(subjectName, `subject:${subjectIndex}`),
-            ),
-          ),
-        ),
+        buildSubjectKeyboard(subjectNames),
       );
     } catch (error) {
       await ctx.reply(toErrorText(error));
@@ -260,6 +269,37 @@ export function buildBot(config: BotConfig): Telegraf {
       }
 
       state.selectedTestType = ctx.match[1] as TestType;
+
+      if (state.flowIntent === "change-selection") {
+        const selectedSubject = findSelectedSubject(state);
+        if (!selectedSubject) {
+          await ctx.reply("Не удалось определить предмет. Запустите изменение выбора снова.");
+          return;
+        }
+        state.user = await api.updatePreferences(state.user.id, {
+          ...(state.selectedCourse ? { course: state.selectedCourse } : {}),
+          ...(state.selectedFaculty ? { faculty: state.selectedFaculty } : {}),
+          subjectId: selectedSubject.id,
+        });
+        state.step = "idle";
+        state.flowIntent = undefined;
+        await ctx.reply(
+          [
+            "<b>Выбор сохранен</b> ✅\n",
+            `<b>Курс:</b> ${selectedSubject.course}`,
+            `<b>Факультет:</b> ${selectedSubject.faculty}`,
+            `<b>Предмет:</b> ${selectedSubject.subject}`,
+            `<b>Тип теста:</b> ${formatTestTypeLabel(selectedSubject.testType)}\n`,
+            "Теперь вы можете выбрать действия для продолжения из меню ниже 👇",
+          ].join("\n"),
+          {
+            parse_mode: "HTML",
+            reply_markup: MENU_KEYBOARD.reply_markup,
+          },
+        );
+        return;
+      }
+
       state.step = "choose-mode";
       await ctx.reply(
         "Выберите режим:",
@@ -331,7 +371,9 @@ export function buildBot(config: BotConfig): Telegraf {
         return;
       }
 
-      await ctx.reply(`Сессия начата в режиме: ${formatModeLabel(mode)}`);
+      await ctx.reply(`<i>*Сессия начата в режиме: ${formatModeLabel(mode)}</i>`, {
+        parse_mode: "HTML",
+      });
       await sendQuestion(ctx, started.firstQuestion, started.session.progress);
     } catch (error) {
       await ctx.reply(toErrorText(error));
@@ -375,8 +417,16 @@ export function buildBot(config: BotConfig): Telegraf {
       const correctOptionsText = result.correctOptionIds.join(", ");
       const answerText = result.isCorrect
         ? "Правильно 👏"
-        : `К сожалению ответ неверный 🥲.\nПравильный(е) вариант(ы): ${correctOptionsText}.`;
-      await ctx.reply(answerText);
+        : `К сожалению ответ неверный 🥲.\n\nПравильный ответ №${result.correctOptionIds[0]}:\n"<b>${
+          result.question.options
+            .filter(opt => result.correctOptionIds.includes(opt.optionId))
+            .map(opt => opt.text)
+            .join(", ")
+        }</b>"`;
+
+      await ctx.reply(answerText, {
+        parse_mode: "HTML",
+      });
 
       if (result.nextQuestion) {
         state.activeQuestionId = result.nextQuestion.id;
@@ -482,6 +532,7 @@ export function buildBot(config: BotConfig): Telegraf {
       }
 
       state.step = "choose-subject";
+      state.flowIntent = "practice";
       state.selectedSubject = undefined;
       state.selectedTestType = undefined;
       state.activeSessionId = undefined;
@@ -505,9 +556,22 @@ export function buildBot(config: BotConfig): Telegraf {
         await ctx.reply("Код тарифа отсутствует.");
         return;
       }
-      const selectedPlan = (await api.listPlans()).find((plan) => plan.code === planCode && plan.isActive);
+      const availablePlans = await api.listPlans();
+      const selectedPlan = availablePlans.find((plan) => plan.code === planCode && plan.isActive);
       if (!selectedPlan) {
         await ctx.reply("Тариф недоступен.");
+        return;
+      }
+
+      if (selectedPlan.code === "free" && isPaidPlanCode(state.user.planCode)) {
+        await ctx.reply(
+          `Невозможно переключиться на тариф <b>"Бесплатный"</b>, имея активный тариф <b>"${formatPlanName(
+            state.user.planCode,
+          )}"</b>`,
+          {
+            parse_mode: "HTML",
+          },
+        );
         return;
       }
 
@@ -682,8 +746,33 @@ async function startPracticeFlow(
     }
 
     state.subjects = subjects;
+    state.flowIntent = "practice";
+    const preferredSubjectId = state.user.preferences?.subjectId;
+    const preferredSubject = preferredSubjectId
+      ? subjects.find((subject) => subject.id === preferredSubjectId)
+      : undefined;
+    if (preferredSubject) {
+      applySelectedSubjectToState(state, preferredSubject);
+      state.step = "choose-mode";
+      await ctx.reply(
+        [
+          "Ваш текущий факультет/курс:\n",
+          `<b>Курс:</b> ${preferredSubject.course}`,
+          `<b>Факультет:</b> ${preferredSubject.faculty}`,
+          `<b>Предмет:</b> ${preferredSubject.subject}`,
+          `<b>Тип теста:</b> ${formatTestTypeLabel(preferredSubject.testType)}`,
+        ].join("\n"),
+        {
+          parse_mode: "HTML",
+        },
+      );
+      await sendModeSelection(ctx);
+      return;
+    }
+
     state.step = "choose-course";
     const preferenceCourse = state.user.preferences?.course;
+    const preferenceFaculty = state.user.preferences?.faculty?.trim();
     const availableCourses = uniqueSortedNumbers(subjects.map((subject) => subject.course));
     if (availableCourses.length === 0) {
       await ctx.reply("Нет доступных курсов с тестами.");
@@ -699,6 +788,21 @@ async function startPracticeFlow(
     state.activeSessionId = undefined;
     state.activeQuestionId = undefined;
 
+    if (state.selectedCourse && preferenceFaculty) {
+      const availableFaculties = uniqueSorted(
+        subjects
+          .filter((subject) => subject.course === state.selectedCourse)
+          .map((subject) => subject.faculty),
+      );
+      if (availableFaculties.includes(preferenceFaculty)) {
+        state.selectedFaculty = preferenceFaculty;
+        state.step = "choose-subject";
+        await ctx.reply("Использую сохраненные курс и факультет. Выберите предмет:");
+        await sendSubjectSelection(ctx, state.subjects, state.selectedFaculty, state.selectedCourse);
+        return;
+      }
+    }
+
     await ctx.reply(
       state.selectedCourse
         ? `Сохраненный курс: ${state.selectedCourse}\nВыберите курс (можно изменить):`
@@ -706,6 +810,57 @@ async function startPracticeFlow(
       Markup.inlineKeyboard(
         availableCourses.map((course) => [Markup.button.callback(String(course), `course:${course}`)]),
       ),
+    );
+  } catch (error) {
+    await ctx.reply(toErrorText(error));
+  }
+}
+
+async function startSelectionFlow(
+  chatId: number,
+  stateByChatId: Map<number, ChatState>,
+  api: BotApiClient,
+  ctx: { reply: (...args: any[]) => Promise<unknown>; from?: { first_name?: string } },
+): Promise<void> {
+  try {
+    const state = await upsertUserState(chatId, stateByChatId, api, ctx.from?.first_name);
+    const subjects = await api.listSubjects();
+    if (subjects.length === 0) {
+      await ctx.reply("Нет доступных предметов.");
+      return;
+    }
+
+    state.subjects = subjects;
+    state.flowIntent = "change-selection";
+    state.step = "choose-course";
+    const preferenceCourse = state.user.preferences?.course;
+    const availableCourses = uniqueSortedNumbers(subjects.map((subject) => subject.course));
+    if (availableCourses.length === 0) {
+      await ctx.reply("Нет доступных курсов с тестами.");
+      return;
+    }
+    state.selectedCourse =
+      typeof preferenceCourse === "number" &&
+      Number.isInteger(preferenceCourse) &&
+      availableCourses.includes(preferenceCourse)
+        ? preferenceCourse
+        : undefined;
+    state.selectedFaculty = undefined;
+    state.selectedSubject = undefined;
+    state.selectedTestType = undefined;
+    state.activeSessionId = undefined;
+    state.activeQuestionId = undefined;
+
+    await ctx.reply(
+      state.selectedCourse
+        ? `<b>Текущий курс:</b> ${state.selectedCourse}\n\n<b>Выберите курс:</b>`
+        : `<b>Выберите курс:</b>`,
+      {
+        parse_mode: "HTML",
+        reply_markup: Markup.inlineKeyboard(
+          availableCourses.map((course) => [Markup.button.callback(String(course), `course:${course}`)]),
+        ).reply_markup,
+      },
     );
   } catch (error) {
     await ctx.reply(toErrorText(error));
@@ -729,7 +884,7 @@ async function showPlans(
     await ctx.reply(
       [
         // @ts-ignore
-        `Текущий тариф: <b>${mapCurrentPlanToEmoji[state.user.planCode]}</b>`,
+        `<b>Текущий тариф:</b> ${mapCurrentPlanToEmoji[state.user.planCode]}`,
         "",
         ...plans.map((plan) => formatPlanQuote(plan)),
       ].join("\n"),
@@ -776,11 +931,18 @@ async function sendQuestion(
   progress: { answeredQuestions: number; totalQuestions: number },
   errorsCount = 0,
 ): Promise<void> {
+  const optionsText = question.options
+    .map((option) => `${option.optionId}. ${escapeHtml(option.text)}`)
+    .join("\n");
   const text = [
     `Вопрос ${progress.answeredQuestions + 1}/${progress.totalQuestions}`,
     `Ошибок: ${errorsCount}`,
     "",
-    `<blockquote>${question.title}</blockquote>`,
+    `<b>Вопрос №${question.id}:</b>`,
+    `<blockquote>${escapeHtml(question.title)}</blockquote>`,
+    "",
+    `<b>Варианты ответа:</b>`,
+    `<blockquote>${optionsText}</blockquote>`,
   ].join("\n");
 
   await ctx.reply(text, {
@@ -811,18 +973,9 @@ async function sendSubjectSelection(
       .filter((subject) => subject.course === selectedCourse && subject.faculty === selectedFaculty)
       .map((subject) => subject.subject),
   );
-  const size = 2;
-  const chunks = splitArrayIntoChunks(subjectNames, size);
-  console.log(chunks, 'CHUNKS');
   await ctx.reply(
     `Курс: ${selectedCourse}\nФакультет: ${selectedFaculty}\nВыберите предмет:`,
-    Markup.inlineKeyboard(
-      chunks.map((chunk) =>
-        chunk.map((subjectName, subjectIndex) =>
-          Markup.button.callback(subjectName, `subject:${subjectIndex}`),
-        ),
-      ),
-    ),
+    buildSubjectKeyboard(subjectNames),
   );
 }
 
@@ -851,16 +1004,19 @@ function buildAnswerKeyboard(
     (option) => selectedIds.has(option.optionId) && !option.isCorrect,
   );
 
+  const chunks = splitArrayIntoChunks(question.options, 2);
+
   return Markup.inlineKeyboard(
-    question.options.map((option) => {
-      const isSelected = selectedIds.has(option.optionId);
-      const shouldMarkAsCorrect = option.isCorrect && (isSelected || hasIncorrectSelection || isCompleted);
-      const prefix = shouldMarkAsCorrect ? "✅" : isSelected ? "❌" : "";
-      const callbackData = isCompleted || isSelected ? `done:${option.optionId}` : `answer:${option.optionId}`;
-      return [
-        Markup.button.callback(`${prefix} ${option.optionId}. ${option.text}`, callbackData)
-      ];
-    }),
+    chunks.map((chunk) =>
+      chunk.map((option) => {
+        const isSelected = selectedIds.has(option.optionId);
+        const shouldMarkAsCorrect = option.isCorrect && (isSelected || hasIncorrectSelection || isCompleted);
+        const prefix = shouldMarkAsCorrect ? "✅" : isSelected ? "❌" : "";
+        const callbackData = isCompleted || isSelected ? `done:${option.optionId}` : `answer:${option.optionId}`;
+        const buttonLabel = prefix ? `${prefix} ${option.optionId}` : `${option.optionId}`;
+        return Markup.button.callback(buttonLabel, callbackData);
+      }),
+    ),
   );
 }
 
@@ -876,6 +1032,15 @@ function findSelectedSubject(state: ChatState): Subject | undefined {
       subject.subject === state.selectedSubject &&
       subject.testType === state.selectedTestType,
   );
+}
+
+function applySelectedSubjectToState(state: ChatState, subject: Subject): void {
+  state.selectedCourse = subject.course;
+  state.selectedFaculty = subject.faculty;
+  state.selectedSubject = subject.subject;
+  state.selectedTestType = subject.testType;
+  state.activeSessionId = undefined;
+  state.activeQuestionId = undefined;
 }
 
 function requireState(chatId: number | undefined, store: Map<number, ChatState>): ChatState {
@@ -905,6 +1070,20 @@ function getOrderedTestTypes(values: TestType[]): TestType[] {
     credit: 1,
   };
   return [...new Set(values)].sort((a, b) => priority[a] - priority[b]);
+}
+
+function buildSubjectKeyboard(subjectNames: string[]) {
+  const buttonsPerRow = 2;
+  const rows = Array.from(
+    { length: Math.ceil(subjectNames.length / buttonsPerRow) },
+    (_value, rowIndex) => {
+      const start = rowIndex * buttonsPerRow;
+      return subjectNames.slice(start, start + buttonsPerRow).map((subjectName, offset) =>
+        Markup.button.callback(subjectName, `subject:${start + offset}`),
+      );
+    },
+  );
+  return Markup.inlineKeyboard(rows);
 }
 
 function formatNoTestsForSelectionError(
@@ -1228,6 +1407,36 @@ function sleep(ms: number): Promise<void> {
 
 function formatPlanLabel(planCode: string): string {
   return mapCurrentPlanToEmoji[planCode as keyof typeof mapCurrentPlanToEmoji] ?? planCode;
+}
+
+function formatPlanName(planCode: string): string {
+  if (planCode === "free") {
+    return "Бесплатный";
+  }
+  if (planCode === "basic") {
+    return "Базовый";
+  }
+  if (planCode === "pro") {
+    return "Pro";
+  }
+  return planCode;
+}
+
+function formatPlanEndDate(planEndAtIso?: string | null): string {
+  if (!planEndAtIso) {
+    return "без срока";
+  }
+
+  const date = new Date(planEndAtIso);
+  if (Number.isNaN(date.getTime())) {
+    return "без срока";
+  }
+
+  return new Intl.DateTimeFormat("ru-RU", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  }).format(date);
 }
 
 function escapeHtml(value: string): string {

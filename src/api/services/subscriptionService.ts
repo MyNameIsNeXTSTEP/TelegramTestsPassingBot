@@ -29,7 +29,9 @@ export class SubscriptionService {
       throw new Error(`Тариф '${planCode}' недоступен`);
     }
 
-    return this.userRepository.updatePlanCode(userId, planCode);
+    const nowIso = new Date().toISOString();
+    const planPeriod = resolvePlanPeriod(planCode, nowIso);
+    return this.userRepository.updatePlanCode(userId, planCode, planPeriod);
   }
 
   public async resolveLimitsForUser(user: User): Promise<PlanLimits> {
@@ -60,4 +62,27 @@ export class SubscriptionService {
       );
     }
   }
+}
+
+function resolvePlanPeriod(
+  planCode: string,
+  startAtIso: string,
+): { startAtIso: string | null; endAtIso: string | null } {
+  if (planCode === "basic" || planCode === "pro") {
+    return {
+      startAtIso,
+      endAtIso: addDays(startAtIso, 30),
+    };
+  }
+
+  return {
+    startAtIso: null,
+    endAtIso: null,
+  };
+}
+
+function addDays(iso: string, days: number): string {
+  const date = new Date(iso);
+  date.setUTCDate(date.getUTCDate() + days);
+  return date.toISOString();
 }

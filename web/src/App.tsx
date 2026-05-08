@@ -26,6 +26,7 @@ interface User {
   telegramId: string;
   name: string;
   planCode: string;
+  planEndAtIso?: string | null;
   preferences?: UserPreferences;
   dailyUsage: {
     sessionsStarted: number;
@@ -609,11 +610,23 @@ function App() {
               ) : null}
             </div>
           </div>
-          <div className="mt-2 flex items-center gap-2 h-8">
-            <Badge variant="outline" className="border-sky-400/60 text-sky-200 h-8 w-16">
-              {user?.planCode.toUpperCase() ?? "plan"}
-            </Badge>
-            {selectedCourse ? <Badge className="bg-[#314760] text-slate-100 h-8 w-16">Курс {selectedCourse}</Badge> : null}
+          <div className="mt-2 flex items-start flex-col gap-2 h-14">
+            <div className="flex items-center gap-2">
+              <Badge variant="outline" className="border-sky-400/60 text-sky-200 h-8 w-16">
+                {user?.planCode.toUpperCase() ?? "plan"}
+              </Badge>
+              <span className="text-xs text-slate-300">
+                до {formatPlanEndDate(user?.planEndAtIso)}
+              </span>
+            </div>
+            <div className="flex items-center gap-2">
+              {selectedCourse ? <Badge className="bg-[#314760] text-slate-100 h-8 w-16">Курс {selectedCourse}</Badge> : null}
+              {selectedFaculty ? (
+                <Badge className="bg-[#314760] text-slate-100 h-8 w-28">
+                  {selectedFaculty}
+                </Badge>
+              ) : null}
+            </div>
           </div>
         </CardHeader>
         {error ? <CardContent className="pt-0 text-xs text-red-300">{error}</CardContent> : null}
@@ -909,4 +922,21 @@ function formatNoTestsForSelectionError(
   subjectName: string,
 ): string {
   return `Для факультета ${facultyName} по курсу ${courseNumber} для предмета ${subjectName} на данный момент тестов нет.`;
+}
+
+function formatPlanEndDate(planEndAtIso?: string | null): string {
+  if (!planEndAtIso) {
+    return "без срока";
+  }
+
+  const date = new Date(planEndAtIso);
+  if (Number.isNaN(date.getTime())) {
+    return "без срока";
+  }
+
+  return new Intl.DateTimeFormat("ru-RU", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  }).format(date);
 }

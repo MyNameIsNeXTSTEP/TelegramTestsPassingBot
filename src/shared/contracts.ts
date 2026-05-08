@@ -38,6 +38,8 @@ export interface User {
   name: string;
   role: UserRole;
   planCode: PlanCode | string;
+  planStartAtIso?: string | null;
+  planEndAtIso?: string | null;
   preferences?: UserPreferences;
   dailyUsage: DailyUsage;
   createdAtIso: string;
