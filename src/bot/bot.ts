@@ -499,12 +499,6 @@ export function buildBot(config: BotConfig): Telegraf {
         parse_mode: "HTML",
       });
 
-      if (result.nextQuestion) {
-        state.activeQuestionId = result.nextQuestion.id;
-        await sendQuestion(ctx, result.nextQuestion, result.session.progress, result.session.errors.length);
-        return;
-      }
-
       if (result.session.mode === "single") {
         state.step = "single-finished";
         state.activeSessionId = undefined;
@@ -517,6 +511,27 @@ export function buildBot(config: BotConfig): Telegraf {
             [Markup.button.callback("Сменить предмет", "single-change-subject")],
           ]),
         );
+        return;
+      }
+
+      if (result.session.status !== "active") {
+        state.step = "idle";
+        state.activeSessionId = undefined;
+        state.activeQuestionId = undefined;
+        await ctx.reply(
+          [
+            `Сессия завершена со статусом: ${result.session.status}`,
+            `Правильных ответов: ${result.session.progress.correctAnswers}/${result.session.progress.answeredQuestions}`,
+            `Ошибок: ${result.session.errors.length}`,
+          ].join("\n"),
+          MENU_KEYBOARD,
+        );
+        return;
+      }
+
+      if (result.nextQuestion) {
+        state.activeQuestionId = result.nextQuestion.id;
+        await sendQuestion(ctx, result.nextQuestion, result.session.progress, result.session.errors.length);
         return;
       }
 

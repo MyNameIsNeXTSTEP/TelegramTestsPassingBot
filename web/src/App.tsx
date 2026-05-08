@@ -508,16 +508,22 @@ function App() {
         data.isCorrect ? "Правильно 👏" : `К сожалению ответ неверный 🥲\nВерный вариант: ${data.correctOptionIds.join(", ")}`,
       );
 
+      if (data.session.mode === "single") {
+        setSingleFinished(true);
+        return;
+      }
+
+      if (data.session.status !== "active") {
+        setCurrentQuestion(data.question);
+        return;
+      }
+
       if (data.nextQuestion) {
         setCurrentQuestion(data.nextQuestion);
         setSelectedOptionIds([]);
         setQuestionCompleted(false);
         setHint(null);
         return;
-      }
-
-      if (data.session.mode === "single") {
-        setSingleFinished(true);
       }
     } catch (submitError) {
       setError(submitError instanceof Error ? submitError.message : "Ошибка отправки ответа");

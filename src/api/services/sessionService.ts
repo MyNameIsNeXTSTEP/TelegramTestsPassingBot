@@ -82,6 +82,10 @@ export class SessionService {
     sessionId: string;
   }): Promise<{ session: Session; currentQuestion: Question | null }> {
     const session = await this.requireOwnedSession(params.userId, params.sessionId);
+    if (session.status !== "active") {
+      return { session, currentQuestion: null };
+    }
+
     const questions = await this.testRepository.getQuestions(session.subjectId);
     const currentQuestionId = session.questionIds[session.progress.currentQuestionIndex];
 
@@ -210,7 +214,8 @@ export class SessionService {
       });
     }
 
-    const nextQuestionId = session.questionIds[session.progress.currentQuestionIndex];
+    const nextQuestionId =
+      session.status === "active" ? session.questionIds[session.progress.currentQuestionIndex] : undefined;
     return {
       session,
       question,
