@@ -8,12 +8,15 @@ services:
       API_PORT: ${API_PORT:-3001}
       DB_DIR: ${DB_DIR:-/app/db}
       DATA_DIR: ${DATA_DIR:-/app/data}
+      BACKUP_DIR: ${BACKUP_DIR:-/app/data-backups}
+      BACKUP_INTERVAL_SECONDS: ${BACKUP_INTERVAL_SECONDS:-3600}
       ADMIN_TELEGRAM_IDS: ${ADMIN_TELEGRAM_IDS:-}
     ports:
       - "${API_PORT:-3001}:3001"
     volumes:
       - ./db:${DB_DIR:-/app/db}
       - ./data:${DATA_DIR:-/app/data}
+      - ./data-backups:${BACKUP_DIR:-/app/data-backups}
     healthcheck:
       test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3001/health').then((res)=>process.exit(res.ok?0:1)).catch(()=>process.exit(1))"]
       interval: 15s

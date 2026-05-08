@@ -19,7 +19,9 @@ RUN npm ci --omit=dev
 COPY --from=build /app/dist ./dist
 COPY db ./db
 COPY data ./data
+COPY docker/api-entrypoint.sh /usr/local/bin/api-entrypoint.sh
+RUN chmod +x /usr/local/bin/api-entrypoint.sh
 
 EXPOSE 3001
 
-CMD ["node", "dist/api/server.js"]
+CMD ["/usr/local/bin/api-entrypoint.sh"]
