@@ -107,7 +107,7 @@ export function buildBot(config: BotConfig): Telegraf {
         [
           `<b>Пользователь:</b> ${state.user.name}`,
           // @ts-ignore
-          `<b>Тариф:</b> ${mapCurrentPlanToEmoji[state.user.planCode]} (до ${formatPlanEndDate(state.user.planEndAtIso)})\n`,
+          `<b>Тариф:</b> ${mapCurrentPlanToEmoji[state.user.planCode]} (${formatPlanEndDate(state.user.planEndAtIso)})\n`,
           `<b>Сессий за день:</b> ${state.user.dailyUsage.sessionsStarted}`,
           `<b>Ответов за день:</b> ${state.user.dailyUsage.questionsAnswered}`,
         ].join("\n"),
@@ -1073,7 +1073,7 @@ function getOrderedTestTypes(values: TestType[]): TestType[] {
 }
 
 function buildSubjectKeyboard(subjectNames: string[]) {
-  const buttonsPerRow = 2;
+  const buttonsPerRow = 1;
   const rows = Array.from(
     { length: Math.ceil(subjectNames.length / buttonsPerRow) },
     (_value, rowIndex) => {
@@ -1432,11 +1432,12 @@ function formatPlanEndDate(planEndAtIso?: string | null): string {
     return "без срока";
   }
 
-  return new Intl.DateTimeFormat("ru-RU", {
+  const dateString = new Intl.DateTimeFormat("ru-RU", {
     day: "2-digit",
     month: "2-digit",
     year: "numeric",
   }).format(date);
+  return `до ${dateString}`;
 }
 
 function escapeHtml(value: string): string {

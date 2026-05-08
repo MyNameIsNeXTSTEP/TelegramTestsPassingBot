@@ -306,30 +306,6 @@ function App() {
     await savePreferences({ mode });
   }
 
-  async function changePlan(planCode: string): Promise<void> {
-    if (!user) {
-      return;
-    }
-
-    setBusy(true);
-    setError(null);
-    try {
-      const data = await request<{ user: User }>(
-        "/subscriptions/me/plan",
-        {
-          method: "PATCH",
-          body: JSON.stringify({ planCode }),
-        },
-        user.id,
-      );
-      setUser(data.user);
-    } catch (planError) {
-      setError(planError instanceof Error ? planError.message : "Не удалось сменить тариф");
-    } finally {
-      setBusy(false);
-    }
-  }
-
   async function bootstrap(): Promise<void> {
     setBusy(true);
     setError(null);
@@ -588,11 +564,9 @@ function App() {
               {menuOpen ? (
                 <div className="absolute right-0 z-30 mt-2 w-44 rounded-xl border border-[#3a4f6b] bg-[#203148] p-1 shadow-xl">
                   {[
-                    { key: "mode", label: "Режим" },
                     { key: "course", label: "Курс" },
                     { key: "faculty", label: "Факультет" },
                     { key: "subject", label: "Предмет" },
-                    { key: "plan", label: "Тариф" },
                   ].map((item) => (
                     <button
                       key={item.key}
@@ -647,25 +621,9 @@ function App() {
       {accessState === "granted" && settingPanel ? (
         <Card className="mt-4 border-[#30445f] bg-[#1a2739]">
           <CardHeader className="pb-3">
-            <CardTitle className="text-sm">Настройки: {settingPanel}</CardTitle>
+            <CardTitle className="text-sm">Выбор {settingPanel === "course" ? "курса" : settingPanel === "faculty" ? "факультета" : settingPanel === "subject" ? "предмета" : "-"}</CardTitle>
           </CardHeader>
           <CardContent className="space-y-3">
-            {settingPanel === "mode"
-              ? MODE_ITEMS.map((item) => (
-                  <Button
-                    key={item.mode}
-                    variant={selectedMode === item.mode ? "default" : "outline"}
-                    className={cn(
-                      "w-full justify-between border-[#3a4f69] bg-[#22334a] text-slate-100 hover:bg-[#2b3f59]",
-                      selectedMode === item.mode && "border-sky-400/70 bg-sky-400/20",
-                    )}
-                    onClick={() => void applyMode(item.mode)}
-                  >
-                    <span>{item.label}</span>
-                    <span className="text-xs text-slate-400">{item.subtitle}</span>
-                  </Button>
-                ))
-              : null}
 
             {settingPanel === "course" ? (
               <div className="grid grid-cols-5 gap-2">
@@ -710,25 +668,7 @@ function App() {
                     onClick={() => void applySubject(subject.id)}
                   >
                     <span>{subject.subject}</span>
-                    <span className="text-xs text-slate-400">{subject.testType === "exam" ? "exam" : "credit"}</span>
-                  </Button>
-                ))
-              : null}
-
-            {settingPanel === "plan"
-              ? plans.map((plan) => (
-                  <Button
-                    key={plan.code}
-                    variant={user?.planCode === plan.code ? "default" : "outline"}
-                    className={cn(
-                      "w-full justify-between",
-                      user?.planCode === plan.code && "border-sky-400/70 bg-sky-400/20",
-                    )}
-                    disabled={busy}
-                    onClick={() => void changePlan(plan.code)}
-                  >
-                    <span>{plan.name}</span>
-                    <span className="text-xs text-slate-400">{plan.code}</span>
+                    <span className="text-xs text-slate-400">{subject.testType === "exam" ? "Экзамен" : "Зачет"}</span>
                   </Button>
                 ))
               : null}
