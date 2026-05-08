@@ -44,7 +44,7 @@ export function selectFaculty(
 export function selectSubject(state: BotFlowState, subjectId: string): BotFlowPrompt {
   return {
     text: "Choose test type",
-    options: ["exam", "credit"],
+    options: ["Экзамен", "Зачет"],
     state: {
       step: "choose-test-type",
       faculty: state.faculty,

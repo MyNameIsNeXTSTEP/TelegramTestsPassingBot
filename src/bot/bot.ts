@@ -42,6 +42,12 @@ const mapCurrentPlanToEmoji = {
   "pro": "Pro 🏆",
 };
 
+const splitArrayIntoChunks = (arr: any[], size: number) => {
+  return Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
+    arr.slice(i * size, i * size + size)
+  );
+};
+
 export function buildBot(config: BotConfig): Telegraf {
   const bot = new Telegraf(config.token);
   const api = new BotApiClient(config.apiBaseUrl);
@@ -137,11 +143,15 @@ export function buildBot(config: BotConfig): Telegraf {
         await ctx.reply(`Для курса ${state.selectedCourse} и факультета ${faculty} на данный момент тестов нет.`);
         return;
       }
+      const size = 2;
+      const chunks = splitArrayIntoChunks(subjectNames, size);
       await ctx.reply(
         `Курс: ${state.selectedCourse}\nФакультет: ${faculty}\nВыберите предмет:`,
         Markup.inlineKeyboard(
-          subjectNames.map((subjectName, subjectIndex) =>
+          chunks.map((chunk) =>
+            chunk.map((subjectName, subjectIndex) =>
             Markup.button.callback(subjectName, `subject:${subjectIndex}`),
+            ),
           ),
         ),
       );
@@ -217,7 +227,7 @@ export function buildBot(config: BotConfig): Telegraf {
       state.selectedSubject = subjectName;
       state.step = "choose-test-type";
 
-      const testTypes = uniqueSorted(
+      const testTypes = getOrderedTestTypes(
         state.subjects
           .filter(
             (subject) =>
@@ -230,7 +240,9 @@ export function buildBot(config: BotConfig): Telegraf {
       await ctx.reply(
         `Предмет: ${subjectName}\nВыберите тип теста:`,
         Markup.inlineKeyboard(
-          testTypes.map((testType) => Markup.button.callback(testType, `test-type:${testType}`)),
+          testTypes.map((testType) =>
+            Markup.button.callback(formatTestTypeLabel(testType), `test-type:${testType}`),
+          ),
         ),
       );
     } catch (error) {
@@ -768,13 +780,13 @@ async function sendQuestion(
     `Вопрос ${progress.answeredQuestions + 1}/${progress.totalQuestions}`,
     `Ошибок: ${errorsCount}`,
     "",
-    question.title,
+    `<blockquote>${question.title}</blockquote>`,
   ].join("\n");
 
-  await ctx.reply(
-    text,
-    buildAnswerKeyboard(question),
-  );
+  await ctx.reply(text, {
+    ...buildAnswerKeyboard(question),
+    parse_mode: "HTML",
+  });
 }
 
 async function sendModeSelection(ctx: { reply: (...args: any[]) => Promise<unknown> }): Promise<void> {
@@ -799,11 +811,16 @@ async function sendSubjectSelection(
       .filter((subject) => subject.course === selectedCourse && subject.faculty === selectedFaculty)
       .map((subject) => subject.subject),
   );
+  const size = 2;
+  const chunks = splitArrayIntoChunks(subjectNames, size);
+  console.log(chunks, 'CHUNKS');
   await ctx.reply(
     `Курс: ${selectedCourse}\nФакультет: ${selectedFaculty}\nВыберите предмет:`,
     Markup.inlineKeyboard(
-      subjectNames.map((subjectName, subjectIndex) =>
-        Markup.button.callback(subjectName, `subject:${subjectIndex}`),
+      chunks.map((chunk) =>
+        chunk.map((subjectName, subjectIndex) =>
+          Markup.button.callback(subjectName, `subject:${subjectIndex}`),
+        ),
       ),
     ),
   );
@@ -882,12 +899,27 @@ function uniqueSortedNumbers(values: number[]): number[] {
   return [...new Set(values)].sort((a, b) => a - b);
 }
 
+function getOrderedTestTypes(values: TestType[]): TestType[] {
+  const priority: Record<TestType, number> = {
+    exam: 0,
+    credit: 1,
+  };
+  return [...new Set(values)].sort((a, b) => priority[a] - priority[b]);
+}
+
 function formatNoTestsForSelectionError(
   facultyName: string,
   courseNumber: number,
   subjectName: string,
 ): string {
   return `Для факультета ${facultyName} по курсу ${courseNumber} для предмета ${subjectName} на данный момент тестов нет.`;
+}
+
+function formatTestTypeLabel(testType: TestType): string {
+  if (testType === "exam") {
+    return "Экзамен";
+  }
+  return "Зачет";
 }
 
 function formatPlanQuote(plan: {

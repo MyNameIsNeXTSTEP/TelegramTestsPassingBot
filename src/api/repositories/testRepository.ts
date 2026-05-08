@@ -131,13 +131,17 @@ export class TestRepository {
     }
 
     const pathParts = relative(this.dbDir, path).split(sep);
-    if (pathParts.length !== 5 || pathParts[0] !== "faculties" || pathParts[2] !== "courses") {
+    if (pathParts[0] !== "faculties" || pathParts[2] !== "courses") {
       return null;
     }
 
     const facultyRaw = pathParts[1];
     const courseRaw = pathParts[3];
+    const testType = parseTestType(pathParts);
     if (!facultyRaw || !courseRaw) {
+      return null;
+    }
+    if (!testType) {
       return null;
     }
 
@@ -154,11 +158,11 @@ export class TestRepository {
     }
 
     const subject: Subject = {
-      id: `${faculty}__${course}__${stem}`,
+      id: `${faculty}__${course}__${testType}__${stem}`,
       course,
       faculty,
       subject: subjectLabel,
-      testType: inferTestType(stem),
+      testType,
       sourceFile: pathParts.join("/"),
     };
 
@@ -200,6 +204,30 @@ function isMissingDirectoryError(error: unknown): boolean {
 
 function inferTestType(stem: string): TestType {
   return stem.includes("credit") ? "credit" : "exam";
+}
+
+function parseTestType(pathParts: string[]): TestType | null {
+  if (pathParts.length === 6) {
+    const testTypeDir = pathParts[4]?.trim().toLowerCase();
+    if (testTypeDir === "экзамен" || testTypeDir === "exam") {
+      return "exam";
+    }
+    if (testTypeDir === "зачет" || testTypeDir === "credit") {
+      return "credit";
+    }
+    return null;
+  }
+
+  if (pathParts.length === 5) {
+    const fileName = pathParts[4];
+    if (!fileName) {
+      return null;
+    }
+    const stem = fileName.replace("_tests.json", "");
+    return inferTestType(stem);
+  }
+
+  return null;
 }
 
 function validateQuestion(question: Question): Question {
