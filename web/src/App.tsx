@@ -155,7 +155,6 @@ function App() {
   const [settingPanel, setSettingPanel] = useState<SettingPanel>(null);
 
   const [user, setUser] = useState<User | null>(null);
-  const [plans, setPlans] = useState<SubscriptionPlan[]>([]);
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [selectedCourse, setSelectedCourse] = useState<number | null>(null);
   const [selectedFaculty, setSelectedFaculty] = useState<string | null>(null);
@@ -335,7 +334,6 @@ function App() {
       }
 
       setUser(loginData.user);
-      setPlans(plansData.plans.filter((plan) => plan.isActive));
       setSubjects(subjectsData.subjects);
       const fetchedCourses = [...new Set(subjectsData.subjects.map((subject) => subject.course))].sort(
         (a, b) => a - b,
