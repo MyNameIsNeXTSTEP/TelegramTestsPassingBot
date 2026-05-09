@@ -56,6 +56,18 @@ const splitArrayIntoChunks = (arr: any[], size: number) => {
   );
 };
 
+function examPrepErrorLimitExceededMessage(maxAllowedErrors: number): string {
+  const n = maxAllowedErrors;
+  const absTen = Math.abs(n) % 100;
+  const rem = absTen % 10;
+  const errorsWord =
+    absTen >= 11 && absTen <= 14 ? "ошибок" : rem === 1 ? "ошибку" : rem >= 2 && rem <= 4 ? "ошибки" : "ошибок";
+  return [
+    `Количество ошибок превысило допустимый порог для режима "Экзамен" (${n} ${errorsWord}).`,
+    "Вы можете повторить тест в данном режиме снова, выбрав его из видов практики 👍",
+  ].join("\n");
+}
+
 export function buildBot(config: BotConfig): Telegraf {
   const bot = new Telegraf(config.token);
   const api = new BotApiClient(config.apiBaseUrl);
@@ -499,12 +511,6 @@ export function buildBot(config: BotConfig): Telegraf {
         parse_mode: "HTML",
       });
 
-      if (result.nextQuestion) {
-        state.activeQuestionId = result.nextQuestion.id;
-        await sendQuestion(ctx, result.nextQuestion, result.session.progress, result.session.errors.length);
-        return;
-      }
-
       if (result.session.mode === "single") {
         state.step = "single-finished";
         state.activeSessionId = undefined;
@@ -517,6 +523,28 @@ export function buildBot(config: BotConfig): Telegraf {
             [Markup.button.callback("Сменить предмет", "single-change-subject")],
           ]),
         );
+        return;
+      }
+
+      if (result.session.status !== "active") {
+        state.step = "idle";
+        state.activeSessionId = undefined;
+        state.activeQuestionId = undefined;
+        const completionText =
+          result.session.mode === "exam-prep" && result.session.status === "failed"
+            ? examPrepErrorLimitExceededMessage(result.session.maxAllowedErrors)
+            : [
+                `Сессия завершена со статусом: ${result.session.status}`,
+                `Правильных ответов: ${result.session.progress.correctAnswers}/${result.session.progress.answeredQuestions}`,
+                `Ошибок: ${result.session.errors.length}`,
+              ].join("\n");
+        await ctx.reply(completionText, MENU_KEYBOARD);
+        return;
+      }
+
+      if (result.nextQuestion) {
+        state.activeQuestionId = result.nextQuestion.id;
+        await sendQuestion(ctx, result.nextQuestion, result.session.progress, result.session.errors.length);
         return;
       }
 

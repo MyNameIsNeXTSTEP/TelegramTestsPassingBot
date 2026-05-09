@@ -508,16 +508,22 @@ function App() {
         data.isCorrect ? "Правильно 👏" : `К сожалению ответ неверный 🥲\nВерный вариант: ${data.correctOptionIds.join(", ")}`,
       );
 
+      if (data.session.mode === "single") {
+        setSingleFinished(true);
+        return;
+      }
+
+      if (data.session.status !== "active") {
+        setCurrentQuestion(data.question);
+        return;
+      }
+
       if (data.nextQuestion) {
         setCurrentQuestion(data.nextQuestion);
         setSelectedOptionIds([]);
         setQuestionCompleted(false);
         setHint(null);
         return;
-      }
-
-      if (data.session.mode === "single") {
-        setSingleFinished(true);
       }
     } catch (submitError) {
       setError(submitError instanceof Error ? submitError.message : "Ошибка отправки ответа");
@@ -841,7 +847,7 @@ function App() {
                 <p className="text-sm text-slate-200">
                   Сессия завершена 🏁<br />
                   Правильных ответов: 🎯 {session.progress.correctAnswers}/
-                  {session.progress.answeredQuestions}<br />
+                  {session.progress.answeredQuestions} пройденных<br />
                   Ошибок: 🥲 {session.errors.length}
                 </p>
                 <Button variant="default" className="w-full h-10 bg-[#4f9fff] text-white hover:bg-[#3f8feb]" onClick={resetQuestionView}>
