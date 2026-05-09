@@ -534,7 +534,11 @@ function App() {
   }
 
   useEffect(() => {
-    void bootstrap();
+    const timeoutId = window.setTimeout(() => {
+      void bootstrap();
+    }, 0);
+    return () => window.clearTimeout(timeoutId);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- mount-only bootstrap
   }, []);
 
   return (

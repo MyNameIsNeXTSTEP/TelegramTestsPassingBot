@@ -49,4 +49,5 @@ function Badge({
   })
 }
 
+// eslint-disable-next-line react-refresh/only-export-components -- badgeVariants is a style helper, not a component
 export { Badge, badgeVariants }
