@@ -3,7 +3,14 @@ import { randomUUID } from "node:crypto";
 
 import type { BotConfig } from "./config.js";
 import { BotApiClient } from "./apiClient.js";
-import type { Question, SessionMode, Subject, TestType, User } from "../shared/index.js";
+import type {
+  IntervalPackSize,
+  Question,
+  SessionMode,
+  Subject,
+  TestType,
+  User,
+} from "../shared/index.js";
 
 type ChatStep =
   | "idle"
@@ -12,6 +19,9 @@ type ChatStep =
   | "choose-subject"
   | "choose-test-type"
   | "choose-mode"
+  | "choose-interval-pack-size"
+  | "choose-interval-range"
+  | "confirm-interval-resume"
   | "in-session"
   | "single-finished";
 
@@ -28,6 +38,10 @@ interface ChatState {
   selectedTestType?: TestType;
   activeSessionId?: string;
   activeQuestionId?: number;
+  intervalPackSize?: IntervalPackSize;
+  intervalRanges?: Array<{ startQuestionId: number; endQuestionId: number; count: number }>;
+  selectedIntervalRange?: { startQuestionId: number; endQuestionId: number; count: number };
+  pendingIntervalContinueSessionId?: string;
 }
 
 const MENU_KEYBOARD = Markup.keyboard([
@@ -392,6 +406,7 @@ export function buildBot(config: BotConfig): Telegraf {
           [Markup.button.callback("Один вопрос", "mode:single")],
           [Markup.button.callback("Практика 10 вопросов", "mode:pack")],
           [Markup.button.callback("Экзамен", "mode:exam-prep")],
+          [Markup.button.callback("Интервальный", "mode:interval")],
         ]),
       );
     } catch (error) {
@@ -399,7 +414,7 @@ export function buildBot(config: BotConfig): Telegraf {
     }
   });
 
-  bot.action(/^mode:(single|pack|exam-prep)$/, async (ctx) => {
+  bot.action(/^mode:(single|pack|exam-prep|interval)$/, async (ctx) => {
     await ctx.answerCbQuery();
     try {
       const state = requireState(ctx.chat?.id, stateByChatId);
@@ -434,12 +449,49 @@ export function buildBot(config: BotConfig): Telegraf {
         return;
       }
 
+      if (mode === "interval") {
+        state.user = await api.updatePreferences(state.user.id, {
+          mode,
+          ...(state.selectedCourse ? { course: state.selectedCourse } : {}),
+          ...(state.selectedFaculty ? { faculty: state.selectedFaculty } : {}),
+          subjectId: selectedSubject.id,
+        });
+
+        const idsMeta = await api.listQuestionIds({ subjectId: selectedSubject.id });
+        if (idsMeta.total === 0 || idsMeta.questionIds.length === 0) {
+          await ctx.reply("Для выбранного предмета нет вопросов для интервального режима.");
+          return;
+        }
+        state.intervalPackSize = undefined;
+        state.intervalRanges = undefined;
+        state.selectedIntervalRange = undefined;
+        state.pendingIntervalContinueSessionId = undefined;
+        state.step = "choose-interval-pack-size";
+        await ctx.reply(
+          [
+            `<b>Интервальный режим</b>`,
+            `Всего вопросов в предмете: <b>${idsMeta.total}</b>`,
+            "",
+            "Выберите шаг интервала:",
+          ].join("\n"),
+          {
+            parse_mode: "HTML",
+            reply_markup: Markup.inlineKeyboard([
+              [Markup.button.callback("По 50 вопросов", "interval-pack-size:50")],
+              [Markup.button.callback("По 100 вопросов", "interval-pack-size:100")],
+            ]).reply_markup,
+          },
+        );
+        return;
+      }
+
       state.user = await api.updatePreferences(state.user.id, {
         mode,
         ...(state.selectedCourse ? { course: state.selectedCourse } : {}),
         ...(state.selectedFaculty ? { faculty: state.selectedFaculty } : {}),
         subjectId: selectedSubject.id,
       });
+      resetIntervalSelectionState(state);
 
       const started = await api.startSession({
         userId: state.user.id,
@@ -459,7 +511,166 @@ export function buildBot(config: BotConfig): Telegraf {
       await ctx.reply(`<i>*Сессия начата в режиме: ${formatModeLabel(mode)}</i>`, {
         parse_mode: "HTML",
       });
-      await sendQuestion(ctx, started.firstQuestion, started.session.progress);
+      await sendQuestion(ctx, started.firstQuestion, started.session.progress, 0, started.session.mode);
+    } catch (error) {
+      await ctx.reply(toErrorText(error));
+    }
+  });
+
+  bot.action(/^interval-pack-size:(50|100)$/, async (ctx) => {
+    await ctx.answerCbQuery();
+    try {
+      const state = requireState(ctx.chat?.id, stateByChatId);
+      if (state.step !== "choose-interval-pack-size") {
+        await ctx.reply("Сначала выберите режим заново через /practice.");
+        return;
+      }
+      const selectedSubject = findSelectedSubject(state);
+      if (!selectedSubject) {
+        await ctx.reply("Не удалось определить предмет. Запустите /practice снова.");
+        return;
+      }
+
+      const packSize = Number(ctx.match[1]) as IntervalPackSize;
+      const idsMeta = await api.listQuestionIds({ subjectId: selectedSubject.id });
+      if (idsMeta.questionIds.length === 0) {
+        await ctx.reply("Для выбранного предмета нет вопросов.");
+        return;
+      }
+      const ranges = buildIntervalRanges(idsMeta.questionIds, packSize);
+      if (ranges.length === 0) {
+        await ctx.reply("Не удалось сформировать диапазоны для выбранного шага.");
+        return;
+      }
+
+      state.intervalPackSize = packSize;
+      state.intervalRanges = ranges;
+      state.selectedIntervalRange = undefined;
+      state.pendingIntervalContinueSessionId = undefined;
+      state.step = "choose-interval-range";
+      await ctx.reply(
+        `Выберите диапазон вопросов (${packSize}):`,
+        Markup.inlineKeyboard(
+          ranges.map((range, index) => [
+            Markup.button.callback(
+              `${range.startQuestionId}-${range.endQuestionId} (${range.count})`,
+              `interval-range:${index}`,
+            ),
+          ]),
+        ),
+      );
+    } catch (error) {
+      await ctx.reply(toErrorText(error));
+    }
+  });
+
+  bot.action(/^interval-range:(\d+)$/, async (ctx) => {
+    await ctx.answerCbQuery();
+    try {
+      const state = requireState(ctx.chat?.id, stateByChatId);
+      if (state.step !== "choose-interval-range" || !state.intervalRanges || !state.intervalPackSize) {
+        await ctx.reply("Сначала выберите интервальный шаг через /practice.");
+        return;
+      }
+      const selectedSubject = findSelectedSubject(state);
+      if (!selectedSubject) {
+        await ctx.reply("Не удалось определить предмет. Запустите /practice снова.");
+        return;
+      }
+
+      const rangeIndex = Number(ctx.match[1]);
+      const range = state.intervalRanges[rangeIndex];
+      if (!range) {
+        await ctx.reply("Диапазон не найден. Выберите другой.");
+        return;
+      }
+      state.selectedIntervalRange = range;
+
+      const activeInterval = await api.getActiveSession({
+        userId: state.user.id,
+        subjectId: selectedSubject.id,
+        mode: "interval",
+      });
+      if (activeInterval.session) {
+        const activeCurrentQuestionId =
+          activeInterval.session.questionIds[activeInterval.session.progress.currentQuestionIndex] ?? null;
+        state.pendingIntervalContinueSessionId = activeInterval.session.id;
+        state.step = "confirm-interval-resume";
+        await ctx.reply(
+          [
+            "Найдена незавершенная интервальная сессия.",
+            activeInterval.session.intervalConfig
+              ? `Интервал: ${activeInterval.session.intervalConfig.startQuestionId}-${activeInterval.session.intervalConfig.endQuestionId}`
+              : "Интервал: не определен",
+            `Позиция: ${activeInterval.session.progress.answeredQuestions + 1}/${activeInterval.session.progress.totalQuestions}`,
+            activeCurrentQuestionId ? `Текущий вопрос ID: ${activeCurrentQuestionId}` : null,
+            "",
+            "Продолжить ее или начать новую сессию по выбранному диапазону?",
+          ]
+            .filter((line): line is string => Boolean(line))
+            .join("\n"),
+          Markup.inlineKeyboard([
+            [Markup.button.callback("Продолжить", "interval-resume:continue")],
+            [Markup.button.callback("Начать новую", "interval-resume:new")],
+          ]),
+        );
+        return;
+      }
+
+      await startIntervalSession(ctx, api, state, selectedSubject.id);
+    } catch (error) {
+      await ctx.reply(toErrorText(error));
+    }
+  });
+
+  bot.action(/^interval-resume:(continue|new)$/, async (ctx) => {
+    await ctx.answerCbQuery();
+    try {
+      const state = requireState(ctx.chat?.id, stateByChatId);
+      if (state.step !== "confirm-interval-resume") {
+        await ctx.reply("Запустите /practice и выберите интервальный режим.");
+        return;
+      }
+      const action = ctx.match[1];
+      const selectedSubject = findSelectedSubject(state);
+      if (!selectedSubject) {
+        await ctx.reply("Не удалось определить предмет. Запустите /practice снова.");
+        return;
+      }
+
+      if (action === "continue") {
+        if (!state.pendingIntervalContinueSessionId) {
+          await ctx.reply("Сессия для продолжения не найдена. Начните новую.");
+          return;
+        }
+        const resumed = await api.getSessionState({
+          userId: state.user.id,
+          sessionId: state.pendingIntervalContinueSessionId,
+        });
+        if (resumed.session.status !== "active" || !resumed.currentQuestion) {
+          await ctx.reply("Эту сессию уже нельзя продолжить. Начинаю новую интервальную сессию.");
+          await startIntervalSession(ctx, api, state, selectedSubject.id);
+          return;
+        }
+
+        state.step = "in-session";
+        state.activeSessionId = resumed.session.id;
+        state.activeQuestionId = resumed.currentQuestion.id;
+        state.pendingIntervalContinueSessionId = undefined;
+        await ctx.reply("<i>*Продолжаем интервальную сессию*</i>", {
+          parse_mode: "HTML",
+        });
+        await sendQuestion(
+          ctx,
+          resumed.currentQuestion,
+          resumed.session.progress,
+          resumed.session.errors.length,
+          resumed.session.mode,
+        );
+        return;
+      }
+
+      await startIntervalSession(ctx, api, state, selectedSubject.id);
     } catch (error) {
       await ctx.reply(toErrorText(error));
     }
@@ -489,7 +700,7 @@ export function buildBot(config: BotConfig): Telegraf {
       await refreshCurrentQuestionKeyboard(ctx, result.question, {
         selectedOptionIds: result.selectedOptionIds,
         questionCompleted: result.questionCompleted,
-      });
+      }, result.session.mode);
 
       if (!result.questionCompleted) {
         const hintText = result.isCorrect
@@ -499,7 +710,6 @@ export function buildBot(config: BotConfig): Telegraf {
         return;
       }
 
-      const correctOptionsText = result.correctOptionIds.join(", ");
       const answerText = result.isCorrect
         ? "Правильно 👏"
         : `К сожалению ответ неверный 🥲.\n\nПравильный ответ №${result.correctOptionIds[0]}:\n"<b>${
@@ -517,6 +727,7 @@ export function buildBot(config: BotConfig): Telegraf {
         state.step = "single-finished";
         state.activeSessionId = undefined;
         state.activeQuestionId = undefined;
+        state.pendingIntervalContinueSessionId = undefined;
         await ctx.reply(
           "Выберите следующее действие:",
           Markup.inlineKeyboard([
@@ -532,6 +743,7 @@ export function buildBot(config: BotConfig): Telegraf {
         state.step = "idle";
         state.activeSessionId = undefined;
         state.activeQuestionId = undefined;
+        state.pendingIntervalContinueSessionId = undefined;
         const completionText =
           result.session.mode === "exam-prep" && result.session.status === "failed"
             ? examPrepErrorLimitExceededMessage(result.session.maxAllowedErrors)
@@ -546,13 +758,20 @@ export function buildBot(config: BotConfig): Telegraf {
 
       if (result.nextQuestion) {
         state.activeQuestionId = result.nextQuestion.id;
-        await sendQuestion(ctx, result.nextQuestion, result.session.progress, result.session.errors.length);
+        await sendQuestion(
+          ctx,
+          result.nextQuestion,
+          result.session.progress,
+          result.session.errors.length,
+          result.session.mode,
+        );
         return;
       }
 
       state.step = "idle";
       state.activeSessionId = undefined;
       state.activeQuestionId = undefined;
+      state.pendingIntervalContinueSessionId = undefined;
       await ctx.reply(
         [
           `Сессия завершена со статусом: ${result.session.status}`,
@@ -568,6 +787,50 @@ export function buildBot(config: BotConfig): Telegraf {
 
   bot.action(/^done:(\d+)$/, async (ctx) => {
     await ctx.answerCbQuery("Этот вариант уже зафиксирован.");
+  });
+
+  bot.action("interval-cancel-session", async (ctx) => {
+    await ctx.answerCbQuery();
+    try {
+      const state = requireState(ctx.chat?.id, stateByChatId);
+      if (
+        state.step !== "in-session" ||
+        !state.activeSessionId ||
+        typeof state.activeQuestionId !== "number"
+      ) {
+        await ctx.reply("Сейчас нет активной интервальной сессии.");
+        return;
+      }
+
+      const active = await api.getSessionState({
+        userId: state.user.id,
+        sessionId: state.activeSessionId,
+      });
+      if (active.session.mode !== "interval") {
+        await ctx.reply("Эта кнопка работает только для интервального режима.");
+        return;
+      }
+
+      const abandoned = await api.abandonSession({
+        userId: state.user.id,
+        sessionId: state.activeSessionId,
+      });
+      state.step = "idle";
+      state.activeSessionId = undefined;
+      state.activeQuestionId = undefined;
+      state.pendingIntervalContinueSessionId = undefined;
+      await ctx.reply(
+        [
+          "Интервальная сессия остановлена.",
+          `Пройдено вопросов: ${abandoned.session.progress.answeredQuestions}/${abandoned.session.progress.totalQuestions}`,
+          `Правильных: ${abandoned.session.progress.correctAnswers}`,
+          `Ошибок: ${abandoned.session.errors.length}`,
+        ].join("\n"),
+        MENU_KEYBOARD,
+      );
+    } catch (error) {
+      await ctx.reply(toErrorText(error));
+    }
   });
 
   bot.action("single-next", async (ctx) => {
@@ -599,7 +862,7 @@ export function buildBot(config: BotConfig): Telegraf {
       state.step = "in-session";
       state.activeSessionId = started.session.id;
       state.activeQuestionId = started.firstQuestion.id;
-      await sendQuestion(ctx, started.firstQuestion, started.session.progress);
+      await sendQuestion(ctx, started.firstQuestion, started.session.progress, 0, started.session.mode);
     } catch (error) {
       await ctx.reply(toErrorText(error));
     }
@@ -617,6 +880,7 @@ export function buildBot(config: BotConfig): Telegraf {
       state.step = "choose-mode";
       state.activeSessionId = undefined;
       state.activeQuestionId = undefined;
+      resetIntervalSelectionState(state);
       await sendModeSelection(ctx);
     } catch (error) {
       await ctx.reply(toErrorText(error));
@@ -638,6 +902,7 @@ export function buildBot(config: BotConfig): Telegraf {
       state.selectedTestType = undefined;
       state.activeSessionId = undefined;
       state.activeQuestionId = undefined;
+      resetIntervalSelectionState(state);
       if (!state.selectedCourse) {
         await ctx.reply("Сначала выберите курс. Запустите /practice снова.");
         return;
@@ -888,6 +1153,7 @@ async function startPracticeFlow(
     state.selectedTestType = undefined;
     state.activeSessionId = undefined;
     state.activeQuestionId = undefined;
+    resetIntervalSelectionState(state);
 
     if (state.selectedCourse && preferenceFaculty) {
       const availableFaculties = uniqueSorted(
@@ -951,6 +1217,7 @@ async function startSelectionFlow(
     state.selectedTestType = undefined;
     state.activeSessionId = undefined;
     state.activeQuestionId = undefined;
+    resetIntervalSelectionState(state);
 
     await ctx.reply(
       state.selectedCourse
@@ -1031,6 +1298,7 @@ async function sendQuestion(
   question: Question,
   progress: { answeredQuestions: number; totalQuestions: number },
   errorsCount = 0,
+  mode?: SessionMode,
 ): Promise<void> {
   const optionsText = question.options
     .map((option) => `${option.optionId}. ${escapeHtml(option.text)}`)
@@ -1047,7 +1315,7 @@ async function sendQuestion(
   ].join("\n");
 
   await ctx.reply(text, {
-    ...buildAnswerKeyboard(question),
+    ...buildAnswerKeyboard(question, undefined, mode),
     parse_mode: "HTML",
   });
 }
@@ -1059,6 +1327,7 @@ async function sendModeSelection(ctx: { reply: (...args: any[]) => Promise<unkno
       [Markup.button.callback("Один вопрос", "mode:single")],
       [Markup.button.callback("Практика 10 вопросов", "mode:pack")],
       [Markup.button.callback("Экзамен", "mode:exam-prep")],
+      [Markup.button.callback("Интервальный", "mode:interval")],
     ]),
   );
 }
@@ -1086,18 +1355,20 @@ async function refreshCurrentQuestionKeyboard(
   },
   question: Question,
   state: { selectedOptionIds: number[]; questionCompleted: boolean },
+  mode?: SessionMode,
 ): Promise<void> {
   await ctx.editMessageReplyMarkup(
     buildAnswerKeyboard(question, {
       selectedOptionIds: state.selectedOptionIds,
       questionCompleted: state.questionCompleted,
-    }).reply_markup,
+    }, mode).reply_markup,
   );
 }
 
 function buildAnswerKeyboard(
   question: Question,
   state?: { selectedOptionIds?: number[]; questionCompleted?: boolean },
+  mode?: SessionMode,
 ) {
   const selectedIds = new Set(state?.selectedOptionIds ?? []);
   const isCompleted = state?.questionCompleted ?? false;
@@ -1107,8 +1378,7 @@ function buildAnswerKeyboard(
 
   const chunks = splitArrayIntoChunks(question.options, 2);
 
-  return Markup.inlineKeyboard(
-    chunks.map((chunk) =>
+  const rows = chunks.map((chunk) =>
       chunk.map((option) => {
         const isSelected = selectedIds.has(option.optionId);
         const shouldMarkAsCorrect = option.isCorrect && (isSelected || hasIncorrectSelection || isCompleted);
@@ -1117,8 +1387,11 @@ function buildAnswerKeyboard(
         const buttonLabel = prefix ? `${prefix} ${option.optionId}` : `${option.optionId}`;
         return Markup.button.callback(buttonLabel, callbackData);
       }),
-    ),
-  );
+    );
+  if (mode === "interval") {
+    rows.push([Markup.button.callback("⛔️ Остановить интервальный режим", "interval-cancel-session")]);
+  }
+  return Markup.inlineKeyboard(rows);
 }
 
 function findSelectedSubject(state: ChatState): Subject | undefined {
@@ -1142,6 +1415,83 @@ function applySelectedSubjectToState(state: ChatState, subject: Subject): void {
   state.selectedTestType = subject.testType;
   state.activeSessionId = undefined;
   state.activeQuestionId = undefined;
+  resetIntervalSelectionState(state);
+}
+
+function buildIntervalRanges(questionIds: number[], packSize: IntervalPackSize): Array<{
+  startQuestionId: number;
+  endQuestionId: number;
+  count: number;
+}> {
+  const sortedUniqueIds = [...new Set(questionIds)].sort((a, b) => a - b);
+  if (sortedUniqueIds.length === 0) {
+    return [];
+  }
+  const ranges: Array<{ startQuestionId: number; endQuestionId: number; count: number }> = [];
+  for (let index = 0; index < sortedUniqueIds.length; index += packSize) {
+    const chunk = sortedUniqueIds.slice(index, index + packSize);
+    const startQuestionId = chunk[0];
+    const endQuestionId = chunk[chunk.length - 1];
+    if (typeof startQuestionId !== "number" || typeof endQuestionId !== "number") {
+      continue;
+    }
+    ranges.push({
+      startQuestionId,
+      endQuestionId,
+      count: chunk.length,
+    });
+  }
+  return ranges;
+}
+
+function resetIntervalSelectionState(state: ChatState): void {
+  state.intervalPackSize = undefined;
+  state.intervalRanges = undefined;
+  state.selectedIntervalRange = undefined;
+  state.pendingIntervalContinueSessionId = undefined;
+}
+
+async function startIntervalSession(
+  ctx: { reply: (...args: any[]) => Promise<unknown> },
+  api: BotApiClient,
+  state: ChatState,
+  subjectId: string,
+): Promise<void> {
+  if (!state.intervalPackSize || !state.selectedIntervalRange) {
+    await ctx.reply("Сначала выберите шаг и диапазон интервального режима.");
+    return;
+  }
+  const started = await api.startSession({
+    userId: state.user.id,
+    subjectId,
+    mode: "interval",
+    intervalConfig: {
+      packSize: state.intervalPackSize,
+      startQuestionId: state.selectedIntervalRange.startQuestionId,
+      endQuestionId: state.selectedIntervalRange.endQuestionId,
+    },
+  });
+  if (!started.firstQuestion) {
+    await ctx.reply("Сессия начата, но вопросы не были получены.");
+    return;
+  }
+  state.step = "in-session";
+  state.activeSessionId = started.session.id;
+  state.activeQuestionId = started.firstQuestion.id;
+  state.pendingIntervalContinueSessionId = undefined;
+  await ctx.reply(
+    `<i>*Сессия начата в режиме: ${formatModeLabel("interval")} (${state.selectedIntervalRange.startQuestionId}-${state.selectedIntervalRange.endQuestionId})*</i>`,
+    {
+      parse_mode: "HTML",
+    },
+  );
+  await sendQuestion(
+    ctx,
+    started.firstQuestion,
+    started.session.progress,
+    started.session.errors.length,
+    started.session.mode,
+  );
 }
 
 function requireState(chatId: number | undefined, store: Map<number, ChatState>): ChatState {
@@ -1556,7 +1906,10 @@ function formatModeLabel(mode: SessionMode): string {
   if (mode === "pack") {
     return "Практика 10 вопросов";
   }
-  return "Экзамен";
+  if (mode === "exam-prep") {
+    return "Экзамен";
+  }
+  return "Интервальный";
 }
 
 function isAdminChatId(chatId: number, adminTelegramId: string): boolean {

@@ -1,7 +1,12 @@
 import type {
+  AbandonSessionResponse,
   ApiResponse,
   AuthLoginResponse,
+  GetActiveSessionResponse,
+  GetSessionResponse,
+  IntervalPackSize,
   ListBroadcastTelegramIdsResponse,
+  ListQuestionIdsResponse,
   ListPlansResponse,
   ListSubjectsResponse,
   SessionMode,
@@ -32,6 +37,11 @@ export class BotApiClient {
     userId: string;
     subjectId: string;
     mode: SessionMode;
+    intervalConfig?: {
+      packSize: IntervalPackSize;
+      startQuestionId: number;
+      endQuestionId: number;
+    };
   }): Promise<StartSessionResponse> {
     return this.request<StartSessionResponse>("/tests/sessions/start", {
       method: "POST",
@@ -41,7 +51,45 @@ export class BotApiClient {
       body: JSON.stringify({
         subjectId: input.subjectId,
         mode: input.mode,
+        ...(input.intervalConfig ? { intervalConfig: input.intervalConfig } : {}),
       }),
+    });
+  }
+
+  public async listQuestionIds(input: {
+    subjectId: string;
+  }): Promise<ListQuestionIdsResponse> {
+    const search = new URLSearchParams({ subjectId: input.subjectId });
+    return this.request<ListQuestionIdsResponse>(`/tests/questions/ids?${search.toString()}`);
+  }
+
+  public async getActiveSession(input: {
+    userId: string;
+    subjectId?: string;
+    mode?: SessionMode;
+  }): Promise<GetActiveSessionResponse> {
+    const search = new URLSearchParams();
+    if (input.subjectId) {
+      search.set("subjectId", input.subjectId);
+    }
+    if (input.mode) {
+      search.set("mode", input.mode);
+    }
+    return this.request<GetActiveSessionResponse>(`/tests/sessions/active?${search.toString()}`, {
+      headers: {
+        "x-user-id": input.userId,
+      },
+    });
+  }
+
+  public async getSessionState(input: {
+    userId: string;
+    sessionId: string;
+  }): Promise<GetSessionResponse> {
+    return this.request<GetSessionResponse>(`/tests/sessions/${encodeURIComponent(input.sessionId)}`, {
+      headers: {
+        "x-user-id": input.userId,
+      },
     });
   }
 
@@ -60,6 +108,21 @@ export class BotApiClient {
         sessionId: input.sessionId,
         questionId: input.questionId,
         selectedOptionId: input.selectedOptionId,
+      }),
+    });
+  }
+
+  public async abandonSession(input: {
+    userId: string;
+    sessionId: string;
+  }): Promise<AbandonSessionResponse> {
+    return this.request<AbandonSessionResponse>("/tests/sessions/abandon", {
+      method: "POST",
+      headers: {
+        "x-user-id": input.userId,
+      },
+      body: JSON.stringify({
+        sessionId: input.sessionId,
       }),
     });
   }

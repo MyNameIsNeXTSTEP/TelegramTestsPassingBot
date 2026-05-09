@@ -52,7 +52,7 @@ test("exam-prep failure does not return a next question", async () => {
       recordSession: async (input: {
         userId: string;
         subjectId: string;
-        mode: "single" | "pack" | "exam-prep";
+        mode: "single" | "pack" | "exam-prep" | "interval";
         status: "active" | "passed" | "failed" | "abandoned";
         answeredQuestions: number;
         correctAnswers: number;

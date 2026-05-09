@@ -1,6 +1,6 @@
 import { join } from "node:path";
 
-import type { Session } from "../../shared/index.js";
+import type { Session, SessionMode } from "../../shared/index.js";
 import { readJsonFileValidated, updateJsonFileValidated } from "../storage/jsonStore.js";
 
 export class SessionRepository {
@@ -36,6 +36,22 @@ export class SessionRepository {
     return normalized;
   }
 
+  public async findLatestActiveByUser(input: {
+    userId: string;
+    subjectId?: string;
+    mode?: SessionMode;
+  }): Promise<Session | null> {
+    const sessions = await this.readAll();
+    const filtered = sessions
+      .filter((session) => session.userId === input.userId)
+      .filter((session) => session.status === "active")
+      .filter((session) => (input.subjectId ? session.subjectId === input.subjectId : true))
+      .filter((session) => (input.mode ? session.mode === input.mode : true))
+      .sort((left, right) => right.updatedAtIso.localeCompare(left.updatedAtIso));
+
+    return filtered[0] ?? null;
+  }
+
   private async readAll(): Promise<Session[]> {
     return readJsonFileValidated(this.path, [], parseSessions);
   }
@@ -63,7 +79,12 @@ function normalizeSession(value: unknown): Session {
   if (typeof value.subjectId !== "string" || !value.subjectId) {
     throw new Error("Session subjectId is required");
   }
-  if (value.mode !== "single" && value.mode !== "pack" && value.mode !== "exam-prep") {
+  if (
+    value.mode !== "single" &&
+    value.mode !== "pack" &&
+    value.mode !== "exam-prep" &&
+    value.mode !== "interval"
+  ) {
     throw new Error("Session mode is invalid");
   }
   if (
@@ -121,9 +142,27 @@ function normalizeSession(value: unknown): Session {
         ? value.currentQuestionHadWrongAttempt
         : false,
     maxAllowedErrors: asNonNegativeInteger(value.maxAllowedErrors, "maxAllowedErrors"),
+    intervalConfig: parseIntervalConfig(value.intervalConfig),
     startedAtIso: asNonEmptyString(value.startedAtIso, "startedAtIso"),
     updatedAtIso: asNonEmptyString(value.updatedAtIso, "updatedAtIso"),
     completedAtIso: typeof value.completedAtIso === "string" ? value.completedAtIso : undefined,
+  };
+}
+
+function parseIntervalConfig(value: unknown): Session["intervalConfig"] {
+  if (value === undefined) {
+    return undefined;
+  }
+  if (!isRecord(value)) {
+    throw new Error("Session intervalConfig must be an object");
+  }
+  if (value.packSize !== 50 && value.packSize !== 100) {
+    throw new Error("Session intervalConfig packSize must be 50 or 100");
+  }
+  return {
+    packSize: value.packSize,
+    startQuestionId: asPositiveInteger(value.startQuestionId, "intervalConfig.startQuestionId"),
+    endQuestionId: asPositiveInteger(value.endQuestionId, "intervalConfig.endQuestionId"),
   };
 }
 

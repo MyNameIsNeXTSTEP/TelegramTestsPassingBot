@@ -56,7 +56,7 @@ export function selectSubject(state: BotFlowState, subjectId: string): BotFlowPr
 export function selectTestType(state: BotFlowState, testType: TestType): BotFlowPrompt {
   return {
     text: "Choose mode",
-    options: ["single", "pack", "exam-prep"],
+    options: ["single", "pack", "exam-prep", "interval"],
     state: {
       step: "choose-mode",
       faculty: state.faculty,

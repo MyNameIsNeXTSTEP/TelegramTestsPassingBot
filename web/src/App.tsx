@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { Menu, X } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
@@ -8,7 +8,8 @@ import { Progress } from "@/components/ui/progress";
 import { cn } from "@/lib/utils";
 
 type TestType = "exam" | "credit";
-type SessionMode = "single" | "pack" | "exam-prep";
+type SessionMode = "single" | "pack" | "exam-prep" | "interval";
+type IntervalPackSize = 50 | 100;
 type SessionStatus = "active" | "passed" | "failed" | "abandoned";
 type SetupStep = "course" | "faculty" | "subject" | "ready";
 type SettingPanel = "mode" | "course" | "faculty" | "subject" | "plan" | null;
@@ -64,6 +65,12 @@ interface Session {
     correctAnswers: number;
   };
   errors: Array<{ questionId: number }>;
+  currentQuestionSelectedOptionIds?: number[];
+  intervalConfig?: {
+    packSize: IntervalPackSize;
+    startQuestionId: number;
+    endQuestionId: number;
+  };
 }
 
 interface ApiResponse<T> {
@@ -90,10 +97,21 @@ interface SubmitAnswerResult {
   nextQuestion: Question | null;
 }
 
+interface AbandonSessionResponse {
+  session: Session;
+}
+
+interface IntervalRange {
+  startQuestionId: number;
+  endQuestionId: number;
+  count: number;
+}
+
 const MODE_ITEMS: Array<{ mode: SessionMode; label: string; subtitle: string }> = [
   { mode: "single", label: "Одиночный", subtitle: "1 вопрос" },
   { mode: "pack", label: "Практика", subtitle: "10 вопросов" },
   { mode: "exam-prep", label: "Экзамен", subtitle: "30 + штрафы" },
+  { mode: "interval", label: "Интервальный", subtitle: "по диапазонам" },
 ];
 
 function resolveApiBaseUrl(): string {
@@ -160,6 +178,13 @@ function App() {
   const [selectedFaculty, setSelectedFaculty] = useState<string | null>(null);
   const [selectedSubjectId, setSelectedSubjectId] = useState<string | null>(null);
   const [selectedMode, setSelectedMode] = useState<SessionMode>("single");
+  const [questionIdsForInterval, setQuestionIdsForInterval] = useState<number[]>([]);
+  const [intervalPackSize, setIntervalPackSize] = useState<IntervalPackSize | null>(null);
+  const [selectedIntervalRange, setSelectedIntervalRange] = useState<IntervalRange | null>(null);
+  const [activeIntervalSession, setActiveIntervalSession] = useState<{
+    session: Session;
+    currentQuestion: Question | null;
+  } | null>(null);
 
   const [session, setSession] = useState<Session | null>(null);
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
@@ -196,6 +221,13 @@ function App() {
     () => subjects.find((subject) => subject.id === selectedSubjectId) ?? null,
     [selectedSubjectId, subjects],
   );
+
+  const intervalRanges = useMemo(() => {
+    if (selectedMode !== "interval" || !intervalPackSize || questionIdsForInterval.length === 0) {
+      return [] as IntervalRange[];
+    }
+    return buildIntervalRanges(questionIdsForInterval, intervalPackSize);
+  }, [selectedMode, intervalPackSize, questionIdsForInterval]);
 
   const setupStep: SetupStep = useMemo(() => {
     if (!selectedCourse) {
@@ -259,6 +291,13 @@ function App() {
     setHint(null);
   }
 
+  function resetIntervalSetup(): void {
+    setQuestionIdsForInterval([]);
+    setIntervalPackSize(null);
+    setSelectedIntervalRange(null);
+    setActiveIntervalSession(null);
+  }
+
   async function savePreferences(next: UserPreferences): Promise<void> {
     if (!user) {
       return;
@@ -284,6 +323,7 @@ function App() {
     setSelectedFaculty(null);
     setSelectedSubjectId(null);
     resetQuestionView();
+    resetIntervalSetup();
     await savePreferences({ course });
   }
 
@@ -291,17 +331,22 @@ function App() {
     setSelectedFaculty(faculty);
     setSelectedSubjectId(null);
     resetQuestionView();
+    resetIntervalSetup();
     await savePreferences({ faculty });
   }
 
   async function applySubject(subjectId: string): Promise<void> {
     setSelectedSubjectId(subjectId);
     resetQuestionView();
+    resetIntervalSetup();
     await savePreferences({ subjectId });
   }
 
   async function applyMode(mode: SessionMode): Promise<void> {
     setSelectedMode(mode);
+    if (mode !== "interval") {
+      resetIntervalSetup();
+    }
     await savePreferences({ mode });
   }
 
@@ -386,7 +431,12 @@ function App() {
       }
 
       const preferenceMode = loginData.user.preferences?.mode;
-      if (preferenceMode === "single" || preferenceMode === "pack" || preferenceMode === "exam-prep") {
+      if (
+        preferenceMode === "single" ||
+        preferenceMode === "pack" ||
+        preferenceMode === "exam-prep" ||
+        preferenceMode === "interval"
+      ) {
         setSelectedMode(preferenceMode);
       }
 
@@ -425,6 +475,60 @@ function App() {
     return null;
   }
 
+  const fetchIntervalQuestionIds = useCallback(async (subjectId: string): Promise<void> => {
+    const data = await request<{ subjectId: string; total: number; questionIds: number[] }>(
+      `/tests/questions/ids?subjectId=${encodeURIComponent(subjectId)}`,
+    );
+    setQuestionIdsForInterval(data.questionIds);
+  }, []);
+
+  const fetchActiveIntervalSession = useCallback(async (subjectId: string): Promise<void> => {
+    if (!user) {
+      return;
+    }
+    const data = await request<{ session: Session | null; currentQuestion: Question | null }>(
+      `/tests/sessions/active?subjectId=${encodeURIComponent(subjectId)}&mode=interval`,
+      undefined,
+      user.id,
+    );
+    if (data.session && data.session.status === "active") {
+      setActiveIntervalSession({ session: data.session, currentQuestion: data.currentQuestion });
+      return;
+    }
+    setActiveIntervalSession(null);
+  }, [user]);
+
+  async function continueActiveIntervalSession(): Promise<void> {
+    if (!user || !activeIntervalSession?.session?.id) {
+      return;
+    }
+    setBusy(true);
+    setError(null);
+    setHint(null);
+    setResultText(null);
+    try {
+      const data = await request<{ session: Session; currentQuestion: Question | null }>(
+        `/tests/sessions/${encodeURIComponent(activeIntervalSession.session.id)}`,
+        undefined,
+        user.id,
+      );
+      if (data.session.status !== "active" || !data.currentQuestion) {
+        setError("Эту интервальную сессию больше нельзя продолжить.");
+        setActiveIntervalSession(null);
+        return;
+      }
+      setSession(data.session);
+      setCurrentQuestion(data.currentQuestion);
+      setSelectedOptionIds(data.session.currentQuestionSelectedOptionIds ?? []);
+      setQuestionCompleted(false);
+      setSingleFinished(false);
+    } catch (sessionError) {
+      setError(sessionError instanceof Error ? sessionError.message : "Не удалось продолжить сессию");
+    } finally {
+      setBusy(false);
+    }
+  }
+
   async function startSession(): Promise<void> {
     if (!user) {
       return;
@@ -440,6 +544,16 @@ function App() {
       }
       return;
     }
+    if (selectedMode === "interval") {
+      if (!intervalPackSize) {
+        setError("Сначала выберите шаг интервального режима: 50 или 100.");
+        return;
+      }
+      if (!selectedIntervalRange) {
+        setError("Сначала выберите диапазон вопросов для интервального режима.");
+        return;
+      }
+    }
 
     setBusy(true);
     setError(null);
@@ -454,6 +568,15 @@ function App() {
           body: JSON.stringify({
             subjectId: selectedSubject.id,
             mode: selectedMode,
+            ...(selectedMode === "interval" && selectedIntervalRange && intervalPackSize
+              ? {
+                  intervalConfig: {
+                    packSize: intervalPackSize,
+                    startQuestionId: selectedIntervalRange.startQuestionId,
+                    endQuestionId: selectedIntervalRange.endQuestionId,
+                  },
+                }
+              : {}),
           }),
         },
         user.id,
@@ -464,6 +587,7 @@ function App() {
       setSelectedOptionIds([]);
       setQuestionCompleted(false);
       setSingleFinished(false);
+      setActiveIntervalSession(null);
     } catch (sessionError) {
       setError(sessionError instanceof Error ? sessionError.message : "Не удалось начать сессию");
     } finally {
@@ -532,6 +656,34 @@ function App() {
     }
   }
 
+  async function stopIntervalSession(): Promise<void> {
+    if (!user || !session || session.mode !== "interval" || session.status !== "active") {
+      return;
+    }
+
+    setBusy(true);
+    setError(null);
+    setHint(null);
+    try {
+      const data = await request<AbandonSessionResponse>(
+        "/tests/sessions/abandon",
+        {
+          method: "POST",
+          body: JSON.stringify({
+            sessionId: session.id,
+          }),
+        },
+        user.id,
+      );
+      setSession(data.session);
+      setResultText("Интервальная сессия остановлена пользователем.");
+    } catch (stopError) {
+      setError(stopError instanceof Error ? stopError.message : "Не удалось остановить интервальную сессию");
+    } finally {
+      setBusy(false);
+    }
+  }
+
   async function continueSingleMode(): Promise<void> {
     if (selectedMode !== "single") {
       return;
@@ -546,6 +698,29 @@ function App() {
     return () => window.clearTimeout(timeoutId);
     // eslint-disable-next-line react-hooks/exhaustive-deps -- mount-only bootstrap
   }, []);
+
+  useEffect(() => {
+    if (selectedMode !== "interval" || !selectedSubject || !user) {
+      return;
+    }
+    let cancelled = false;
+    void (async () => {
+      try {
+        await fetchIntervalQuestionIds(selectedSubject.id);
+        if (cancelled) {
+          return;
+        }
+        await fetchActiveIntervalSession(selectedSubject.id);
+      } catch (loadError) {
+        if (!cancelled) {
+          setError(loadError instanceof Error ? loadError.message : "Не удалось загрузить интервальные данные");
+        }
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [fetchActiveIntervalSession, fetchIntervalQuestionIds, selectedMode, selectedSubject, user]);
 
   return (
     <main className="theme dark mx-auto min-h-screen w-full max-w-md bg-[#101827] px-4 pb-8 pt-5 text-slate-50">
@@ -758,7 +933,7 @@ function App() {
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-sm text-slate-200">Выберите режим тренировки тестов</p>
-            <div className="grid grid-cols-3 gap-2">
+            <div className="grid grid-cols-2 gap-2">
               {MODE_ITEMS.map((item) => (
                 <Button
                   key={item.mode}
@@ -775,10 +950,84 @@ function App() {
               ))}
             </div>
 
+            {selectedMode === "interval" ? (
+              <div className="space-y-3 rounded-xl border border-[#32475f] bg-[#162334] p-3">
+                <p className="text-xs text-slate-300">
+                  Вопросов в предмете: <span className="font-semibold text-white">{questionIdsForInterval.length}</span>
+                </p>
+                <div className="grid grid-cols-2 gap-2">
+                  {[50, 100].map((pack) => (
+                    <Button
+                      key={pack}
+                      type="button"
+                      variant={intervalPackSize === pack ? "default" : "outline"}
+                      className={cn(intervalPackSize === pack && "border-sky-400/70 bg-sky-400/20")}
+                      onClick={() => {
+                        setIntervalPackSize(pack as IntervalPackSize);
+                        setSelectedIntervalRange(null);
+                      }}
+                    >
+                      По {pack}
+                    </Button>
+                  ))}
+                </div>
+                {intervalPackSize ? (
+                  <div className="space-y-2">
+                    <p className="text-xs text-slate-300">Выберите диапазон:</p>
+                    <div className="max-h-40 space-y-2 overflow-y-auto pr-1">
+                      {intervalRanges.map((range) => {
+                        const isSelected =
+                          selectedIntervalRange?.startQuestionId === range.startQuestionId &&
+                          selectedIntervalRange?.endQuestionId === range.endQuestionId;
+                        return (
+                          <Button
+                            key={`${range.startQuestionId}-${range.endQuestionId}`}
+                            variant={isSelected ? "default" : "outline"}
+                            className={cn(
+                              "w-full justify-between",
+                              isSelected && "border-sky-400/70 bg-sky-400/20",
+                            )}
+                            onClick={() => setSelectedIntervalRange(range)}
+                          >
+                            <span>
+                              {range.startQuestionId}-{range.endQuestionId}
+                            </span>
+                            <span className="text-xs text-slate-400">{range.count} шт.</span>
+                          </Button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ) : null}
+                {activeIntervalSession?.session ? (
+                  <div className="space-y-2 rounded-lg border border-amber-300/40 bg-amber-100/10 p-3">
+                    <p className="text-xs text-amber-100">
+                      Найдена незавершенная интервальная сессия:{" "}
+                      {activeIntervalSession.session.intervalConfig
+                        ? `${activeIntervalSession.session.intervalConfig.startQuestionId}-${activeIntervalSession.session.intervalConfig.endQuestionId}`
+                        : "без диапазона"}
+                    </p>
+                    <p className="text-xs text-amber-200">
+                      Позиция: {activeIntervalSession.session.progress.answeredQuestions + 1}/
+                      {activeIntervalSession.session.progress.totalQuestions}
+                    </p>
+                    <div className="grid grid-cols-2 gap-2">
+                      <Button type="button" variant="outline" onClick={() => void continueActiveIntervalSession()} disabled={busy}>
+                        Продолжить
+                      </Button>
+                      <Button type="button" variant="outline" onClick={() => setActiveIntervalSession(null)} disabled={busy}>
+                        Начать новую
+                      </Button>
+                    </div>
+                  </div>
+                ) : null}
+              </div>
+            ) : null}
+
             <Button
               className="h-12 w-full bg-[#4f9fff] text-base text-white hover:bg-[#3f8feb]"
               onClick={() => void startSession()}
-              disabled={busy}
+              disabled={busy || (selectedMode === "interval" && !selectedIntervalRange)}
             >
               Начать
             </Button>
@@ -812,7 +1061,7 @@ function App() {
                       isWrongMark && "border-rose-300 bg-rose-300/35 text-rose-50",
                     )}
                     onClick={() => void submitAnswer(option.optionId)}
-                    disabled={busy || selected || (questionCompleted && !selected)}
+                    disabled={busy || session.status !== "active" || selected || (questionCompleted && !selected)}
                   >
                     <span className="mr-2 font-semibold">{option.optionId}.</span>
                     <span>{option.text}</span>
@@ -823,6 +1072,17 @@ function App() {
 
             {hint ? <p className="text-xs text-cyan-300">{hint}</p> : null}
             {resultText ? <p className="text-xs text-slate-300">{resultText}</p> : null}
+
+            {session.mode === "interval" && session.status === "active" ? (
+              <Button
+                variant="outline"
+                className="w-full border-rose-300/70 text-rose-200 hover:bg-rose-900/30"
+                onClick={() => void stopIntervalSession()}
+                disabled={busy}
+              >
+                Остановить интервальную сессию
+              </Button>
+            ) : null}
 
             {singleFinished ? (
               <div className="space-y-2">
@@ -887,4 +1147,23 @@ function formatPlanEndDate(planEndAtIso?: string | null): string {
     month: "2-digit",
     year: "numeric",
   }).format(date);
+}
+
+function buildIntervalRanges(questionIds: number[], packSize: IntervalPackSize): IntervalRange[] {
+  const ids = [...new Set(questionIds)].sort((a, b) => a - b);
+  const ranges: IntervalRange[] = [];
+  for (let index = 0; index < ids.length; index += packSize) {
+    const chunk = ids.slice(index, index + packSize);
+    const startQuestionId = chunk[0];
+    const endQuestionId = chunk[chunk.length - 1];
+    if (typeof startQuestionId !== "number" || typeof endQuestionId !== "number") {
+      continue;
+    }
+    ranges.push({
+      startQuestionId,
+      endQuestionId,
+      count: chunk.length,
+    });
+  }
+  return ranges;
 }
