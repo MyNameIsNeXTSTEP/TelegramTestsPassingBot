@@ -5,3 +5,4 @@ dist
 data
 data-backups
 testsDocs
+deploy.sh
