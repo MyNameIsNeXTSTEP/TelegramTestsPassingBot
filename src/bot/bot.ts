@@ -56,6 +56,18 @@ const splitArrayIntoChunks = (arr: any[], size: number) => {
   );
 };
 
+function examPrepErrorLimitExceededMessage(maxAllowedErrors: number): string {
+  const n = maxAllowedErrors;
+  const absTen = Math.abs(n) % 100;
+  const rem = absTen % 10;
+  const errorsWord =
+    absTen >= 11 && absTen <= 14 ? "ошибок" : rem === 1 ? "ошибку" : rem >= 2 && rem <= 4 ? "ошибки" : "ошибок";
+  return [
+    `Количество ошибок превысило допустимый порог для режима "Экзамен" (${n} ${errorsWord}).`,
+    "Вы можете повторить тест в данном режиме снова, выбрав его из видов практики 👍",
+  ].join("\n");
+}
+
 export function buildBot(config: BotConfig): Telegraf {
   const bot = new Telegraf(config.token);
   const api = new BotApiClient(config.apiBaseUrl);
@@ -518,14 +530,15 @@ export function buildBot(config: BotConfig): Telegraf {
         state.step = "idle";
         state.activeSessionId = undefined;
         state.activeQuestionId = undefined;
-        await ctx.reply(
-          [
-            `Сессия завершена со статусом: ${result.session.status}`,
-            `Правильных ответов: ${result.session.progress.correctAnswers}/${result.session.progress.answeredQuestions}`,
-            `Ошибок: ${result.session.errors.length}`,
-          ].join("\n"),
-          MENU_KEYBOARD,
-        );
+        const completionText =
+          result.session.mode === "exam-prep" && result.session.status === "failed"
+            ? examPrepErrorLimitExceededMessage(result.session.maxAllowedErrors)
+            : [
+                `Сессия завершена со статусом: ${result.session.status}`,
+                `Правильных ответов: ${result.session.progress.correctAnswers}/${result.session.progress.answeredQuestions}`,
+                `Ошибок: ${result.session.errors.length}`,
+              ].join("\n");
+        await ctx.reply(completionText, MENU_KEYBOARD);
         return;
       }
 
