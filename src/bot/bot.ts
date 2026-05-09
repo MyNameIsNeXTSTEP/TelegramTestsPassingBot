@@ -43,6 +43,8 @@ const SBP_STATUS_POLL_INTERVAL_MS = 5000;
 const SBP_STATUS_POLL_ATTEMPTS = 120;
 const BROADCAST_COMMAND_NAME = "broadcast";
 const BROADCAST_CANCEL_COMMAND_NAME = "cancel_broadcast";
+const BROADCAST_CHUNK_SIZE = 20;
+const BROADCAST_CHUNK_DELAY_MS = 1000;
 
 const mapCurrentPlanToEmoji = {
   "free": "Бесплатный 🤓",
@@ -1582,15 +1584,34 @@ async function sendBroadcastMessage(
 ): Promise<{ total: number; sent: number; failed: number }> {
   const rawTelegramIds = await api.listBroadcastTelegramIds(adminTelegramId);
   const telegramChatIds = normalizeTelegramChatIds(rawTelegramIds);
+  const chunks = splitArrayIntoChunks(telegramChatIds, BROADCAST_CHUNK_SIZE);
   let sent = 0;
   let failed = 0;
 
-  for (const chatId of telegramChatIds) {
-    try {
-      await bot.telegram.sendMessage(chatId, messageText);
-      sent += 1;
-    } catch {
-      failed += 1;
+  for (const [chunkIndex, chunk] of chunks.entries()) {
+    for (const chatId of chunk) {
+      try {
+        await bot.telegram.sendMessage(chatId, messageText);
+        sent += 1;
+      } catch (error) {
+        const retryAfterSeconds = getTelegramRetryAfterSeconds(error);
+        if (typeof retryAfterSeconds === "number") {
+          await sleep(retryAfterSeconds * 1000);
+          try {
+            await bot.telegram.sendMessage(chatId, messageText);
+            sent += 1;
+            continue;
+          } catch {
+            // fall through to failed counter
+          }
+        }
+        failed += 1;
+      }
+    }
+
+    const isLastChunk = chunkIndex === chunks.length - 1;
+    if (!isLastChunk) {
+      await sleep(BROADCAST_CHUNK_DELAY_MS);
     }
   }
 
@@ -1631,4 +1652,32 @@ function getTelegramChatId(rawTelegramId: unknown): number | null {
   }
 
   return parsed;
+}
+
+function getTelegramRetryAfterSeconds(error: unknown): number | null {
+  if (typeof error !== "object" || error === null || !("response" in error)) {
+    return null;
+  }
+
+  const response = (error as { response?: unknown }).response;
+  if (typeof response !== "object" || response === null || !("error_code" in response)) {
+    return null;
+  }
+
+  const errorCode = (response as { error_code?: unknown }).error_code;
+  if (errorCode !== 429) {
+    return null;
+  }
+
+  const parameters = (response as { parameters?: unknown }).parameters;
+  if (typeof parameters !== "object" || parameters === null || !("retry_after" in parameters)) {
+    return null;
+  }
+
+  const retryAfter = (parameters as { retry_after?: unknown }).retry_after;
+  if (typeof retryAfter !== "number" || !Number.isFinite(retryAfter) || retryAfter <= 0) {
+    return null;
+  }
+
+  return Math.ceil(retryAfter);
 }

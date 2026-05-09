@@ -557,7 +557,7 @@ function App() {
                 {user?.name.slice(0, 1).toUpperCase() || "A"}
               </div>
               <div>
-                <p className="text-sm font-semibold">{user?.name || "Ampula"}</p>
+                <p className="text-sm font-semibold">{user?.name || "Тесты Башларова"}</p>
               </div>
             </div>
             <div className="relative">

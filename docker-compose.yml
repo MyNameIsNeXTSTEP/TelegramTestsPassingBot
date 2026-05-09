@@ -10,6 +10,7 @@ services:
       DATA_DIR: ${DATA_DIR:-/app/data}
       BACKUP_DIR: ${BACKUP_DIR:-/app/data-backups}
       BACKUP_INTERVAL_SECONDS: ${BACKUP_INTERVAL_SECONDS:-3600}
+      ADMIN_TELEGRAM_ID: ${ADMIN_TELEGRAM_ID}
       ADMIN_TELEGRAM_IDS: ${ADMIN_TELEGRAM_IDS:-}
     ports:
       - "${API_PORT:-3001}:3001"
