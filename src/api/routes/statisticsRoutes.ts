@@ -127,7 +127,7 @@ export const statisticsRoutes: FastifyPluginAsync = async (app) => {
 };
 
 function isMode(value: string): value is SessionMode {
-  return value === "single" || value === "pack" || value === "exam-prep";
+  return value === "single" || value === "pack" || value === "exam-prep" || value === "interval";
 }
 
 function isStatus(value: string): value is SessionStatus {

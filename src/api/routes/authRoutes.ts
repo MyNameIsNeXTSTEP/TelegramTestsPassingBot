@@ -37,7 +37,7 @@ export const authRoutes: FastifyPluginAsync = async (app) => {
 
     const { mode, course, faculty, subjectId } = request.body ?? {};
     if (mode !== undefined && !isMode(mode)) {
-      sendError(reply, 400, "VALIDATION_ERROR", "mode must be single, pack or exam-prep");
+      sendError(reply, 400, "VALIDATION_ERROR", "mode must be single, pack, exam-prep or interval");
       return;
     }
     if (course !== undefined && !isCourse(course)) {
@@ -100,7 +100,7 @@ function readAdminTelegramIdFromHeader(value: string | string[] | undefined): st
 }
 
 function isMode(value: string): value is SessionMode {
-  return value === "single" || value === "pack" || value === "exam-prep";
+  return value === "single" || value === "pack" || value === "exam-prep" || value === "interval";
 }
 
 function isCourse(value: number): boolean {

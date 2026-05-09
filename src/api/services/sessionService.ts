@@ -1,8 +1,10 @@
 import { randomUUID } from "node:crypto";
 
 import type {
+  GetActiveSessionResponse,
   Question,
   Session,
+  SessionIntervalConfig,
   SessionMode,
   SessionStatus,
   StartSessionResponse,
@@ -28,6 +30,7 @@ export class SessionService {
     userId: string;
     subjectId: string;
     mode: SessionMode;
+    intervalConfig?: SessionIntervalConfig;
   }): Promise<StartSessionResponse> {
     const user = await this.userRepository.findById(params.userId);
     if (!user) {
@@ -42,7 +45,28 @@ export class SessionService {
       throw new Error(`Вопросы не найдены для предмета '${params.subjectId}'`);
     }
 
-    const questionIds = pickQuestionIds(params.mode, questions);
+    const intervalConfig =
+      params.mode === "interval"
+        ? normalizeIntervalConfig(params.intervalConfig)
+        : undefined;
+    const questionIds = pickQuestionIds(params.mode, questions, intervalConfig);
+    if (questionIds.length === 0) {
+      throw new Error("Для выбранного интервала не найдено вопросов");
+    }
+
+    if (params.mode === "interval") {
+      const activeIntervalSession = await this.sessionRepository.findLatestActiveByUser({
+        userId: params.userId,
+        subjectId: params.subjectId,
+        mode: "interval",
+      });
+      if (activeIntervalSession) {
+        activeIntervalSession.status = "abandoned";
+        activeIntervalSession.updatedAtIso = new Date().toISOString();
+        activeIntervalSession.completedAtIso = activeIntervalSession.updatedAtIso;
+        await this.sessionRepository.upsert(activeIntervalSession);
+      }
+    }
     const now = new Date().toISOString();
     const session: Session = {
       id: randomUUID(),
@@ -62,6 +86,7 @@ export class SessionService {
       currentQuestionHadWrongAttempt: false,
       maxAllowedErrors:
         params.mode === "exam-prep" ? limits.maxErrorsInExamPrep : SESSION_RULES.examPrepMaxErrors,
+      intervalConfig,
       startedAtIso: now,
       updatedAtIso: now,
     };
@@ -74,6 +99,31 @@ export class SessionService {
       session,
       firstQuestion:
         typeof firstQuestionId === "number" ? questionById(questions).get(firstQuestionId) ?? null : null,
+    };
+  }
+
+  public async getLatestActiveSessionState(params: {
+    userId: string;
+    subjectId?: string;
+    mode?: SessionMode;
+  }): Promise<GetActiveSessionResponse> {
+    const session = await this.sessionRepository.findLatestActiveByUser({
+      userId: params.userId,
+      ...(params.subjectId ? { subjectId: params.subjectId } : {}),
+      ...(params.mode ? { mode: params.mode } : {}),
+    });
+    if (!session) {
+      return {
+        session: null,
+        currentQuestion: null,
+      };
+    }
+
+    const questions = await this.testRepository.getQuestions(session.subjectId);
+    const currentQuestionId = session.questionIds[session.progress.currentQuestionIndex];
+    return {
+      session,
+      currentQuestion: typeof currentQuestionId === "number" ? questionById(questions).get(currentQuestionId) ?? null : null,
     };
   }
 
@@ -230,6 +280,30 @@ export class SessionService {
     };
   }
 
+  public async abandonSession(params: { userId: string; sessionId: string }): Promise<Session> {
+    const session = await this.requireOwnedSession(params.userId, params.sessionId);
+    if (session.status !== "active") {
+      return session;
+    }
+
+    const now = new Date().toISOString();
+    session.status = "abandoned";
+    session.updatedAtIso = now;
+    session.completedAtIso = now;
+    await this.sessionRepository.upsert(session);
+    await this.statisticsRepository.recordSession({
+      userId: session.userId,
+      subjectId: session.subjectId,
+      mode: session.mode,
+      status: session.status,
+      answeredQuestions: session.progress.answeredQuestions,
+      correctAnswers: session.progress.correctAnswers,
+      createdAtIso: now,
+    });
+
+    return session;
+  }
+
   private async requireOwnedSession(userId: string, sessionId: string): Promise<Session> {
     const session = await this.sessionRepository.findById(sessionId);
     if (!session) {
@@ -242,13 +316,28 @@ export class SessionService {
   }
 }
 
-function pickQuestionIds(mode: SessionMode, questions: Question[]): number[] {
+function pickQuestionIds(
+  mode: SessionMode,
+  questions: Question[],
+  intervalConfig?: SessionIntervalConfig,
+): number[] {
   const ids = shuffle(questions.map((question) => question.id));
   if (mode === "single") {
     return ids.slice(0, 1);
   }
   if (mode === "pack") {
     return ids.slice(0, Math.min(SESSION_RULES.packQuestions, ids.length));
+  }
+  if (mode === "interval") {
+    if (!intervalConfig) {
+      throw new Error("Не переданы параметры интервала");
+    }
+    const sortedIds = questions.map((question) => question.id).sort((a, b) => a - b);
+    return sortedIds.filter(
+      (questionId) =>
+        questionId >= intervalConfig.startQuestionId &&
+        questionId <= intervalConfig.endQuestionId,
+    );
   }
 
   if (ids.length >= SESSION_RULES.examPrepQuestions) {
@@ -263,6 +352,29 @@ function pickQuestionIds(mode: SessionMode, questions: Question[]): number[] {
     }
   }
   return ids;
+}
+
+function normalizeIntervalConfig(value: SessionIntervalConfig | undefined): SessionIntervalConfig {
+  if (!value) {
+    throw new Error("Для интервального режима требуется intervalConfig");
+  }
+  if (value.packSize !== 50 && value.packSize !== 100) {
+    throw new Error("packSize для интервального режима должен быть 50 или 100");
+  }
+  if (!Number.isInteger(value.startQuestionId) || value.startQuestionId <= 0) {
+    throw new Error("startQuestionId должен быть положительным целым числом");
+  }
+  if (!Number.isInteger(value.endQuestionId) || value.endQuestionId <= 0) {
+    throw new Error("endQuestionId должен быть положительным целым числом");
+  }
+  if (value.endQuestionId < value.startQuestionId) {
+    throw new Error("endQuestionId не может быть меньше startQuestionId");
+  }
+  return {
+    packSize: value.packSize,
+    startQuestionId: value.startQuestionId,
+    endQuestionId: value.endQuestionId,
+  };
 }
 
 function pickPenaltyQuestionIds(

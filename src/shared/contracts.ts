@@ -4,7 +4,15 @@ export type PlanCode = "free" | "pro-student";
 
 export type TestType = "exam" | "credit";
 
-export type SessionMode = "single" | "pack" | "exam-prep";
+export type SessionMode = "single" | "pack" | "exam-prep" | "interval";
+
+export type IntervalPackSize = 50 | 100;
+
+export interface SessionIntervalConfig {
+  packSize: IntervalPackSize;
+  startQuestionId: number;
+  endQuestionId: number;
+}
 
 export type SessionStatus = "active" | "passed" | "failed" | "abandoned";
 
@@ -100,6 +108,7 @@ export interface Session {
   currentQuestionSelectedOptionIds?: number[];
   currentQuestionHadWrongAttempt?: boolean;
   maxAllowedErrors: number;
+  intervalConfig?: SessionIntervalConfig;
   startedAtIso: string;
   updatedAtIso: string;
   completedAtIso?: string;
@@ -208,9 +217,20 @@ export interface ListQuestionsResponse {
   questions: Question[];
 }
 
+export interface ListQuestionIdsQuery {
+  subjectId: string;
+}
+
+export interface ListQuestionIdsResponse {
+  subjectId: string;
+  total: number;
+  questionIds: number[];
+}
+
 export interface StartSessionRequest {
   subjectId: string;
   mode: SessionMode;
+  intervalConfig?: SessionIntervalConfig;
 }
 
 export interface StartSessionResponse {
@@ -235,8 +255,26 @@ export interface SubmitAnswerResponse {
   nextQuestion: Question | null;
 }
 
+export interface AbandonSessionRequest {
+  sessionId: string;
+}
+
+export interface AbandonSessionResponse {
+  session: Session;
+}
+
 export interface GetSessionResponse {
   session: Session;
+  currentQuestion: Question | null;
+}
+
+export interface GetActiveSessionQuery {
+  subjectId?: string;
+  mode?: SessionMode;
+}
+
+export interface GetActiveSessionResponse {
+  session: Session | null;
   currentQuestion: Question | null;
 }
 

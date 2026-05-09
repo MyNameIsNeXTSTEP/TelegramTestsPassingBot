@@ -1,8 +1,14 @@
 import type { FastifyPluginAsync } from "fastify";
 
 import type {
+  AbandonSessionRequest,
+  AbandonSessionResponse,
   DeleteQuestionRequest,
+  GetActiveSessionQuery,
+  GetActiveSessionResponse,
   GetSessionResponse,
+  ListQuestionIdsQuery,
+  ListQuestionIdsResponse,
   ListQuestionsQuery,
   ListQuestionsResponse,
   ListSubjectsQuery,
@@ -65,6 +71,26 @@ export const testRoutes: FastifyPluginAsync = async (app) => {
     }
   });
 
+  app.get<{ Querystring: ListQuestionIdsQuery }>("/questions/ids", async (request, reply) => {
+    const { subjectId } = request.query;
+    if (!subjectId?.trim()) {
+      sendError(reply, 400, "VALIDATION_ERROR", "subjectId is required");
+      return;
+    }
+
+    try {
+      const all = await app.testRepository.getQuestions(subjectId.trim());
+      const payload: ListQuestionIdsResponse = {
+        subjectId: subjectId.trim(),
+        total: all.length,
+        questionIds: all.map((question) => question.id).sort((a, b) => a - b),
+      };
+      sendOk(reply, payload);
+    } catch (error) {
+      sendError(reply, 404, "SUBJECT_NOT_FOUND", toErrorMessage(error));
+    }
+  });
+
   app.post<{ Body: StartSessionRequest }>("/sessions/start", async (request, reply) => {
     const userId = readUserIdFromHeader(request.headers["x-user-id"]);
     if (!userId) {
@@ -72,9 +98,18 @@ export const testRoutes: FastifyPluginAsync = async (app) => {
       return;
     }
 
-    const { subjectId, mode } = request.body ?? {};
+    const { subjectId, mode, intervalConfig } = request.body ?? {};
     if (!subjectId?.trim() || !isMode(mode)) {
       sendError(reply, 400, "VALIDATION_ERROR", "subjectId and valid mode are required");
+      return;
+    }
+    if (mode === "interval" && !isIntervalConfig(intervalConfig)) {
+      sendError(
+        reply,
+        400,
+        "VALIDATION_ERROR",
+        "intervalConfig with packSize(50|100), startQuestionId and endQuestionId is required",
+      );
       return;
     }
 
@@ -83,6 +118,7 @@ export const testRoutes: FastifyPluginAsync = async (app) => {
         userId,
         subjectId: subjectId.trim(),
         mode,
+        ...(mode === "interval" && intervalConfig ? { intervalConfig } : {}),
       });
 
       const payload: StartSessionResponse = result;
@@ -129,6 +165,31 @@ export const testRoutes: FastifyPluginAsync = async (app) => {
     }
   });
 
+  app.post<{ Body: AbandonSessionRequest }>("/sessions/abandon", async (request, reply) => {
+    const userId = readUserIdFromHeader(request.headers["x-user-id"]);
+    if (!userId) {
+      sendError(reply, 400, "VALIDATION_ERROR", "x-user-id header is required");
+      return;
+    }
+
+    const { sessionId } = request.body ?? {};
+    if (!sessionId?.trim()) {
+      sendError(reply, 400, "VALIDATION_ERROR", "sessionId is required");
+      return;
+    }
+
+    try {
+      const session = await app.sessionService.abandonSession({
+        userId,
+        sessionId: sessionId.trim(),
+      });
+      const payload: AbandonSessionResponse = { session };
+      sendOk(reply, payload);
+    } catch (error) {
+      sendError(reply, 400, "ABANDON_SESSION_FAILED", toErrorMessage(error));
+    }
+  });
+
   app.get<{ Params: { sessionId: string } }>("/sessions/:sessionId", async (request, reply) => {
     const userId = readUserIdFromHeader(request.headers["x-user-id"]);
     if (!userId) {
@@ -149,6 +210,33 @@ export const testRoutes: FastifyPluginAsync = async (app) => {
       });
 
       const payload: GetSessionResponse = result;
+      sendOk(reply, payload);
+    } catch (error) {
+      sendError(reply, 400, "GET_SESSION_FAILED", toErrorMessage(error));
+    }
+  });
+
+  app.get<{ Querystring: GetActiveSessionQuery }>("/sessions/active", async (request, reply) => {
+    const userId = readUserIdFromHeader(request.headers["x-user-id"]);
+    if (!userId) {
+      sendError(reply, 400, "VALIDATION_ERROR", "x-user-id header is required");
+      return;
+    }
+
+    const subjectId = request.query.subjectId?.trim();
+    const mode = request.query.mode;
+    if (mode !== undefined && !isMode(mode)) {
+      sendError(reply, 400, "VALIDATION_ERROR", "mode must be single, pack, exam-prep or interval");
+      return;
+    }
+
+    try {
+      const result = await app.sessionService.getLatestActiveSessionState({
+        userId,
+        ...(subjectId ? { subjectId } : {}),
+        ...(mode ? { mode } : {}),
+      });
+      const payload: GetActiveSessionResponse = result;
       sendOk(reply, payload);
     } catch (error) {
       sendError(reply, 400, "GET_SESSION_FAILED", toErrorMessage(error));
@@ -231,7 +319,36 @@ function sanitizeCourse(value: unknown): number | null {
 }
 
 function isMode(value: string | undefined): value is StartSessionRequest["mode"] {
-  return value === "single" || value === "pack" || value === "exam-prep";
+  return value === "single" || value === "pack" || value === "exam-prep" || value === "interval";
+}
+
+function isIntervalConfig(value: unknown): value is NonNullable<StartSessionRequest["intervalConfig"]> {
+  if (typeof value !== "object" || value === null) {
+    return false;
+  }
+  const maybeConfig = value as {
+    packSize?: unknown;
+    startQuestionId?: unknown;
+    endQuestionId?: unknown;
+  };
+  if (maybeConfig.packSize !== 50 && maybeConfig.packSize !== 100) {
+    return false;
+  }
+  if (
+    typeof maybeConfig.startQuestionId !== "number" ||
+    !Number.isInteger(maybeConfig.startQuestionId) ||
+    maybeConfig.startQuestionId <= 0
+  ) {
+    return false;
+  }
+  if (
+    typeof maybeConfig.endQuestionId !== "number" ||
+    !Number.isInteger(maybeConfig.endQuestionId) ||
+    maybeConfig.endQuestionId <= 0
+  ) {
+    return false;
+  }
+  return maybeConfig.endQuestionId >= maybeConfig.startQuestionId;
 }
 
 function readUserIdFromHeader(value: string | string[] | undefined): string | null {
