@@ -55,9 +55,8 @@ set -euo pipefail
 
 cd "$REMOTE_APP_DIR"
 
-git fetch origin
-git checkout "$REMOTE_BRANCH"
-git pull --ff-only origin "$REMOTE_BRANCH"
+git reset --hard origin/master
+git pull origin master
 
 docker compose -f "$COMPOSE_FILE" down --rmi all --remove-orphans
 docker compose -f "$COMPOSE_FILE" build --no-cache
