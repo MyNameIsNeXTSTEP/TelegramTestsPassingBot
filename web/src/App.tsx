@@ -847,7 +847,7 @@ function App() {
                 <p className="text-sm text-slate-200">
                   Сессия завершена 🏁<br />
                   Правильных ответов: 🎯 {session.progress.correctAnswers}/
-                  {session.progress.answeredQuestions}<br />
+                  {session.progress.answeredQuestions} пройденных<br />
                   Ошибок: 🥲 {session.errors.length}
                 </p>
                 <Button variant="default" className="w-full h-10 bg-[#4f9fff] text-white hover:bg-[#3f8feb]" onClick={resetQuestionView}>
