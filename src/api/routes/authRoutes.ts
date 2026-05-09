@@ -3,11 +3,13 @@ import type { FastifyPluginAsync } from "fastify";
 import type {
   AuthLoginRequest,
   AuthLoginResponse,
+  ListBroadcastTelegramIdsResponse,
   SessionMode,
   UpdatePreferencesRequest,
   UpdatePreferencesResponse,
   UserRole,
 } from "../../shared/index.js";
+import { isAdminRequest } from "../authz.js";
 import { sendError, sendOk } from "../http.js";
 
 export const authRoutes: FastifyPluginAsync = async (app) => {
@@ -19,7 +21,7 @@ export const authRoutes: FastifyPluginAsync = async (app) => {
       return;
     }
 
-    const role: UserRole = app.apiConfig.adminTelegramIds.has(telegramId) ? "admin" : "student";
+    const role: UserRole = app.apiConfig.adminTelegramId === telegramId ? "admin" : "student";
     const user = await app.userRepository.upsertByTelegram(telegramId.trim(), name.trim(), role);
     const payload: AuthLoginResponse = { user };
 
@@ -60,9 +62,37 @@ export const authRoutes: FastifyPluginAsync = async (app) => {
     const payload: UpdatePreferencesResponse = { user };
     sendOk(reply, payload);
   });
+
+  app.get("/admin/broadcast/telegram-ids", async (request, reply) => {
+    if (!isAdminRequest(request)) {
+      sendError(reply, 403, "FORBIDDEN", "Admin role is required");
+      return;
+    }
+
+    const adminTelegramId = readAdminTelegramIdFromHeader(request.headers["x-admin-telegram-id"]);
+    if (!adminTelegramId) {
+      sendError(reply, 400, "VALIDATION_ERROR", "x-admin-telegram-id header is required");
+      return;
+    }
+    if (adminTelegramId !== app.apiConfig.adminTelegramId) {
+      sendError(reply, 403, "FORBIDDEN", "Unknown admin telegram id");
+      return;
+    }
+
+    const telegramIds = await app.userRepository.listTelegramIds();
+    const payload: ListBroadcastTelegramIdsResponse = { telegramIds };
+    sendOk(reply, payload);
+  });
 };
 
 function readUserIdFromHeader(value: string | string[] | undefined): string | null {
+  if (typeof value === "string" && value.trim()) {
+    return value.trim();
+  }
+  return null;
+}
+
+function readAdminTelegramIdFromHeader(value: string | string[] | undefined): string | null {
   if (typeof value === "string" && value.trim()) {
     return value.trim();
   }

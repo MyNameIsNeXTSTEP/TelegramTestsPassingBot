@@ -1,6 +1,5 @@
 import { Markup, Telegraf } from "telegraf";
 import { randomUUID } from "node:crypto";
-import { readFile } from "node:fs/promises";
 
 import type { BotConfig } from "./config.js";
 import { BotApiClient } from "./apiClient.js";
@@ -146,7 +145,7 @@ export function buildBot(config: BotConfig): Telegraf {
 
     pendingBroadcastByChatId.delete(ctx.chat.id);
     try {
-      const result = await sendBroadcastMessage(bot, ctx.message.text);
+      const result = await sendBroadcastMessage(bot, api, config.adminTelegramId, ctx.message.text);
       await ctx.reply(
         [
           "Рассылка завершена.",
@@ -1549,9 +1548,12 @@ function getCommandName(text: string): string | null {
 
 async function sendBroadcastMessage(
   bot: Telegraf,
+  api: BotApiClient,
+  adminTelegramId: string,
   messageText: string,
 ): Promise<{ total: number; sent: number; failed: number }> {
-  const telegramChatIds = await loadRegisteredTelegramChatIds();
+  const rawTelegramIds = await api.listBroadcastTelegramIds(adminTelegramId);
+  const telegramChatIds = normalizeTelegramChatIds(rawTelegramIds);
   let sent = 0;
   let failed = 0;
 
@@ -1571,16 +1573,10 @@ async function sendBroadcastMessage(
   };
 }
 
-async function loadRegisteredTelegramChatIds(): Promise<number[]> {
-  const rawUsers = await readFile(new URL("../../data/users.json", import.meta.url), "utf8");
-  const parsedUsers: unknown = JSON.parse(rawUsers);
-  if (!Array.isArray(parsedUsers)) {
-    throw new Error("Некорректный формат users.json");
-  }
-
+function normalizeTelegramChatIds(rawTelegramIds: string[]): number[] {
   const chatIds = new Set<number>();
-  for (const user of parsedUsers) {
-    const chatId = getUserTelegramChatId(user);
+  for (const rawTelegramId of rawTelegramIds) {
+    const chatId = getTelegramChatId(rawTelegramId);
     if (typeof chatId === "number") {
       chatIds.add(chatId);
     }
@@ -1589,12 +1585,7 @@ async function loadRegisteredTelegramChatIds(): Promise<number[]> {
   return Array.from(chatIds);
 }
 
-function getUserTelegramChatId(value: unknown): number | null {
-  if (!isRecord(value)) {
-    return null;
-  }
-
-  const rawTelegramId = value.telegramId;
+function getTelegramChatId(rawTelegramId: unknown): number | null {
   if (typeof rawTelegramId === "number" && Number.isInteger(rawTelegramId) && rawTelegramId > 0) {
     return rawTelegramId;
   }

@@ -138,6 +138,19 @@ export class UserRepository {
     return user;
   }
 
+  public async listTelegramIds(): Promise<string[]> {
+    const users = await this.readAll();
+    const telegramIds = new Set<string>();
+    for (const user of users) {
+      const telegramId = user.telegramId?.trim();
+      if (telegramId) {
+        telegramIds.add(telegramId);
+      }
+    }
+
+    return Array.from(telegramIds);
+  }
+
   private async readAll(): Promise<User[]> {
     return readJsonFile<User[]>(this.path, []);
   }
