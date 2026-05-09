@@ -16,7 +16,17 @@ import { SubscriptionService } from "./services/subscriptionService.js";
 
 export function buildApi(config: ApiConfig = loadConfig()): FastifyInstance {
   const app = Fastify({
-    logger: true,
+    logger: {
+      transport: {
+        target: 'pino-pretty',
+        options: {
+          colorize: true,
+          translateTime: 'HH:MM:ss Z',
+          ignore: 'pid,hostname',
+        },
+      },
+    },
+    disableRequestLogging: process.env.DISABLE_REQUEST_LOGGING === 'true',
   });
 
   app.decorate("apiConfig", config);

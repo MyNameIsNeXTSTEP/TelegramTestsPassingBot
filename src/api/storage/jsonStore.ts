@@ -11,7 +11,6 @@ export async function readJsonFile<T>(path: string, fallback: T): Promise<T> {
     if (isMissingFileError(error)) {
       return fallback;
     }
-
     throw error;
   }
 }

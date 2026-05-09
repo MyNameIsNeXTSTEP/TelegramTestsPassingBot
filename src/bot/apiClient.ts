@@ -1,6 +1,7 @@
 import type {
   ApiResponse,
   AuthLoginResponse,
+  ListBroadcastTelegramIdsResponse,
   ListPlansResponse,
   ListSubjectsResponse,
   SessionMode,
@@ -93,6 +94,17 @@ export class BotApiClient {
     });
 
     return data.user;
+  }
+
+  public async listBroadcastTelegramIds(adminTelegramId: string): Promise<string[]> {
+    const data = await this.request<ListBroadcastTelegramIdsResponse>("/auth/admin/broadcast/telegram-ids", {
+      headers: {
+        "x-user-role": "admin",
+        "x-admin-telegram-id": adminTelegramId,
+      },
+    });
+
+    return data.telegramIds;
   }
 
   private async request<T>(path: string, init?: RequestInit): Promise<T> {

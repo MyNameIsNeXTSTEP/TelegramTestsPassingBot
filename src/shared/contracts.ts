@@ -182,6 +182,10 @@ export interface UpdatePreferencesResponse {
   user: User;
 }
 
+export interface ListBroadcastTelegramIdsResponse {
+  telegramIds: string[];
+}
+
 export interface ListSubjectsQuery {
   course?: number;
   faculty?: string;
