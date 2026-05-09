@@ -14,7 +14,10 @@
     "build:webapp": "npm --prefix web run build",
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc --noEmit -p tsconfig.json",
-    "docker:up": "docker compose up --build -d"
+    "lint:web": "npm --prefix web run lint",
+    "verify": "npm run typecheck && npm run lint:web && npm run build && npm run build:webapp",
+    "docker:up": "docker compose up --build -d",
+    "prepare": "husky"
   },
   "dependencies": {
     "@fastify/cors": "^11.2.0",
@@ -25,6 +28,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.9.1",
+    "husky": "^9.1.7",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   }
