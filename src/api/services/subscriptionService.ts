@@ -1,6 +1,7 @@
-import type { PlanLimits, SubscriptionPlan, User } from "../../shared/index.js";
+import type { PlanLimits, SessionMode, SubscriptionPlan, User } from "../../shared/index.js";
 import { SESSION_RULES } from "../../shared/index.js";
 import type { PlanRepository } from "../repositories/planRepository.js";
+import type { SessionRepository } from "../repositories/sessionRepository.js";
 import type { UserRepository } from "../repositories/userRepository.js";
 
 const FALLBACK_LIMITS: PlanLimits = {
@@ -13,6 +14,7 @@ export class SubscriptionService {
   public constructor(
     private readonly planRepository: PlanRepository,
     private readonly userRepository: UserRepository,
+    private readonly sessionRepository: SessionRepository,
   ) {}
 
   public async listPlans(): Promise<SubscriptionPlan[]> {
@@ -43,18 +45,46 @@ export class SubscriptionService {
     return plan.limits;
   }
 
-  public async assertCanStartSession(user: User): Promise<void> {
+  public async assertCanStartSession(user: User, mode: SessionMode): Promise<void> {
+    const today = new Date().toISOString().slice(0, 10);
+    const startedInModeToday = await this.sessionRepository.countStartedByUser({
+      userId: user.id,
+      dateIso: today,
+      mode,
+    });
+
+    console.info("mode", mode);
+    console.info("user.planCode", user.planCode);
+
+    if (mode === "interval" && user.planCode !== "pro") {
+      throw new Error('Интервальный режим доступен только на тарифе "Pro".');
+    }
+
+    if (user.planCode === "free") {
+      if (mode === "single" && startedInModeToday >= 3) {
+        throw new Error("Одиночный режим на бесплатном тарифе доступен только 3 раза в день.");
+      }
+      if (mode === "pack" && startedInModeToday >= 1) {
+        throw new Error("Режим Практика на бесплатном тарифе доступен только 1 раз в день.");
+      }
+      if (mode === "exam-prep") {
+        throw new Error('Режим Экзамен доступен только на тарифах "Базовый" и "Pro".');
+      }
+      if (mode === "interval") {
+        throw new Error('Интервальный режим доступен только на тарифе "Pro".');
+      }
+    }
+
+    if (user.planCode === "basic" && mode === "exam-prep" && startedInModeToday >= 1) {
+      throw new Error('Режим Экзамен на тарифе "Базовый" доступен только 1 раз в день.');
+    }
+
     const limits = await this.resolveLimitsForUser(user);
     const dailyLimit = limits.dailySessionsLimit;
     if (dailyLimit === null) {
       return;
     }
-
-    const today = new Date().toISOString().slice(0, 10);
-    const currentUsage =
-      user.dailyUsage.dateIso === today
-        ? user.dailyUsage.sessionsStarted
-        : 0;
+    const currentUsage = startedInModeToday;
 
     if (currentUsage >= dailyLimit) {
       throw new Error(

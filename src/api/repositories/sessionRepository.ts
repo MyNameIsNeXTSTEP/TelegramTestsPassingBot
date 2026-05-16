@@ -52,6 +52,18 @@ export class SessionRepository {
     return filtered[0] ?? null;
   }
 
+  public async countStartedByUser(input: {
+    userId: string;
+    dateIso: string;
+    mode?: SessionMode;
+  }): Promise<number> {
+    const sessions = await this.readAll();
+    return sessions
+      .filter((session) => session.userId === input.userId)
+      .filter((session) => session.startedAtIso.slice(0, 10) === input.dateIso)
+      .filter((session) => (input.mode ? session.mode === input.mode : true)).length;
+  }
+
   private async readAll(): Promise<Session[]> {
     return readJsonFileValidated(this.path, [], parseSessions);
   }

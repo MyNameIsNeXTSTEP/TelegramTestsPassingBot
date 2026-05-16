@@ -430,6 +430,13 @@ export function buildBot(config: BotConfig): Telegraf {
       }
 
       const mode = ctx.match[1] as SessionMode;
+      if (mode === "interval" && state.user.planCode !== "pro") {
+        await ctx.reply(
+          'Интервальный режим доступен только на тарифе "Pro".\nОткройте раздел "Тарифы" для подключения.',
+          MENU_KEYBOARD,
+        );
+        return;
+      }
       const selectedSubject = state.subjects.find(
         (subject) =>
           subject.course === state.selectedCourse &&

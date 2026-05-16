@@ -37,7 +37,7 @@ export class SessionService {
       throw new Error(`Пользователь '${params.userId}' не найден`);
     }
 
-    await this.subscriptionService.assertCanStartSession(user);
+    await this.subscriptionService.assertCanStartSession(user, params.mode);
     const limits = await this.subscriptionService.resolveLimitsForUser(user);
 
     const questions = await this.testRepository.getQuestions(params.subjectId);

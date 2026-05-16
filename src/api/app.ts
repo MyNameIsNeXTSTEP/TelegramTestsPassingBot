@@ -35,7 +35,7 @@ export function buildApi(config: ApiConfig = loadConfig()): FastifyInstance {
   const statisticsRepository = new StatisticsRepository(config.dataDir);
   const sessionRepository = new SessionRepository(config.dataDir);
   const planRepository = new PlanRepository(config.dataDir);
-  const subscriptionService = new SubscriptionService(planRepository, userRepository);
+  const subscriptionService = new SubscriptionService(planRepository, userRepository, sessionRepository);
   const sessionService = new SessionService(
     testRepository,
     sessionRepository,
