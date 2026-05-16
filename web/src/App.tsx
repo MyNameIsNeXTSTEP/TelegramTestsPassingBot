@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { Menu, X } from "lucide-react";
+import { ArrowLeft, Menu, X } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -40,7 +40,16 @@ interface Subject {
   course: number;
   faculty: string;
   subject: string;
+  section?: string;
   testType: TestType;
+}
+
+interface SubjectGroup {
+  key: string;
+  subject: string;
+  testType: TestType;
+  entries: Subject[];
+  hasSections: boolean;
 }
 
 interface QuestionOption {
@@ -177,6 +186,7 @@ function App() {
   const [selectedCourse, setSelectedCourse] = useState<number | null>(null);
   const [selectedFaculty, setSelectedFaculty] = useState<string | null>(null);
   const [selectedSubjectId, setSelectedSubjectId] = useState<string | null>(null);
+  const [selectedSubjectGroupKey, setSelectedSubjectGroupKey] = useState<string | null>(null);
   const [selectedMode, setSelectedMode] = useState<SessionMode>("single");
   const [questionIdsForInterval, setQuestionIdsForInterval] = useState<number[]>([]);
   const [intervalPackSize, setIntervalPackSize] = useState<IntervalPackSize | null>(null);
@@ -214,8 +224,55 @@ function App() {
     }
     return subjects
       .filter((subject) => subject.course === selectedCourse && subject.faculty === selectedFaculty)
-      .sort((left, right) => left.subject.localeCompare(right.subject));
+      .sort((left, right) => {
+        if (left.subject !== right.subject) {
+          return left.subject.localeCompare(right.subject);
+        }
+        if (left.testType !== right.testType) {
+          return left.testType.localeCompare(right.testType);
+        }
+        return (left.section ?? "").localeCompare(right.section ?? "");
+      });
   }, [selectedCourse, selectedFaculty, subjects]);
+
+  const subjectGroups = useMemo<SubjectGroup[]>(() => {
+    const grouped = new Map<string, SubjectGroup>();
+    for (const subject of filteredSubjects) {
+      const key = `${subject.subject}__${subject.testType}`;
+      const existing = grouped.get(key);
+      if (existing) {
+        existing.entries.push(subject);
+        existing.hasSections = existing.hasSections || Boolean(subject.section);
+        continue;
+      }
+      grouped.set(key, {
+        key,
+        subject: subject.subject,
+        testType: subject.testType,
+        entries: [subject],
+        hasSections: Boolean(subject.section),
+      });
+    }
+
+    return Array.from(grouped.values())
+      .map((group) => ({
+        ...group,
+        entries: [...group.entries].sort((left, right) =>
+          (left.section ?? "").localeCompare(right.section ?? ""),
+        ),
+      }))
+      .sort((left, right) => {
+        if (left.subject !== right.subject) {
+          return left.subject.localeCompare(right.subject);
+        }
+        return left.testType.localeCompare(right.testType);
+      });
+  }, [filteredSubjects]);
+
+  const selectedSubjectGroup = useMemo(
+    () => subjectGroups.find((group) => group.key === selectedSubjectGroupKey) ?? null,
+    [selectedSubjectGroupKey, subjectGroups],
+  );
 
   const selectedSubject = useMemo(
     () => subjects.find((subject) => subject.id === selectedSubjectId) ?? null,
@@ -322,6 +379,7 @@ function App() {
     setSelectedCourse(course);
     setSelectedFaculty(null);
     setSelectedSubjectId(null);
+    setSelectedSubjectGroupKey(null);
     resetQuestionView();
     resetIntervalSetup();
     await savePreferences({ course });
@@ -330,6 +388,7 @@ function App() {
   async function applyFaculty(faculty: string): Promise<void> {
     setSelectedFaculty(faculty);
     setSelectedSubjectId(null);
+    setSelectedSubjectGroupKey(null);
     resetQuestionView();
     resetIntervalSetup();
     await savePreferences({ faculty });
@@ -337,6 +396,7 @@ function App() {
 
   async function applySubject(subjectId: string): Promise<void> {
     setSelectedSubjectId(subjectId);
+    setSelectedSubjectGroupKey(null);
     resetQuestionView();
     resetIntervalSetup();
     await savePreferences({ subjectId });
@@ -840,20 +900,59 @@ function App() {
               : null}
 
             {settingPanel === "subject"
-              ? filteredSubjects.map((subject) => (
-                  <Button
-                    key={subject.id}
-                    variant={selectedSubjectId === subject.id ? "default" : "outline"}
-                    className={cn(
-                      "h-auto w-full justify-between px-3 py-3",
-                      selectedSubjectId === subject.id && "border-sky-400/70 bg-sky-400/20",
-                    )}
-                    onClick={() => void applySubject(subject.id)}
-                  >
-                    <span>{subject.subject}</span>
-                    <span className="text-xs text-slate-400">{subject.testType === "exam" ? "Экзамен" : "Зачет"}</span>
-                  </Button>
-                ))
+              ? selectedSubjectGroup && selectedSubjectGroup.hasSections
+                ? (
+                    <div className="space-y-2">
+                      <Button
+                        variant="ghost"
+                        className="h-8 px-2 text-slate-200 hover:bg-[#2a3e59]"
+                        onClick={() => setSelectedSubjectGroupKey(null)}
+                      >
+                        <ArrowLeft size={14} className="mr-1" />
+                        Назад к предметам
+                      </Button>
+                      {selectedSubjectGroup.entries.map((subject) => (
+                        <Button
+                          key={subject.id}
+                          variant={selectedSubjectId === subject.id ? "default" : "outline"}
+                          className={cn(
+                            "h-auto w-full justify-between px-3 py-3",
+                            selectedSubjectId === subject.id && "border-sky-400/70 bg-sky-400/20",
+                          )}
+                          onClick={() => void applySubject(subject.id)}
+                        >
+                          <span className="text-left">{subject.section ?? subject.subject}</span>
+                          <span className="text-xs text-slate-400">Раздел</span>
+                        </Button>
+                      ))}
+                    </div>
+                  )
+                : subjectGroups.map((group) => {
+                    const groupHasSelectedSubject = group.entries.some((entry) => entry.id === selectedSubjectId);
+                    return (
+                      <Button
+                        key={group.key}
+                        variant={groupHasSelectedSubject ? "default" : "outline"}
+                        className={cn(
+                          "h-auto w-full justify-between px-3 py-3",
+                          groupHasSelectedSubject && "border-sky-400/70 bg-sky-400/20",
+                        )}
+                        onClick={() => {
+                          if (group.hasSections) {
+                            setSelectedSubjectGroupKey(group.key);
+                            return;
+                          }
+                          void applySubject(group.entries[0].id);
+                        }}
+                      >
+                        <span className="text-left">{group.subject}</span>
+                        <span className="text-xs text-slate-400">
+                          {group.testType === "exam" ? "Экзамен" : "Зачет"}
+                          {group.hasSections ? ` · ${group.entries.length} раздела` : ""}
+                        </span>
+                      </Button>
+                    );
+                  })
               : null}
 
             <Button variant="outline" className="w-full" onClick={() => setSettingPanel(null)}>
@@ -907,20 +1006,59 @@ function App() {
               : null}
 
             {setupStep === "subject"
-              ? filteredSubjects.map((subject) => (
-                  <Button
-                    key={subject.id}
-                    variant={selectedSubjectId === subject.id ? "default" : "outline"}
-                    className={cn(
-                      "h-auto w-full justify-between px-3 py-3",
-                      selectedSubjectId === subject.id && "border-sky-400/70 bg-sky-400/20",
-                    )}
-                    onClick={() => void applySubject(subject.id)}
-                  >
-                    <span>{subject.subject}</span>
-                    <span className="text-xs text-slate-400">{subject.testType === "exam" ? "exam" : "credit"}</span>
-                  </Button>
-                ))
+              ? selectedSubjectGroup && selectedSubjectGroup.hasSections
+                ? (
+                    <div className="space-y-2">
+                      <Button
+                        variant="ghost"
+                        className="h-8 px-2 text-slate-200 hover:bg-[#2a3e59]"
+                        onClick={() => setSelectedSubjectGroupKey(null)}
+                      >
+                        <ArrowLeft size={14} className="mr-1" />
+                        Назад к предметам
+                      </Button>
+                      {selectedSubjectGroup.entries.map((subject) => (
+                        <Button
+                          key={subject.id}
+                          variant={selectedSubjectId === subject.id ? "default" : "outline"}
+                          className={cn(
+                            "h-auto w-full justify-between px-3 py-3",
+                            selectedSubjectId === subject.id && "border-sky-400/70 bg-sky-400/20",
+                          )}
+                          onClick={() => void applySubject(subject.id)}
+                        >
+                          <span className="text-left">{subject.section ?? subject.subject}</span>
+                          <span className="text-xs text-slate-400">Раздел</span>
+                        </Button>
+                      ))}
+                    </div>
+                  )
+                : subjectGroups.map((group) => {
+                    const groupHasSelectedSubject = group.entries.some((entry) => entry.id === selectedSubjectId);
+                    return (
+                      <Button
+                        key={group.key}
+                        variant={groupHasSelectedSubject ? "default" : "outline"}
+                        className={cn(
+                          "h-auto w-full justify-between px-3 py-3",
+                          groupHasSelectedSubject && "border-sky-400/70 bg-sky-400/20",
+                        )}
+                        onClick={() => {
+                          if (group.hasSections) {
+                            setSelectedSubjectGroupKey(group.key);
+                            return;
+                          }
+                          void applySubject(group.entries[0].id);
+                        }}
+                      >
+                        <span className="text-left">{group.subject}</span>
+                        <span className="text-xs text-slate-400">
+                          {group.testType === "exam" ? "Экзамен" : "Зачет"}
+                          {group.hasSections ? ` · ${group.entries.length} раздела` : ""}
+                        </span>
+                      </Button>
+                    );
+                  })
               : null}
           </CardContent>
         </Card>
@@ -929,7 +1067,10 @@ function App() {
       {accessState === "granted" && setupStep === "ready" && !session ? (
         <Card className="mt-4 border-[#30445f] bg-[#1a2739]">
           <CardHeader className="pb-3">
-            <CardTitle className="text-base">{selectedSubject?.subject}</CardTitle>
+            <CardTitle className="text-base">
+              {selectedSubject?.subject}
+              {selectedSubject?.section ? ` · ${selectedSubject.section}` : ""}
+            </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-sm text-slate-200">Выберите режим тренировки тестов</p>
@@ -1038,7 +1179,10 @@ function App() {
       {session && currentQuestion ? (
         <Card className="mt-4 border-[#30445f] bg-[#1a2739]">
           <CardHeader className="space-y-2 pb-2">
-            <CardTitle className="text-base">{selectedSubject?.subject}</CardTitle>
+            <CardTitle className="text-base">
+              {selectedSubject?.subject}
+              {selectedSubject?.section ? ` · ${selectedSubject.section}` : ""}
+            </CardTitle>
             <p className="text-xs text-slate-400">
               {session.progress.answeredQuestions + 1}/{session.progress.totalQuestions} · Ошибок {session.errors.length}
             </p>
