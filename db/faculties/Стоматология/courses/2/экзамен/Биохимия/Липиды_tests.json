@@ -1,0 +1,1822 @@
+[
+  {
+    "id": 1,
+    "title": "Какое свойство характерно для липидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Хорошо растворяются в воде",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Плохо растворяются в жирорастворителях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Хорошо растворяются в жирах и жирорастворителях",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Не взаимодействуют с белками",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "К простым липидам относятся:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фосфолипиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гликолипиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Триацилглицеролы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Стерины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Триацилглицерол, содержащий одну жирную кислоту (например, стеариновую), называется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Смешанный жир",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Простой нейтральный жир",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Протоплазматический жир",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Сложный липид",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Основное количество свободных жирных кислот после распада нейтральных жиров доставляется в:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Сердце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Мышцы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Печень",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Жировую ткань",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Депо нейтрального жира в организме – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Печень",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Подкожная клетчатка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Селезёнка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Головной мозг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Фосфолипиды являются производными:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Холестерина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Нейтральных жиров",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Углеводов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Белков",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какое азотистое основание входит в состав кефалина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Холин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Серин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Этаноламин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Сфингозин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Соотношение холестерин: фосфолипиды в клеточной мембране составляет:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2:1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1:2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1:1",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "3:1",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "В тканях содержание свободного холестерина составляет:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "20–25%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "80%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "95%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Эфиры холестерина в плазме крови используются для:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Построения клеточных мембран",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Образования гормонов коры надпочечников, половых гормонов и сурфактантной пленки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Транспорта кислорода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Свёртывания крови",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Липопротеины имеют сферическую форму и состоят из:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гидрофобного ядра и амфифильного монослоя",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Только триглицеридов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только холестерина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какая часть липопротеина отвечает за рецептор-зависимые взаимодействия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фосфолипиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Триацилглицеролы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Апобелки (апо)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Эфиры холестерина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "В составе липопротеинов транспортными компонентами являются:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фосфолипиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Апобелки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Триглицериды и холестерин с его эфирами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Моносахариды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Функция фосфолипидов в липопротеинах – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ферментативная активность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Обеспечение растворимости водонерастворимых липидов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Узнавание рецепторов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Синтез гормонов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Условия, необходимые для переваривания липидов, включают:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Отсутствие эмульгаторов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Наличие липолитических ферментов, оптимальный pH и эмульгаторы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Щелочную среду без ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только желчные кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "В желудке переваривание жиров у взрослых происходит под действием:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пепсина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Трипсина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Лингвальной липазы, но вклад её незначителен",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Желчных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Эмульгирование жиров в тонком кишечнике обеспечивают:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Соляная кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Панкреатическая липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Соли жёлчных кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Фосфолипазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Панкреатическая липаза гидролизует триглицериды с образованием:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глицерина и трёх жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Свободных жирных кислот и 2-моноглицеридов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Диглицеридов и фосфата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только моноглицеридов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Мицеллы при всасывании липидов образуются при участии:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Трипсина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Жёлчных кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Пепсина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Амилазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Всасывание жирорастворимых компонентов (жирные кислоты, холестерин) происходит в виде:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Свободных молекул",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Комплексов с парными жёлчными кислотами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Эмульсии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Липопротеинов высокой плотности",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Ресинтез триацилглицеридов в клетках слизистой оболочки кишечника происходит из:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глицерина и жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Свободных жирных кислот, моно- и диацилглицеридов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Холестерина и фосфолипидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кетоновых тел",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Секрецию панкреатической липазы стимулирует гормон:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Холецистокинин (панкреозимин)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Адреналин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Основной путь превращения жирных кислот – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гликолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-Окисление",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Глюконеогенез",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Пентозофосфатный путь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Где происходит биосинтез жирных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В матриксе митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В цитозоле",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "В ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В лизосомах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Предшественником для синтеза жирных кислот является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Сукцинил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Оксалоацетат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Транспорт ацетил-КоА из митохондрий в цитозоль осуществляется в виде:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Малата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Цитрата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Оксалоацетата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ацетилкарнитина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Ключевой фермент синтеза жирных кислот, карбоксилирующий ацетил-КоА, называется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ацетил-КоА-синтетаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ацетил-КоА-карбоксилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Цитратсинтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АТФ-цитратлиаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "В качестве восстановителя при синтезе жирных кислот используется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАДН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАДФН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФАДН₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Основным продуктом мультиферментного комплекса синтазы жирных кислот является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Стеариновая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Олеиновая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Пальмитиновая кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Арахидоновая кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Для синтеза одной молекулы пальмитата требуется количество ацетил-КоА:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1 молекула",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "4 молекулы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "8 молекул",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "16 молекул",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Промежуточные продукты синтеза жирных кислот ковалентно связаны с:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Коферментом А",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ацилпереносящим белком (АПБ)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Биотином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "НАДФН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Удлинение цепи жирной кислоты при синтезе происходит за счёт присоединения:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Малонил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Пропионил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Сукцинил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Синтез кетоновых тел происходит в:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Цитозоле печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Митохондриях печени",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Жировой ткани",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Мышцах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Условием для активации синтеза кетоновых тел является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Высокое соотношение инсулин/глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Низкое соотношение инсулин/глюкагон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Избыток углеводов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Высокий уровень глюкозы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Синтез кетоновых тел начинается с реакции:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Конденсации двух молекул ацетил-КоА в ацетоацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Превращения пирувата в ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Карбоксилирования ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Образования мевалоната",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Ключевой фермент синтеза кетоновых тел, образующий ГМГ-КоА, называется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Тиолаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ГМГ-КоА-синтаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ГМГ-КоА-редуктаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ацетоацетат-декарбоксилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Основное кетоновое тело в крови при голодании – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ацетон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ацетоацетат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "β-Гидроксибутират",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Ацетил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Ацетон образуется из ацетоацетата путём:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ферментативного декарбоксилирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Неферментативного декарбоксилирования",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Восстановления",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Окисления",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "При длительном голодании кетоновые тела используются в качестве основного источника энергии для:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Эритроцитов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Нервной ткани",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Скелетных мышц, сердца и почек",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Печени",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Синтез триацилглицеринов в печени и жировой ткани происходит через:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глицерол-3-фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Фосфатидную кислоту",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Моноацилглицерин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Цитрат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Активная форма глицерола для синтеза триацилглицеринов – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глицерол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глицерол-1-фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Глицерол-3-фосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Дигидроксиацетонфосфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "В слизистой оболочке кишечника триацилглицерины синтезируются из:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фосфатидной кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Свободных жирных кислот, моно- и диацилглицеринов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Холестерина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Синтез холестерина преимущественно происходит в:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Печени",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Жировой ткани",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Почка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Ключевой фермент синтеза холестерина, катализирующий образование мевалоната – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ГМГ-КоА-синтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ГМГ-КоА-редуктаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Сквален-синтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ланостерол-синтаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Изопреновые единицы (IPP и DMAPP) образуются из:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Мевалоната",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Сквалена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ланостерола",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Сквален образуется в результате конденсации:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Изопентенилпирофосфата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Диметилаллилпирофосфата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Фарнезилпирофосфата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Геранилпирофосфата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Первым стероидным интермедиатом в синтезе холестерина является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ланостерол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Сквален",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Холестенол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Десмостерол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Центр регуляции липидного обмена в ЦНС – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кора больших полушарий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гипоталамус",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Продолговатый мозг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Возбуждение симпатических волокон приводит к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Накоплению жира в ткани",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Активации тканевого липолиза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Уменьшению выхода жирных кислот в кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Снижению мобилизации жиров",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "К гормонам, способствующим депонированию жира, относится:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Инсулин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Тиреоидные гормоны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какой гормон способствует мобилизации жира?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АКТГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Глюкокортикоиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Глюкагон",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Аллостерические ферменты лимитирующих реакций регулируются:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только гормонами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только нервными импульсами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Метаболитами-эффекторами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Ионами кальция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "В составе сложных липидов содержатся:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только триацилглицеролы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Фосфолипиды, гликолипиды, стерины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Свободные жирные кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Моносахариды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Протоплазматический жир – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Нейтральный жир в депо",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Нейтральный жир в комплексе с белками цитоплазмы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Холестерин мембран",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Жир, синтезированный в кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Сфингомиелин относится к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глицериновым фосфолипидам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Неглицериновым фосфолипидам",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Нейтральным жирам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Стеринам",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "В плазме крови эфиросвязанный холестерин составляет:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "20–25%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "70–75%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Гидрофобное ядро липопротеина образовано:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фосфолипидами и белком",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Триацилглицеролами и эфирами холестерина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Свободным холестерином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Апобелками",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Апобелки липопротеинов выполняют функцию:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Растворения липидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Транспорта, узнавания рецепторами и кофакторную",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Запасания энергии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Структурную в мембранах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Эмульгирование жиров в кишечнике необходимо для:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Увеличения площади контакта с ферментами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Снижения активности липазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Образования хиломикронов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Синтеза желчных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Продукты гидролиза жиров в тонкой кишке образуют мицеллы, которые:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Транспортируются в лимфу в неизменном виде",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Обеспечивают всасывание липидов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Сразу поступают в кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Разрушаются желчными кислотами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "В клетках кишечника при ресинтезе липидов синтезируются:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только хиломикроны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Триацилглицерины, фосфолипиды и эфиры холестерина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Свободные жирные кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кетоновые тела",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "β-Окисление жирных кислот происходит в:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Матриксе митохондрий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Эндоплазматическом ретикулуме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ядре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Ацетил-КоА, образующийся при β-окислении, при голодании используется преимущественно на:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтез глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Синтез кетоновых тел",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Цикл Кребса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Синтез жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Снижение скорости цикла трикарбоновых кислот при голодании связано с:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Недостатком ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Использованием оксалоацетата на глюконеогенез",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Избытком НАДФН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Активацией пируватдегидрогеназы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Фермент тиолаза участвует в:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтезе жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Образовании ацетоацетил-КоА из двух ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Синтезе холестерина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Окислении глицерина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "ГМГ-КоА-лиаза катализирует:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Образование мевалоната",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Расщепление ГМГ-КоА на ацетоацетат и ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Синтез сквалена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Карбоксилирование ацетил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "При высокой концентрации ацетоацетата часть его превращается в ацетон, который выводится:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только с мочой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только с выдыхаемым воздухом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "С выдыхаемым воздухом и мочой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "С калом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Синтез триацилглицеринов из фосфатидной кислоты включает этап:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Дефосфорилирования с образованием 1,2-диацилглицерина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Конденсации с ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Восстановления НАДФН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Образования цитрата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Конечным продуктом биосинтеза холестерина является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ланостерол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Сквален",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Холестерин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Мевалонат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Молекулярная регуляция липидного обмена осуществляется путём изменения активности:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Всех ферментов без исключения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аллостерических ферментов, катализирующих лимитирующие реакции",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Только ядерных рецепторов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только транспортных белков",
+        "isCorrect": false
+      }
+    ]
+  }
+]

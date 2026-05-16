@@ -1,0 +1,2082 @@
+[
+  {
+    "id": 1,
+    "title": "Кто ввёл термин «биохимия» в 1903 году?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Дж. Уотсон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ф. Сенгер",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Карл Нейберг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "П. Митчелл",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Что является главной задачей биохимии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Изучение строения клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Познание химических основ жизни, условий и механизмов её возникновения и развития",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Разработка новых лекарств",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Классификация живых организмов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какой период развития биохимии характеризуется применением рентгеноструктурного анализа, электронной микроскопии и хроматографии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Донаучный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Классический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Современный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Период Возрождения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "В каком году Дж. Уотсон и Ф. Крик предложили модель двойной спирали ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1953 г.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "1961 г.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1966 г.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1971 г.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Кто впервые расшифровал аминокислотную последовательность белка инсулина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "М. Ниренберг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ф. Сенгер",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "П. Митчелл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Р. Мерифильд",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой раздел биохимии изучает превращения химических соединений и связанной с ними энергии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Статическая биохимия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Динамическая биохимия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Функциональная биохимия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Эволюционная биохимия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какие мономеры служат структурными единицами белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Нуклеотиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Моносахариды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "α-Аминокислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Жирные кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Сколько протеиногенных аминокислот участвует в построении всех белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "20",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "25",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какая связь соединяет аминокислоты в полипептидной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Водородная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пептидная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Дисульфидная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ионная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какой фрагмент полипептида называют пептидом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2–10 аминокислотных остатков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "10–100 аминокислотных остатков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Более 100 аминокислотных остатков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Более 1000 аминокислотных остатков",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Молекулярная масса большинства белков находится в диапазоне:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "до 1000 Да",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "от 1000 до 5000 Да",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "от 10 000 Да до нескольких миллионов Да",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "более 10⁹ Да",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Первичная структура белка – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-спираль и β-складчатый слой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "последовательность аминокислотных остатков в полипептидной цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пространственное расположение полипептидной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "объединение нескольких субъединиц",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Что из перечисленного НЕ определяется первичной структурой белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Размер и масса белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Растворимость и заряд",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Количество субъединиц в четвертичной структуре",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Биологическая активность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какая закономерность первичной структуры верна?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Чем важнее роль белка, тем беднее его аминокислотный состав",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Чем примитивнее функция, тем разнообразнее аминокислотный состав",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Чем важнее роль белка, тем разнообразнее его аминокислотный состав",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Аминокислотный состав не зависит от функции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Гомологичные белки – это белки, которые:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "имеют одинаковую молекулярную массу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "выполняют одну и ту же функцию у разных видов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "состоят только из гомоаминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "находятся в одном организме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Вторичная структура белка стабилизирована в основном:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пептидными связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Водородными связями и гидрофобными взаимодействиями",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Дисульфидными мостиками",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ионными связями",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какие элементы вторичной структуры белка существуют?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-Спираль и β-структура",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Только α-спираль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Только β-складчатый слой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Суперспираль и домены",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какая структура белка представляет собой способ укладки первичной структуры в α-спираль или β-структуру?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Первичная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Вторичная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Третичная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Четверичная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Третичная структура белка – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Линейная последовательность аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Локальное упорядочивание фрагмента цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Пространственное строение всей полипептидной цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Взаимное расположение нескольких полипептидных цепей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какие взаимодействия участвуют в стабилизации третичной структуры? (Выберите наиболее полный ответ)",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только ковалентные связи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только водородные связи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Ковалентные, ионные, водородные, гидрофобные взаимодействия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Только гидрофобные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Белки, имеющие шарообразную форму, называются:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фибриллярными",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глобулярными",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Конъюгированными",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Склеропротеинами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Домен белка – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Вся полипептидная цепь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Часть цепи, сходная с самостоятельным глобулярным белком",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Участок α-спирали",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Неупорядоченный участок",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Четверичная структура – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Субъединичная структура белка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Первичная последовательность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Только α-спираль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только β-структура",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Примером белка с четвертичной структурой является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Рибонуклеаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гемоглобин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Коллаген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "По химическому составу белки делятся на:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Простые и сложные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Глобулярные и фибриллярные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Кислые и основные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Растворимые и нерастворимые",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Простые белки (гомопротеины) состоят только из:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Аминокислот и углеводов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Аминокислот и липидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Аминокислот и нуклеиновых кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Сложные белки (гетеропротеины) содержат:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Апопротеин + простетическую группу",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Только простетическую группу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Несколько полипептидных цепей без простетических групп",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "К простым белкам относят:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Нуклеопротеины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гликопротеины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Альбумины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Липопротеины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Каталитическую функцию в организме выполняют:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гормоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ферменты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Транспортные белки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Иммуноглобулины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Регуляторную функцию (гормональную) выполняют:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Актин и миозин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Казеин и овальбумин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Инсулин и другие гормоны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Коллаген и эластин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Транспортную функцию выполняет:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Иммуноглобулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гемоглобин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Кератин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Пепсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Защитную функцию (иммунную) обеспечивают:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Шапероны и иммуноглобулины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Альбумины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Ферменты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гистоны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "К сократительным белкам относятся:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Коллаген и эластин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Актин и миозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Казеин и овальбумин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Трансферрин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Питательные (резервные) белки – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Казеин молока, овальбумин яйца",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Ферменты поджелудочной железы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Белки плазмы крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Рецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Химическая классификация белков по семействам включает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Сериновые протеиназы, шапероны, иммуноглобулины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Только альбумины и глобулины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Только нуклеопротеины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только металлопротеины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какой белок относится к фибриллярным?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Альбумин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глобулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Коллаген",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Гемоглобин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Что такое нативный белок?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Белок, синтезированный на рибосоме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Полипептид, ещё не свернувшийся в правильную структуру",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Белок в его природной, функционально активной конформации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Денатурированный белок",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "К методам количественного определения белков относятся:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гомогенизация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Высаливание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Колориметрические методы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Диализ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какой метод выделения белков основан на осаждении солями?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Экстракция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Высаливание",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Хроматография",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Электрофорез",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какой метод очистки белков использует разницу в скорости движения в электрическом поле?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Диализ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Хроматография",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Электрофорез",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Гомогенизация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "В каком году Ф. Сенгер полностью расшифровал первичную структуру ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1969 г.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1971 г.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1977 г.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "1953 г.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Кто сформулировал хемиосмотическую теорию сопряжения дыхания и окислительного фосфорилирования?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Дж. Уотсон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "П. Митчелл",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Р. Мерифильд",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ю.А. Овчинников",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "В каком году был химически синтезирован фермент рибонуклеаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1953 г.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1966 г.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1969 г.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "1977 г.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Первичная структура аспартатаминотрансферазы (412 аминокислот) была установлена в:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1953 г.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1961 г.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1971 г.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "1977 г.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Кто расшифровал первую «букву» генетического кода (триплет, соответствующий фенилаланину)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ф. Сенгер",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "М. Ниренберг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "П. Митчелл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Р. Мерифильд",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какой раздел биохимии изучает химический состав организмов, строение и количественное содержание веществ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Статическая биохимия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Динамическая биохимия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Функциональная биохимия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Медицинская биохимия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Функциональная биохимия раскрывает взаимосвязи между:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Составом, структурой, превращениями веществ и физиологическими функциями",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Только составом и строением",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Только превращениями энергии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Эволюцией обмена веществ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Кто впервые применил количественные химические методы в биологии, что способствовало выделению биохимии в самостоятельную науку?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Учёные донаучного периода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Учёные классического периода (XIX – начало XX века)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Учёные современного периода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Карл Нейберг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "В донаучный период люди использовали биохимические процессы без знания их основ в:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Хлебопечении, сыроварении, виноделии",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Генной инженерии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Рентгеноструктурном анализе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Синтезе белков",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Что из перечисленного относится к современным физико-химическим методам, применяемым в биохимии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Рентгеноструктурный анализ, электронная микроскопия, хроматография",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Только титрование",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Только центрифугирование",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только диализ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какой элемент входит в состав всех белков в количестве около 16%?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Углерод",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Кислород",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Азот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Водород",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "По биологической ценности белки делятся на:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Полноценные и неполноценные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Простые и сложные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Глобулярные и фибриллярные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кислые и щелочные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Что такое пептидная связь?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Связь между карбоксильной группой одной аминокислоты и аминогруппой другой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Связь между двумя аминокислотами через водород",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Дисульфидный мостик",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Связь между радикалами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "N-конец полипептидной цепи – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Конец со свободной карбоксильной группой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Конец со свободной аминогруппой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Конец с SH-группой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Середина цепи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "C-конец полипептидной цепи – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Конец со свободной аминогруппой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Конец со свободной карбоксильной группой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Участок, несущий положительный заряд",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Начало синтеза белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "В α-спирали вторичной структуры стабилизация осуществляется за счёт:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пептидных связей между соседними аминокислотами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Водородных связей между CO- и NH-группами, отстоящими на 4 остатка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Дисульфидных мостиков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ионных связей между радикалами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "β-Структура (β-складчатый слой) может быть:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только антипараллельной",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только параллельной",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Параллельной и антипараллельной",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Только спиральной",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "В глобулярных белках доля α-спирали и β-структуры в сумме обычно:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Меньше 10%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Около 30–50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Более 70%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Равна 100%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какие связи НЕ участвуют в стабилизации третичной структуры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Водородные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ионные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гидрофобные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Пептидные (между аминокислотами разных участков)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Дисульфидная связь (–S–S–) относится к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Нековалентным взаимодействиям",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ковалентным взаимодействиям",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гидрофобным взаимодействиям",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Водородным связям",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Что такое олигомерный белок?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Белок с молекулярной массой менее 10 кДа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Белок, состоящий из нескольких субъединиц (протомеров)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Белок, не имеющий четвертичной структуры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Белок, состоящий только из одной полипептидной цепи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Субъединицы (протомеры) в составе четвертичной структуры связаны:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только ковалентными связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Нековалентными взаимодействиями (водородные, ионные, гидрофобные)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Пептидными связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Фосфодиэфирными связями",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Гликопротеины – это сложные белки, содержащие:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Нуклеиновые кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Углеводы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Липиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Металлы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Липопротеины содержат простетическую группу – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Углеводы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Липиды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Фосфорную кислоту",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гем",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Нуклеопротеины состоят из белка и:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ДНК или РНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Липидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Углеводов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гема",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Хромопротеины – это белки, содержащие окрашенную простетическую группу. Пример:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гемоглобин (гем)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Казеин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Коллаген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Альбумин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "К металлопротеинам относится белок, содержащий ионы металлов, например:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Трансферрин (содержит Fe)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Гликопротеин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Проламин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гистон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Протамины и гистоны – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Сложные белки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Простые белки с основными свойствами (богаты аргинином, лизином)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Фибриллярные белки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ферменты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Склеропротеины (коллаген, эластин, кератин) выполняют функцию:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Каталитическую",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Структурную",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Транспортную",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Регуляторную",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Шапероны – это белки, которые:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ускоряют химические реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Обеспечивают правильное сворачивание (фолдинг)  других белков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Переносят кислород",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Являются гормонами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Метод высаливания белков основан на:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Разрушении водной оболочки белков при добавлении высоких концентраций солей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Разделении в электрическом поле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Прохождении через полупроницаемую мембрану",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Связывании с ионообменной смолой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Диализ используется для:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Удаления низкомолекулярных примесей из раствора белка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Разделения белков по заряду",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Определения концентрации белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гомогенизации ткани",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Гравиметрический метод определения белка основан на:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Измерении массы осадка после высушивания",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Измерении оптической плотности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Титровании",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Измерении показателя преломления",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Спектрофотометрический метод определения белка часто использует поглощение при длине волны:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "260 нм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "280 нм",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "400 нм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "600 нм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "К непрямым методам определения белка относится метод:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "По азоту (Кьельдаля)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Биуретовый",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Нефелометрический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Рефрактометрический",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Что такое «аминокислотная корзина» в контексте закономерностей первичной структуры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Набор аминокислот, входящих в белок",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Способ укладки белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Транспортная форма аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Запас аминокислот в клетке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Если два вида находятся близко на эволюционной лестнице, то их гомологичные белки:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Не имеют сходства",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Имеют больше сходства в первичной структуре",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Отличаются по всем аминокислотам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Всегда идентичны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Молекулярная масса белка измеряется в:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Молях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Дальтонах (Да)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Литрах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Градусах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Какая структура белка разрушается при денатурации в первую очередь?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Первичная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Вторичная и третичная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Только четвертичная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Пептидные связи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Биохимия растений, биохимия микроорганизмов, медицинская биохимия – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Этапы развития биохимии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Разделы и направления биохимии",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Методы биохимии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Типы белков",
+        "isCorrect": false
+      }
+    ]
+  }
+]

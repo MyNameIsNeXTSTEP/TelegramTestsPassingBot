@@ -1,0 +1,1822 @@
+[
+  {
+    "id": 1,
+    "title": "Кто ввёл термин «гормон» в 1905 году?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "И. П. Павлов и Д. К. Узнадзе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "У. Бэйлисс и Э. Старлинг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Г. Селье и А. Флемминг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Л. Г. Лейбсон и С. М. Лейтес",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Гормоны – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ферменты, ускоряющие метаболические реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "витамины, поступающие с пищей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "жизненно необходимые соединения, синтезирующиеся в железах внутренней секреции",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "продукты распада белков и углеводов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какое из утверждений НЕ относится к особенностям действия гормонов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дистанционность действия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "строгая специфичность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "высокая биологическая активность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "длительный период полужизни (несколько суток)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Гормоны способны вызывать быструю ответную реакцию организма за счёт:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтеза новых ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышения активности уже имеющихся ферментов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образования антител",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "изменения генетического кода",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "К какому типу механизма действия относится влияние гормонов на проницаемость клеточных мембран?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мембранный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "цитозольный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мембранно-внутриклеточный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ядерный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какое химическое строение характерно для инсулина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "производное аминокислоты тирозина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стероидное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пептидное (белковое)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "производное арахидоновой кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "К производным аминокислоты тирозина относятся все перечисленные, КРОМЕ:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тироксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "серотонин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какие гормоны являются производными арахидоновой кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "простагландины, простациклины, лейкотриены",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "глюкокортикоиды и минералокортикоиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тиреоидные гормоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "либерины и статины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "По классификации по биологическим функциям гормоны, регулирующие обмен кальция и фосфора, – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин и глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "паратгормон, кальцитонин, кальцитриол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "вазопрессин и альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эстрогены и андрогены",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "К тропным гормонам гипофиза относятся:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "либерины и статины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "адренокортикотропный гормон (АКТГ), тиреотропный гормон (ТТГ)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "инсулин и глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эстрадиол и тестостерон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой гормон вырабатывается в жировой ткани?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лептин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "предсердный натрийуретический пептид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гастрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мелатонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какие гормоны действуют по цитозольному механизму?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пептидные гормоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "катехоламины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "стероидные гормоны и тироксин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "эйкозаноиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Рецепторы для гормонов по своей химической природе чаще всего являются:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "липидами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нуклеиновыми кислотами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гликопротеинами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "полисахаридами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Где в клетке находятся рецепторы для стероидных гормонов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "на плазматической мембране",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "внутри клетки (цитозоль, ядро)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в аппарате Гольджи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "на митохондриях",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Мембранно-внутриклеточный механизм действия характерен для:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стероидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пептидных гормонов и адреналина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тиреоидных гормонов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эйкозаноидов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Вторичным посредником при мембранно-внутриклеточном механизме действия чаще всего выступает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "цАМФ (циклический АМФ)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "НАДФ·Н",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Как фермент фосфодиэстераза влияет на действие гормонов через циклические нуклеотиды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "активирует аденилатциклазу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "разрушает цАМФ и цГМФ, прекращая сигнал",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "усиливает связывание гормона с рецептором",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "превращает цАМФ в АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Кофеин и эуфиллин имитируют эффект гормонов, потому что:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "активируют аденилатциклазу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ингибируют фосфодиэстеразу, увеличивая уровень цАМФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "являются аналогами гормонов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "блокируют рецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Цитозольный механизм действия стероидных гормонов приводит к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "активации имеющихся ферментов без синтеза белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изменению активности генов и синтезу новых белков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "изменению мембранного потенциала",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образованию цАМФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Гипоталамус синтезирует:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тропные гормоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "либерины и статины (рилизинг-факторы)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Тиреолиберин по химическому строению является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трипептидом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "декапептидом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "стероидом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "производным арахидоновой кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой гормон гипофиза оказывает инсулиноподобное действие и стимулирует сокращение матки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "соматотропин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вазопрессин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "окситоцин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "лютропин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Вазопрессин (антидиуретический гормон) отличается от окситоцина:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только двумя аминокислотными остатками",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "наличием йода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "стероидной структурой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "отсутствием пептидных связей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Эндогенные морфины (эндорфины) синтезируются в:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "коре надпочечников",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "поджелудочной железе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гипофизе",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "щитовидной железе",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какие гормоны щитовидной железы регулируют энергетический обмен и влияют на рост и развитие?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кальцитонин и паратгормон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тиреоидные гормоны (йодтиронины)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "АКТГ и ТТГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "инсулин и глюкагон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Гиперфункция щитовидной железы приводит к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "микседеме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "базедовой болезни (тиреотоксикозу)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "эндемическому зобу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сахарному диабету",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Кальцитонин и паратгормон регулируют:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обмен глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "водно-солевой баланс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "обмен кальция и фосфатов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "репродуктивную функцию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "При снижении концентрации Са²⁺ в крови активность какого гормона возрастает?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кальцитонина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "паратгормона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адреналина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "инсулина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Гормоны поджелудочной железы – антагонисты:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкагон и кортизол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "инсулин и глюкагон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин и норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин и трийодтиронин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Дефицит инсулина приводит к развитию:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахарного диабета",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гипертиреоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "болезни Иценко–Кушинга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эндемического зоба",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какой гормон стимулирует мобилизацию гликогена и жиров, повышая уровень глюкозы в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкагон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "окситоцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альдостерон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "К гормонам желудочно-кишечного тракта относятся:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "секретин, гастрин, мотилин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "вазопрессин, окситоцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "АКТГ, СТГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "прогестерон, эстрадиол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "В каком отделе желудочно-кишечного тракта синтезируется секретин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в двенадцатиперстной кишке",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в подвздошной кишке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в толстой кишке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Мозговое вещество надпочечников вырабатывает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кортизол и альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "адреналин и норадреналин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "андрогены и эстрогены",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин и трийодтиронин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какой гормон коры надпочечников регулирует баланс Na⁺, K⁺ и воды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кортизол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "альдостерон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дегидроэпиандростерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "адреналин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Глюкокортикоиды (кортизол) вызывают:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение уровня глюкозы в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышение содержания глюкозы, аминокислот, жирных кислот в крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "задержку натрия и воды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "снижение артериального давления",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "К женским половым гормонам относятся:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тестостерон и андростерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "эстрадиол, эстрол, прогестерон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кортизол, кортикостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альдостерон, дезоксикортикостерон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Общим предшественником для синтеза стероидных гормонов является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "арахидоновая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тирозин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "холестерин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "глюкоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Простагландины относятся к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стероидным гормонам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пептидным гормонам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "производным арахидоновой кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "производным аминокислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какой механизм действия характерен для инсулина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цитозольный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мембранно-внутриклеточный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мембранный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "внутриядерный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Для каких гормонов характерен только мембранный механизм действия (изменение проницаемости)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "для стероидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "для инсулина (частично)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в изолированном виде встречается редко, но пример – инсулин, влияющий на транспорт глюкозы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "для всех пептидных гормонов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какова концентрация гормонов в жидкостях организма, при которой они действуют?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10⁻³ – 10⁻⁵ моль·л⁻¹",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "10⁻⁶ – 10⁻¹² моль·л⁻¹",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10⁻¹⁵ – 10⁻¹⁸ моль·л⁻¹",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1 – 10 моль·л⁻¹",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Специфичность действия гормонов объясняется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "наличием специальных белков-переносчиков в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "принципом структурной комплементарности между гормоном и рецептором",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "способностью гормонов проникать в любые клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "одинаковым строением всех гормонов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Где находятся рецепторы для пептидных гормонов и катехоламинов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "внутри ядра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "на плазматической мембране",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "на рибосомах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Комплекс «гормон–рецептор» для пептидных гормонов приводит к активации:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфодиэстеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аденилатциклазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "протеинкиназы А",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ДНК-полимеразы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "При цитозольном механизме комплекс «гормон–рецептор» после транспорта в ядро:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "активирует аденилатциклазу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изменяет активность генов (транскрипцию)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "влияет на трансляцию на рибосомах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфорилирует мембранные белки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какой гормон гипофиза стимулирует синтез гормонов щитовидной железы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АКТГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ТТГ (тиреотропин)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "СТГ (соматотропин)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ФСГ (фолликулостимулирующий)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Либерины и статины оказывают действие на:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "периферические железы напрямую",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гипофиз, регулируя секрецию тропных гормонов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кору надпочечников",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "поджелудочную железу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какие гормоны называют «дирижёрами жизни»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ферменты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гормоны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "витамины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "антибиотики",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Что из перечисленного НЕ является способом действия гормонов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "влияние на скорость биосинтеза ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изменение скорости ферментативных реакций",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "влияние на проницаемость мембран",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "прямое участие в качестве коферментов в реакциях",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какая железа находится под прямым контролем ЦНС (помимо гипоталамуса)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "щитовидная железа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "поджелудочная железа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мозговое вещество надпочечников",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "паращитовидные железы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какой гормон называют антидиуретическим?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "окситоцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вазопрессин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "предсердный натрийуретический пептид",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Где синтезируется предсердный натрийуретический пептид?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в гипоталамусе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в предсердиях сердца",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в почках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в жировой ткани",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Эндемический зоб связан с:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "избытком йода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "недостатком йода в пище и воде",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гиперпродукцией тиреоидных гормонов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дефицитом кальция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какой гормон надпочечников вырабатывается в ответ на стресс и повышает уровень глюкозы в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кортизол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "андростерон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какая аминокислота является предшественником серотонина и мелатонина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тирозин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "триптофан",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гистидин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глутаминовая кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "К производным аминокислоты гистидина относится:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гистамин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "дофамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какой механизм действия реализуется для тироксина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мембранно-внутриклеточный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "цитозольный (подобно стероидам)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только мембранный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "через ионы кальция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какое действие оказывает окситоцин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышает кровяное давление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимулирует сокращение матки и усиливает лактацию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "увеличивает реабсорбцию воды в почках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стимулирует рост костей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "В чём заключается принцип дистанционности действия гормонов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гормоны действуют в той же клетке, где синтезируются",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гормоны действуют на значительном расстоянии от места синтеза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гормоны действуют только на соседние клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гормоны действуют только через нервные окончания",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Какой фермент активируется комплексом ГТФ–N-белок при мембранно-внутриклеточном механизме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "протеинкиназа А",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфолипаза С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "аденилатциклаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гуанилатциклаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Какое вещество является вторичным посредником при действии некоторых гормонов наряду с цАМФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ионы Ca²⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ионы K⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "холестерин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глюкоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Согласно постулату, приведённому в лекции, «эликсирами жизни» называют:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гормоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ферменты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "витамины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "антиоксиданты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "В гипофизе обнаружено более 50 нейропептидов, которые называются эндогенными морфинами. Это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "энкефалины и эндорфины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "либерины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "статины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эйкозаноиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Какое действие оказывают эндорфины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышают артериальное давление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "обладают обезболивающим действием, влияют на память, сон, обучение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "стимулируют сокращение гладкой мускулатуры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "угнетают работу сердца",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Какой гормон поджелудочной железы снижает уровень глюкозы в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "инсулин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "соматостатин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "панкреатический полипептид",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Соматотропин (гормон роста) вырабатывается:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипоталамусом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "передней долей гипофиза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "щитовидной железой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "надпочечниками",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Люлиберин (гонадолиберин) по химическому строению является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трипептидом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "декапептидом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "стероидом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "производным арахидоновой кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "В настоящее время для получения инсулина и гормона роста используют:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "экстракцию из желез крупного рогатого скота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "методы генной инженерии (встраивание гена в бактерии)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "химический синтез из аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гидролиз белков",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Для лечения воспалительных и аллергических заболеваний применяют:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "половые гормоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гормоны коры надпочечников (глюкокортикоиды)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гормоны щитовидной железы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "инсулин",
+        "isCorrect": false
+      }
+    ]
+  }
+]

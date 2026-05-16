@@ -1,0 +1,2082 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое транскрипция?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтез белка на рибосомах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Синтез РНК с использованием ДНК в качестве матрицы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Синтез ДНК на матрице РНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Процесс репликации ДНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Где происходит транскрипция у эукариот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В цитоплазме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В ядре",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "На рибосомах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В митохондриях",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Где происходит транскрипция у прокариот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В цитоплазме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "В ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "На мембране",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В вакуолях",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой продукт образуется в результате транскрипции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Белок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ДНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Что такое трансляция?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтез РНК на ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Репликация ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Синтез белка на основе информации мРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Процессинг РНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Где происходит трансляция у эукариот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "На рибосомах в цитоплазме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "В аппарате Гольджи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В эндоплазматическом ретикулуме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Что является продуктом трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "рРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Полипептидная цепь",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Что такое ген?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Молекула белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Участок РНК, кодирующий белок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Участок ДНК, кодирующий один или несколько продуктов (белок или функциональную РНК)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Участок рибосомы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Что такое кодирующая последовательность гена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Участок с регуляторными функциями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Последовательность, начинающаяся со старт-кодона и заканчивающаяся стоп-кодоном",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Интроны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Терминатор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какие последовательности находятся до и после кодирующей последовательности?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Промотор и оператор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Нетранслируемые 5’- и 3’- последовательности",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Экзоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Транспозоны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Что такое транскрибируемый участок ДНК (единица транскрипции)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только экзоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только промотор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Нетранслируемые и кодирующая последовательности вместе",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Только интроны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Что такое терминатор?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Место начала транскрипции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Участок, связывающий РНК-полимеразу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Нетранскрибируемый участок ДНК в конце гена, на котором останавливается синтез РНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Участок, кодирующий стоп-кодон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Что такое промотор?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Участок, с которым связываются репрессоры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Последовательность, с которой связывается РНК-полимераза при инициации транскрипции",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Участок терминации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Участок, кодирующий аминокислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что такое оператор?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Участок, связывающий РНК-полимеразу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Область, с которой связываются белки-репрессоры, подавляющие экспрессию гена",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Участок инициации трансляции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Часть экзона",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Экзоны – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Участки гена, кодирующие информацию о первичной структуре белка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Участки, не несущие информации о белке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Регуляторные последовательности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Участки связывания рибосом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Интроны – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кодирующие участки гена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Участки, не несущие информации об аминокислотной последовательности белка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Промоторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Терминаторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Каков диапазон длины экзонов и интронов в генах человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "От 10 до 20 пар оснований",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "От 40-60 до 1000 пар оснований (у интронов – более 10 000)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "От 1 до 10 пар оснований",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "От 5000 до 10000 пар оснований",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Количество интронов в генах человека обычно варьирует:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "От 0 до 10",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "От 2 до 50",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "От 50 до 100",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Более 100",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой фермент катализирует транскрипцию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ДНК-зависимая РНК-полимераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "РНК-зависимая ДНК-полимераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ДНК-полимераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Лигаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "В каком направлении движется РНК-полимераза по молекуле ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5’ → 3’",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3’ → 5’",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "5’ → 5’",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "3’ → 3’",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какая цепь ДНК служит матрицей для синтеза РНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кодирующая цепь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Некодирующая (матричная, смысловая) цепь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Обе цепи одновременно",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Любая цепь по очереди",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Синтезируемая цепь РНК будет идентична (кроме замены тимина на урацил):",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Матричной цепи ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Кодирующей цепи ДНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Обеим цепям",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ни одной из цепей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какая стадия транскрипции заключается в присоединении РНК-полимеразы к промотору и раскручивании ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Инициация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Элонгация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Терминация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Процессинг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "При инициации транскрипции РНК-полимераза экспонирует для спаривания с рибонуклеотидами:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1-2 нуклеотида",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "100 нуклеотидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "10-20 нуклеотидов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Всю молекулу ДНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "На стадии элонгации транскрипции синтезируемая цепь мРНК удлиняется в направлении:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5’ → 3’ относительно матрицы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5’ → 3’ относительно растущей цепи (антипараллельно матрице)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "3’ → 5’ относительно растущей цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Произвольно",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Что происходит на стадии терминации транскрипции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Присоединение РНК-полимеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Синтез РНК прекращается при достижении терминатора",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Раскручивание спирали ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Присоединение рибосомы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Что такое процессинг РНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтез РНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Изменения «сырой» РНК (например, вырезание интронов) для превращения в функционально активную",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Связывание с рибосомой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Репликация РНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Куда мРНК уходит из ядра после процессинга?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В ядрышко",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В цитоплазму через поры ядра",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "В митохондрии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Остаётся в ядре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Генетический код – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Последовательность аминокислот в белке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Совокупность правил, переводящих последовательность триплетов нуклеотидов в последовательность аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Структура ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Способ репликации",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Сколько нуклеотидов входит в один кодон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Свойство генетического кода «триплетность» означает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Каждая аминокислота кодируется одним триплетом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Каждая аминокислота кодируется тремя нуклеотидами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Триплеты не перекрываются",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Код универсален",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Свойство «однозначность» генетического кода означает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Один кодон может кодировать несколько аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Каждый кодон кодирует только одну аминокислоту (кроме инициаторных)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Разные организмы используют разные коды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кодон состоит из одного нуклеотида",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какие кодоны являются исключением из однозначности?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Стоп-кодоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Инициаторные кодоны АУГ и ГУГ (в начале трансляции кодируют формилметионин, а внутри – метионин и валин соответственно)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Все кодоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только УАГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Свойство «вырожденность» генетического кода означает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Каждый триплет кодирует несколько аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Одной аминокислоте соответствует более одного кодона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Код не универсален",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кодоны не перекрываются",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Для какой аминокислоты существует шесть кодонов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глицин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Метионин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Серин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Для каких аминокислот существует по четыре кодона?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Триптофан и метионин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глицин и аланин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Серин и лейцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Валин и изолейцин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какие аминокислоты кодируются только одним кодоном?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Серин и лейцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Триптофан и метионин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Аланин и глицин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Валин и пролин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какие кодоны являются терминирующими (стоп-кодонами)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "УАГ, УАА, УГА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "АУГ, ГУГ, УГГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ЦУУ, ГЦУ, АГУ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "УЦА, АУЦ, ГАУ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Самое значимое свойство генетического кода, лежащее в основе генной инженерии:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Вырожденность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Триплетность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Универсальность",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Однозначность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Что означает универсальность генетического кода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Код различен у разных организмов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Код одинаков у организмов разного уровня развития (человек, растения, бактерии)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Код изменяется под влиянием среды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Код применим только к ДНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какие молекулы РНК участвуют в синтезе белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только мРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мРНК и тРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мРНК, тРНК, рРНК, мяРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Все перечисленные",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какую роль выполняют рибосомы в синтезе белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Транспортируют аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Являются «фабриками» для сборки аминокислот в белки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Хранят генетическую информацию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Регулируют транскрипцию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какие участки различают в структуре рибосомы для связывания тРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "А-участок и Е-участок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "А-участок (аминоацильный) и П-участок (пептидильный)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "П-участок и Q-участок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только один участок",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Что располагается в А-участке рибосомы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тРНК, соединенная с полипептидной цепью",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аминоацил-тРНК (тРНК, несущая аминокислоту для присоединения к цепи)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ДНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Что располагается в П-участке рибосомы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пептидил-тРНК (тРНК, соединенная с растущей полипептидной цепью)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Свободная тРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Новосинтезированный белок",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Почему тРНК называют «адапторными молекулами»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Они синтезируют белок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Они присоединяют определённую аминокислоту к акцепторному концу и узнают кодон на мРНК с помощью антикодона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Они переносят генетическую информацию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Они катализируют пептидную связь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Сколько различных тРНК у человека обеспечивает включение аминокислот в белок?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "20",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "64",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Около 50",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "100",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Связывание антикодона тРНК с кодоном мРНК происходит по принципу:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Неспецифического взаимодействия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Комплементарности и антипараллельности",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Только антипараллельности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гидрофобных взаимодействий",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какова константа седиментации эукариотических рибосом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "70S",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "80S",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "50S",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "30S",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Из каких субъединиц состоит эукариотическая рибосома 80S?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30S и 50S",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "40S (малая) и 60S (большая)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "20S и 60S",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "50S и 30S",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какие стадии выделяют в процессе трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Репликация, транскрипция, терминация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Инициация, элонгация, терминация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Активация, элонгация, созревание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Связывание, кодирование, высвобождение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Что происходит на стадии инициации трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтез полипептидной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Узнавание рибосомой стартового кодона (обычно AUG), связывание малой субъединицы с мРНК, установка метионил-тРНК в П-участок",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Присоединение стоп-кодона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Высвобождение белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой кодон обычно является инициаторным у эукариот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "AUG",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "UAA",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "UAG",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "GUG",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Куда устанавливается инициаторная метионил-тРНК при инициации трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В А-участок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В П-участок",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "В Е-участок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "На мРНК вне рибосомы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Что происходит на стадии элонгации трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Присоединение рибосомы к мРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Последовательное считывание мРНК в направлении 5’→3’ и наращивание полипептидной цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Вырезание интронов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Диссоциация рибосомы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "В каком направлении рибосома считывает мРНК при элонгации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3’ → 5’",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5’ → 3’",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Направление не имеет значения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "От центра к концам",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Каковы три стадии включения каждой аминокислоты в белок при элонгации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Связывание, транслокация, высвобождение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Связывание аа-тРНК с А-центром, образование пептидной связи, транслокация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Инициация, элонгация, терминация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Активация, связывание, отщепление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Что происходит на стадии транслокации в рибосоме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пептидил-тРНК перемещается из А-центра в П-центр",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мРНК отсоединяется от рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Происходит терминация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Присоединяется большая субъединица",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какие кодоны вызывают терминацию трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "AUG, GUG",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "UAG, UGA, UAA",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "UGG, UUC, AUU",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "GCU, GCC, GCA",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Что происходит при терминации трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Присоединение очередной аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гидролитическое отщепление полипептида от тРНК, отделение тРНК, диссоциация рибосомы на субъединицы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Удлинение цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Фосфорилирование белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Что происходит с белковой цепочкой после окончания синтеза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Она немедленно разрушается",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Отделяется от рибосомы, выходит в цитоплазму (или в каналы ЭПС) и формирует вторичную, третичную, четвертичную структуру",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Остаётся на рибосоме навсегда",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Возвращается в ядро",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Что такое посттрансляционные модификации белков? Приведите пример.",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтез белка на рибосоме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Химические изменения белка после синтеза: фосфорилирование, гликозилирование, ацетилирование, метилирование и др.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Разрезание мРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Репликация ДНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Какая посттрансляционная модификация влияет на активность, локализацию и взаимодействие белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Транскрипция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Фосфорилирование, гликозилирование, ацетилирование, метилирование",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Процессинг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Сплайсинг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Какое наследственное заболевание связано с дефектом фермента фенилаланингидроксилазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Муковисцидоз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Фенилкетонурия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Серповидноклеточная анемия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гемофилия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "К чему приводит фенилкетонурия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "К образованию вязкой слизи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "К накоплению фенилаланина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "К нарушению транспорта хлора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "К изменению формы гемоглобина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Муковисцидоз – это нарушение синтеза белка, регулирующего:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Транспорт натрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Транспорт хлора в клетках",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Транспорт калия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Синтез коллагена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Какое проявление характерно для муковисцидоза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Повышенное кровотечение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Образование вязкой слизи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Накопление фенилаланина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Деформация эритроцитов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Гемоглобинопатии – это нарушения:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтеза ферментов печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Синтеза гемоглобина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Свёртывания крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Иммунной системы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Какое заболевание относится к гемоглобинопатиям?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фенилкетонурия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гемофилия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Серповидноклеточная анемия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Болезнь Альцгеймера",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "При серповидноклеточной анемии форма эритроцитов становится:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Нормальной (двояковогнутой)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Серповидной",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Круглой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Овальной",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "В какой последовательности происходят основные этапы биосинтеза белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Трансляция → транскрипция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Транскрипция → трансляция",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Репликация → транскрипция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Трансляция → репликация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Что означает принцип антипараллельности при транскрипции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "РНК синтезируется в том же направлении, что и движение полимеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Синтезируемая цепь РНК удлиняется в направлении 5’→3’, а матричная цепь ДНК читается в направлении 3’→5’",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Цепи ДНК параллельны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "РНК синтезируется в обоих направлениях",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Какой третий нуклеотид в кодоне часто является «вырожденным» (позволяет разным кодонам кодировать одну аминокислоту)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Первый",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Второй",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Третий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Все три",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Что такое «рамка считывания» при трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Порядок расположения рибосом на мРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Способ группировки нуклеотидов мРНК в триплеты, начиная со стартового кодона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Последовательность аминокислот в белке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Структура тРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Какие белки участвуют в терминации трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "РНК-полимераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Репрессоры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Факторы терминации (специфические белки)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Шапероны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Что такое энхансеры в контексте интронов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Участки, кодирующие белок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Регуляторные последовательности, которые могут содержаться в некоторых интронах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Участки связывания рибосом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Стоп-сигналы транскрипции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Что происходит на стадии инициации транскрипции после связывания РНК-полимеразы с промотором?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтез полипептида",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Разрыв водородных связей между цепями ДНК, раскручивание спирали, экспонирование нуклеотидов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Присоединение рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Терминация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Каково направление синтеза цепи РНК относительно матричной цепи ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Параллельное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Антипараллельное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Перпендикулярное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Одинаковое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Что такое кодирующая цепь ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Цепь, служащая матрицей для РНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Цепь, последовательность которой (кроме замены Т на У) совпадает с последовательностью РНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Цепь, содержащая интроны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Обе цепи сразу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "В какой части клетки прокариот происходит трансляция?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В цитоплазме на рибосомах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "В мезосомах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В капсуле",
+        "isCorrect": false
+      }
+    ]
+  }
+]

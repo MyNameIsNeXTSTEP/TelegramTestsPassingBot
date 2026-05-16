@@ -18,6 +18,7 @@ type ChatStep =
   | "choose-faculty"
   | "choose-subject"
   | "choose-test-type"
+  | "choose-section"
   | "choose-mode"
   | "choose-interval-pack-size"
   | "choose-interval-range"
@@ -35,6 +36,7 @@ interface ChatState {
   selectedCourse?: number;
   selectedFaculty?: string;
   selectedSubject?: string;
+  selectedSection?: string;
   selectedTestType?: TestType;
   activeSessionId?: string;
   activeQuestionId?: number;
@@ -247,6 +249,7 @@ export function buildBot(config: BotConfig): Telegraf {
       state.selectedFaculty = faculty;
       state.step = "choose-subject";
       state.selectedSubject = undefined;
+      state.selectedSection = undefined;
       state.selectedTestType = undefined;
       state.user = await api.updatePreferences(state.user.id, { faculty });
 
@@ -287,6 +290,7 @@ export function buildBot(config: BotConfig): Telegraf {
       state.step = "choose-faculty";
       state.selectedFaculty = undefined;
       state.selectedSubject = undefined;
+      state.selectedSection = undefined;
       state.selectedTestType = undefined;
       state.user = await api.updatePreferences(state.user.id, { course });
 
@@ -333,6 +337,7 @@ export function buildBot(config: BotConfig): Telegraf {
       }
 
       state.selectedSubject = subjectName;
+      state.selectedSection = undefined;
       state.step = "choose-test-type";
 
       const testTypes = getOrderedTestTypes(
@@ -369,46 +374,79 @@ export function buildBot(config: BotConfig): Telegraf {
 
       state.selectedTestType = ctx.match[1] as TestType;
 
-      if (state.flowIntent === "change-selection") {
-        const selectedSubject = findSelectedSubject(state);
-        if (!selectedSubject) {
-          await ctx.reply("Не удалось определить предмет. Запустите изменение выбора снова.");
-          return;
-        }
-        state.user = await api.updatePreferences(state.user.id, {
-          ...(state.selectedCourse ? { course: state.selectedCourse } : {}),
-          ...(state.selectedFaculty ? { faculty: state.selectedFaculty } : {}),
-          subjectId: selectedSubject.id,
-        });
-        state.step = "idle";
-        state.flowIntent = undefined;
+      const matchingSubjects = state.subjects.filter(
+        (subject) =>
+          subject.course === state.selectedCourse &&
+          subject.faculty === state.selectedFaculty &&
+          subject.subject === state.selectedSubject &&
+          subject.testType === state.selectedTestType,
+      );
+      if (matchingSubjects.length === 0) {
         await ctx.reply(
-          [
-            "<b>Выбор сохранен</b> ✅\n",
-            `<b>Курс:</b> ${selectedSubject.course}`,
-            `<b>Факультет:</b> ${selectedSubject.faculty}`,
-            `<b>Предмет:</b> ${selectedSubject.subject}`,
-            `<b>Тип теста:</b> ${formatTestTypeLabel(selectedSubject.testType)}\n`,
-            "Теперь вы можете выбрать действия для продолжения из меню ниже 👇",
-          ].join("\n"),
-          {
-            parse_mode: "HTML",
-            reply_markup: MENU_KEYBOARD.reply_markup,
-          },
+          formatNoTestsForSelectionError(
+            state.selectedFaculty ?? "",
+            state.selectedCourse ?? 0,
+            state.selectedSubject ?? "",
+          ),
         );
         return;
       }
 
-      state.step = "choose-mode";
-      await ctx.reply(
-        "Выберите режим:",
-        Markup.inlineKeyboard([
-          [Markup.button.callback("Один вопрос", "mode:single")],
-          [Markup.button.callback("Практика 10 вопросов", "mode:pack")],
-          [Markup.button.callback("Экзамен", "mode:exam-prep")],
-          [Markup.button.callback("Интервальный", "mode:interval")],
-        ]),
+      const sectionNames = uniqueSorted(
+        matchingSubjects.map((subject) => subject.section).filter((section): section is string => Boolean(section)),
       );
+      if (sectionNames.length > 1) {
+        state.step = "choose-section";
+        await ctx.reply(
+          `Предмет: ${state.selectedSubject}\nТип теста: ${formatTestTypeLabel(state.selectedTestType)}\nВыберите раздел:`,
+          buildSectionKeyboard(sectionNames),
+        );
+        return;
+      }
+
+      state.selectedSection = sectionNames[0];
+      await proceedAfterSelection(ctx, state, api);
+    } catch (error) {
+      await ctx.reply(toErrorText(error));
+    }
+  });
+
+  bot.action(/^section:(\d+)$/, async (ctx) => {
+    await ctx.answerCbQuery();
+    try {
+      const state = requireState(ctx.chat?.id, stateByChatId);
+      if (
+        state.step !== "choose-section" ||
+        !state.selectedFaculty ||
+        !state.selectedCourse ||
+        !state.selectedSubject ||
+        !state.selectedTestType
+      ) {
+        await ctx.reply("Перезапустите процесс командой /practice.");
+        return;
+      }
+
+      const sectionNames = uniqueSorted(
+        state.subjects
+          .filter(
+            (subject) =>
+              subject.course === state.selectedCourse &&
+              subject.faculty === state.selectedFaculty &&
+              subject.subject === state.selectedSubject &&
+              subject.testType === state.selectedTestType,
+          )
+          .map((subject) => subject.section)
+          .filter((section): section is string => Boolean(section)),
+      );
+      const index = Number(ctx.match[1]);
+      const sectionName = sectionNames[index];
+      if (!sectionName) {
+        await ctx.reply("Раздел не найден. Запустите /practice снова.");
+        return;
+      }
+
+      state.selectedSection = sectionName;
+      await proceedAfterSelection(ctx, state, api);
     } catch (error) {
       await ctx.reply(toErrorText(error));
     }
@@ -906,6 +944,7 @@ export function buildBot(config: BotConfig): Telegraf {
       state.step = "choose-subject";
       state.flowIntent = "practice";
       state.selectedSubject = undefined;
+      state.selectedSection = undefined;
       state.selectedTestType = undefined;
       state.activeSessionId = undefined;
       state.activeQuestionId = undefined;
@@ -1133,6 +1172,7 @@ async function startPracticeFlow(
           `<b>Курс:</b> ${preferredSubject.course}`,
           `<b>Факультет:</b> ${preferredSubject.faculty}`,
           `<b>Предмет:</b> ${preferredSubject.subject}`,
+          ...(preferredSubject.section ? [`<b>Раздел:</b> ${preferredSubject.section}`] : []),
           `<b>Тип теста:</b> ${formatTestTypeLabel(preferredSubject.testType)}`,
         ].join("\n"),
         {
@@ -1157,6 +1197,7 @@ async function startPracticeFlow(
         : undefined;
     state.selectedFaculty = undefined;
     state.selectedSubject = undefined;
+    state.selectedSection = undefined;
     state.selectedTestType = undefined;
     state.activeSessionId = undefined;
     state.activeQuestionId = undefined;
@@ -1221,6 +1262,7 @@ async function startSelectionFlow(
         : undefined;
     state.selectedFaculty = undefined;
     state.selectedSubject = undefined;
+    state.selectedSection = undefined;
     state.selectedTestType = undefined;
     state.activeSessionId = undefined;
     state.activeQuestionId = undefined;
@@ -1411,7 +1453,8 @@ function findSelectedSubject(state: ChatState): Subject | undefined {
       subject.course === state.selectedCourse &&
       subject.faculty === state.selectedFaculty &&
       subject.subject === state.selectedSubject &&
-      subject.testType === state.selectedTestType,
+      subject.testType === state.selectedTestType &&
+      subject.section === state.selectedSection,
   );
 }
 
@@ -1419,6 +1462,7 @@ function applySelectedSubjectToState(state: ChatState, subject: Subject): void {
   state.selectedCourse = subject.course;
   state.selectedFaculty = subject.faculty;
   state.selectedSubject = subject.subject;
+  state.selectedSection = subject.section;
   state.selectedTestType = subject.testType;
   state.activeSessionId = undefined;
   state.activeQuestionId = undefined;
@@ -1542,6 +1586,53 @@ function buildSubjectKeyboard(subjectNames: string[]) {
     },
   );
   return Markup.inlineKeyboard(rows);
+}
+
+function buildSectionKeyboard(sectionNames: string[]) {
+  const rows = sectionNames.map((sectionName, index) => [
+    Markup.button.callback(sectionName, `section:${index}`),
+  ]);
+  return Markup.inlineKeyboard(rows);
+}
+
+async function proceedAfterSelection(
+  ctx: { reply: (...args: any[]) => Promise<unknown> },
+  state: ChatState,
+  api: BotApiClient,
+): Promise<void> {
+  if (state.flowIntent === "change-selection") {
+    const selectedSubject = findSelectedSubject(state);
+    if (!selectedSubject) {
+      await ctx.reply("Не удалось определить предмет. Запустите изменение выбора снова.");
+      return;
+    }
+    state.user = await api.updatePreferences(state.user.id, {
+      ...(state.selectedCourse ? { course: state.selectedCourse } : {}),
+      ...(state.selectedFaculty ? { faculty: state.selectedFaculty } : {}),
+      subjectId: selectedSubject.id,
+    });
+    state.step = "idle";
+    state.flowIntent = undefined;
+    await ctx.reply(
+      [
+        "<b>Выбор сохранен</b> ✅\n",
+        `<b>Курс:</b> ${selectedSubject.course}`,
+        `<b>Факультет:</b> ${selectedSubject.faculty}`,
+        `<b>Предмет:</b> ${selectedSubject.subject}`,
+        ...(selectedSubject.section ? [`<b>Раздел:</b> ${selectedSubject.section}`] : []),
+        `<b>Тип теста:</b> ${formatTestTypeLabel(selectedSubject.testType)}\n`,
+        "Теперь вы можете выбрать действия для продолжения из меню ниже 👇",
+      ].join("\n"),
+      {
+        parse_mode: "HTML",
+        reply_markup: MENU_KEYBOARD.reply_markup,
+      },
+    );
+    return;
+  }
+
+  state.step = "choose-mode";
+  await sendModeSelection(ctx);
 }
 
 function formatNoTestsForSelectionError(

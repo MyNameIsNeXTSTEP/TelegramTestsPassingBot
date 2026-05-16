@@ -1,0 +1,4162 @@
+[
+  {
+    "id": 1,
+    "title": "Что называется метаболическим путем?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Совокупность всех химических реакций в клетке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Определенная последовательность химических превращений вещества в организме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Процесс синтеза сложных молекул из простых",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Путь выделения конечных продуктов обмена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Как называются промежуточные продукты метаболического пути?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Коферменты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Субстраты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Метаболиты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Катаболиты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какие процессы сопровождаются выделением свободной энергии (ΔG<0)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Анаболизм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Эндергонические реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Катаболизм",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Синтез белков",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Что характерно для анаболических процессов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Расщепление сложных молекул",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Выделение свободной энергии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Поглощение свободной энергии (ΔG>0)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Образование АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "В какие соединения превращаются продукты переваривания пищи в результате специфических путей катаболизма?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только в ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только в пировиноградную кислоту",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "В пировиноградную кислоту и ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "В лимонную кислоту",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Что включает общий путь катаболизма?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гликолиз и брожение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Декарбоксилирование пирувата и цикл трикарбоновых кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Окисление жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Трансаминирование аминокислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какой из перечисленных процессов относится к специфическим путям катаболизма?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Цикл Кребса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Окислительное фосфорилирование",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Превращение аминокислот в пируват или ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Декарбоксилирование α-кетоглутарата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Что такое калорийность питательных веществ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Энергия, выделяющаяся при полном окислении 1 г вещества",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Температура сгорания вещества",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Количество тепла, необходимое для нагрева 1 г вещества",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Энергия гидролиза АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Согласно закону Гесса, энергия реакции зависит:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только от пути реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "От начального и конечного состояния системы, но не от пути",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "От количества катализатора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "От температуры и давления",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Конечные продукты окисления питательных веществ в организме и при сгорании в калориметрической бомбе:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Различаются",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Одинаковы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Отличаются только для углеводов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Отличаются только для жиров",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Большинство высокоэнергетических соединений в клетке являются:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Неорганическими полифосфатами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Органическими производными фосфорной кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Тиоэфирами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Макроэргами без фосфора",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Где локализован пируватдегидрогеназный комплекс?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В цитоплазме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "На внешней мембране митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "В матриксе митохондрий, соединен с внутренней мембраной",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "В ядре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какие ферменты входят в состав пируватдегидрогеназного комплекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Е1, Е2, Е3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Только Е1 и Е2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Только Е1 и Е3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Е1, Е2, Е3, Е4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Сколько коферментов входит в состав пируватдегидрогеназного комплекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "5",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какой кофермент связан с ферментом Е1 (пируватдекарбоксилазой)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Липоевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Тиаминпирофосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Кофермент А",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Липоевая кислота в пируватдегидрогеназном комплексе связана с:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Е1 (пируватдекарбоксилаза)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Е2 (дигидролипоилтрансацетилаза)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Е3 (дигидролипоилдегидрогеназа)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "НАД",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "ФАД в пируватдегидрогеназном комплексе связан с:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Е1 (пируватдекарбоксилаза)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Е2 (дигидролипоилтрансацетилаза)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Е3 (дигидролипоилдегидрогеназа)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Коферментом А",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какие коферменты пируватдегидрогеназного комплекса находятся в свободно растворенном состоянии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиаминпирофосфат и липоевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Кофермент А и НАД",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД и НАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиаминпирофосфат и ФАД",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Примерное количество молекул Е1 (пируватдекарбоксилаза) и Е2 (дигидролипоилтрансацетилаза) в пируватдегидрогеназном комплексе:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "По одной",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "По три десятка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "По 100",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "По 10",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какой механизм работы пируватдегидрогеназного комплекса описан в лекции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Свободная диффузия интермедиатов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Конвейерный (промежуточные продукты передаются от фермента к ферменту)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Хаотическое столкновение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только один фермент работает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Что ингибирует работу пируватдегидрогеназного комплекса по механизму обратной связи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ацетил-КоА, НАДН, АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "АДФ и АМФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Инсулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой гормон увеличивает активность пируватдегидрогеназного комплекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Инсулин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Кортизол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Первая реакция, катализируемая Е1 пируватдегидрогеназного комплекса, приводит к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Образованию ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Отщеплению СО2 от ПВК и образованию ацетиллипоата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Восстановлению НАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Присоединению КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Во второй реакции пируватдегидрогеназного комплекса ацетилтрансфераза (Е2) переносит ацетильный остаток на:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Коэнзим А",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Воду",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Третья реакция пируватдегидрогеназного комплекса (дегидрирование дигидролипоевой кислоты) катализируется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Е1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Е2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Е3 (дегидрогеназа дигидролипоевой кислоты)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Сукцинатдегидрогеназой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "При работе пируватдегидрогеназного комплекса образуются:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ацетил-КоА, СО2, НАДН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Лактат и НАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Оксалоацетат и АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Цитрат и ФАДН2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Суммарное уравнение окислительного декарбоксилирования пирувата:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пируват + КоА + НАД+ → ацетил-КоА + СО2 + НАДН + Н+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Пируват + КоА → ацетил-КоА + Н2О",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Пируват + НАД+ → ацетил-КоА + НАДН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Пируват + СО2 → оксалоацетат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Сколько молекул АТФ образуется при окислении одной молекулы НАДН в дыхательной цепи (согласно лекции)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Биологическая роль окислительного декарбоксилирования пирувата заключается в:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтезе глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Включении ПВК в цикл Кребса и образовании НАДН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Запасании энергии в виде жиров",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Обезвреживании аммиака",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Кем открыт цикл трикарбоновых кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Луи Пастером",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Хансом Кребсом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гансом Селье",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Фридрихом Вёлером",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "В каком году Ханс Кребс получил Нобелевскую премию за открытие цикла Кребса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1945",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1953",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "1961",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1970",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Где протекает цикл трикарбоновых кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В цитоплазме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В матриксе митохондрий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "На внутренней мембране митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В ядре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Первая реакция цикла Кребса – конденсация ацетил-КоА с оксалоацетатом. Какой фермент ее катализирует?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аконитат-гидратаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Цитрат-синтаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Изоцитратдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Сукцинил-КоА-синтетаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какой продукт образуется в реакции цитрат-синтазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Изолимонная кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-Кетоглутарат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Лимонная кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Фумаровая кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какой фермент катализирует превращение лимонной кислоты в изолимонную через цис-аконитовую кислоту?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фумараза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аконитат-гидратаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Малатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Цитрат-синтаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какая стадия цикла Кребса является лимитирующей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Образование лимонной кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Дегидрирование и декарбоксилирование изолимонной кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Окислительное декарбоксилирование α-кетоглутарата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гидратация фумаровой кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какой фермент катализирует лимитирующую стадию цикла Кребса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-Кетоглутаратдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Сукцинатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Изоцитратдегидрогеназа (НАД-зависимая)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Малатдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Что активирует НАД-зависимую изоцитратдегидрогеназу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ и Mg 2+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "АДФ и Mg 2+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАДН и Са 2+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ацетил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "В реакции, катализируемой изоцитратдегидрогеназой, образуется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Сукцинил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-Кетоглутарат, СО2 и НАДН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Оксалоацетат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Цис-аконитовая кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какой фермент катализирует окислительное декарбоксилирование α-кетоглутарата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пируватдегидрогеназный комплекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-Кетоглутаратдегидрогеназный комплекс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Сукцинил-КоА-синтетаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Сукцинатдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Сколько коферментов входит в состав α-кетоглутаратдегидрогеназного комплекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "5",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "При окислительном декарбоксилировании α-кетоглутарата образуется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Сукцинил-КоА, СО2 и НАДН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Сукцинат и АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Фумарат и ФАДН2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Малат и НАДН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "В реакции, катализируемой сукцинил-КоА-синтетазой, образуется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ГТФ (или АТФ) и сукцинат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Цитрат и КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Фумарат и ФАДН2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Оксалоацетат и НАДН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "За счет какой связи в сукцинил-КоА образуется ГТФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фосфоангидридной",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Тиоэфирной",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Сложноэфирной",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Водородной",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какой фермент катализирует дегидрирование сукцината до фумарата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Сукцинатдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Фумараза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Малатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Цитрат-синтаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какой кофермент входит в состав сукцинатдегидрогеназы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАДФ+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "тиаминпирофосфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Где локализована сукцинатдегидрогеназа?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В матриксе в свободном виде",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Связана с внутренней мембраной митохондрий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "В цитоплазме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "На внешней мембране митохондрий",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Реакция гидратации фумаровой кислоты до L-малата катализируется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фумаразой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Аконитазой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Малатдегидрогеназой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Сукцинатдегидрогеназой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какой фермент катализирует последнюю реакцию цикла Кребса – окисление L-малата до оксалоацетата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Малатдегидрогеназа (НАД-зависимая)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Изоцитратдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Пируватдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Цитрат-синтаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Сколько молекул НАДН образуется за один оборот цикла Кребса (на одну молекулу ацетил-КоА)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "В каких реакциях цикла Кребса образуется НАДН?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3, 4, 8",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "2, 5, 7",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1, 6, 7",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4, 5, 6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Сколько молекул ФАДН2 образуется за один оборот цикла Кребса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какая реакция цикла Кребса приводит к образованию ФАДН2?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Реакция 5 (сукцинил-КоА → сукцинат)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Реакция 6 (сукцинат → фумарат)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Реакция 7 (фумарат → малат)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Реакция 8 (малат → оксалоацетат)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Сколько молекул АТФ (или ГТФ) образуется непосредственно в цикле Кребса (субстратное фосфорилирование)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какая молекула образуется в реакции сукцинил-КоА-синтетазы и затем превращается в АТФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ЦТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "УТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ГТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ТТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Общий энергетический выход (АТФ) одного оборота цикла Кребса согласно лекции составляет:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "11 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "12 АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "15 АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Из скольких молекул АТФ складывается энергетический выход цикла Кребса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "9 АТФ от НАДН, 2 АТФ от ФАДН2, 1 АТФ от ГТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "6 АТФ от НАДН, 3 АТФ от ФАДН2, 1 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3 АТФ от НАДН, 1 АТФ от ФАДН2, 1 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "12 АТФ все от НАДН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какая специальная ферментативная система регулирует концентрацию метаболитов цикла трикарбоновых кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пентозофосфатный путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глиоксилатный цикл",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Глюконеогенез",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Цикл мочевины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какая функция цикла Кребса заключается в объединении катаболических путей углеводов, липидов и белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Энергетическая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Интегративная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Водорододонорная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Амфиболическая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какая функция цикла Кребса означает, что он выполняет и катаболические, и анаболические роли?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Интегративная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Амфиболическая",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Энергетическая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Водорододонорная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Какая функция цикла Кребса связана с генерацией восстановленных коферментов для дыхательной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Энергетическая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Интегративная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Водорододонорная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Анаплеротическая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Что происходит с водородом от НАДН, образованного в цикле Кребса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Используется на восстановление жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Поступает в дыхательную цепь для синтеза АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Восстанавливает пируват до лактата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Выделяется в виде Н2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Какое соединение служит акцептором ацетильной группы в первой реакции цикла Кребса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Оксалоацетат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Сукцинил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "α-Кетоглутарат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Какой из перечисленных метаболитов не является интермедиатом цикла Кребса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Изоцитрат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Фумарат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Малат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Глюкозо-6-фосфат",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "В какую кислоту превращается α-кетоглутарат в результате окислительного декарбоксилирования?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Янтарную (сукцинат)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Щавелевоуксусную",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Яблочную",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Фумаровую",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Какой витамин является предшественником тиаминпирофосфата (кофермента пируватдегидрогеназы)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Витамин В2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Витамин В1",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Витамин В6",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Витамин РР",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Какой кофермент пируватдегидрогеназного комплекса содержит витамин В2 (рибофлавин)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиаминпирофосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФАД",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кофермент А",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Какой кофермент пируватдегидрогеназного комплекса содержит пантотеновую кислоту?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиаминпирофосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "НАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кофермент А",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Сколько молекул АТФ эквивалентно окислению одного ФАДН2 в дыхательной цепи (по лекции)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Какой из ферментов цикла Кребса является частью дыхательной цепи (связан с мембраной)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Цитрат-синтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Изоцитратдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Сукцинатдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Малатдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Какое вещество ингибирует пируватдегидрогеназный комплекс по принципу обратной связи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "АДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Инсулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Какое вещество активирует пируватдегидрогеназный комплекс?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАДН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Пировиноградная кислота (пируват)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Глюкагон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Сколько реакций декарбоксилирования происходит в одном обороте цикла Кребса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "В каких реакциях цикла Кребса выделяется СО2?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1 и 2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3 и 4",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "5 и 6",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "7 и 8",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Какой фермент цикла Кребса использует тот же механизм и коферменты, что и пируватдегидрогеназный комплекс?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Цитрат-синтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Изоцитратдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "α-Кетоглутаратдегидрогеназный комплекс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Сукцинил-КоА-синтетаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Какой продукт окисления ацетил-КоА в цикле Кребса регенерируется в конце цикла?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Цитрат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Изоцитрат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Оксалоацетат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Сукцинат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Сколько молекул воды потребляется (или образуется) в цикле Кребса суммарно (без учета дыхательной цепи)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Не потребляется и не образуется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2 молекулы образуется, 1 потребляется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1 молекула потребляется в реакции гидратации фумарата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "3 молекулы потребляются",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Что является конечным акцептором электронов в дыхательной цепи при окислении НАДН, образованного в цикле Кребса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кислород",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Вода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Углекислый газ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Какой из этапов катаболизма является общим для большинства органических молекул – «клеточного топлива»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гликолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Окислительное декарбоксилирование пирувата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Цикл трикарбоновых кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "β-Окисление жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Какая из функций цикла Кребса заключается в поставке восстановленных коферментов (НАДН, ФАДН2) для дыхательной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Энергетическая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Интегративная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Водорододонорная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Амфиболическая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Что называется тканевым дыханием?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Процесс поглощения кислорода лёгкими",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Окисление органических веществ в организме кислородом воздуха до CO₂ и H₂O",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Синтез АТФ в цитоплазме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Анаэробное расщепление глюкозы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Где локализована дыхательная цепь в клетках высших организмов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "На внешней мембране митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "В липидном слое внутренней мембраны митохондрий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "В ядре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Какой кофермент НЕ относится к промежуточным переносчикам в дыхательной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "НАДФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "КоQ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Какие белки содержат гем и участвуют в переносе электронов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Флавопротеины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Цитохромы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Железосерные белки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АТФ-синтазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Какой комплекс дыхательной цепи называется НАДН-убихинон-оксидоредуктаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I комплекс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "II комплекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "III комплекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "IV комплекс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Какой кофермент входит в состав I комплекса дыхательной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАД⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФМН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Тиаминпирофосфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Что происходит с протонами при работе I комплекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Они переносятся в матрикс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Они выделяются в межмембранное пространство",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Они связываются с кислородом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Они остаются на ФМН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Субстраты SН₂ в матриксе митохондрий взаимодействуют с:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФАД-зависимыми дегидрогеназами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАД⁺-зависимыми дегидрогеназами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Цитохромоксидазой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АТФ-синтазой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Какой витамин входит в состав кофермента НАД⁺?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Витамин В₁",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Витамин В₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Витамин РР",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Витамин С",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Образуется ли АТФ непосредственно в I комплексе дыхательной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Да, 1 молекула АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Да, 2 молекулы АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Да, 3 молекулы АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Нет",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Какой комплекс дыхательной цепи называется сукцинат–убихинон–оксидоредуктаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "комплекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "II комплекс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "III комплекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "IV комплекс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Коферментом II комплекса дыхательной цепи является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФМН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Биотин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Почему при окислении субстратов через II комплекс энергия в основном рассеивается в виде тепла?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Потому что комплекс не содержит железосерных белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Потому что падение редокс-потенциала незначительно (~0,05 В)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Потому что субстраты не проходят в матрикс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Потому что отсутствует убихинон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Что такое убихинон (коэнзим Q)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Белок, содержащий медь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Небольшая молекула – производное бензохинона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Фермент, синтезирующий АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кофермент, входящий в состав НАД⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Какая реакция описывает восстановление убихинона?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "КоQ + 2Н⁺ + 2ē → КоQН₂",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "КоQН₂ → КоQ + 2Н⁺ + 2ē",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "КоQ + О₂ → КоQО₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "КоQ + АДФ → АТФ + КоQН₂",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Куда высвобождаются протоны при окислении убихинола (КоQН₂) в III комплексе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В матрикс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В межмембранное пространство",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "В цитозоль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В ядро",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Какой комплекс называется убихинол–цитохром с–оксидоредуктаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I комплекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "II комплекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "III комплекс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "IV комплекс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Какой комплекс называется цитохром с–оксидаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I комплекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "II комплекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "III комплекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "IV комплекс",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Какие цитохромы объединены в III комплекс?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "а и а₃",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "b и с₁",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "с и а",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "b и а₃",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Какие цитохромы входят в состав IV комплекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "b и с₁",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с и а",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "а и а₃",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "b и с",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Какой металл, помимо железа, содержат цитохромы а и а₃?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Марганец",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Цинк",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Медь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Магний",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Конечным акцептором электронов в дыхательной цепи является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Убихинон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Цитохром с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Молекулярный кислород",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Какая реакция происходит на цитохроме а₃?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2ē + ½ О₂ + 2Н⁺ → Н₂О",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "АДФ + Фн → АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "НАДН + Н⁺ → НАД⁺ + 2Н",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Сукцинат → фумарат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Откуда берутся ионы Н⁺ для образования воды на IV комплексе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Из межмембранного пространства",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Из матрикса митохондрии",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Из цитозоля",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Из внешней среды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Чему равен редокс-потенциал IV комплекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "+0,25 В",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "–0,04 В",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "+0,57 В",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "+1,14 В",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Сколько молекул АТФ может синтезироваться за счёт энергии IV комплекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "3",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Другой функцией IV комплекса является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтез АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Активный транспорт протонов (протонный насос)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Связывание углекислого газа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Расщепление жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "В какой форме первоначально сосредотачивается энергия переноса электронов по дыхательной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В виде АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В виде протонного потенциала (электрохимического градиента)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "В виде тепла",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В виде НАДН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Что происходит при обратной самопроизвольной диффузии протонов через АТФ-синтазу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтез АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Гидролиз АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Образование воды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Окисление субстрата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Как называется процесс синтеза АТФ, сопряжённый с переносом электронов по дыхательной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Субстратное фосфорилирование",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Окислительное фосфорилирование",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Фотofосфорилирование",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Дефосфорилирование",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "В каком порядке компоненты дыхательной цепи располагаются в мембране?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В порядке убывания сродства к электрону",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В порядке возрастания сродства к электрону",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Без определённого порядка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "По молекулярной массе",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Куда НАДН-дегидрогеназа направляет протоны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В матрикс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В межмембранное пространство",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "На убихинон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "На цитохром с",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Что принимает убихинон от железосерных центров?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только протоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только электроны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Пару электронов и пару протонов из матрикса",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Молекулы воды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "После какого компонента дыхательная цепь осуществляет транспорт только электронов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "После НАДН-дегидрогеназы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "После убихинона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "После железосерного центра (в системе цитохромов)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "После цитохрома а₃",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Как называется фермент, непосредственно контактирующий с молекулярным кислородом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Убихинон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Цитохром с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Цитохромоксидаза (цитохромы а и а₃)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "АТФ-синтаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Что входит в состав активного центра цитохромоксидазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только гемовое железо",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гемовое железо и медь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД и железо",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "НАД и марганец",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Какая реакция происходит в активном центре цитохромоксидазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2ē + 2Н⁺ + О₂ → Н₂О₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "4ē + 4Н⁺ + О₂ → 2Н₂О",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "2Н₂ + О₂ → 2Н₂О",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АДФ + Фн → АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Какова разность окислительно-восстановительных потенциалов между НАДН₂ и кислородом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,57 В",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1,14 В",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "0,25 В",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,05 В",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Какой запас энергии соответствует разности потенциалов 1,14 В?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Около 110 кДж",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Около 220 кДж",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Около 50 кДж",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Около 300 кДж",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Сколько молекул АТФ может синтезироваться при окислении 1 молекулы НАДН₂?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Сколько молекул АТФ синтезируется при окислении 1 молекулы ФАДН₂?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Сколько пунктов сопряжения дыхания и фосфорилирования выделяют в дыхательной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Где расположен первый пункт сопряжения?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Между цитохромами b и с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Между НАДН₂ и НАДН-дегидрогеназой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Между цитохромами а и а₃",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Между убихиноном и цитохромом b",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Где расположен второй пункт сопряжения?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Между НАДН₂ и НАДН-дегидрогеназой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Между цитохромами b582 и с",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Между цитохромами а и а₃",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Между ФАДН₂ и убихиноном",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Где расположен третий пункт сопряжения?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Между цитохромами b и с₁",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Между цитохромами а и а₃",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Между НАДН₂ и убихиноном",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Между убихиноном и цитохромом b",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Какой фермент катализирует окислительное фосфорилирование?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Цитохромоксидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "АТФ-синтаза (Н⁺-АТФ-аза)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Сукцинатдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "Какой процент свободной энергии окисления потребляет АТФ-синтаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10–15 %",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "20–25 %",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "40–45 %",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "60–70 %",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Из каких двух основных субъединиц состоит АТФ-синтаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "F₁ и F₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "F₀ и F₁",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "F₀ и F₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "α и β",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "Какова функция субъединицы F₀ АТФ-синтазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Катализ синтеза АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Транспорт протонов (канал)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Связывание АДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Перенос электронов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Какова функция субъединицы F₁ АТФ-синтазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Транспорт протонов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Катализ реакции синтеза АТФ из АДФ и фосфата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Связывание кислорода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Окисление НАДН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "При каком значении трансмембранного потенциала протоны устремляются в матрикс?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50–100 мВ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "100–150 мВ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "200–250 мВ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "300–350 мВ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "title": "Что происходит при каждом переносе Н⁺ через канал F₀?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтезируется вода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Энергия расходуется на поворот стержня субъединицы F₁",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Окисляется убихинон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Восстанавливается НАД⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "title": "Какое биологическое значение окислительного фосфорилирования?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только обеспечение энергией клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только образование активных форм кислорода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Обеспечение энергией и поддержание жизни клеток, а также образование активных форм кислорода",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Только детоксикация ядов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Какие активные формы кислорода образуются в процессе окислительного фосфорилирования?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Озон и синглетный кислород",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Супероксид и пероксид водорода",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гидроксильный радикал и озон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только вода",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "title": "К чему приводят свободные радикалы, образующиеся в ходе окислительного фосфорилирования?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "К синтезу белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "К разрушению белков, болезням и старению",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "К усилению дыхания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "К образованию АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Ферменты окислительного фосфорилирования являются мишенями для:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Витаминов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Биологически активных веществ и ядов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Углеводов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Нуклеиновых кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Какой переносчик способен свободно перемещаться вдоль и поперёк мембраны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Цитохром с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Убихинон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "НАД⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "title": "Цитохром с переносит:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только протоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только электроны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "И протоны, и электроны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Атомы кислорода",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "title": "Сколько аминокислот содержит цитохром с?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "104",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "150",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "200",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Что происходит с ФАД при восстановлении?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФАД + 2Н ↔ ФАДН₂",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ФАД + О₂ ↔ ФАДО₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД + АДФ ↔ АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ФАД + 2ē ↔ ФАД²⁻",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "title": "Какие дегидрогеназы отнимают протоны и электроны от субстратов и передают их I комплексу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФАД-зависимые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пиридиновые (НАД⁺-зависимые)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАДФ-зависимые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Липоамидные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Что такое пиридиниевый катион?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Восстановленная форма НАДН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Окисленная форма НАД⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Кофермент ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Активная форма витамина В₂",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Какой из цитохромов имеет самый низкий окислительно-восстановительный потенциал?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "b",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "а",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "а₃",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Какой цитохром имеет самый высокий окислительно-восстановительный потенциал?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "b",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с₁",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "а₃",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "title": "Что является акцептором электронов от восстановленного убихинона?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Цитохром b (III комплекс)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Цитохром а₃",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кислород",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "title": "Где локализованы железосерные белки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только в I комплексе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В I и II комплексах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Только в III комплексе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Во всех комплексах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "title": "Какая молекула служит челночным переносчиком электронов между III и IV комплексами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Убихинон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Цитохром с",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "НАДН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "title": "Что такое субстратное фосфорилирование?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтез АТФ в дыхательной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Синтез АТФ за счёт энергии макроэргических связей субстрата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Синтез АТФ в отсутствие кислорода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Синтез АТФ на АТФ-синтазе",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "title": "Какое соединение является конечным продуктом тканевого дыхания?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "СО₂ и Н₂О",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Молочная кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Какой фермент НЕ входит в состав дыхательной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАДН-дегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Сукцинатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Цитохромоксидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гексокиназа",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "title": "При окислении какого субстрата образуется ФАДН₂?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Изоцитрат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-Кетоглутарат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Сукцинат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Малат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Какая часть АТФ-синтазы вращается при прохождении протонов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "F₀",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Стержень субъединицы F₁",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Вся F₁",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Мембранный канал",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "title": "В каком направлении протоны перемещаются через АТФ-синтазу в процессе синтеза АТФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Из матрикса в межмембранное пространство",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Из межмембранного пространства в матрикс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Из цитозоля в матрикс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Из межмембранного пространства в цитозоль",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Что происходит с конформацией АТФ-синтазы при повороте её стержня?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Облегчается связывание АДФ и фосфата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Облегчается гидролиз АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Блокируется транспорт протонов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Увеличивается сродство к кислороду",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Какова роль витамина В₂ в дыхательной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Входит в состав НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Входит в состав ФАД и ФМН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Входит в состав цитохромов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Входит в состав убихинона",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Какой комплекс НЕ участвует в создании протонного градиента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I комплекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "II комплекс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "III комплекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "IV комплекс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "title": "Почему II комплекс не создаёт протонный градиент?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Потому что он не переносит протоны через мембрану",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Потому что он отсутствует у высших организмов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Потому что он находится в цитоплазме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Потому что использует НАДН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Что такое убихинол?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Окисленная форма убихинона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Восстановленная форма убихинона (КоQН₂)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Фермент, восстанавливающий убихинон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Белок, связывающий убихинон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "title": "Как изменяется конформация цитохромов при переносе электронов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Не изменяется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Изменяется за счёт изменения степени окисления ионов металла",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Изменяется только под действием АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Изменяется необратимо",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Что является первичным акцептором электронов в дыхательной цепи при окислении НАДН?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Убихинон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФМН (в составе I комплекса)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Цитохром b",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кислород",
+        "isCorrect": false
+      }
+    ]
+  }
+]

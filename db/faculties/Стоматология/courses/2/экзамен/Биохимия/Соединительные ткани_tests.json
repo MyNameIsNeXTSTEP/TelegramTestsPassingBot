@@ -1,0 +1,1822 @@
+[
+  {
+    "id": 1,
+    "title": "Какое происхождение имеет соединительная ткань?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Эктодермальное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Энтодермальное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Мезенхимальное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Нейрогенное",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какие клетки соединительной ткани синтезируют компоненты межклеточного матрикса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Макрофаги",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Тучные клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Фибробласты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Плазмоциты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какие белки обеспечивают движение фибробластов после их связывания с фибриллярными структурами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Коллаген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Эластин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Фибронектин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Ламинин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Что накапливается в фибробластах при их активации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Липиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гликоген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гликозаминогликаны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Нуклеиновые кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Отличительным признаком макрофагов является наличие:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гранул с гистамином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Фагосом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Миофибрилл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Десмосом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Маркерный фермент тучных клеток:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Коллагеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Эластаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гистидиндекарбоксилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Липопротеинлипаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какое вещество содержится в гранулах тучных клеток и участвует в свертывании крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гепарин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Фибриноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Тромбопластин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Серотонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какая ткань НЕ относится к соединительной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Костная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Хрящевая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Нервная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Кровь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какую функцию выполняет межклеточный матрикс в суставах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Обеспечивает сокращение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Обеспечивает смазку и скольжение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Участвует в иммунном ответе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Синтезирует гормоны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какая аминокислота встречается в коллагене чаще всего (каждая третья)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пролин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Глицин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Лизин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой процесс происходит при участии витамина С в синтезе коллагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гликозилирование",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гидроксилирование пролина и лизина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Образование дисульфидных связей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Отщепление сигнального пептида",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какая структура образуется при объединении трех полипептидных цепей коллагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Проколлаген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Тропоколлаген",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Микрофибрилла",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Эластин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какова длина молекулы тропоколлагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "35 нм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "67 нм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "300 нм",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "1,5 нм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что обуславливает поперечную исчерченность фибрилл коллагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Наличие углеводов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Смещение молекул тропоколлагена на ¼ длины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Высокое содержание пролина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Присутствие гидроксилизина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какие связи обеспечивают высокую прочность коллагеновых фибрилл?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Водородные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Дисульфидные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Ковалентные между лизином и ализином",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Ионные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какой углевод входит в состав коллагена в виде О-гликозидной связи с гидроксилизином?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Галактоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Фруктоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Манноза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какой тип коллагена наиболее распространен в коже, сухожилиях и кости?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Коллаген II типа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Коллаген III типа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Коллаген I типа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Коллаген IV типа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какие коллагены способны формировать сетевидные структуры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I, II, III",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "IV, VI, VIII, X",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "IX, XII, XIV",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только V и XI",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Где происходит гидроксилирование пролина и лизина при синтезе коллагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В цитозоле",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "В аппарате Гольджи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "В полости эндоплазматической сети",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В межклеточном пространстве",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Кофактором пролилгидроксилазы являются ионы:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Mg²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ca²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Fe²⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Zn²⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какой витамин необходим для восстановления Fe³⁺ в Fe²⁺ при гидроксилировании коллагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Витамин A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Витамин C",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Витамин D",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Витамин E",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "К чему приводит дефицит витамина С в отношении соединительной ткани?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Усилению синтеза коллагена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Нарушению гидроксилирования, хрупкости сосудов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Увеличению числа поперечных сшивок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Активации коллагеназы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какие ферменты осуществляют гликозилирование гидроксилизина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гидроксилазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гликозилтрансферазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Протеазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Сульфатазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Что происходит с проколлагеном во внеклеточном этапе синтеза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Присоединение углеводов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Частичный протеолиз N- и C-концевых фрагментов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гидроксилирование лизина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Образование дисульфидных связей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какой фермент катализирует гидролиз коллагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Эластаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Коллагеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гиалуронидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Лизилоксидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "По экскреции какого вещества с мочой судят о катаболизме коллагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глицина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пролина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гидроксипролина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Оксилизина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какое количество гидроксипролина экскретируется в сутки у лиц 10-20 лет?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "15-20 мг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "50-60 мг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "до 200 мг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "более 500 мг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Что происходит при снижении катаболизма коллагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Уменьшение содержания коллагена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Фиброз органов и тканей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Усиление подвижности суставов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Повышение эластичности кожи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какие гормоны стимулируют синтез коллагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глюкокортикоиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Половые гормоны и гормон роста",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Адреналин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "При каком заболевании наблюдается дефект лизилгидроксилазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Остеогенез несовершенный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Синдром Элерса-Данло",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Цинга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ревматоидный артрит",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какой белок является основой эластических волокон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Коллаген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Эластин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Фибронектин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ламинин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какая аминокислота отсутствует в эластине?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глицин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пролин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гидроксилизин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Лизин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Мономерная форма эластина называется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Проколлаген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Тропоэластин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Десмозин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Фибриллин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какие поперечные сшивки придают эластину эластические свойства?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Дисульфидные мостики",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Десмозин и изодесмозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Ковалентные связи лизин-ализин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Водородные связи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Из скольких остатков лизина образуется десмозин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какой фермент разрушает эластин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Коллагеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Эластаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гистидиндекарбоксилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Лизилоксидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Дефицит какого белка повышает риск эмфиземы легких?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α₁-антитрипсина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Фибронектина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Ламинина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Тромбоспондина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какой углеводный компонент составляет основную массу протеогликанов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гликопротеины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гликозаминогликаны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Нейраминовая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Олигосахариды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какие мономеры входят в состав гликозаминогликанов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гексуроновые кислоты и аминосахара",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Глюкоза и фруктоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Галактоза и манноза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Сиаловая кислота и N-ацетилглюкозамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какая группа гликозаминогликанов не содержит сульфатных групп?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Хондроитинсульфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Дерматансульфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гиалуроновая кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Гепарансульфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какое свойство межклеточного матрикса обусловлено наличием отрицательно заряженных групп гликозаминогликанов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Эластичность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Разбухание и связывание воды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Прочность на разрыв",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Прозрачность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какой протеогликан является основой хрящевого матрикса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Декорин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аггрекан",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Фибромодулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Перлекан",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "С помощью какой молекулы агреганы связываются в крупные агрегаты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гепарина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Кератансульфата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гиалуроновой кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Хондроитинсульфата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какой малый протеогликан содержится в хряще, сухожилиях, связках?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аггрекан",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Версикан",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Декорин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Фибриноген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какая функция характерна для гиалуроновой кислоты в суставах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Антикоагулянт",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Обеспечение прозрачности роговицы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Смазывание и скольжение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Участие в свертывании крови",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какой гликозаминогликанов является антикоагулянтом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гиалуроновая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гепарин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Кератансульфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Дерматансульфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Где синтезируется белковый компонент протеогликанов (коровий белок)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В аппарате Гольджи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "На рибосомах эндоплазматической сети",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "В лизосомах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В ядре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Где происходит синтез углеводных цепей гликозаминогликанов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В эндоплазматической сети",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В аппарате Гольджи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "В цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "На плазматической мембране",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какая аминокислота служит местом присоединения трисахарида-затравки при синтезе гликозаминогликанов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глицин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Серин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Лизин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Аспарагиновая кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какие ферменты участвуют в распаде протеогликанов в лизосомах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гидроксилазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Протеазы, гликозидазы, сульфатазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Трансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Лигазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какой адгезивный белок связывает компоненты межклеточного матрикса и участвует в адгезии клеток?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ламинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Фибронектин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Остеонектин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Тромбоспондин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Из скольких полипептидных цепей состоит фибронектин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Одной",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Двух идентичных",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Трех",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Четырех",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой гликопротеин является основным компонентом базальных мембран?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фибронектин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Эластин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Ламинин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Коллаген IV типа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какие белки относятся к антиадгезивным?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фибронектин и ламинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Остеонектин и тромбоспондин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Коллаген и эластин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Аггрекан и версикан",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какую роль выполняют антиадгезивные белки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Участвуют в свертывании крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Обеспечивают эмбриогенез и ответ на повреждение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Связывают коллагеновые волокна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Стимулируют синтез протеогликанов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какой тип коллагена образует сеть в роговице, обеспечивая прозрачность?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "II",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "III",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "IV",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какие коллагены не образуют фибрилл, но взаимодействуют с ними?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I, II, III",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "IX, XII, XIV",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "IV, VIII",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "V, XI",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Что происходит при недостатке α₁-антитрипсина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Усиление синтеза коллагена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Развитие эмфиземы легких",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Фиброз печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Нарушение минерализации костей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какой фермент участвует в синтезе гистамина из гистидина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гистидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гистидиндекарбоксилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гистидинтрансаминаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гистидингидроксилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какая структура образуется при объединении молекул тропоколлагена в фибриллы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Поперечная исчерченность",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Случайная конформация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Глобулярная структура",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Сетевидная структура",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Какое расстояние между отдельными волокнами тропоколлагена в фибрилле?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "35 нм",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "67 нм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "300 нм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1,5 нм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Что является причиной снижения экскреции гидроксипролина с возрастом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Увеличение синтеза коллагена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Снижение катаболизма коллагена",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Усиление активности коллагеназы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Нарушение гидроксилирования",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Какие факторы тормозят синтез коллагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гормон роста, половые гормоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Глюкокортикоиды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Белковая диета",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Какие связи образуются между ε-аминогруппами лизина и гидроксилизина при созревании коллагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Водородные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ковалентные поперечные сшивки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Ионные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гидрофобные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Какова роль углеводов в составе коллагена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Обеспечение эластичности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Влияние на механические свойства (при их снижении ухудшаются свойства кожи)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Участие в свертывании крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Защита от протеаз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Какой белок обеспечивает связывание клеток с фибриллярными структурами для движения фибробластов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Коллаген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Эластин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Фибронектин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Ламинин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Какие клетки синтезируют лизоцим и протеазы для внутриклеточного и внеклеточного расщепления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фибробласты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Тучные клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Макрофаги",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Плазмоциты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Что содержится в цитоплазме фибробластов, обеспечивая их подвижность?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Микротрубочки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Микрофиламенты с актином и миозином",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Промежуточные филаменты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Реснички",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Какое вещество используется для синтеза энергии при активации фибробластов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Липиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гликоген",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Белки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Нуклеотиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Какой фермент тучных клеток является маркерным и участвует в синтезе гистамина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гистидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гистидиндекарбоксилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гистидинтрансаминаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гистидингидроксилаза",
+        "isCorrect": false
+      }
+    ]
+  }
+]

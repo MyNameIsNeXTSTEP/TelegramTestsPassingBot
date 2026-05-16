@@ -1,0 +1,4422 @@
+[
+  {
+    "id": 1,
+    "title": "Пептиды могут быть",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "антибиотиками и другими лекарствами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "токсичными веществами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "существенным энергетическим резервом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гормонами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Белки  не выполняют функцию",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "иммунную",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гормональную",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "катализа химических реакций",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "главного энергетического резерва организма",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Для третичной структуры белка не характерно:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стабилизируется нековалентными связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стабилизируется дисульфидными связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "подразумевает взаимодействие нескольких субъединиц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "функционально активна",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Сложные белки отличаются от простых тем, что",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "содержат незаменимые аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "включают компонент небелковой природы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "могут функционировать без кофактора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "состоят из нескольких полипептидных цепей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Незаменимыми аминокислотами считаются",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белковые аминокислоты, не синтезируемые в организме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "все 20 белковых аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "20 белковых аминокислот и небелковые, выполняющие в организме важные функции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аминокислоты, которые содержатся только в белках животного происхождения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Активные центры",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сохраняются при денатурации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "формируются при образовании любой структуры белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "определяют наличие у белка функциональной активности",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "функционируют независимо от конформации белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Для аминокислот не характерны",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амионгруппа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "карбоксильная группа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "боковая цепь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "метильная группа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "В нейтральной среде отрицательно заряжен",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глицин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аспарагин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "глутамат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "треонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Изоэлектрическая точка это",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "pH, при котором молекула не заряжена",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "pH = 7,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "pH, при котором молекула амфифильна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "pH = 7,4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Пептидные связи образуются при",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "окислении аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "конденсации аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гидролизе аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "переаминировании аминокислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Кислотно-основные\tсвойства\tбелковой молекулы определяются",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "функциональными группам всех аминокислотных остатков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "C-концевой карбоксильной группой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "N-концевой аминогруппой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "атомами пептидного остова",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Участок\tмолекулы\tфермента,\tобеспечивающий\tего взаимодействие с субстратом, называется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "простетическая группа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "апофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "активный центр",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "аллостерический центр",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "В переносе водорода участвует кофермент:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ТПФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тетрагидрофолат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Абсолютной специфичностью обладает фермент",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пепсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Активность пепсина желудочного сока при рн 7",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "снижена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в норме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "отсутствует",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Величина константы михаэлиса характеризует",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "зависимость от температуры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "зависимость от рН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сродство фермента и субстрата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "наличие активаторов или ингибиторов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Небелковая часть фермента, соединенная прочной\tковалентной связью с белковой называется",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "апофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "простетическая группа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кофактор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Фермент, катализирующий реакцию: СООН – СН2 – СН2 – СООН\t → СООН – СН = СН – СООН относится к классу",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "оксидоредуктазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "трансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гидролазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "изомеразы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Коферменты – это",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "группа ферментов с одинаковой активностью",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ферменты одного цикла",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ферменты одного и того же класса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "низкомолекулярные\tорганические\tвещества\t(часто производные водорастворимых витаминов), необходимые для работы ферментов",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Ферменты класса оксидоредуктаз участвуют в реакциях",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "переноса функциональных групп",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гидролиза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "изомеризации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "окислительно-восстановительных реакциях",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Химическая природа ферментов",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "углеводы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "липиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "белки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ДНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Фермент, катализирующий реакцию разрыва связи с участием молекулы воды, относится к классу",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "оксидоредуктазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гидролазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "лиазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Простетическая группа цитохромов – гем является переносчиком",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацилов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "электронов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "одноуглеродных групп",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "атомов водорода",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "«Энергостанциями» клетки являются органеллы",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ядро",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "митохондрии",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "лизосомы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Класс фермента указывает на",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "строение активного центра фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тип химической реакции, катализируемой данным ферментом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тип кофактора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "белковую природу фермента",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Переносчиком атомов водорода является только кофермент:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метилкобаламин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ко Q (убихинон, коэнзим Q)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Ко А (коэнзим А)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пиридоксальфосфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Функцию синтеза белка выполняют органеллы клетки",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "митохондрии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лизосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гиалоплазма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рибосомы",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Белковая часть фермента называется",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "апофермент",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "простетическая группа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кофактор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Комплекс белка-фермента, со своим кофактором называется",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "апофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "простетическая группа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "холофермент",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "При\tконцентрации\tсубстрата,\tчисленно\tравной\tконстанте михаэлиса, скорость реакции",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "приближается к нулю",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "равна половине максимальной скорости",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "равна максимальной скорости",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "прямо пропорциональна концентрации субстрата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Участок\tмолекулы\tфермента,\tпри\tсвязывании\tс\tкоторым определенных веществ изменяется его активность, называется",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "простетическая группа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "аллостерический центр",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "каталитический центр",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Аллостерические регуляторы (эффекторы) изменяют активность фермента путём",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "химической модификации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ограниченного протеолиза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "конкуренции с субстратом за активный (каталитический) центр",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "связывания с участком молекулы фермента, отличным от каталитического центра, через конформационные изменения",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Конкурентные\tингибиторы\tферментов\tчасто\tявляются структурными аналогами",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "субстратов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "конечных метаболитов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "коферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "простетических групп",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Фермент слюны муцин",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "удерживает Са в слюне",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "участвует в гидролизе полисахаридов пищи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "осуществляет антибактериальную защиту",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "определяет вязкость слюны",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Фермент слюны пероксидаза",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "удерживает Са в слюне",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "участвует в гидролизе полисахаридов пищи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "осуществляет антибактериальную защиту",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "участвует в распаде фосфоэфирных связей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "В нормальной слюне фосфор и кальций находятся в виде",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в виде ортофосфата кальция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в виде двузамещенного фосфата кальция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в виде однозамещенного фосфата кальция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в виде мицелл фосфата кальция",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Количество выделяемой за сутки слюны составляет",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,5 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "более 3 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1,5 - 2 л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "менее 0,5 л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какой из перечисленных факторов не относится к слюнным факторам защиты зубов",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "значение рН близкое к 7",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лизоцим",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "иммуноглобулины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "значение рН ниже 5",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "В состав слюны   не входят белки",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "иммуноглобулины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "коллаген",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "муцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфосодержащие гликопротеины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Защитная функция слюны не заключается в",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увлажнении и очистка ротовой полости",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "разрушении полисахаридов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "разрушении микроорганизмов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "участии в формировании зубной пелликулы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "К изменению состава десневой жидкости приводят",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "уменьшение фтора в воде;",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "воспаление пародонта;",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "уменьшение количества белка в ее составе;",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "снижение активности кислой фосфатазы;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "В состав муцина в качестве углеводных компонентов входят",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дисахарид сахароза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "N-ацетилнейраминовая кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "N-ацетилгалактозамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дисахарид лактоза.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Лизоцима слюны",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вырабатывается слюнными железами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "имеет вирусное происхождение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "вырабатывается в процессе деятельности лейкоцитов слущенных клеток",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "снижает активность кислой фосфатазы;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Кислотному сдвигу рн слюны не способствует",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "несоблюдение гигиены полости рта",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "старение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "употребление соков и фруктов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "повышенное содержание сахарозы в пище",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "В состав мягкого зубного налета  не входит",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ортофосфат кальция",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "бактериальные полисахариды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "слущенные клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "декстран",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Дайте характеристику гормональной функции слюны",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "выделение кальцитонина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "синтез паратгормона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "синтез паротина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "образование кальцитриола",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "КИСЛАЯ ФОСФАТАЗА СЛЮНЫ",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "участвует в минерализации эмали зуба",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "участвует в деминерализации эмали зуба",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "увлажнении и очистка ротовой полости",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтез фосфорных эфиров",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "К\tусловиям образования зубного камня не относится",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышение рН слюны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "перенасыщенность слюны гидроксиапатитами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гипосаливация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гиперсаливация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "В состав зубного камня не входят",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фториды кальция;",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "аморфные фосфаты кальция (одно- и двузамещенные);",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "труднорастворимые соли магния и марганца;",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "неупорядоченные апатиты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Фермент слюны лизоцим",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "удерживает Са в слюне",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "участвует в гидролизе полисахаридов пищи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "участвует в распаде фосфоэфирных связей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтез фосфорных эфиров",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Перенос электронов на кислород осуществляют ферменты",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "оксидазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "дегидрогеназы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "редуктазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "оксигеназы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "В состав пируватдегидрогеназного комплекса входит кофермент",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАДФ+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пиридоксальфосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "НАД+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ФМН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "АТФ в цикле Кребса образуется путем",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "окислительного фосфорилирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "субстратного фосфорилирования",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фотосинтетического фосфорилирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дезаминирования",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Цитрат как регулятор",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "активирует гликолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ингибирует синтез жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "активирует синтез жирных кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ингибирует гликолиз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "На первом этапе катаболизма происходит",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гликолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "превращение мономеров в полимеры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "β-окисление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "превращение полимеров в мономеры",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Оксалоацетат,\t образующийся\tв\tцикле \tКребса,\tможет быть использован для синтеза:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутамата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кетоновых тел",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "глюкозы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "холестерина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Выделить ферменты цикла Кребса, являющиеся регуляторными",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "малатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фумараза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "изоцитратдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "редуктаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Восстановленные в цикле Кребса коферменты",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "поставляют атомы водорода для реакций гидроксилирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "поставляют атомы водорода в дыхательную цепь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "поставляют атомы водорода для восстановительных биосинтезов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "поставляют фосфаты для фосфорилирования",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "В роли аллостерического активатора цикла Кребса выступают",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАДН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "АДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацил-КоА",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "При сгорании одной молекулы ацетил-КоА в ЦТК образуется восстановленных коферментов",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "четыре",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "два",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "восемь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "десять",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "В\tрезультате\tокислительного\tдекарбоксилирования пирувата образуется",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сукцинил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-кетоглутарат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оксалоацетат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетил-КоА",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "В роли первичного макроэрга в цикле кребса могут выступать",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сукцинил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "α-кетоглутарат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пируват",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Ферменты, участвующие в биологическом окислении, относятся к классу",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трансфераз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лиаз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оксидоредуктаз",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "лигаз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Для работы цикла кребса необходимы витамины",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ниацин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "аскорбат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фолиевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нафтохинон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "К классу оксидоредуктаз относятся ферменты",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "киназы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "монооксигеназы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "декарбоксилазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альдолазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "ЦТК активируют гормоны",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "катехоламины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "йодтиронины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ГКС",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АКТГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "В состав пируватдегидрогеназного комплексавходит кофермент",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ТПФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "НАДФ+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ФМН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "метилкобаламин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Выбрать правильную последовательность реакций цикла Кребса",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сукцинат→ малат →фумарат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изоцитрат→ цитрат→ α-кетоглутарат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сукцинил-КоА→ сукцинат→  фумарат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "сукцинат→ цитрат →фумарат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Метаболит цикла Кребса – ацетил-КоА может быть использован для синтеза",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "жирных кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "пирувата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "глутамата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глюкозы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "В роли аллостерического ингибитора цикла кребса выступает",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "НАД +",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "АДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ГДФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "ФАД-зависимой дегидрогеназой окисляется",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "изоцитрат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сукцинат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "лактат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "малат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Для\tсинтеза\tАТФ\tпутем\tсубстратного фосфорилирования используется энергия",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "освобождаемая при разрыве макроэргической связи субстрата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "освобождаемая при переносе электронов по ДЦ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "освобождаемая из ГТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "освобождаемая при разрыве С-С связи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Анаэробными тканями являются",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "миокард",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тонкий кишечник",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "соединительная ткань",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "сетчатка глаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Низкомолекулярными антиоксидантами являются",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутатион",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "большие дозы витамина А",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кетоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "витамин Д",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Работу дыхательной цепи активируют",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "АДФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кетоновые тела",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Электрохимический потенциал водорода образуется",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "на плазматической мембране",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "на внутренней мембране митохондрий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в растворимой части клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "на наружной мембране митохондрий",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Для\tсинтеза\tАТФ\tпутем\tокислительного фосфорилирования используется энергия",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "освобождаемая при разрыве макроэргической связи субстрата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "освобождаемая при переносе электронов по ДЦ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "освобождаемая из ГТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "освобождаемая при разрыве С-С связи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "В дыхательной цепи энергия освобождается в форме",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тепла",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "АТФ и тепла",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "АДФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Переносчиками водородов в дыхательной цепи являются",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАДФ+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ФМН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "цитохром в5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Какое из соединений является ингибитором дыхательной цепи",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "антимицин А",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "жирные кислоты бурого жира",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "йодтиронины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дифтерийный токсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Аэробными являются",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тонкая кишка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мозг почки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "периферические нервы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "семенники",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Синтез АТФ в дыхательной цепи происходит на участках",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "между а и О",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "между в и с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "между НАД и ФМН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "между с1 и с",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Выбрать правильную последовательность переносчиков в дыхательной цепи",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФМН→ в→ с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с → с1→ а",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в→ с1→ с",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "НАД→ ФАД→ ФМН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Переваривание\tкрахмала\tв\tротовой\tполости\tначинается при участии фермента",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "липазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-амилазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аминопептидазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "карбоксипептидазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Отметьте\tфермент,\tпри\tдействии\tкоторого\tв\tЖКТ образуется галактоза",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сахараза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лактаза",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Фермент\tсока\tподжелудочной\tжелезы,\tгидролизующий\tα-1,4-гликозидные связи",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-амилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "лактаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мальтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сахараза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Избыток сахарозы в пище увеличивает риск",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ожирения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "аллергических и аутоиммунных заболеваний",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "панкреатита",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рака",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "При остром панкреатите в плазме повышена активность",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-амилазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ЛДГ1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ЛДГ2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лактазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Определите роль пищевых волокон",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "источник глюкозы для организма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "активатор амилазы панкреатического сока",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "стимулятор перистальтики, профилактика многих заболеваний",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ингибитор амилазы панкреатического сока",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Гликогенолиз в мышцах вызывает",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипергликемию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гиперлактатемию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гипергликопротеинемию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гиполактамию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Определите первичный продукт фосфоролиза гликогена",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкозо-1-фосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "глюкозо-6-фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гликоген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Назовите ключевой фермент синтеза гликогена",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфорилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфоглюкомутаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "глюкозо-6-фосфатаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гликогенсинтаза",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Фермент лактаза вырабатывается",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "слюнными железами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "главными клетками желудка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "поджелудочной железой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "клетками кишечника",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Углеводом является",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глицерин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "лактат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лейцин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Предельное\tвремя\tэнергообеспечения\tпри\tголодании\tза\tсчет углеводов составляет",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50 суток",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "9 суток",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "0,5 суток",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "20 суток",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "К основным симптомам гликогенозов и агликогенозов относится",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипогликемия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гипергликемия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гиперпротеинемия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гипопротеинемия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Выберите из указанных углеводов олигосахарид",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мальтоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "рибоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "галактоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фруктоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Назовите гормон, стимулирующий синтез гликогена",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кортизол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "инсулин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Укажите фермент, запускающий гликогенолиз",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гликогенфосфорилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гликогенсинтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гексокиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глюкозо-6-фосфатаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Укажите место прохождения реакций анаэробного гликолиза",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лизосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "митохондрии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гиалоплазма",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Выберите нуклеотид, наличие которого необходимо для превращения фруктозо-6-фосфата во фруктозо-1,6-бисфосфат под влиянием фермента фосфофруктокиназы",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "АДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ГТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ГДФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Укажите конечный продукт анаэробного гликолиза",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "оксалоацетат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "этанол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Количество АТФ, получающееся в результате распада 1 моля глюкозы до двух молей лактата",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2 моль",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "12.5 моль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "10 моль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "32 моль",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Укажите процесс, в результате которого происходит синтез глюкозы из гликогенных аминокислот, глицерина, лактата",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюконеогенез",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гликолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гликогеногенез",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфоролиз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Глюконеогенез наиболее интенсивно протекает",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в головном мозге",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в сердце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в печени",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в почках",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Назовите субстрат для глюконеогенеза",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "этанол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ацил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аланин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "В результате\tокислительного декарбоксилирования\tпирувата образуется",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "оксалоацетат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ацил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "цитрат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Отметьте\tвитамин\t и\tкофермент\tвходящий\tв\tсостав пируватдегидрогеназного комплекса",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "витамин В1 (ТПФ)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "витамин В6 (ПФ)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фолат (ТГФК)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "витамин Н (биотин)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Количество АТФ, получающееся в результате полного окисления 1 моля глюкозы до СО2 и Н2О в клетках сердца и печени",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2 моль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "12.5 моль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "10 моль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "32 моль",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "УКАЖИТЕ АЭРОБНУЮ ТКАНЬ",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эритроциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "головной мозг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "периферические нервы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ткани конечностей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Недостатком гликолиза является",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "быстрота включения и полезность при короткой напряженной работе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "избыток лактата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "источник АТФ при дефиците кислорода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "единственный источник энергии для эритроцита",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "КЛЮЧЕВЫМ (РЕГУЛЯТОРНЫМ) ФЕРМЕНТОМ ГЛИКОЛИЗА ЯВЛЯЕТСЯ",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФГАДГ (фосфоглицеральдегиддегидрогеназа)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "альдолаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фосфофруктокиназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "лактатдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Глюкозо-лактатный цикл (цикл Кори) это обмен глюкозы между органами",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мышцы – печень",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мышцы – почки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "печень – почки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кишечник – печень",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Для реакции превращения пирувата в оксалоацетат ферменту пируваткарбоксилазе необходим витамин",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "РР (ниацин)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В1(тиамин)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "В2(рибофлавин)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Н (биотин)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Окисление 1 молекулы лактата до СО2 и Н2О в аэробных тканях дает",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "15 АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "10 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "12,5 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "2 АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Реакция\tсубстратного\tфосфорилирования\tпроисходит\tпри образовании",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пирувата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "лактата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ДОАФ (диоксиацетонфосфата)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ФГА (фосфоглицеринового альдегида)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Восстановление НАД+ в процессе гликолиза происходит в реакции",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "окисления ФГА (фосфоглицеринового альдегида)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "превращения 2-фосфоглицерата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "изомеризации ДОАФ (диоксиацетонфосфата)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образования 3-фосфоглицерата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Укажите субстрат для глюконеогенеза",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лактат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "лактоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Назовите ключевой фермент глюконеогенеза",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лактатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфоенолпируваткарбоксикиназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фосфоглицеральдегиддегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пируватдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Гликолиз – единственный источник атф для",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эритроцитов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "головного мозга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "периферических нервов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тканей конечностей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Количество АТФ, получающееся в расчете на 1 моль глюкозы при гликогенолизе в мышцах",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "12.5 моль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "10 моль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "32 моль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "3 моль",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Метаболиты пентозофосфатного пути могут влючаться в",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез нуклеотидов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "синтез белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "дыхательную цепь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "цикл Кребса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Ключевым ферментом пентозофосфатного пути является",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкозо-6-фосфатизомераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трансальдолаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "транскетолаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "6-фосфоглюконатдегидрогеназа",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Пентозофосфатный цикл протекает в",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "эритроцитах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "поджелудочной железе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "почках",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Гипогликемическим гормоном является",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "йодтиронины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "инсулин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "эйкозаноиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Гипергликопротеидемии наблюдаются при",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахарном диабете",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "нарушениях унификации моносахаридов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "дисахаридозах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "панкреатите",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "В Печени протекает",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только окислительный вариант пентозофосфатного пути",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "только неокислительный вариант пентозофосфатного пути",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оба варианта пентозофосфатного пути",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ни один из вариантов пентозофосфатного пути",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Пентозофосфатный цикл обеспечивает организм",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рибозо-5-фосфатом и НАДФН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только НАДФН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только НАДН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "Метаболиты пентозофосфатного пути могут быть использованы для синтеза",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "жирных кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "эйкозаноидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "цитокинов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Гиалуроновая кислота",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "является коагулянтом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "может связывать большое количество воды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "является нейтральным гетерополисахаридом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "основной компонент хряща",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Глюкоза в крови ниже нормы при такой патологии (состоянии), как",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гиперинсулинизм",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "легкий диабет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тяжелый диабет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нарушение толерантности к глюкозе",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "title": "Оба варианта пентозофосфатного пути протекают В",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "скелетных мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сердце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "жировой ткани",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "печени",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "title": "Норма глюкозы в капиллярной крови натощак",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "6,1 – 11,1 ммоль/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3,3 – 5,5 ммоль./л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "6, 1 – 7,8 ммоль/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "7,8 – 11,1 ммоль/л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Метаболит с тремя углеродными атомами, образующийся при декарбоксилировании β-кетобутирата",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "диоксиацетон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глицеральдегид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "3-фосфоглицерат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Продукт реакции карбоксилирования ацетил-коа",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-оксиацил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-оксибутирил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "малонил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "сукцинил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "title": "К функциям  кетоновых тел не относится",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дополнительные источники энергии при голоде и стрессе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "субстраты для синтеза углеводов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "субстраты для синтеза липидов головного мозга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "субстраты для синтеза липидов периферических нервов (миелинизации)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Метаболит\tβ-окисления\tжирных\tкислот,\tкоторый поступает\tв третий этап катаболизма",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "малонил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сукцинил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "title": "β-окисление жирных кислот идёт",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в митохондриях",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "в гиалоплазме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в эндоплазматической сети",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "на рибосомах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "title": "Ацетил-КоА не используется в путях метаболизма",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ЦТК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "синтез жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "синтез ХС и кетоновых тел",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтез пиримидиновых оснований",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Ключевой фермент биосинтеза жирных кислот",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетил-КоА-карбоксилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "еноилредуктаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тиолаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацил-КоА-дегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "title": "Кофермент ацетил-КоА-карбоксилазы",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "биотин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "тиаминпирофосфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Транспорт ацил-КоА из гиалоплазмы в митохондрии осуществляет небелковая аминокислота",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "орнитин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "карнитин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "цитруллин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ГАМК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Орган, который синтезирует кетоновые тела, но не использует их в качестве энергетических субстратов",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "почки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сердце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "печень",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "головной мозг при голодании",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "title": "При\tполном\tокислении\t1\tмолекулы\tацетил-КоА\tвыход АТФ составляет",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "12",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "title": "При окислении 1 молекулы глицерина выход АТФ составляет",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "17,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "12,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "20",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "title": "В составе\tредуктаз\tпри\tсинтезе\tжирных\tкислот участвует кофермент",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАДФН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ФМН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "title": "РОДОНАЧАЛЬНИКОМ КЕТОНОВЫХ ТЕЛ ЯВЛЯЕТСЯ",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-гидроксибутират",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ацетон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "β-кетобутират",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "сукцинат",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "title": "Выход АТФ при полном окислении пальмитата",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "17,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "106",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "335,5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "title": "Синтез холестерина и кетоновых тел идёт из ацетил-КоА на первых этапах одинаково до",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мевалоната",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сквалена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "β-гидрокси-β-метилглутарил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ацетоацетата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Коллаген синтезируется в",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "макрофагах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "остеокластах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фибробластах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "тучных клетках",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Процесс модификации аминокислотных остатков пролина и лизина при синтезе коллагена заключается в",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфорилировании",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гидроксилировании",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сульфатировании",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "метилировании",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Процесс модификации аминокислотных остатков пролина и лизина при синтезе коллагена заключается в",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфорилировании",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сульфатировании",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гликозилировании",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "метилировании",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "title": "Аминокислота, составляющая треть всех аминокислот в коллагене",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пролин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лизин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гидроксипролин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глицин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Гидроксипролин участвует в образовании связей",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дисульфидных",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "водородных",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ионных",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гликозидных",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Для гидроксилирования пролина и лизина в коллагене необходим витамин",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пиридоксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пантотеновая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "аскорбиновая кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "тиамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Лизилоксидаза катализирует реакцию",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гидроксилирования лизина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликозилирования остатков гидроксилизина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "дезаминирования лизина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "дезаминирования пролина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "title": "При синтезе коллагена модификациям подвергается аминокислота",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "серин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фенилаланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тирозин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лизин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Об активности процесса катаболизма коллагена можно судить по количеству выделяемого с мочой",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гидроксилизина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гидроксипролина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пролина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аллизина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "title": "Недостаток витамина С в организме может иметь последствия",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "уменьшение активности аминотрансфераз в клетках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышение количества гидроксипролина в коллагене",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "снижение количества гидрокипролина в коллагене",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "увеличение количества дисульфидных связей между полипептидными цепями коллагена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Соединительно-тканные структуры не характеризуются",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "преобладанием глобулярных белков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "преобладанием фибриллярных белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "преобладанием межклеточного вещества по сравнению с клеточными элементами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "наличием большого количества протеогликанов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "title": "Патология соединительно-тканных структур сопровождается увеличением экскреции с мочой",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фенилаланина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сиаловых кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мочевой кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "креатинина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "title": "Аминокислота, участвующая в образовании десмозина и изодесмозина в составе эластина",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пролин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гидроксипролин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лизин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "аланин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "title": "Гликозаминогликан, обладающий антикоагулянтными свойствами",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гиалуроновая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кератансульфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гепарин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "дерматансульфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Гиалуроновая кислота",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "может связывать большое количество воды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "является протеогликаном",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "находится в клетках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "имеет суммарный положительный заряд",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "title": "Межклеточное вещество приобретает желеобразный характер благодаря",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "коллагену",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фибронектину",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ламинину",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гиалуроновой кислоте",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "title": "Распад протеогликанов и гликозаминогликанов происходит в",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "внеклеточном пространстве",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "митохондриях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лизосомах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "аппарате Гольджи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "title": "Интегрирующую роль в организации межклеточного вещества выполняет",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фибронектин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "коллаген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фосфофорин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эластин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "title": "Для связывания ионов Са2+ костными gla-белками необходим радикал",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Арг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Лиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "γ-Глу",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Асп",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "title": "Белок, активирующий процесс минерализации в костной ткани",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "остеонектин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "остеокальцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фибронектин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "хондронектин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "title": "Резорбцию кости осуществляют",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "остеоциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "выстилающие клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "преостеокласты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "остеокласты",
+        "isCorrect": true
+      }
+    ]
+  }
+]

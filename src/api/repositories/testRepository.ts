@@ -152,16 +152,49 @@ export class TestRepository {
     }
 
     const stem = fileName.replace("_tests.json", "");
-    const subjectLabel = stem.replaceAll("_", " ").trim();
+    const testTypeDir = pathParts[4];
+    const plainSubjectFile = pathParts[5];
+    const nestedSubjectDir = pathParts[5];
+    const isStructuredByTestType = Boolean(testTypeDir);
+    const isLegacySubjectFile = pathParts.length === 5;
+    const isPlainSubjectFile = isStructuredByTestType && pathParts.length === 6;
+    const isSectionedSubjectFile = isStructuredByTestType && pathParts.length === 7;
+    if (!isLegacySubjectFile && !isPlainSubjectFile && !isSectionedSubjectFile) {
+      return null;
+    }
+
+    const sectionStem = stem.trim();
+    if (!sectionStem) {
+      return null;
+    }
+
+    const subjectStem = isSectionedSubjectFile
+      ? (nestedSubjectDir ?? "").trim()
+      : isPlainSubjectFile
+        ? plainSubjectFile?.replace("_tests.json", "").trim() ?? ""
+        : sectionStem;
+    if (!subjectStem) {
+      return null;
+    }
+
+    const subjectLabel = subjectStem.replaceAll("_", " ").trim();
     if (!subjectLabel) {
       return null;
     }
 
+    const sectionLabel = isSectionedSubjectFile ? sectionStem.replaceAll("_", " ").trim() : undefined;
+    if (isSectionedSubjectFile && !sectionLabel) {
+      return null;
+    }
+
+    const subjectSuffix = isSectionedSubjectFile ? `${subjectStem}__${sectionStem}` : subjectStem;
+
     const subject: Subject = {
-      id: `${faculty}__${course}__${testType}__${stem}`,
+      id: `${faculty}__${course}__${testType}__${subjectSuffix}`,
       course,
       faculty,
       subject: subjectLabel,
+      section: sectionLabel,
       testType,
       sourceFile: pathParts.join("/"),
     };
@@ -207,7 +240,7 @@ function inferTestType(stem: string): TestType {
 }
 
 function parseTestType(pathParts: string[]): TestType | null {
-  if (pathParts.length === 6) {
+  if (pathParts.length >= 6) {
     const testTypeDir = pathParts[4]?.trim().toLowerCase();
     if (testTypeDir === "экзамен" || testTypeDir === "exam") {
       return "exam";

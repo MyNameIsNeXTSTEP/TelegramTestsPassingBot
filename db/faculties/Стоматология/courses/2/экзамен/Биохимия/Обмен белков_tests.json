@@ -1,0 +1,2862 @@
+[
+  {
+    "id": 1,
+    "title": "Что означает понятие \"незаменимые аминокислоты\"?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Служат исходным материалом для процесса глюконеогенеза.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Используются для синтеза только наиболее важных в функциональном отношении белков.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Не синтезируются в тканях организма",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Используются для синтеза как белков, так и других биологически важных соединений",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какая из перечисленных аминокислот относятся к группе незаменимых аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аланин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Серин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Цистеин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Валин.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какая из перечисленных аминокислот относятся к группе незаменимых аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аланин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Триптофан.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Серин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Пролин.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какая из перечисленных аминокислот относятся к группе незаменимых аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аланин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аспарагин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Фенилаланин.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Глицин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какая из перечисленных аминокислот относятся к группе незаменимых аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аланин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глицин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Тирозин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Лейцин.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какая из перечисленных аминокислот относятся к группе незаменимых аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пролин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глутамат.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Тирозин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Метионин.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какая из перечисленных аминокислот относятся к группе незаменимых аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пролин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аспарагин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Тирозин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Изолейцин.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какая из перечисленных аминокислот относятся к группе незаменимых аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пролин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Цистеин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Тирозин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Лизин.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какая из перечисленных аминокислот относятся к группе незаменимых аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пролин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Серин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Тирозин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Треонин.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какая из перечисленных аминокислот относятся к группе условно незаменимых аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": ". Пролин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Серин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Тирозин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Аргинин.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какая из перечисленных аминокислот относятся к группе условно незаменимых аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пролин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глутамат.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Тирозин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гистидин.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "В чем состоит пищевое значение белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Основной источник азота для организма.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Субстрат для жизнедеятельности гнилостной микрофлоры кишечника.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Источник заменимых аминокислот.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Основной источник жирных кислот.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "В чем состоит пищевое значение белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Основной источник жирных кислот.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Субстрат для жизнедеятельности гнилостной микрофлоры кишечника.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Источник заменимых аминокислот.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Источник незаменимых аминокислот.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что означает понятие \"белковый минимум\"?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Количество белка в пище, которое создает положительный азотистый баланс организма.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Количество белка в пищевом рационе, которое создает отрицательный азотистый баланс.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Минимальное количество белка в пищевом рационе, которое способно непродолжительное время поддерживать азотистое равновесие.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Максимальное количество белка в пищевом рационе, которое способно непродолжительное время поддерживать азотистое равновесие.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Каким требованиям должны отвечать полноценные белки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Содержать все заменимые аминокислоты.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Содержать набор незаменимых аминокислот.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Обладать хорошими вкусовыми качествами.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Иметь животное происхождение.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Переваривание пищевых белков начинается в полости желудка. Какой из перечисленных ферментов присутствуют в составе желудочного сока?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пепсин.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Трипсин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Химотрипсин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Эластаза.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какой из перечисленных ферментов продуцируются стенкой тонкого кишечника?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Трипсин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аминопептидазы.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Эластаза.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Пепсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "В чем состоит сущность процесса активации протеаз желудочно-кишечного тракта?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В комплексировании с углеводным компонентом.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В комплексировании с липидным компонентом.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "В частичном протеолизе.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "В фосфорилировании.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой биохимический процесс ведет к образованию биогенных аминов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Трансаминирование аминокислот.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Декарбоксилирование аминокислот.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Восстановительное аминирование альфа-кетокислот.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Внутримолекулярное дезаминирование аминокислот.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какое из перечисленных веществ относятся к биогенным аминам?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Креатин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гамма-аминомасляная кислота.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Карнозин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Мочевина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какое из перечисленных веществ относятся к биогенным аминам?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Креатинин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Карнозин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Мочевина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гистамин.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "При декарбоксилировании какой из перечисленных аминокислот образуется гистамин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Триптофана.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гистидина.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Глютамина.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Глютамата.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "В результате химических превращений какой аминокислоты образуются адреналин и норадреналин (катехоламины)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Триптофана.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гистидина.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Тирозина.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Глютамата.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Химические превращения (окисление и последующее декарбоксилирование) какой из перечисленных аминокислот ведут к образованию серотонина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глютамата.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Триптофана.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Серина.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гистидина.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какой из перечисленных витаминов принимает участие в реакциях трансаминирования и декарбоксилирования, выполняя коферментную функцию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Рибофлавин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пиридоксин.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Витамин РР.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Витамин С.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Дезаминированием называют процесс потери органическим веществом:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминогрупп",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "углекислого газа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "воды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кислорода",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Декарбоксилированием называют процесс потери органическим веществом:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминогрупп",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "углекислого газа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "воды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кислорода",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какой из перечисленных видов дезаминирования наиболее характерны для катаболизма аминокислот в тканях человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Восстановительное.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Межмолекулярное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гидролитическое.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Внутримолекулярное.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "В составе какого из перечисленных азотистых компонентов мочи выводится из организма наибольшее количество аммиака?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Мочевой кислоты.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аммонийных солей.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Креатинина.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Мочевины.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какая из перечисленных заболеваний развиваются вследствие нарушения обмена аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фруктоземия.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Подагра.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Фенилкетонурия.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Рахит.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какие из перечисленных веществ принимают в синтезе мочевины непосредственное участие?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Углекислый газ, орнитин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Лизин, вода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Орнитин, аспартат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Глютаминовая кислота, аммиак",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какие из перечисленных веществ принимают в синтезе мочевины непосредственное участие?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Углекислый газ, аммиак",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Лизин, аммиак",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Аспартат, углекислый газ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Аммиак, вода",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Переваривание белков в ротовой полости осуществляется с помощью:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пепсина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пепсиногена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "этот процесс не происходит",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Отрицательный азотистый баланс наблюдается:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "у пожилых людей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "у детей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "при отсутствии в пище незаменимых аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "при отсутствии в пище заменимых аминокислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Отрицательный азотистый баланс наблюдается:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "при отсутствии в пище незаменимых аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "у детей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "при отсутствии в пище заменимых аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "при белковом голодании",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "С какими структурными компонентами клетки связан биосинтез белка:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ядрами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Лизосомами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Аппаратом Гольджи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Рибосомами",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какая связь образуется при переносе аминокислоты с аминоациладенилата на концевой остаток аденозина молекулы тРНК",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Водородная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пептидная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Сложноэфирная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Дисульфидная;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "В чем заключается реакция активирования аминокислот:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В образовании аминоациладенилатов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "В образовании аминоацилфосфатов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "В образовании аминоацил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В образовании аминоацил-тРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Как происходит образование аминоацил-тРНК:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "При взаимодействии тРНК с аминоациладенилатами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "При взаимодействии тРНК с аминоацилфосфатами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "При взаимодействии тРНК с аминоацил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "При взаимодействии тРНК с аминокислотой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какие компоненты необходимы для осуществления начальной стадии белкового синтеза - активации аминокислот:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "20 аминокислот, ферменты аминоацилтРНК-синтетазы, тРНК, АТФ, Mg 2+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "20 аминокислот, тРНК, ГТФ, Са2+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "20 аминокислот, ферменты аминоацилтРНК-синтетазы, Mg2+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "20 аминокислот, аминоацил-тРНК-синтетезы, АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какие компоненты и факторы необходимы для осуществления инициации полипептидной цепи:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мРНК, 40S субъединица рибосом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мРНК, , 40S субъединица рибосом, 60S субъединица рибосом, ГТФ, Mg 2+, факторы инициации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мРНК, 60S субъединица рибосом, Mg2+.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мРНК, 60S субъединица рибосом, АТФ, Mg2+",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какие компоненты и факторы необходимы для осуществления элонгации полипептидной цепи:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Полный набор аминоацил-тРНК, факторы элонгации,  ГТФ, пептидилтрансфераза, Mg2+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "N-формилметионин-тРНК, факторы элонгации EF-T и EF-G, пептидилтрансфераза, ГТФ, Mg2+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Пептидилтрансфераза, АТФ, полный набор аминоацил-тРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Полный набор аминоацил-тРНК, факторы элонгации,  ГТФ, пептидилтрансфераза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какие компоненты и факторы необходимы для терминации трансляции:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "терминирующий кодон мРНК, факторы терминации (FR1 и FR2)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ГТФ, факторы терминации (FR1 и FR2)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Факторы терминации (FR1 и FR2), Mg2+, мРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "терминирующий кодон мРНК, ГТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какой фермент обеспечивает синтез ДНК на матрице РНК:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминоацил-тРНК-синтетаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "РНК-зависимая ДНК-полимераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ДНК-полимераза-I",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Пептидилтрансфераза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какой фермент осуществляет процесс транскрипции",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ДНК-полимераза I",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ДНК-полимераза III",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "РНК-полимераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "обратная транскриптаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Что понимают под специфичностью генетического кода",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "соответствие одного триплета одной аминокислоте",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "соответствие определенных нуклеотидов месту связывания определенного белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "одинаковое кодирование аминокислот у всех живых организмов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "способность кодировать одинаково во всех организмах биохимические процессы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Что понимают под универсальностью генетического кода",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "способность кодировать последовательность аминокислот в белке, расположение двойных связей в жирных кислотах и последовательность включения сложных сахаров в молекулы гетерополисахаридов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "одинаковое кодирование аминокислот у всех живых организмов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "способность кодировать одинаково во всех организмах биохимические процессы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "соответствие определенных нуклеотидов месту связывания определенного белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Для каких целей используется макроэргическая связь молекулы аминоацил-тРНК",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "для формирования водородных связей между комплементарными азотистыми основаниями в триплетах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "для образования пептидной связи между аминокислотами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "для отщепления вновь синтезированной полипептидной цепи от рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "для образования сложноэфирной связи между аминокислотой и тРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Что происходит с м-РНК после синтеза белка",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "подвергается действию обратной транскриптазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "разрушается внутриклеточными нуклеазами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "преобразуется в тРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "преобразуется в рРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какой фермент контролирует правильность встраивания аминокислот в полипептидную последовательность",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пептидилтрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аминоацил-тРНК-синтетаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аминотрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пептидилсинтетаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Чем определяется пищевая ценность белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминокислотным составом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "наличием заряда белковых молекул",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "порядком чередования аминокислот в молекуле белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "молекулярной массой белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Пепсиноген активируется",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "бикарбонатом натрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НСl",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трипсином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "энтерокиназой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Tрипсиноген активируется",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "бикарбонатом натрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НСl",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пептидазой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "энтерокиназой",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Трансаминирование аминокислот",
+    "options": [
+      {
+        "optionId": 1,
+        "text": ". является этапом катаболизма аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сопровождается образованием углекислого газа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "приводит к увеличению общего количества аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сопровождается образованием аммиака",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Для прямого дезаминирования характерно",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трансаминирование с альфа-кетоглутаратом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "процесс не связан с трансаминированием",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "участвует НАД+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "не участвуют оксидазы.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какие ферменты участвуют в прямом дезаминировании аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "L-оксидазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "трансаминазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "декарбоксилазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пептидазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какой процесс сопровождается образованием аммиака в организме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дезаминирование аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "декарбоксилирование аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "распад мочевины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аминирование альфа-кетоглутарата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Причиной токсического поражения мозга при тяжелых заболеваниях печени является увеличение в крови",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аммиака",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мочевины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мочевой кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сиаловых кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Коферментом трансаминаз является производное витамина",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "В3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В6",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какое соединение образуется из аланина при трансаминировании?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пируват",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ЩУК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "глутамат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "серин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Какие конечные продукты образуются при окислении аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "СО2; Н2О; NH3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "СО2; Н2О",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "СО2; Н2О; пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Н2О; пируват",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Физиологический минимум белков равен",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "100-120 г/сут",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "30-45 г/сут",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "более 120 г/сут",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "менее 30 г/сут",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Как происходит всасывание аминокислот в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "простой диффузией",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сопряжен с функционированием Na+,К+-АТФазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "везикулярным транспортом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "облегченный транспорт",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Какая аминокислота активируют синтез мочевины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "орнитин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гистидин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "цистеин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "серин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Какое количество мочевины в сутки выделяется с мочой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30 г",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "50 г",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "100г",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "80 г",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "В норме концентрация мочевины в сыворотке крови равна",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2,50-8,32 мкмоль/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2,50-8,32 мг/мл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "2,50-8,32 ммоль/л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "2,50-8,32 мкг/мл",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "При каких патологических состояниях в крови увеличивается содержание мочевины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "почечная недостаточность и другие заболевания почек",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "заболевания кожи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мышечная дистрофия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "печеночная недостаточность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Какой биогенный амин образуется при декарбоксилировании глутаминовой кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гистамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гамма-аминомаслянная кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "дофамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Какой биогенный амин является предшественником норадреналина и адреналина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дофамин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гистамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гамма-аминомаслянная кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Квашиоркор обусловлен недостатком в пище",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "углеводов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "витаминов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "липидов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Аминопептидазы вырабатываются",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в поджелудочной железе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в тонком кишечнике",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Карбоксипептидазы вырабатываются",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в поджелудочной железе",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в тонком кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Какие связи в белках расщепляет трипсин? Образованные:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "СООН-группой ароматических аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "NH2-группой основных аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "СООН-группой основных аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "NH2-группой ароматических аминокислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Какие связи в белках расщепляет пепсин? Образованные:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "СООН-группой ароматических аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "NH2-группой ароматических аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "СООН-группой основных аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "NH2-основных аминокислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Какие связи в белках расщепляет карбоксипептидаза:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Образованные СООН-группой ароматических аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "СООН-группой основных аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "СООН-группой полярных незаряженных аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Отщепляет С-концевую аминокислоту",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Какие ферменты расщепляют белки до полипептидов в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Трипсиноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Трипсин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Карбоксипептидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Химотрипсиноген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Какие ферменты отщепляют С-концевые аминокислоты в белках:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Карбоксипептидазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Аминопептидазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Химотрипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Пепсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Какие продукты образуются при трансаминировании между альфа-кетоглутаратом и аланином:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аспартат и лактат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глутамат и лактат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Глутамат и пируват",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Глутамин и аспарагин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Реакция трансаминирования является одной из стадий биосинтеза различных соединений. Укажите, каких именно:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Подавляющего большинства аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Дикарбоновых кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Заменимых аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Монокарбоновы кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Атомы азота в молекуле мочевины происходят из:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аммиака и глутамина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": ". Аммиака и аспарагиновой кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Глутамина и аспарагиновой кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Глутаминовой кислоты и аланина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Наиболее важным ферментом, участвующим в образовании аммиака из аминокислот у человека, является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "L-аминооксидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аргиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Глутаматдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Глутаминсинтаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Цикл синтеза мочевины характеризуется (укажите неверные утверждения):",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Поступление карбамоилфосфата в цикл синтеза мочевины регулируется N-ацетилглутаматом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Непосредственным предшественником мочевины в цикле является орнитин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Для образования карбамоилфосфата необходимо затратить 2 молекулы АТФ на 1 молекулу используемого аммиака",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Аспартат, используемый в цикле, образуется из оксалоацетата при трансаминировании с цитозольным глутаматом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Цикл синтеза мочевины характеризуется (укажите неверные утверждения):",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Поступление карбамоилфосфата в цикл синтеза мочевины регулируется N-ацетилглутаматом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Для образования карбамоилфосфата необходимо затратить 2 молекулы АТФ на 1 молекулу используемого аммиака",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "В цикле синтеза мочевины образуется аммиак",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Аспартат  используемый в цикле  образуется из оксалоацетата при трансаминировании с цитозольным глутаматом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Больной, находящийся в периоде выздоровления, имеет положительный азотистый баланс, если:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Количество поступающего с пищей азота эквивалентно количеству азота^ выделяемого с мочой, калом и потом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Количество азота экскретируемого с мочой, калом и потом меньше количества поступившего азота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Количество азота, экскретируемого с мочой, калом и потом больше количества азота, поступившего с пищей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Больной находится на бедной белками диете",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Белковый оптимум для взрослого человека с энергозатратами 2500 ккал составляет:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "40-50 г/сут",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "50-100 г/сут",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "100-120 г/сут",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "более 120 г/сут",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Укажите неправильный ответ:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пепсиноген активируется аутокаталитически",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Основными продуктами гидролиза белков пепсином являются большие пептиды и немного свободных аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Трипсин и химотрипсин секретируются поджелудочной железой в виде неактивных предшественников",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Большинство пищевых белков всасывается в кишечнике в виде полипептидов",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Какие из перечисленных веществ и процессов не повышают протеолиз белков:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глюкокортикоиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Повышенная секреция тироидных гормонов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Активация лизосом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Инсулин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Под остаточным азотом понимают:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Азот, выделяемый в сутки с мочой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Все небелковые азотсодержащие соединения плазмы крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Все белки и небелковые азотсодержащие соединения плазмы крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Все белковые азотсодержащие соединения плазмы крови",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Оптимум рН для трипсина:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1-2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3-5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "5-7",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "7-8",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Оптимум рН для пепсина:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1-2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "3-5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "5-7",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "7-8",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Синтез мочевины происходит:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В головном мозге",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "В печени",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "В почках",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Под влиянием каких ферментов происходит расщепление белков в желудке:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пепсиногена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Трипсина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Пепсина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Энтерокиназы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Синтез белка на матрице РНК называется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "транскрипцией",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "репликацией",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "трансляцией",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "глюконеогенезом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Синтез РНК на матрице ДНК осуществляется по принципу:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обратной связи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "комплементарности",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "случайного набора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "симметричности",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "К абсолютно незаменимым аминокислотам не относится:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лизин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "триптофан",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фенилаланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аспарагин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Какие из перечисленных заболеваний развиваются вследствие нарушения обмена аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фруктоземия.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Подагра.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Микседема.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Альбинизм.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Нарушение катаболизма отдельных аминокислот может быть причиной различных патологий. Какие из перечисленных заболеваний развиваются вследствие нарушения обмена аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Подагра.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Алкаптонурия.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Микседема.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Рахит.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Какие пептидные связи расщепляет пепсин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образованные карбоксильной группой ароматических аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "образованные карбоксильной группой основных аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "образованные аминогруппой ароматических аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "образованные карбоксильной группой кислых аминокислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Какие пептидные связи расщепляет трипсин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образованные карбоксильной группой ароматических аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "образованные карбоксильной группой основных аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образованные аминогруппой ароматических аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образованные аминогруппой основных аминокислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Какие пептидные связи расщепляет химотрипсин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образованные карбоксильной группой ароматических аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "образованные карбоксильной группой основных аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "образованные аминогруппой ароматических аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образованные аминогруппой кислых аминокислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Какой из перечисленных ферментов продуцируются стенкой тонкого кишечника?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Трипсин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Эластаза.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Дипептидазы.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Какое из перечисленных веществ относятся к биогенным аминам?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Креатин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Мочевина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Карнозин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Серотонин.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Какое из перечисленных веществ относятся к биогенным аминам?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Креатинин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Карнозин.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Адреналин.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Мочевина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Какое из перечисленных видов дезаминирования наиболее характерны для катаболизма аминокислот в тканях человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Восстановительное.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Окислительное.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гидролитическое.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Межмолекулярное.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Какое из перечисленных веществ не принимает в синтезе мочевины непосредственное участие?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Углекислый газ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аммиак",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Орнитин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Лизин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Пепсиноген активируется",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "бикарбонатом натрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трипсином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "энтерокиназой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аутокаталитически",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Трансаминирование аминокислот",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сопровождается образованием углекислого газа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "может служить для синтеза аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "приводит к увеличению общего количества аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сопровождается образованием аммиака",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Какой биогенный амин образуется при декарбоксилировании тирозина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гистамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дофамин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гамма аминомасляная кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Какой биогенный амин образуется при декарбоксилировании серина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гистамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дофамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ацетилхолин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гамма аминомасляная кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "При декарбоксилировании какой из перечисленных аминокислот образуется дофамин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гистидина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "серина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "триптофана",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тирозина",
+        "isCorrect": false
+      }
+    ]
+  }
+]

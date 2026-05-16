@@ -1,0 +1,2082 @@
+[
+  {
+    "id": 1,
+    "title": "Каково процентное соотношение минеральных веществ, органических веществ и воды в костной ткани?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30:45:25",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "45:30:25",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "50:25:25",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "25:50:25",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой тип коллагена преобладает в костной ткани (90-95% органического матрикса)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Коллаген II типа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Коллаген III типа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Коллаген I типа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Коллаген IV типа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какую функцию костной ткани отражает тот факт, что в ней содержится 99% кальция всего организма?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Опорную",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Защитную",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Депонирующую",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Буферную",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Сколько процентов всего Na+ организма находится в костной ткани?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "25%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "46%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "60%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "80%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какие клетки костной ткани образуются из мезенхимальных стволовых клеток и активно синтезируют компоненты матрикса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Остеоциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Остеокласты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Остеобласты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Хондроциты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Отличительная черта остеобластов – сильное развитие:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Лизосом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ЭПР и аппарата Гольджи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ядрышек",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Около 60% АТФ в остеобластах синтезируется за счет:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Окислительного фосфорилирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Реакций гликолиза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Цикла Кребса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Бета-окисления жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какое вещество накапливается в остеобластах и используется для связывания ионов Ca²⁺?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Лактат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Цитрат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Оксалоацетат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Во что превращаются остеобласты после завершения продукции коллагеновых и неколлагеновых белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В остеокласты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В остеогенные клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "В остеоциты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "В хондроциты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Остеоциты – это клетки, которые:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Активно синтезируют коллаген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Образуются из остеокластов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Включены в органический матрикс и контактируют друг с другом через отростки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Расположены только на поверхности кости",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой органоид слабо развит в остеоцитах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ядро",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Митохондрии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Аппарат Гольджи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Рибосомы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Из каких клеток образуются остеокласты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Из остеобластов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Из макрофагов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Из мезенхимальных стволовых клеток",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Из остеоцитов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "«Щеточная каемка» остеокластов обращена в зону резорбции и служит для:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтеза коллагена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Высвобождения гидролитических ферментов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Поглощения кальция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Образования костного матрикса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какой фермент остеокластов создает кислую среду (pH 3,5–4,0) в зоне резорбции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Щелочная фосфатаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Коллагеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Карбоангидраза II",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Цитратсинтаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Кислая среда в зоне резорбции необходима для:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Активации остеобластов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Деминерализации костной ткани",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Синтеза гидроксиапатита",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Образования коллагеновых волокон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Основной минеральный компонент костной ткани – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Карбонат кальция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Оксалат кальция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гидроксиапатит",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Фосфат магния",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какова формула гидроксиапатита?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ca₃(PO₄)₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ca₁₀(PO₄)₆(OH)₂",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Ca₅(PO₄)₃OH",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "CaCO₃",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Нормальное соотношение кальций/фосфор в костной ткани составляет:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,5–1,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1,3–2,0",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "2,5–3,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "3,5–4,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Процесс потери ионов кристаллом гидроксиапатита называется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Изоморфным замещением",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Изоионным замещением",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Деминерализацией",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Реминерализацией",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Замещение Ca²⁺ на Mg²⁺ в кристалле гидроксиапатита – это пример:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Изоионного замещения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Изоморфного замещения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гидролиза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Фосфорилирования",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какой гликопротеин синтезируется остеобластами, связывает Ca²⁺ и служит маркером дифференцировки костных клеток?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Остеокальцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Остеонектин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Сиалопротеин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Gla-протеин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Остеокальцин состоит из 49 аминокислотных остатков, из которых 3 представлены:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "γ-карбоксиглутаминовой кислотой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Фосфосерином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гидроксипролином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гидроксилизином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Остеокальцин активирует:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Остеобласты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Остеокласты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Остеоциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Хондробласты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Gla-протеин матрикса родствен остеокальцину и содержит:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2 остатка γ-Глу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3 остатка γ-Глу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "5 остатков γ-Глу",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "10 остатков γ-Глу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какой белок костной ткани содержит большое количество сиаловой кислоты (12% углеводов)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Остеонектин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Остеокальцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Сиалопротеин кости",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Остеопонтин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Комплекс сиалопротеин кости – Ca²⁺ – ГАП:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Тормозит резорбцию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Активирует остеокласты и способствует их прикреплению к кости",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Стимулирует синтез коллагена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ингибирует рост кристаллов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Остеопонтин – это кислый белок, содержащий повторяющиеся остатки:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глутаминовой кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аспарагиновой кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Лизина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Серина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какие протеогликаны имеют наибольшее значение в костной ткани?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гепарансульфат и дерматансульфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Хондроитинсульфат и кератансульфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гиалуроновая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гепарин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Сульфатные группы протеогликанов способствуют:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Связыванию ионов Ca²⁺ и формированию кристаллов ГАП",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Разрушению коллагена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Ингибированию остеокластов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Снижению pH",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какая функция неколлагеновых белков костной ткани заключается в том, что они образуют тонкую сетку вокруг апатитов, смягчая воздействие неблагоприятных факторов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Минерализующая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Регуляторная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Адгезивная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Защитная",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какие липиды костной ткани способны присоединять ионы Ca²⁺ и стимулировать минерализацию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Триглицериды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Свободные жирные кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Глицерофосфолипиды (например, фосфатидилсерин)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Холестерин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Цитрат в костной ткани образуется под действием фермента:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Цитратлиазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Цитратсинтазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Аконитазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Изоцитратдегидрогеназы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Активность цитратсинтазы в костной ткани по сравнению с печенью:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В 20 раз ниже",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Такая же",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "В 20 раз выше",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "В 100 раз выше",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "При рН > 7,0 цитрат кальция:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Растворим",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Нерастворим",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Образует комплекс с коллагеном",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Разрушается",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Длительное воздействие паратгормона на остеобласты приводит к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Увеличению содержания цитрата и образованию растворимого цитрата кальция",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Снижению цитрата и усилению минерализации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Уменьшению выхода кальция в кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Активации щелочной фосфатазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Полное обновление органических и минеральных компонентов костной ткани происходит примерно каждые:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1 год",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5 лет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "10 лет",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "20 лет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "В каком возрасте плотность костной ткани достигает максимума?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "К 10 годам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "К 18 годам",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "К 30 годам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "К 40 годам",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Что характерно для ремоделирования кости у женщин после менопаузы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Равновесие резорбции и образования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Преобладание костеобразования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Преобладание резорбции, приводящее к остеопорозу",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Полное прекращение ремоделирования",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Первая стадия ремоделирования костной ткани – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Резорбция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Реверсия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Активация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Костеобразование",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какой белок, секретируемый остеобластами, стимулирует образование колоний моноцитов и активацию остеокластов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Остеокальцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "RANKL",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Остеопонтин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Коллагеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Что такое RANKL?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Рецептор активатора ядерного фактора κB-лиганд",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Фермент резорбции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Белок матрикса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гормон роста",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Продолжительность резорбции в области, окруженной остеокластами, составляет около:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2 часов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2 дней",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "2 недель",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "2 месяцев",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Что происходит на стадии реверсии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Активация остеобластов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Апоптоз остеокластов и заполнение лакун предшественниками остеобластов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Отложение гидроксиапатита",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Образование щеточной каемки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Что такое «цементирующая линия»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Слой из секреторных гликопротеинов, удерживающий колонии остеобластов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Зона кислой фосфатазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Место прикрепления остеокластов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Участок деминерализации",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Процессу минерализации кости предшествует в остеобластах:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Увеличение поступления O₂ и активация аэробного гликолиза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Снижение синтеза АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Инактивация щелочной фосфатазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Уменьшение синтеза коллагена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какой фермент остеобластов, активный на стадии минерализации, гидролизует органические эфиры фосфорной кислоты с освобождением PO₄³⁻ в щелочной среде?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кислая фосфатаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Щелочная фосфатаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Карбоангидраза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Протеинкиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Мембранные везикулы остеобластов, содержащие перенасыщенный раствор фосфата кальция, называются:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Лизосомами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пероксисомами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Матриксными везикулами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Эндосомами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Когда концентрация микрокристаллов в везикулах возрастает в 20–25 раз, происходит:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Разрушение везикул и высвобождение фосфата кальция во внеклеточное пространство",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Образование остеоида",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Активация остеокластов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ингибирование минерализации",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Неминерализованный матрикс кости называется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Остеон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Остеоид",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Лакуна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Каналец",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Толщина слоя остеоида, после достижения которой начинается минерализация, составляет:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "6·10⁻⁶ м",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "6·10⁻⁸ м",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "6·10⁻⁴ м",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "6·10⁻² м",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Что такое нуклеация?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Рост кристаллов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Начало образования кристаллов (образование ядер)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Растворение кристаллов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Связывание кальция белками",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какой белок костной ткани связывает одновременно гидроксиапатиты и коллаген, обеспечивая нуклеацию апатита?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Остеокальцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Остеонектин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Сиалопротеин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Протеогликан",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Полностью минерализованная кость практически обезвожена, потому что:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кристаллы вытесняют воду",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Вода испаряется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Вода связывается коллагеном",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Вода разрушается ферментами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Маркером формирования кости (синтеза коллагена) является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-Crosslaps",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "N-терминальный пропептид проколлагена I типа (P1NP)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Остеокальцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кальцитонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "β-Crosslaps отражает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Степень минерализации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Активность остеобластов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Степень резорбции кости",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Уровень витамина D",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Частота остеопороза у женщин старше 50 лет составляет примерно:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "20%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "30%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "50%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какой гормон стимулирует синтез коллагеновых и неколлагеновых белков, способствует задержке Ca²⁺ и PO₄³⁻, усиливая минерализацию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Паратгормон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Кальцитонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Соматотропный гормон (гормон роста)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Тиреоидные гормоны (высокие концентрации)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Паротин – это гормон, вырабатываемый в:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Щитовидной железе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Паращитовидных железах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Околоушных слюнных железах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Поджелудочной железе",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Кальцитонин оказывает следующее действие на костную ткань:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Стимулирует резорбцию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Подавляет активность остеокластов и стимулирует минерализацию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Активирует остеобласты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Повышает выведение Ca²⁺ из кости",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Кальцитриол – это активная форма:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Витамина А",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Витамина D",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Витамина Е",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Витамина К",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Тиреоидные гормоны (Т₃, Т₄) в нормальной концентрации:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Стимулируют резорбцию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Усиливают биосинтез белков матрикса и минерализацию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Тормозят синтез коллагена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Снижают активность щелочной фосфатазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Инсулин в костной ткани:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Активирует метаболизм остеобластов и синтез коллагена I типа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Угнетает минерализацию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Стимулирует остеокласты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Не оказывает влияния",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Андрогены (стероидные гормоны) по отношению к костной ткани:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Усиливают биосинтез коллагена и минерализацию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Угнетают рост кости",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Стимулируют резорбцию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Не влияют на кость",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Эстрогены в остеобластах:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Снижают синтез коллагена I типа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Повышают синтез коллагена I типа и активность щелочной фосфатазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Активируют остеокласты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Тормозят минерализацию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Щелочная фосфатаза (ЩФ) проявляет максимальную активность при pH:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "4,8",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "7,4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "10,5",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "2,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Паратгормон (ПТГ) в остеобластах:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Стимулирует синтез коллагена I типа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ингибирует синтез белков и активность щелочной фосфатазы, активирует протеазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Повышает минерализацию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Угнетает остеокласты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "При больших и длительных дозах паратгормон вызывает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гиперкальциемию и некробиоз остеобластов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Усиление синтеза коллагена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Снижение активности остеокластов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Повышение плотности кости",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Тиреоидные гормоны в высоких концентрациях:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Стимулируют резорбцию за счет снижения активности ЩФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Усиливают минерализацию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Активируют щелочную фосфатазу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Тормозят остеокласты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Глюкокортикоиды угнетают в остеобластах:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Синтез коллагена I типа и неколлагеновых белков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Активность кислой фосфатазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Образование остеокластов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Выведение Ca²⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Кислая фосфатаза (КФ) участвует в резорбции, действуя при оптимальном pH:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "7,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "4,8",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "8,5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Инсулиноподобный фактор роста-1 (ИФР-1) вырабатывается:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Остеокластами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Остеобластами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Макрофагами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Хондроцитами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "При остеопорозе секреция ИФР-1:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Повышается",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Снижается",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Не изменяется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Полностью прекращается",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Трансформирующий фактор роста-β (ТФР-β) активирует:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пролиферацию остеокластов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пролиферацию остеобластов и синтез коллагена I типа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Резорбцию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Апоптоз остеобластов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Фактор роста тромбоцитов (ФРТ) активирует остеогенные клетки, что приводит к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Замедлению синтеза ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Повышению скорости синтеза ДНК, РНК и белков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Торможению митоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Деградации матрикса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Количество ФРТ возрастает при:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Остеопорозе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Переломах костей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гипокальциемии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Синтезе витамина D",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Какой фермент участвует как в минерализации (в остеобластах), так и в резорбции (в остеокластах), но при разных pH?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Коллагеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Фосфатаза (щелочная и кислая)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Карбоангидраза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Цитратсинтаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Какое из следующих веществ тормозит скорость минерализации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кальцитриол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Паратгормон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Пирофосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Соматотропин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Что происходит на стадии покоя ремоделирования?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Активная резорбция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Остеобласты превращаются в остеоциты, замурованные в матриксе",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Активация остеокластов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Синтез остеоида",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Ионы Mg²⁺, Na⁺, K⁺, SO₄²⁻, HCO₃⁻ в костной ткани:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Не влияют на минерализацию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только ингибируют рост кристаллов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Могут участвовать в образовании кристаллов и изоморфных замещениях",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Содержатся только в коллагене",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Цитрат в кости при рН < 7,0:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Образует нерастворимые соли с Ca²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Образует растворимые соли с Ca²⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Разрушается",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Не взаимодействует с кальцием",
+        "isCorrect": false
+      }
+    ]
+  }
+]

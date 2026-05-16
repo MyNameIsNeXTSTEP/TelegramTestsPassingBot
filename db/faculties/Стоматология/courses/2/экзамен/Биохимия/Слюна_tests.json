@@ -1,0 +1,2082 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое «смешанная слюна» (ротовая жидкость)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Секрет только околоушных желез",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Секрет, полученный непосредственно из протоков слюнных желез",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Секрет слюнных желез, смешанный с компонентами десневой жидкости, эпителием, микроорганизмами и остатками пищи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Секрет только поднижнечелюстных желез",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Сколько пар больших слюнных желез существует?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какие железы относятся к большим слюнным железам?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Околоушные, подъязычные, поднижнечелюстные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Губные, нёбные, язычные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Околоушные, щёчные, подъязычные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Поднижнечелюстные, губные, корня языка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Каков суточный объём слюны, поступающей в полость рта (по данным файла)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,1-0,3 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "0,5-0,7 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "0,75-1,0 л (до 1,5 л)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "2,0-2,5 л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какие слюнные железы образуют бóльшую часть слюны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Околоушные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Подъязычные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Поднижнечелюстные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Малые слюнные железы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой процент слюны в норме образуют околоушные железы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "≈70%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "≈25%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "≈4%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "≈1%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Как называется слюна, полученная непосредственно из протоков желез?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Смешанная слюна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ротовая жидкость",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Собственно слюна (проточная слюна)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Цельная слюна",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Как получают цельную (смешанную) слюну?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Собирают секрет из протоков желез",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Путём сплевывания",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "С помощью зонда из протоков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "После стимуляции лимонной кислотой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Физико-химические свойства смешанной слюны зависят от всех факторов, КРОМЕ:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Времени суток",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Возраста",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Пола человека",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Характера пищи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какова плотность смешанной слюны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,990-1,001 г/мл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1,002-1,017 г/мл",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "1,020-1,035 г/мл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1,040-1,060 г/мл",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Чем обусловлена вязкость слюны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Наличием солей кальция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Наличием белков (гликопротеинов) и клеток",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Высоким содержанием воды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Низкой температурой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Увеличение вязкости слюны приводит к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Улучшению минерализующей функции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Нарушению минерализующей функции",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Увеличению скорости слюноотделения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Повышению pH",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Чем обусловлена мутность смешанной слюны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Высокой плотностью",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Наличием клеточных элементов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Высокой вязкостью",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Наличием газовых пузырьков",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Осмотическое давление слюны по сравнению с кровью:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Выше",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ниже",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Такое же",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Не сравнимо",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "pH слюны «покоя» составляет около:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "6,5",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "7,4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "8,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "pH стимулированной слюны:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Снижается до 5,4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Остаётся 6,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Повышается до 7,4",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Не изменяется",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "При патологических состояниях pH слюны может смещаться:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только в кислую сторону",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только в щелочную сторону",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Как в кислую (до 5,4), так и в щелочную (до 8,0)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Не изменяется",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Подкисление слюны приводит к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Насыщению гидроксиапатитом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Растворению эмали",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Камнеобразованию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Повышению кариесрезистентности",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Подщелачивание слюны (до 8,0) может способствовать:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Растворению эмали",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Камнеобразованию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Снижению pH",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Деминерализации",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Кислотность слюны зависит от всех перечисленных факторов, КРОМЕ:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Скорости слюноотделения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Буферной ёмкости",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Группы крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Гигиенического состояния полости рта",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "В какое время суток pH слюны самое низкое?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Утром",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Днём",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Вечером",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ночью",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "С возрастом отмечается тенденция:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "К снижению кислотности слюны и повышению кариесрезистентности",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "К повышению кислотности и снижению кариесрезистентности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "К неизменности pH",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "К резкому закислению",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какая буферная система слюны является основной (до 80%)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фосфатная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Белковая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гидрокарбонатная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Ацетатная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Снижение pH слюны до 6 приводит к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Увеличению содержания Ca²⁺ и PO₄³⁻",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Уменьшению содержания Ca²⁺ и PO₄³⁻ и потере минерализующих свойств",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Активации реминерализации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Повышению буферной ёмкости",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "У кариесрезистентных людей pH слюны обычно:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "<6,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "6,0-6,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": ">7,2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "5,5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Буферная ёмкость слюны – это способность:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Увеличивать вязкость",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Нейтрализовать кислоты и основания",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Растворять эмаль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Связывать кальций",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Длительное употребление углеводистой пищи:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Повышает буферную ёмкость слюны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Снижает буферную ёмкость слюны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Не влияет на буферную ёмкость",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Повышает pH",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Высокая буферная ёмкость слюны – это фактор:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Повышающий риск кариеса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Понижающий резистентность зубов к кариесу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Повышающий резистентность зубов к кариесу",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Не влияющий на кариес",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Благодаря буферным системам кислотность ротовой жидкости в норме восстанавливается за:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Несколько секунд",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Несколько минут",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Несколько часов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Более суток",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Содержание кальция в слюне колеблется в пределах (ммоль/л):",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,1-0,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "0,6-3,0",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "3,5-5,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "5,0-7,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какой процент кальция в слюне находится в ионизированном состоянии (Ca²⁺)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "25%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "30%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "55%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "70%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "С возрастом максимальная концентрация кальция в слюне наблюдается:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В детском возрасте",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В среднем возрасте",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "В пожилом возрасте",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Не изменяется",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Содержание фосфора в слюне (ммоль/л):",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,5-1,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1,0-2,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "2,2-6,5",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "7,0-10,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какой процент фосфора в слюне входит в состав неорганических соединений?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "70%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "95%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "99%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Содержание кальция и фосфора в слюне в течение суток:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Сильно колеблется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Очень устойчиво",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Постепенно снижается",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Постепенно повышается",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Наличие кальция и фосфора в слюне обеспечивает все перечисленное, КРОМЕ:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Препятствует растворению эмали",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Обеспечивает поступление ионов в эмаль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Регулирует pH слюны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Разрушает пелликулу",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Слюна является коллоидной системой, состоящей из:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Мицелл хлорида натрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Мицелл фосфата кальция",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Мицелл белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Липидных капель",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Ядро мицеллы слюны составляет:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Растворимый фосфат кальция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Нерастворимый фосфат кальция [Ca₃(PO₄)₂]ₘ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гидроксиапатит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Карбонат кальция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "На поверхности ядра мицеллы собираются ионы:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ca²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "HPO₄²⁻",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Cl⁻",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Na⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "В кислой среде заряд мицеллы слюны:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Увеличивается",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Уменьшается",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Не изменяется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Становится положительным",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "В щелочной среде минерализующие свойства слюны:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Снижаются",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Повышаются",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Не изменяются",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Исчезают",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "К органическим компонентам слюны относятся все перечисленные, КРОМЕ:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Мочевина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Хлорид натрия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Липиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какую долю среди белков смешанной слюны составляют муцины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Около 5%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Около 15%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Около 50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Около 80%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Содержание углеводов в муцинах может достигать:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10-20%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "30-40%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "50-90%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "95-99%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какие углеводы входят в состав муцинов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глюкоза, фруктоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Сиаловая кислота, N-ацетилгалактозамин, фукоза, галактоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Рибоза, дезоксирибоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Целлюлоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Свойства муцинов включают всё перечисленное, КРОМЕ:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Связывание воды и придание вязкости",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Затруднение бактериальной колонизации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Устойчивость к протеолитическим ферментам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Способность расщеплять крахмал",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Белки, богатые пролином (ББП), в слюне:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Встречаются во всех секретах организма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Строго специфичны для слюны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Содержат мало пролина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Не связывают кальций",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Функция ББП – ингибирование излишнего осаждения кальция на эмали – предотвращает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кариес",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Образование зубного камня",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Деминерализацию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Воспаление дёсен",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Белки, богатые гистидином (гистатины), выполняют:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только пищеварительную функцию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Антибактериальное и фунгицидное действие",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Транспорт кислорода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Свертывание крови",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Гистатины являются мощными ингибиторами роста кристаллов:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Оксалата кальция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гидроксиаппатитов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Уратов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Холестерина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Статерины – это белки, богатые:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пролином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гистидином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Тирозином",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Цистеином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Цистатины в слюне ингибируют:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Амилазу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Протеиназы, защищая белки от гидролиза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Лизоцим",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Карбоангидразу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Лактоферрин связывает ионы железа бактерий, что проявляется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Стимуляцией роста бактерий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Бактериостатическим действием",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Активацией ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Повышением pH",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какие классы иммуноглобулинов присутствуют в слюне?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только IgA",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только IgG",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Все 5 классов: IgA, IgE, IgG, IgM, IgD",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Только IgM и IgD",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Основной фермент смешанной слюны, участвующий в начальных этапах пищеварения:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Лизоцим",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-амилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Лактопероксидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Карбоангидраза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "α-амилаза расщепляет связи в составе крахмала и гликогена:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α(1-4)-гликозидные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "β(1-4)-гликозидные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Пептидные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Эфирные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Оптимальное значение pH для α-амилазы:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5,0-5,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "6,8-7,2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "7,5-8,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4,0-4,5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Наибольшим активирующим эффектом на α-амилазу обладают ионы:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фтора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Хлора",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Йода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кальция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Лизоцим (мурамидаза) катализирует гидролиз связей в:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Крахмале",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Липидах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гетерополисахаридах и гликопротеинах клеточной стенки микроорганизмов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Нуклеиновых кислотах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Лизоцим устойчив к нагреванию: выдерживает температуру 100°С в течение:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1 минуты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1 часа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10 часов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Не выдерживает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Источником лизоцима в слюне являются:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только подъязычные железы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Околоушные железы и частично лейкоциты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Только бактерии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Только десневая жидкость",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Лактопероксидаза катализирует окисление тиоционатов с помощью:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кислорода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Перекиси водорода",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Углекислого газа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Аммиака",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Образующийся гипотиоционат подавляет рост:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Лактобактерий (Streptococcus mutans)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Стафилококков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Дрожжей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Вирусов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Карбоангидраза слюны содержит ион металла:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Mg²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Fe²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Zn²⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Cu²⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Функционирование карбоангидразы связано с поддержанием уровня:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Бикарбонатов (обеспечивают 80% буферных свойств)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Хлоридов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Фосфатов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Сульфатов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Карбоангидраза, связываясь с пелликулой зуба, способствует:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Деминерализации эмали",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Удалению кислот с поверхности зуба, защищая эмаль",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Разрушению пелликулы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Росту бактерий",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Кислая фосфатаза слюны имеет оптимум pH около:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "4,8",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "6,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "7,4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "9,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Щелочная фосфатаза слюны имеет оптимум pH около:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "4,8",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "6,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "7,4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "9-10,5",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Активность фосфатаз увеличивается при:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кариесе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пародонтите, гингивите, у пациентов с металлическими протезами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Здоровом пародонте",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гипосаливации",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Фермент миелопероксидаза (лейкоцитарного происхождения) образует гипохлорит, повреждающий:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Эмаль зубов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Клеточную оболочку микроорганизмов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Муцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Пелликулу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Нуклеазы (ДНК-азы, РНК-азы) в слюне:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Активируют синтез нуклеиновых кислот бактерий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Вызывают деградацию нуклеиновых кислот микроорганизмов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Расщепляют белки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гидролизуют липиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Какой фермент антиоксидантной системы катализирует дисмутацию супероксидного анион-радикала?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Каталаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глутатионпероксидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Супероксиддисмутаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Миелопероксидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Каталаза расщепляет перекись водорода до:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кислорода и воды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Воды и гидроксильного радикала",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Кислорода и озона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Воды и пероксида",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Активность ферментов антиоксидантной системы возрастает при:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кариесе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Стоматитах и гингивитах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Здоровом состоянии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ксеростомии",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Ферменты гликолиза бактериального происхождения приводят к образованию кислот, что:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Повышает pH на поверхности эмали",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Локально понижает pH и вызывает деминерализацию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Укрепляет эмаль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Активирует реминерализацию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Уреаза бактерий участвует в образовании зубного камня, так как ионы карбоната связывают:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Фосфор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Кальций с образованием малорастворимой соли",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Магний",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Натрий",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Пищеварительная функция слюны включает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Расщепление поли- и олигосахаридов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Свёртывание крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Иммунную защиту",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Выделение гормонов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Защитная функция слюны не включает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Увлажнение и очистку тканей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Формирование пелликулы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Переваривание белков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Поддержание видового состава микрофлоры",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Минерализующая функция слюны связана с:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Расщеплением углеводов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Участием в формировании апатитов эмали",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Выделением мочевины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Регуляцией речи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Коммуникативная функция слюны необходима для:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пищеварения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Выделения лекарств",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Формирования правильной речи и общения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Минерализации эмали",
+        "isCorrect": false
+      }
+    ]
+  }
+]

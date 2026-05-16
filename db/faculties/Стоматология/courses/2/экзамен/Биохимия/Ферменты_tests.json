@@ -1,0 +1,2082 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое ферменты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Небелковые катализаторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Специфические белки, увеличивающие скорость химических реакций в клетках",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гормоны, регулирующие обмен веществ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Углеводы, участвующие в пищеварении",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Как называется наука о ферментах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Биокатализ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Энзимология",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Протеомика",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ферментология",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Кто предложил термин «фермент» в XVII веке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Мечников",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ван Гельмонт",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Левенгук",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какие ферменты называются простыми (однокомпонентными)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Состоящие из белка и углевода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Содержащие небелковую часть",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Представляющие собой простые белки, при гидролизе распадающиеся только на аминокислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Имеющие в составе нуклеиновые кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Как называются сложные (двухкомпонентные) ферменты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Апоферменты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Холоферменты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Коферменты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Простетические группы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Белковая часть двухкомпонентного фермента называется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кофактор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Холофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Апофермент",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Простетическая группа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Как называется небелковый компонент сложного фермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Субстрат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Кофактор",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Активатор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ингибитор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Если кофактор прочно связан с полипептидной цепью ковалентной связью, он называется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Кофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Апофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Простетическая группа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Субстрат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какой тип связи характерен для простетической группы и апофермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ионная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Водородная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Ковалентная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Гидрофобная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Кофактор, который легко отделяется от апофермента и способен к самостоятельному существованию, называется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Простетическая группа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Кофермент",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Активатор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ингибитор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой из перечисленных коферментов является примером простетической группы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД в составе сукцинатдегидрогеназы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какие неорганические соединения могут выполнять роль кофакторов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ионы металлов (Fe, Cu, Mn, Zn и др.)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Нуклеотиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Витамины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Аминокислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "К органическим кофакторам невитаминной природы относятся:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Производные витамина РР",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Нуклеотиды (АТФ, ГТФ)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Витамин В1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Витамин В6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что из перечисленного относится к органическим кофакторам пептидной природы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гем",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глутатион",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Липоевая кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Активный центр фермента (АЦФ) – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Весь участок полипептидной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Относительно небольшой участок на поверхности молекулы фермента, непосредственно участвующий в катализе",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Участок, связывающий аллостерические эффекторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Место присоединения кофермента",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Из каких двух участков состоит активный центр?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ингибиторного и активаторного",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Субстратного (якорного) и каталитического",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Аллостерического и регуляторного",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Коферментного и металлического",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какой участок активного центра отвечает за комплементарное связывание субстрата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Каталитический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аллостерический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Субстратный (якорный)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Регуляторный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "У сложных ферментов в состав активного центра обязательно входит:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ингибитор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Активатор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Кофактор",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Субстрат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Что такое аллостерический центр?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Центр, связывающий субстрат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Участок, пространственно удаленный от активного центра, служащий для присоединения эффекторов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Часть каталитического участка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Место синтеза фермента",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Присоединение эффектора к аллостерическому центру вызывает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только снижение активности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только повышение активности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Изменение третичной структуры и конфигурации активного центра, что может снижать или повышать активность",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Необратимую денатурацию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Как называется вещество, химическое превращение которого катализируется ферментом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Продукт",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Кофактор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Субстрат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Эффектор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Принцип «ключ-замок» в энзимологии описывает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Специфичность связывания фермента с субстратом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Механизм ингибирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Регуляцию по типу обратной связи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Денатурацию фермента",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Как ферменты увеличивают скорость химической реакции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Повышают температуру в микроокружении",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Снижают величину энергии активации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Изменяют направление реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Расходуются в процессе реакции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Энергия активации – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Энергия, выделяющаяся при реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Дополнительная энергия, которую нужно сообщить молекулам для достижения переходного состояния",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Энергия разрыва всех связей в молекуле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Тепловая энергия системы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Что такое энергетический барьер реакции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Количество энергии, необходимое для денатурации фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Количество энергии, которое необходимо молекуле, чтобы вступить в химическую реакцию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Разница между энергией продуктов и субстратов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Энергия, выделяемая при образовании комплекса фермент-субстрат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Укажите правильную последовательность стадий ферментативного катализа:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "E+S → ES* → ES → EP → E+P",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "E+S → ES → ES* → EP → E+P",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "E+S → EP → ES* → ES → E+P",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "E+S → E+P → ES* → ES",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какое из утверждений является сходством ферментов и небиологических катализаторов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Катализируют в очень мягких условиях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Обладают высокой специфичностью",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Уменьшают энергию активации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Подвергаются регуляции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Что из перечисленного НЕ является сходством ферментов и неорганических катализаторов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ускоряют только термодинамически возможные реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Не изменяют направление химической реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Не расходуются в процессе реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Работают при температуре 38-40°C",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Во сколько раз ферменты могут увеличивать скорость реакции по сравнению с неорганическими катализаторами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в 10-100 раз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в 1010 - 1012 раз",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в 1000-10000 раз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в 2-5 раз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Пример: 1 мг железа в составе каталазы действует как 10 т неорганического железа. Это иллюстрирует:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Специфичность ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Термолабильность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Высокую эффективность ферментов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Зависимость от pH",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какой вид специфичности означает, что один фермент действует только на один субстрат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Относительная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Групповая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Абсолютная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Стереоспецифичность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какой фермент является примером абсолютной специфичности (катализирует гидролиз только мочевины)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Трипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Уреаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Каталаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Оптимум pH для большинства ферментов находится в диапазоне:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2,0-4,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "4,0-5,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "6,0-8,0",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "8,5-10,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "При какой температуре у большинства ферментов наблюдается тепловая денатурация?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30-35°C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "38-40°C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "41-42°C",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "50-55°C",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Как изменяется скорость ферментативной реакции при повышении температуры на 10°C (в пределах оптимум-?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Уменьшается в 2 раза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Увеличивается в 2 раза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Не изменяется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Увеличивается в 10 раз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какие катионы чаще всего выступают активаторами ферментов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Na+, Ca2+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Mg 2+, Mn 2+, Zn 2+, K+, Co 2+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Al 3+, Pb 2+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Hg 2+, Ag+",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какой анион может быть активатором ферментов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "SO42-",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "PO4 3-",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Cl-",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "NO3-",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Специфичность действия ферментов определяется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Температурой среды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Структурой активного центра фермента",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Концентрацией субстрата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Наличием аллостерического центра",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Сколько классов ферментов выделено в систематической номенклатуре (1961 г.)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "7",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какое окончание добавляется к названию субстрата и типу реакции при образовании рабочего названия фермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "-ин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "-оза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "-аза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "-ид",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Как называется фермент, катализирующий окисление молочной кислоты, согласно рабочей номенклатуре?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Лактатоксидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Лактатдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Молочнокислая синтетаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Пируватредуктаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Каким ферментам оставлены исторически сложившиеся названия (пепсин, трипсин)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только гидролазам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только оксидоредуктазам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Известным ферментам",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Всем ферментам класса лигаз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "К какому классу относятся ферменты, катализирующие окислительно-восстановительные реакции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Трансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гидролазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Оксидоредуктазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Лиазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Большинство ферментов класса оксидоредуктаз называют:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Киназами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Дегидрогеназами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Пептидазами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Изомеразами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какие ферменты переносят водород непосредственно на кислород?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Анаэробные дегидрогеназы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Оксидазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Цитохромы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Каталазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "К какому классу относятся ферменты, осуществляющие перенос атомов или групп атомов между субстратами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Оксидоредуктазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Трансферазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Гидролазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Лигазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Ферменты, использующие АТФ в качестве донора фосфатного остатка, относятся к подклассу:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аминотрансфераз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ацилтрансфераз",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Фосфотрансфераз (киназы)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гликозилтрансфераз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какой класс ферментов расщепляет внутримолекулярные связи с участием воды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Лиазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гидролазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Изомеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Лигазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "К гидролазам относятся все перечисленные, КРОМЕ:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Эстеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гликозидазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Пептидазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Декарбоксилазы",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Лиазы катализируют:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Разрыв связей негидролитическим путём с образованием двойных связей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Перенос групп с использованием АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Изомеризацию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Гидролиз пептидных связей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Примером лиазы является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Альдолаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Гексокиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Цитохромоксидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "К какому классу относятся ферменты, катализирующие реакции изомеризации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Изомеразы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Лигазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Трансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Оксидоредуктазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Ферменты, катализирующие внутримолекулярный перенос атомов, называются:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Рацемазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Эпимеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Мутазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Цис-транс-изомеразы",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какой класс ферментов участвует в синтезе соединений с использованием энергии АТФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гидролазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Лиазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Изомеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Лигазы (синтетазы)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какой фермент катализирует синтез глутамина из глутаминовой кислоты и аммиака с использованием АТФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Глутаминаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Глутаминсинтетаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Глутаматдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Трансаминаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Шифр фермента (КФ) состоит из:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Трех цифр",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Четырех цифр",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Пяти цифр",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Буквенно-цифрового кода",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Что обозначает первая цифра в шифре фермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Номер подкласса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Номер подподкласса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Порядковый номер фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Номер класса",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Вторая цифра в шифре КФ обозначает:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Класс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Подкласс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Подподкласс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Порядковый номер",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Четвёртая цифра в шифре фермента – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Номер подкласса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Номер подподкласса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Порядковый номер фермента в данном подподклассе",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Номер класса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Фермент лактатдегидрогеназа имеет шифр КФ 1.1.1.27. Какая цифра указывает на то, что он относится к оксидоредуктазам?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1 (первая)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "1 (вторая)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "27",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1 (третья)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Систематическое название лактатдегидрогеназы – L-лактат: НАД+-оксидоредуктаза. Что является акцептором водорода в этой реакции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Лактат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАД+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Кислород",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Рабочее название фермента, расщепляющего крахмал (amylum):",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Амилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Крахмалаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Глюкозидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Мальтаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Фермент, участвующий в распаде РНК, называется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "РНК-полимераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Рибонуклеаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Дезоксирибонуклеаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Нуклеотидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Термин «пепсин» происходит от греческого слова, означающего:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Расщепление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Пищеварение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Белок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Желудок",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Какой класс ферментов катализирует обратимые реакции отщепления различных групп от субстрата с образованием двойных связей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гидролазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Лиазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Трансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Изомеразы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Ферменты, катализирующие перенос водорода на промежуточный субстрат в анаэробных условиях, относятся к:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Оксидазам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Анаэробным дегидрогеназам",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Цитохромам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Каталазам",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Какой фермент катализирует реакции с участием H2O2?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Цитохромоксидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Дегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Каталаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Липаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "К какому подклассу трансфераз относятся ферменты, переносящие одноуглеродные группы (метильные, формильные)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аминотрансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Фосфотрансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Ацилтрансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Трансферазы, переносящие одноуглеродные группы",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Гидролазы, расщепляющие эфирные связи, относятся к подклассу:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гликозидазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Эстеразы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Пептидазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Амидазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Какие ферменты катализируют присоединение воды по двойной связи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Дегидратазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Гидратазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Декарбоксилазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Альдолазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "К какому подклассу изомераз относятся ферменты, изменяющие конфигурацию атомов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Мутазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Цис-транс-изомеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Рацемазы и эпимеразы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Таутомеразы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Лигазы (синтетазы) для осуществления синтеза используют энергию:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ГТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАДФН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ФАДН2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Сколько подклассов включает класс гидролаз (согласно лекции)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "11",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "17",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Какой фермент класса оксидоредуктаз содержит железо в качестве кофактора и приведён в примере высокой эффективности?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Цитохром С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Каталаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Пероксидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Сукцинатдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Что происходит с активностью фермента при добавлении активаторов, действующих через аллостерический центр?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Необратимое ингибирование",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Изменение третичной структуры, приводящее к повышению активности",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Разрушение активного центра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Отщепление кофактора",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Отличие ферментов от неорганических катализаторов – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Уменьшение энергии активации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Возможность тонкой и точной регуляции скорости реакции",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Ускорение только термодинамически возможных реакций",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Отсутствие расхода в процессе реакции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Какое из утверждений о зависимости активности ферментов от температуры верно?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Активность линейно растёт с температурой до 100°C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Оптимум температуры – 38-40°C, при 41-42°C – денатурация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Ферменты активны только при 0°C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Температура не влияет на активность ферментов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Ионы металлов как кофакторы могут:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только образовывать мостики между ферментом и субстратом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Только непосредственно участвовать в акте катализа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Либо непосредственно участвовать в катализе, либо образовывать мостики, связывающие фермент с субстратом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Замещать аминокислотные остатки в активном центре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "К органическим кофакторам – производным витаминов – относятся:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гем, глутатион",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАД, НАДФ, ФАД (производные витаминов РР, В2)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "АТФ, ГТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Амид липоевой кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Что отражает систематическое название фермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Только название субстрата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Название субстрата и окончание -аза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Названия субстратов, участвующих в реакции, и класс, к которому принадлежит фермент",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Исторически сложившееся тривиальное название",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -66,6 +66,7 @@ export interface Subject {
   course: number;
   faculty: string;
   subject: string;
+  section?: string;
   testType: TestType;
   sourceFile: string;
 }
