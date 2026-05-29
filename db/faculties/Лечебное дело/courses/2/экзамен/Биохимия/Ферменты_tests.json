@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое ферменты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "низкомолекулярные катализаторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белковые катализаторы, ускоряющие реакции в клетке",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "липидные соединения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "углеводные вещества",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Как называют вещества, которые превращаются под действием ферментов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "продукты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "активаторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "субстраты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ингибиторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Что происходит с ферментом в ходе реакции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "он расходуется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "он необратимо изменяется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "он не расходуется",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "он превращается в продукт",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Во сколько раз ферменты ускоряют реакции по сравнению с неферментативными?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в 10–100 раз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в 100–1000 раз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в 10⁶-10¹² раз",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в 10²-10⁴ раз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "При какой температуре обычно протекают ферментативные реакции в организме человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "25°С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "37°С",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "42°С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "50°С",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Как называется белковая часть сложного фермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "холофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "апофермент",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "простетическая группа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Что такое кофактор?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белковая часть фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "небелковая часть фермента",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "продукт реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "субстрат фермента",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Как называется фермент с присоединённым кофактором, обладающий каталитической активностью?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "апофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кофермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "холофермент",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "изофермент",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Что такое кофермент?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "прочно связанная с белком небелковая часть",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "слабо связанная с белком небелковая часть",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аминокислотный остаток",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пептидная связь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Что такое простетическая группа?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "слабо связанная небелковая часть",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "прочно связанная небелковая часть",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "белковая часть фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "субстрат фермента",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какие вещества могут быть кофакторами ферментов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "витамины, металлы, нуклеотиды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только углеводы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только липиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Что такое активный центр фермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вся молекула фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "участок, участвующий в катализе",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "место синтеза фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "участок связывания ингибитора",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "На каком уровне структурной организации формируется активный центр?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "первичная структура",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вторичная структура",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "третичная структура",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "четвертичная структура",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что входит в состав активного центра фермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только каталитический участок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "только субстратсвязывающий участок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "каталитический и субстратсвязывающий участки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "аллостерический и каталитический участки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Что такое аллостерический центр фермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "небольшой участок связывания с субстратом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "регуляторный участок, связывающий эффекторы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "участок связывания ингибитора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "участок разрушения фермента",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Как обозначается фермент-субстратный комплекс?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ЕР",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ES",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "EP",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "SE",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какая модель взаимодействия субстрата с ферментом называется «ключ-замок»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "модель индуцированного соответствия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "модель жёсткого соответствия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "модель случайного столкновения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "модель конкурентного ингибирования",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Кто предложил модель индуцированного соответствия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Э. Фишер",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Д. Кошленд",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Л. Пастер",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "М. Кальвин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Что такое энергия активации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "энергия, выделяющаяся при реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "энергия, необходимая для вступления в реакцию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "энергия связи субстрата с ферментом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "энергия, затрачиваемая на синтез фермента",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Как ферменты влияют на энергию активации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышают",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "понижают",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не изменяют",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "полностью устраняют",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Что такое константа Михаэлиса (Km)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "концентрация субстрата при максимальной скорости реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "концентрация субстрата при половине максимальной скорости",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "концентрация фермента в реакции при отсутствии субстрата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "время достижения равновесия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Что показывает величина Km?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "активность фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сродство фермента к субстрату",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "молекулярную массу фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "оптимальную температуру реакции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "При какой концентрации субстрата достигается максимальная скорость реакции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "при низкой концентрации фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "при средней концентрации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "при насыщении всех активных центров",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "при отсутствии субстрата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Как зависит скорость реакции от концентрации фермента (при избытке субстрата)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "не зависит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "обратно пропорциональна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "прямо пропорциональна",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "зависит экспоненциально",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Как выглядит график зависимости скорости реакции от концентрации субстрата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "прямая линия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гипербола",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "парабола",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "экспонента",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Что такое международная единица активности фермента (МЕ)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "количество фермента, превращающее 1 моль субстрата за 1 с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "количество фермента, превращающее 1 мкмоль субстрата за 1 мин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "количество фермента в 1 мг белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "количество субстрата в реакции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Что такое катал (кат)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "количество фермента, превращающее 1 мкмоль субстрата за 1 мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "количество фермента, превращающее 1 моль субстрата за 1 с",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "количество фермента, превращающее 1 мкмоль субстрата за 1 с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "количество фермента, превращающее 1 моль субстрата за 1 мин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Что такое удельная активность фермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "количество фермента в 1 мл раствора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "количество фермента на 1 мг белка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "активность при физиологическом рН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "максимальная активность фермента",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Что такое изоферменты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ферменты с одинаковой структурой и катализирующие разные реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ферменты, катализирующие одну реакцию, но отличающиеся свойствами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ферменты с разной структурой и катализирующие разные реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "неактивные формы ферментов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Сколько изоформ имеет лактатдегидрогеназа (ЛДГ)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "5",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "С чем связывается субстрат в молекуле фермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "с аллостерическим центром",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с кофактором",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "с активным центром",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "с простетической группой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "На каком уровне структурной организации формируется активный центр фермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "первичная структура",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вторичная структура",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "третичная структура",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "четвертичная структура",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Как влияет повышение температуры на активность ферментов (до денатурации)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "снижает активность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "увеличивает скорость реакции",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "полностью инактивирует фермент",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Что происходит с ферментами при высоких температурах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличивается активность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "происходит денатурация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "изменяется специфичность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "увеличивается сродство к субстрату",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какая температура оптимальна для большинства ферментов человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "25-30°С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "37-38°С",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "40-42°С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "45-50°С",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "В каком диапазоне обычно находится оптимум рН для большинства ферментов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2,0-4,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5,0-9,0",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "9,0-11,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1,0-3,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какой фермент имеет оптимум рН 1,5-2,0?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пепсин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "каталаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какой фермент имеет оптимум рН около 9,5-9,9?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "каталаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "аргиназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "уреаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Почему активность ферментов зависит от рН?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "изменяется концентрация субстрата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изменяется конформация фермента",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "разрушается пептидная связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "изменяется температура реакции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Сколько основных классов ферментов существует в современной классификации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "8",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "К какому классу относятся дегидрогеназы и оксидазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "оксидоредуктазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гидролазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лиазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "К какому классу относятся киназы и аминотрансферазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "оксидоредуктазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трансферазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гидролазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "изомеразы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "К какому классу относятся протеазы, липазы, амилазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лиазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гидролазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "лигазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какие ферменты катализируют разрыв связей с образованием двойных связей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гидролазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лиазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "изомеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лигазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "К какому классу относятся ферменты, катализирующие взаимопревращение изомеров?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лиазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лигазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "изомеразы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "трансферазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какие ферменты соединяют две молекулы с использованием энергии АТФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гидролазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лиазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "изомеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лигазы",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какой класс ферментов был добавлен в классификацию в 2018 году?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "оксидоредуктазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гидролазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "транслоказы",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Что обозначает первая цифра в классификационном номере фермента (КФ)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "подкласс фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "класс фермента",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "подподкласс фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "порядковый номер фермента",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какой суффикс характерен для названий большинства ферментов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "оза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "аза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "амин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Что такое субстратная специфичность фермента?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "способность выбирать определённый продукт",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "способность выбирать определённый субстрат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "способность изменять свою структуру",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "способность работать без кофактора",
+        "isCorrect": false
+      }
+    ]
+  }
+]

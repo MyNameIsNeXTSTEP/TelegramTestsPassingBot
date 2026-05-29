@@ -1,0 +1,1666 @@
+[
+  {
+    "id": 1,
+    "title": "Какое количество крови в организме взрослого человека составляет в процентах от массы тела?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1–2%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5–9%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10–15%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "15–20%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какова величина гематокритного числа в норме (процент форменных элементов)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "20–25%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "40–45%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "50–55%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "60–65%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какой белок плазмы крови в основном создаёт онкотическое давление?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глобулины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "альбумины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фибриноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "трансферрин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какое осмотическое давление плазмы крови в норме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3,5 атм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "7,6 атм",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10,2 атм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "15,0 атм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Каков нормальный диапазон pH крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "6,85–7,15",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "7,00–7,25",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "7,35–7,45",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "7,50–7,70",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какая буферная система крови является наиболее мощной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфатная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белковая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гемоглобиновая",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "бикарбонатная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какое количество гемоглобина в норме у мужчин (г/л)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "100–120",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "130–160",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "160–180",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "180–200",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какова продолжительность жизни эритроцита?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10–15 дней",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "30–60 дней",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "около 120 дней",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "1 год",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Что такое «ретикулоцит»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "зрелый эритроцит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "молодой эритроцит",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "разрушенный эритроцит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тромбоцит",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какое соединение гемоглобина с угарным газом (CO) называется?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метгемоглобин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "карбоксигемоглобин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "карбгемоглобин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "оксигемоглобин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Во сколько раз сродство гемоглобина к CO выше, чем к O2?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в 10 раз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в 50 раз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в 300 раз",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в 1000 раз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какой витамин необходим для синтеза глобина и созревания эритроцитов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "витамин C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "витамин B12",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "витамин A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "витамин D",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какой белок слизистой желудка (внутренний фактор Касла) связывает витамин B12?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гастромукопротеид",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "муцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гастрин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Где происходит основное образование эритропоэтина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "печень",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "почки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "селезёнка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "костный мозг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какое количество лейкоцитов в 1 литре крови в норме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "(1–3) × 10⁹/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "(4–9) × 10⁹/л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "(10–15) × 10⁹/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "(20–30) × 10⁹/л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какие клетки относятся к агранулоцитам?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нейтрофилы, эозинофилы, базофилы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "моноциты, лимфоциты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только лимфоциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только моноциты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какой процент лимфоцитов в лейкоцитарной формуле (норма)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1–5%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "18–40%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "46–78%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "2–10%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какое явление называется «лейкоцитозом»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличение количества лейкоцитов в крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "уменьшение количества лейкоцитов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "увеличение количества эритроцитов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "уменьшение количества тромбоцитов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Что такое «фагоцитоз»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "поглощение и переваривание чужеродных частиц",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "выделение антител",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "разрушение эритроцитов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "свёртывание крови",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какие лейкоциты называют «микрофагами»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лимфоциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "моноциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нейтрофилы, эозинофилы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "базофилы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какие клетки являются предшественниками тканевых макрофагов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лимфоциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "моноциты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нейтрофилы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "базофилы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какие лимфоциты обеспечивают клеточный иммунитет (киллеры, хелперы)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "В-лимфоциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Т-лимфоциты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "NK-клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "плазматические клетки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Где происходит созревание Т-лимфоцитов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в костном мозге",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в тимусе (вилочковой железе)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в селезёнке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в лимфатических узлах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какие клетки продуцируют антитела (иммуноглобулины)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Т-лимфоциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "В-лимфоциты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "моноциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нейтрофилы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какое количество тромбоцитов в 1 литре крови в норме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "(50–100) × 10⁹/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "(180–320) × 10⁹/л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "(400–600) × 10⁹/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "(700–900) × 10⁹/л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какое свойство тромбоцитов называется «адгезией»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "прилипание к чужеродной поверхности (изменённой сосудистой стенке)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "склеивание тромбоцитов друг с другом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "выделение факторов свёртывания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фагоцитоз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какое свойство тромбоцитов называется «агрегацией»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "прилипание к стенке сосуда",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "склеивание тромбоцитов друг с другом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "распластывание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сокращение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какое вещество, выделяемое эндотелием, препятствует агрегации тромбоцитов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тромбоксан A2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "простациклин (простагландин I2)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "АДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тромбин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какие антигены (агглютиногены) находятся на мембране эритроцитов в системе AB0?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α и β",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "A и B",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Rh (-)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "M и N",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какие антитела (агглютинины) находятся в плазме крови в системе AB0?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "A и B",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α и β",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "anti-D",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "anti-A и anti-B (оба)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какая группа крови не содержит агглютиногенов, но содержит оба агглютинина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I (0)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "II (А)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "III (В)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "IV (AВ)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какая группа крови содержит оба агглютиногена, но не содержит агглютининов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I (0)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "II (А)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "III (В)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "IV (AВ)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "У какого процента людей кровь является резус-положительной (Rh+)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "85%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "99%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "15%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "При каком условии у резус-отрицательной матери может развиться резус-конфликт со вторым плодом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "отец резус-отрицательный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "отец резус-положительный, плод резус-положительный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "первый плод был резус-отрицательным",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мать резус-положительная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какое правило переливания крови является основным?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "переливать любую кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "переливать одногруппную кровь по системе AB0 и резус-совместимую",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "переливать только I группу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "переливать только IV группу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Что такое «сосудисто-тромбоцитарный (первичный) гемостаз»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "остановка кровотечения в микрососудах за счёт спазма сосудов и образования тромбоцитарной пробки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "свёртывание крови с участием плазменных факторов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "растворение тромба",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образование эритроцитов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какова роль фактора Виллебранда в гемостазе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обеспечивает адгезию тромбоцитов к субэндотелию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "активирует фибринолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "превращает фибриноген в фибрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ингибирует тромбин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какое вещество, выделяемое из тромбоцитов, вызывает их сокращение (ретракцию тромба)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тромбостенин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тромбоксан A2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какие факторы свёртывания крови являются основными (I–IV)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фибриноген, протромбин, тромбопластин, Ca2+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "проконвертин, антигемофильный глобулин, фактор Стюарта–Прауэра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "прекалликреин, высокомолекулярный кининоген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фибриназа, фактор Хагемана",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Для образования каких факторов свёртывания крови необходим витамин K?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "II (протромбин), VII, IX, X",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "I, III, IV",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "VIII, XI, XII",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "V, XIII",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Что такое «протромбиназа»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ферментный комплекс, превращающий протромбин в тромбин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "фактор, активирующий фибриноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ингибитор свёртывания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "активатор фибринолиза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какой механизм образования протромбиназы запускается при повреждении сосуда и высвобождении тканевого тромбопластина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "внутренний",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "внешний",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "общий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альтернативный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какой фактор свёртывания активируется контактом с отрицательно заряженной поверхностью (внутренний механизм)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "II",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "XII",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "VII",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "X",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какой фермент превращает фибриноген в фибрин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "протромбиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тромбин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "плазмин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "калликреин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какое вещество является основным первичным антикоагулянтом (естественным)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гепарин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "антитромбин III",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "протеин C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "α2-макроглобулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какой фермент растворяет фибриновый сгусток (фибринолиз)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тромбин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "плазмин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "урокиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тканевой активатор плазминогена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "В какой форме плазмин циркулирует в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в активной форме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в неактивной (плазминоген)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "связан с фибрином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в виде комплекса с антиплазмином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какая стадия фибринолиза активируется фактором XIIa и тканевыми активаторами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только последняя",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "первая (превращение проактиватора в активатор)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "вторая (плазминоген → плазмин)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "третья (расщепление фибрина)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какие продукты деградации фибрина (ПДФ) обладают антикоагулянтным действием?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только фрагмент X",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фрагменты D и E",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мономеры фибрина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фибринопептиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какой гормон стимулирует эритропоэз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "эритропоэтин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тироксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кортизол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какой микроэлемент входит в состав гема?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "медь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "железо",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кобальт",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "магний",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какое соединение гемоглобина называется «метгемоглобином»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "HbO2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Hb с трёхвалентным железом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "HbCO",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "HbCO2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой фермент лейкоцитов обладает бактерицидным действием?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лизоцим",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "протеаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какие клетки крови содержат гистамин и гепарин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нейтрофилы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "эозинофилы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "базофилы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "лимфоциты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какой индекс отражает соотношение молодых и старых форм нейтрофилов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гематокрит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "индекс регенерации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "цветовой показатель",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "СОЭ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Что такое «лейкопения»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличение числа лейкоцитов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "уменьшение числа лейкоцитов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "увеличение числа эритроцитов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "уменьшение числа тромбоцитов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какой фактор тромбоцитов обозначается Р3?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфолипиды мембран (матрица для свёртывания)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тромбостенин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "серотонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какой фактор свёртывания называется «фибриногеном»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "II",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "III",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "IV",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какой фактор свёртывания называется «протромбином»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "II",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "III",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "IV",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какой фактор свёртывания называется «тканевым тромбопластином»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "II",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "III",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "IV",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Какое вещество активирует плазминоген в плазмин по внутреннему механизму фибринолиза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тканевой активатор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фактор XIIa",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "урокиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стрептокиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Какой белок плазмы крови связывает и транспортирует железо?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альбумин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трансферрин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ферритин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гаптоглобин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Какой белок плазмы крови связывает гемоглобин при гемолизе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альбумин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трансферрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гаптоглобин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "церулоплазмин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Какой белок плазмы крови связывает медь?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альбумин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трансферрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гаптоглобин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "церулоплазмин",
+        "isCorrect": true
+      }
+    ]
+  }
+]

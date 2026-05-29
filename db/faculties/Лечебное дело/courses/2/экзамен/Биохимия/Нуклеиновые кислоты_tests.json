@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое нуклеиновые кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "низкомолекулярные органические соединения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гетерополимеры, мономерами которых являются нуклеотиды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "простые белки, содержащие азот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "углеводные полимеры, содержащие моносахаридные остатки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Что является мономером нуклеиновых кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминокислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "моносахарид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нуклеотид",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "жирная кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Из каких трёх компонентов состоит каждый нуклеотид?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминокислота, пептид, фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "азотистое основание, пентоза, остаток фосфорной кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глицерол, жирная кислота, фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глюкоза, фруктоза, фосфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какие азотистые основания относятся к пуриновым?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цитозин и урацил",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аденин и гуанин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тимин и урацил",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "цитозин и тимин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какие азотистые основания относятся к пиримидиновым?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аденин и гуанин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "цитозин, урацил и тимин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аденин и цитозин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гуанин и тимин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какие азотистые основания входят в состав ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аденин, гуанин, цитозин, урацил",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аденин, гуанин, цитозин, тимин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аденин, гуанин, урацил, тимин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "цитозин, урацил, тимин, аденин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какие азотистые основания входят в состав РНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аденин, гуанин, цитозин, тимин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аденин, гуанин, цитозин, урацил",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аденин, гуанин, урацил, тимин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "цитозин, урацил, тимин, гуанин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой углевод входит в состав нуклеотидов ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рибоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дезоксирибоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фруктоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какой углевод входит в состав нуклеотидов РНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дезоксирибоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "рибоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "галактоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Как называется соединение азотистого основания и пентозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нуклеотид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нуклеозид",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нуклеопротеид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "полинуклеотид",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой тип связи соединяет азотистое основание с пентозой в нуклеозиде?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пептидная связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сложноэфирная связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "N-гликозидная связь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "дисульфидная связь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "К какому атому пентозы присоединяется остаток фосфорной кислоты в нуклеотидах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "к 1'-атому",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "к 2'-атому",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "к 3'-атому",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "к 3'- или 5'-атому",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какое трёхбуквенное обозначение имеет аденозинмонофосфат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ГМФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ЦМФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "АМФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "УМФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что такое первичная структура ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пространственная укладка двойной спирали",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "порядок чередования нуклеотидов в полинуклеотидной цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "суперспирализация молекулы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "взаимодействие с гистонами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Как называется связь между нуклеотидами в полинуклеотидной цепи ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пептидная связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "водородная связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3',5'-фосфодиэфирная связь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гликозидная связь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Чем отличаются концевые нуклеотиды ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "на 5'-конце находится ОН-группа, на 3'-конце – фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "на 5'-конце находится фосфатная группа, на 3'-конце – ОН-группа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "оба конца имеют одинаковую структуру",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "на обоих концах находятся азотистые основания",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Кто предложил модель пространственной структуры ДНК в 1953 году?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Г. Кребс и К. Гензелейт",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Дж. Уотсон и Ф. Крик",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "П. Митчелл и О. Варбург",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "А. Лавуазье и Д. Менделеев",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Сколько полинуклеотидных цепей образуют молекулу ДНК по модели Уотсона-Крика?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "одна цепь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "две цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "три цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "четыре цепи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Как расположены полинуклеотидные цепи в двойной спирали ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "параллельно в одном направлении",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "антипараллельно",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "перпендикулярно друг другу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "хаотично",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какой принцип лежит в основе соединения цепей ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "принцип случайного соединения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "принцип комплементарности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "принцип комплементарности",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "принцип идентичности последовательностей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Сколько водородных связей образуется между аденином и тимином?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "одна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "две",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "три",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "четыре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Сколько водородных связей образуется между гуанином и цитозином?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "одна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "две",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "три",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "четыре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Что образует «сахарофосфатный остов» молекулы ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "азотистые основания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "молекулы дезоксирибозы и фосфата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "водородные связи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гидрофобные взаимодействия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Что такое стэкинг-взаимодействия в ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "водородные связи между цепями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "силы притяжения между плоскими кольцами азотистых оснований",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ионные связи с фосфатными группами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ковалентные связи между нуклеотидами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "В каких формах могут существовать молекулы ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только в линейной форме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "только в кольцевой форме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в линейной и кольцевой формах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "только в спиральной форме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Что такое суперспирализация ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образование одинарной спирали",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дополнительное скручивание цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "раскручивание двойной спирали",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "разрыв фосфодиэфирных связей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Что такое нуклеосома?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "отдельный нуклеотид ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "элементарная единица хроматина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фермент, синтезирующий ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "участок ДНК, кодирующий белок",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Из чего состоит гистоновый октамер?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из 4 молекул одного типа гистонов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из 8 молекул гистонов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из 10 молекул разных гистонов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из ДНК и РНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какова основная биологическая роль суперспирализации ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ускорение репликации ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "компактизация ДНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "защита от мутаций",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "увеличение скорости транскрипции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Что такое первичная структура РНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "порядок чередования дезоксирибонуклеотидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гетерополимерная нить из нуклеотидов с рибозой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "двойная спираль из двух цепей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кольцевая структура",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какова роль иРНК (мРНК) в клетке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "доставляет аминокислоты к рибосоме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "переносит генетический код от ДНК к рибосомам",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образует структурную основу рибосом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регулирует экспрессию генов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какой процент от всей РНК клетки составляет иРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "80%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "~5%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "1%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какова роль тРНК в синтезе белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "переносит генетическую информацию от ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "доставляет аминокислоты к рибосоме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образует каталитический центр рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регулирует скорость трансляции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какой процент от всей РНК клетки составляет тРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "80%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "~15%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "5%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какую вторичную структуру имеет тРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "двойная спираль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "«клеверный лист»",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "линейная цепь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кольцевая структура",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Что находится в антикодоновой петле тРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "акцепторный участок для аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "три нуклеотида",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ферментативный центр",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "участок связывания с рибосомой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Что присоединяется к акцепторному стеблю тРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кодон мРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "специфическая аминокислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "рибосомная РНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фермент полимеразы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какую трёхмерную структуру имеет тРНК в живой клетке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "плоский «клеверный лист»",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "L-образная компактная структура",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сферическая форма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "линейная вытянутая форма",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какова роль рРНК в клетке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "переносит генетическую информацию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "доставляет аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "образует структурную основу рибосом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "регулирует транскрипцию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какой процент от всей РНК клетки составляет рРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "~5%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "~15%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "~80%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "~95%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Что такое мяРНК (малая ядерная РНК)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "участвует в доставке аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "участвует в созревании иРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "блокирует работу генов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "помогает собирать рибосомы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Что такое микроРНК (miRNA)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "участвует в сплайсинге иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "блокирует работу определённых генов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образует основу рибосом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "переносит генетический код",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Что такое яРНК (ядрышковая РНК)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "участвует в сплайсинге",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "блокирует гены",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "помогает собирать рибосомы внутри ядрышка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "переносит информацию от ДНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Чем отличаются размеры и продолжительность существования разных видов РНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "все РНК имеют одинаковый размер и стабильность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "у каждого вида РНК свой размер, строение и продолжительность существования",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "все РНК имеют одинаковую продолжительность существования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только тРНК быстро разрушается",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "В каком процессе участвуют все три основных вида РНК (иРНК, тРНК, рРНК)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в репликации ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в транскрипции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в трансляции",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в репарации ДНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Что является основной функцией нуклеиновых кислот в организме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "энергетическая функция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "структурная функция мембран",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "хранение, передача генетической информации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "транспорт кислорода в крови",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какой тип связи соединяет остаток фосфорной кислоты с пентозой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "водородная связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликозидная связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3′,5′-фосфодиэфирная связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сложноэфирная связь",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Участок, разделяющий две нуклеосомы, называют?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "соленоид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "линкер",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гистон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нуклеотид",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какая химическая связь стабилизирует вторичную структуру ДНК (двойную спираль)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "водородная связь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гликозидная связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3′,5′-фосфодиэфирная связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сложноэфирная связь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Чему равно содержание тимина в ДНК, если доля аденина составляет 30%?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "20%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "30%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "40%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "60%",
+        "isCorrect": false
+      }
+    ]
+  }
+]

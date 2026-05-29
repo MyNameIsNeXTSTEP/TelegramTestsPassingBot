@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое белки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "низкомолекулярные органические соединения, построенные из α-аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "высокомолекулярные органические вещества, построенные из α-аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "углеводные полимеры, состоящие из моносахаридов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "липидные комплексы, образованные жирными кислотами и глицерином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "От какого греческого слова происходит название «протеины»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "от слова «протос» (первый, важнейший)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "от слова «протей» (изменчивый)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "от слова «протеин» (белый)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "от слова «протоплазма»",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какая функция НЕ характерна для белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "каталитическая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "структурная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "транспортная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "хранение информации",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какая функция белков заключается в ускорении химических реакций в организме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "структурная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "транспортная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "каталитическая",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "защитная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какая функция белков обеспечивает защиту организма от чужеродных веществ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "структурная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "транспортная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "имунная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "регуляторная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Белки, обеспечивающие транспорт кислорода в крови, – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "коллаген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кератин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гемоглобин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "инсулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Белок, регулирующий уровень глюкозы в крови, – это:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гемоглобин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "инсулин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "коллаген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альбумин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Сколько аминокислот входит в состав белков человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "20",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "25",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какая общая структурная особенность характерна для всех α-аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "наличие двух карбоксильных групп",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "наличие амино- и карбоксильной групп",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "наличие только аминогруппы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "наличие только карбоксильной группы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Что обозначает буква «R» в общей формуле аминокислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминогруппу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "карбоксильную группу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "радикал аминокислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "атом водорода",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Сколько незаменимых аминокислот для организма взрослого человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "9",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "12",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какая аминокислота относится к незаменимым?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глицин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "валин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "серин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Что такое заменимые аминокислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминокислоты, которые не участвуют в синтезе белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аминокислоты, которые могут синтезироваться в организме человека",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аминокислоты, которые поступают только с пищей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аминокислоты, которые разрушаются в организме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какая аминокислота относится к полузаменимым?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лейцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гистидин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "изолейцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "метионин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какая аминокислота не имеет асимметричного α-углеродного атома?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глицин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "валин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лейцин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "В какой конфигурации находятся аминокислоты в составе белков человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в L-конфигурации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в D-конфигурации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в обеих конфигурациях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "не имеют конфигурации",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какая аминокислота содержит серу в своём радикале?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "цистеин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "серин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "треонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какая аминокислота содержит гидроксильную группу (-ОН) в радикале?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "серин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "валин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лейцин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какая аминокислота относится к ароматическим?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "валин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "триптофан",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "серин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какая аминокислота имеет гуанидиновую группу в радикале?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лизин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аргинин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гистидин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глутамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какая аминокислота имеет иминокислотную структуру?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глицин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лизин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пролин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какие аминокислоты имеют отрицательно заряженные радикалы при физиологическом рН?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лизин и аргинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аспарагиновая и глутаминовая кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "серин и треонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "валин и лейцин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какие аминокислоты имеют положительно заряженные радикалы при физиологическом рН?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аспарагиновая и глутаминовая кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лизин, аргинин и гистидин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "серин и треонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фенилаланин и тирозин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Что такое изоэлектрическая точка (рI) аминокислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рН, при котором аминокислота имеет максимальный положительный заряд",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "рН, при котором аминокислота имеет максимальный отрицательный заряд",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "рН, при котором суммарный заряд аминокислоты равен нулю",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "рН, при котором аминокислота полностью диссоциирует",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "К какой группе относятся белки, содержащие в качестве простетической группы углеводы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфопротеины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "хромопротеины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гликопротеины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "липопротеины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Что происходит с зарядом аминокислоты при снижении рН среды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "заряд становится более отрицательным",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "заряд становится более положительным",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "заряд не изменяется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аминокислота выпадает в осадок",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какая аминокислота является иминокислотой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глицин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аланин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пролин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "серин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какой тип связи соединяет аминокислоты в белках?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сложноэфирная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликозидная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пептидная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "дисульфидная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какая группа атомов образует пептидную связь?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "-NH-NH-",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "-CO-NH-",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "-CO-O-",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "-S-S-",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "С какого конца принято записывать и читать последовательность аминокислот в пептиде?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "с С-конца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с N-конца",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "с любого конца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "с середины цепи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Что такое первичная структура белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пространственная укладка полипептидной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "последовательность аминокислотных остатков в полипептидной цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "взаимодействие нескольких полипептидных цепей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регулярные структуры типа α-спирали",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Что такое вторичная структура белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "последовательность аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "структура, образующаяся за счёт взаимодействий в пептидном остове",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "укладка полипептидной цепи в трёхмерное пространство",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "объединение нескольких субъединиц",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "За счёт каких связей стабилизируется α-спираль?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дисульфидных связей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ионных связей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "водородных связей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гидрофобных взаимодействий",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Сложными белками называют?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белки с разветвлённой структурой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белки, состоящие из простого белка и небелкового компонента",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "белки, содержащие только незаменимые аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "белки с высокой молекулярной массой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Что такое β-складчатый слой (β-структура)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "спиральная структура полипептидной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "структура, образованная водородными связями между участками цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "хаотичный клубок полипептида",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "структура, стабилизированная дисульфидными связями",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Что такое третичная структура белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "последовательность аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "регулярные структуры пептидного остова",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "укладка всей полипептидной цепи в пространстве",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "взаимодействие нескольких полипептидных цепей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какие типы связей участвуют в формировании третичной структуры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пептидные и ионные связи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гидрофобные, ионные связи и дисульфидные мостики",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только водородные связи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только ионные связи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Что такое дисульфидная связь в белках?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "связь между двумя пептидными цепями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ковалентная связь между остатками цистеина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "водородная связь между радикалами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ионная связь между заряженными группами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Глобулярное ядро белка – это?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "область на поверхности белка, контактирующая с водой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "область белка, где сосредоточены гидрофобные радикалы аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "область, содержащая только заряженные аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "область связывания субстрата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Что такое четвертичная структура белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пространственная ориентация всей полипептидной цепи в пространстве",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "объединение нескольких полипептидных цепей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "линейная последовательность аминокислотных остатков в полипептидной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регулярные вторичные структуры",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Как называются отдельные полипептидные цепи в белке с четвертичной структурой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мономеры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "протомеры",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "домены",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фрагменты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Простыми белками называют?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белки, содержащие еще небелковый компонент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белки, построенные только из остатков аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "белки с четвертичной структурой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "белки с разветвлённой структурой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Что такое фолдинг белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез полипептидной цепи на рибосоме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "процесс сворачивания полипептидной цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "распад белка на аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "модификация белка после синтеза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Что такое шапероны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ферменты, синтезирующие белки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белки, способствующие правильному фолдингу белков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "компоненты рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регуляторные факторы транскрипции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Что может произойти при нарушении фолдинга белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ускорение синтеза белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "формирование белковых отложений",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "повышение активности ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "улучшение транспорта веществ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какое свойство белков используется для их количественного определения при 280 нм?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "высокая вязкость растворов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "способность к набуханию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "поглощение УФ-лучей ароматическими аминокислотами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "низкое осмотическое давление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Что такое денатурация белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез новой полипептидной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потеря нативной конформации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гидролиз пептидных связей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образование дисульфидных мостиков",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какой фактор НЕ вызывает денатурацию белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "высокая температура (>50°С)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кислоты и щелочи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "соли тяжёлых металлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "низкая температура (0-4°С)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Что такое ренатурация белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "необратимое разрушение трёхмерной структуры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "восстановление нативной трёхмерной структуры",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез белка de novo",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "распад белка на аминокислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Почему белки обладают низким осмотическим, но высоким онкотическим давлением?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из-за малого размера молекул и низкой молекулярной массы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из-за большого размера молекул и высокой молекулярной массы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из-за низкой концентрации в растворе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из-за высокой растворимости в воде",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,3486 @@
+[
+  {
+    "id": 1,
+    "title": "Какой медиатор является основным возбуждающим в ЦНС (75% возбуждающих синапсов)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ГАМК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "глутамат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "дофамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Где локализуются α-мотонейроны, иннервирующие скелетные мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в боковых рогах спинного мозга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в передних рогах спинного мозга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в задних рогах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в спинальных ганглиях",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какое явление лежит в основе кратковременной (первичной электрофизиологической) памяти?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "циркуляция возбуждения по замкнутым нейронным цепям",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "изменение глиальных клеток",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рост аксонов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Что такое «ретикулярная формация» (РФ) ствола мозга?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "скопление миелиновых волокон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сеть нейронов с полисенсорными свойствами, регулирующая тонус коры и рефлексы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ядра черепных нервов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мозжечок",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какой эффект на ЭЭГ вызывает стимуляция восходящей РФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синхронизация (появление α-ритма)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "десинхронизация (β-ритм, пробуждение)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "появление δ-волн",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "появление θ-волн",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Что такое «децеребрационная ригидность»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "резкое повышение тонуса мышц-разгибателей после перерезки ствола мозга между красными ядрами и вестибулярными ядрами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "расслабление мышц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "паралич",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "атаксия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какие структуры лимбической системы участвуют в формировании эмоций?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "амигдала, гиппокамп, поясная извилина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "базальные ядра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "четверохолмие",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какова роль мозжечка в регуляции движений?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "координация автоматизированных движений, коррекция ошибок, поддержание равновесия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "запуск произвольных движений",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "регуляция тонуса сосудов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "память",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какое свойство нейронов ЦНС лежит в основе доминанты (А.А. Ухтомский)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синаптическая депрессия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышенная возбудимость, способность к суммации и инертность возбуждения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пластичность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лабильность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Что такое «постсинаптическое торможение»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гиперполяризация постсинаптической мембраны под действием глицина или ГАМК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "деполяризация пресинаптического окончания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "уменьшение выделения медиатора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "блокада рецепторов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой ион обеспечивает постсинаптическое торможение в спинном мозге (под действием глицина)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Na+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Cl–",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Ca2+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "K+",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Что такое «пресинаптическое торможение»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "деполяризация пресинаптического окончания, уменьшающая выделение медиатора",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гиперполяризация постсинаптической мембраны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "блокада Na-каналов аксона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "уменьшение числа рецепторов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какой медиатор чаще всего вызывает пресинаптическое торможение?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутамат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ГАМК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "норадреналин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что такое «возвратное торможение» (на примере клеток Реншо)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "торможение мотонейронов через коллатерали их аксонов и тормозные вставочные нейроны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "торможение антагониста",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "торможение при раздражении кожи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "центральное торможение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какой участок коры называется первичной двигательной зоной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "постцентральная извилина (поля 1–3)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "прецентральная извилина (поле 4)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "затылочная доля (поле 17)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "височная доля (поле 41)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Что такое «пирамидная система»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кортикоспинальный и кортикобульбарный пути от клеток Беца к мотонейронам",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "экстрапирамидная система",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "вегетативная система",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "система, регулирующая тонус мышц",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какое влияние оказывает красное ядро на мышцы-разгибатели?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "возбуждающее",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тормозное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "двоякое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Что такое «кортико-висцеральные взаимовлияния» (К.М. Быков)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "влияние мышц на кору",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "влияние коры на внутренние органы и обратная связь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "влияние гормонов на кору",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регуляция дыхания",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой ритм ЭЭГ доминирует у здорового взрослого человека в состоянии спокойного бодрствования с закрытыми глазами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-ритм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "θ-ритм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "δ-ритм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "α-ритм",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какая частота у α-ритма?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "14–30 Гц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "8–13 Гц",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "4–7 Гц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,5–3 Гц",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Где локализуется первичная слуховая кора?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "затылочная доля (поле 17)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "височная доля (поля 41, 42)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "теменная доля (поля 1–3)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лобная доля (поле 4)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какие нейроны называют «полисенсорными»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "реагирующие на один вид стимула",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реагирующие на несколько видов стимулов (свет, звук и др.)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только на боль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только на движение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Что такое «гиппокамп» и его роль?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "структура лимбической системы, участвующая в консолидации памяти",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "центр зрения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "центр слуха",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "двигательный центр",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какой медиатор выделяют клетки Пуркинье мозжечка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутамат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "дофамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ГАМК (тормозной)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Что такое «долговременная потенциация» (ДП)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "устойчивое повышение возбудимости постсинаптического нейрона после высокочастотной стимуляции, связанное с активацией NMDA-рецепторов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "кратковременное облегчение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "синаптическая депрессия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пресинаптическое торможение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какие клетки глии образуют миелин в ЦНС?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "астроциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "олигодендроциты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "микроглия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эпендимоциты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Что такое «аксонный холмик»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "место генерации ПД в нейроне",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "участок дендрита",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "синаптическая бляшка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "начальный сегмент аксона, не покрытый миелином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какое явление называют «дивергенцией» в ЦНС?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ветвление аксонов одного нейрона на многие другие",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "схождение многих путей на один нейрон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "циркуляция возбуждения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "торможение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Что такое «общий конечный путь» (принцип Шеррингтона)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дивергенция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реверберация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "конвергенция многих афферентных путей на небольшом числе эфферентных нейронов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "иррадиация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какой вид торможения характерен для коленного рефлекса (одновременное расслабление антагониста)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "возвратное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реципрокное (постсинаптическое)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пресинаптическое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "латеральное",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Где локализуются ядра шва (raphe nuclei), выделяющие серотонин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "спинной мозг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ствол мозга (продолговатый и средний)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гипоталамус",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Что такое «реакция десинхронизации» ЭЭГ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "появление α-ритма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "смена α-ритма высокочастотной β-активностью при активации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "появление δ-волн",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "исчезновение всех ритмов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какой отдел ЦНС является главным центром терморегуляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гипоталамус",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "продолговатый мозг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "таламус",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Что такое «сомнамбулизм» (снохождение)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "выполнение сложных действий во время глубокого медленного сна (не в REM)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "видение сновидений",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "патологический сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "быстрый сон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какие рефлексы называют «позными» (тоническими)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рефлексы, обеспечивающие поддержание и восстановление позы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сгибательные рефлексы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "дыхательные рефлексы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пищевые рефлексы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Что такое «афферентный нейрон»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нейрон, передающий сигнал к эффектору",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вставочный нейрон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нейрон, несущий информацию от рецепторов в ЦНС",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "мотонейрон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какова роль «голубого пятна» (locus coeruleus)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадренергическая система, участвующая в пробуждении и внимании",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "серотонинергическая система",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "центр сна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "центр дыхания",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Что такое «спинальный шок»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "выключение рефлексов и атония мышц после перерезки спинного мозга",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гипертонус мышц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "судороги",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "боль",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какова причина спинального шока?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повреждение мотонейронов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ишемия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "выключение вышележащих (стволовых) влияний на спинной мозг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "воспаление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какие рефлексы возникают с проприорецепторов мышц?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "брюшные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "миотатические (на растяжение)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "зрачковые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "слюноотделительные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Что такое «γ-петля»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "путь: γ-мотонейрон → интрафузальное волокно → мышечное веретено → α-мотонейрон → мышца",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "рефлекторная дуга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "вегетативная дуга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "круг Пейпеца",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какое влияние на мотонейроны сгибателей оказывает стимуляция красного ядра?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тормозное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "возбуждающее",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "двоякое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Где расположены вестибулярные ядра (Дейтерса)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "средний мозг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "спинной мозг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "продолговатый мозг (мост)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "кора",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какой рефлекс исследуют для оценки функционального состояния вестибулярного аппарата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "коленный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нистагм",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "зрачковый",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глотательный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Что такое «медиальная петля» (лемниск)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "восходящий путь проприоцептивной и тактильной чувствительности",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "слуховой путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "зрительный путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нисходящий путь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какие нейроны называют «моносенсорными»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нейроны ассоциативной коры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нейроны РФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нейроны гиппокампа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нейроны первичных сенсорных зон, реагирующие только на один вид стимула",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Что такое «экстрапирамидная система»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "совокупность ядер и путей, регулирующих тонус мышц и автоматизированные движения (непроизвольные)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "пирамидный тракт",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "вегетативная система",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сенсорная система",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какова роль базальных ядер (стриатума)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "память",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "участие в программировании движений, регуляция тонуса, подавление лишних движений",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "зрение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "слух",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Что такое «чёрная субстанция» и её медиатор?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дофаминергическая система, участвующая в регуляции движений и эмоций",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "норадренергическая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "серотонинергическая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "холинергическая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какой эффект вызывает паркинсонизм (дефицит дофамина)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гиперкинезы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гипокинезия, тремор, ригидность",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "атаксия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "паралич",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Что такое «лимбическая система»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "функциональное объединение структур, отвечающих за мотивации, эмоции, память",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "система движения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "система зрения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "система слуха",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какой круг называют «кругом Пейпеца»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "круг структур лимбической системы, участвующих в эмоциях и памяти",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "рефлекторная дуга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сосудистый круг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "круг кровообращения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какова роль гиппокампа в памяти?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "долговременное хранение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "консолидация (перевод кратковременной памяти в долговременную)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "забывание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рабочая память",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Что такое «амнезия»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нарушение памяти",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "потеря сознания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нарушение речи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нарушение движений",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какие потенциалы регистрируют методом вызванных потенциалов (ВП)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "спонтанную ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "электрический ответ мозга на стимул",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ПД нервов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ЭКГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Что такое «позитронно-эмиссионная томография» (ПЭТ)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метод визуализации метаболической активности мозга с помощью радиоактивных изотопов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "регистрация магнитного поля",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "МРТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какое явление называют «синаптической потенциацией»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "улучшение проведения в синапсах после кратковременной активации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ухудшение проведения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "блок проведения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "изменение медиатора",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Что такое «спраутинг»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образование новых веточек аксонов при повреждении нейронов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гибель нейронов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "демиелинизация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образование глиального рубца",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какая структура является генератором ритма дыхания (основным)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "продолговатый мозг (дорсальная и вентральная группы нейронов)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мост",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "спинной мозг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Что такое «пневмотаксический центр»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "центр, расположенный в мосту, ограничивающий вдох",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нейроны моста, регулирующие смену вдоха и выдоха",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "центр выдоха",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "центр апноэ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Какой рефлекс описали Геринг и Брейер?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рефлекс с барорецепторов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "рефлекс с рецепторов растяжения лёгких, тормозящий вдох при перерастяжении",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "рефлекс с хеморецепторов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рефлекс с проприорецепторов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Где локализуется центр глотания?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "продолговатый мозг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мост",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "спинной мозг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Какое влияние оказывает блуждающий нерв на моторику желудка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тормозит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимулирует",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает расслабление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Что такое «рефлекторная дуга соматического рефлекса»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пять звеньев: рецептор, афферентный путь, ЦНС, эфферентный путь, эффектор",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "три звена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "два звена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только нервный центр",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Какие волокна называют «преганглионарными» в ВНС?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "волокна от ЦНС до ганглия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "волокна от ганглия до органа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "афферентные волокна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "соматические волокна",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Что такое «симпатический ствол»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цепочка паравертебральных ганглиев, соединяющих преганглионарные волокна с постганглионарными",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "спинной мозг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "блуждающий нерв",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "чревное сплетение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Какой медиатор выделяют постганглионарные симпатические волокна (в основном)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "норадреналин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дофамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Какие рецепторы в сердце активируются ацетилхолином блуждающего нерва?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β1-адренорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "M2-холинорецепторы (ионотропные, активируют K-каналы)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "N-холинорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "α-адренорецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Что такое «симпатикотония»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "равновесие",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "атония",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "преобладание тонуса симпатической нервной системы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "преобладание парасимпатической",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Какое влияние на сосуды оказывает возбуждение симпатических нервов (в основном)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расширение (через β-рецепторы)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сужение (через α-рецепторы)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала сужение, затем расширение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Что такое «афферентная импульсация»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "поток нервных импульсов от рецепторов в ЦНС",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "импульсы от ЦНС к эффекторам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "импульсы между нейронами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "спонтанная активность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Что такое «вегетативный ганглий»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "скопление тел эфферентных нейронов ВНС вне ЦНС",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "спинальный ганглий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ядро черепного нерва",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кора",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Какие органы имеют только симпатическую иннервацию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сердце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потовые железы, селезёнка, надпочечники",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "желудок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "бронхи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Что такое «холинергические волокна»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "волокна, выделяющие ацетилхолин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "волокна, выделяющие норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "волокна, выделяющие серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "миелинизированные волокна",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Какой фермент разрушает ацетилхолин в синаптической щели?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "МАО",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетилхолинэстераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "катехол-О-метилтрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфодиэстераза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Что такое «медиатор» в ЦНС?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гормон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нейропептид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "химическое вещество, передающее сигнал между нейронами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ион",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Какие аминокислоты являются тормозными медиаторами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутамат, аспартат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ГАМК, глицин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дофамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Что такое «опиатные рецепторы»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рецепторы для эндорфинов и экзогенных опиатов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "адренорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "холинорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "серотониновые рецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Какое вещество является медиатором первичных афферентных нейронов (боли)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ГАМК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глутамат (модулятор — вещество P)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глицин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "норадреналин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Что такое «ноцицепторы»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "болевые рецепторы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тепловые рецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "холодовые рецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тактильные рецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Какие волокна проводят быструю (острую) боль?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "С-волокна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Аδ-волокна",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Аβ-волокна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "В-волокна",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Где расположено центральное серое околоводопроводное вещество (ЦСОВ)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "средний мозг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "продолговатый мозг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "спинной мозг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Какой эффект вызывает стимуляция ЦСОВ (центральное серое околоводопроводное вещество)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипералгезия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аналгезия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "судороги",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гипертония",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Что такое «ретроградная амнезия»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потеря памяти на события, предшествовавшие травме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "потеря памяти на события после травмы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "полная потеря памяти",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "забывание имён",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Какие структуры необходимы для консолидации памяти?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гиппокамп, амигдала",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "таламус",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гипоталамус",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Что такое «электроэнцефалограмма» (ЭЭГ)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "запись суммарной электрической активности мозга с поверхности головы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "запись ПД одиночного нейрона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "запись ЭКГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "запись мышечной активности",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Какой ритм ЭЭГ характерен для глубокого медленного сна?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "δ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "γ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Что такое «сонные веретена»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "группы волн частотой 12–15 Гц, характерные для 2-й стадии медленного сна",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "быстрые движения глаз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "К-комплексы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дельта-волны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Какой вид сна связан со сновидениями и быстрыми движениями глаз (БДГ)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "медленный сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "парадоксальный (быстрый) сон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ортодоксальный сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дельта-сон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Какой медиатор играет ключевую роль в индукции медленного сна?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "серотонин (ядра шва)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дофамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Что такое «гипноз»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "искусственно вызванное состояние суженного сознания с повышенной внушаемостью",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "глубокий сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "патологический сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "бодрствование",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Какое явление называют «динамическим стереотипом»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "устойчивая последовательность условных рефлексов, закреплённая в коре",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "одиночный условный рефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "безусловный рефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "хаотическая активность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Какие центры речи расположены в левом полушарии (у правшей)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "центр Брока, центр Вернике",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "только центр Брока",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только центр Вернике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в правом полушарии",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Что такое «афазия»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нарушение речи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "нарушение памяти",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нарушение движений",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нарушение слуха",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Какое влияние на внутренние органы оказывает кора большого мозга?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только через гипоталамус",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "через лимбическую систему, гипоталамус, ВНС",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только через гормоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "не оказывает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Что такое «кортиколиберин»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гормон гипоталамуса, стимулирующий секрецию АКТГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гормон гипофиза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гормон коры надпочечников",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "медиатор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Где вырабатывается соматостатин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в гипоталамусе и δ-клетках поджелудочной железы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "в гипофизе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в щитовидной железе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в надпочечниках",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Что такое «гипоталамо-гипофизарная портальная система»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "система сосудов, соединяющая гипоталамус и аденогипофиз для транспорта либеринов и статинов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "нервные пути",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лимфатические сосуды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "артерии",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Какой гормон задней доли гипофиза вызывает сужение сосудов и антидиурез?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "окситоцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вазопрессин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пролактин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мелатонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Где синтезируется АДГ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в нейрогипофизе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в супраоптическом и паравентрикулярном ядрах гипоталамуса",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в аденогипофизе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в эпифизе",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Какое влияние на диурез оказывает алкоголь?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличивает (тормозит АДГ)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "увеличивает (подавляет секрецию АДГ)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "уменьшает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "не влияет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Что такое «схема тела»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "представление о расположении частей тела в пространстве (центр в теменной коре)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "анатомическое строение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "двигательная программа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "соматотопическая карта",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Какой метод позволяет исследовать активность одиночного нейрона?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "микроэлектродный метод",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ПЭТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "МРТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Какой рефлекс называют «ноцицептивным»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рефлекс на болевое раздражение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "пищевой рефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ориентировочный рефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "оборонительный рефлекс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Какой рефлекс называют «экстероцептивным»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рефлекс, возникающий при раздражении рецепторов кожи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "рефлекс с внутренних органов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "рефлекс с мышц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "проприоцептивный рефлекс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Какие рефлексы относятся к вегетативным?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "коленный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "зрачковый, сердечный, сосудистый",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сгибательный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "разгибательный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Что такое «парасимпатическая нервная система»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "часть ВНС, обеспечивающая «отдых и пищеварение»",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "система «борьбы и бегства»",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "соматическая система",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "центральная система",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Какой эффект оказывает атропин на сердце?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "брадикардия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тахикардия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аритмия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Какой эффект оказывает стимуляция симпатических нервов на бронхи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сужение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "расширение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "секреция слизи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Какое влияние на тонус сосудов скелетных мышц оказывают физиологические концентрации адреналина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сужение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "расширение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "спазм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Что такое «реакция зрачков на свет»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сужение зрачка (миоз) при увеличении освещённости",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "расширение зрачка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "аккомодация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "конвергенция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Какие ядра отвечают за зрачковый рефлекс?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "красные ядра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ядра глазодвигательного нерва (парасимпатические) и симпатические центры",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "вестибулярные ядра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ядра тройничного нерва",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Что такое «вестибулярный нистагм»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ритмические движения глаз, возникающие при вращении",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тремор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "косоглазие",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "непроизвольные движения глаз в покое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Какие ядра ствола мозга являются первыми центрами обработки вестибулярной информации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "красные ядра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вестибулярные ядра",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ядра шва",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "голубое пятно",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Какова роль мозжечка в вестибулярных рефлексах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "запуск движений",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "память",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "эмоции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "координация глазодвигательных и позных реакций",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Что такое «проприоцепция»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "чувство положения частей тела и их движения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "болевая чувствительность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "температурная чувствительность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тактильная чувствительность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Какие рецепторы являются проприорецепторами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мышечные веретена, сухожильные органы Гольджи, рецепторы суставов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "кожные рецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фоторецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вкусовые рецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Что такое «мышечное веретено»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рецептор, параллельный мышечным волокнам, чувствительный к длине мышцы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сухожильный рецептор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "двигательное окончание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "часть саркомера",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Что такое «сухожильный орган Гольджи»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рецептор, последовательный мышце, чувствительный к напряжению (силе)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "рецептор длины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "двигательный нейрон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синапс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Какой рефлекс возникает при ударе по сухожилию четырёхглавой мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сгибательный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "брюшной",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "разгибательный (коленный)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ахиллов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Какова рефлекторная дуга коленного рефлекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "полисинаптическая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "моносинаптическая (два нейрона)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трёхнейронная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вегетативная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Что такое «реципрокное торможение»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "торможение мотонейронов мышц-антагонистов при возбуждении агонистов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "торможение через возвратные коллатерали",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пресинаптическое торможение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "латеральное торможение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Какие рецепторы активируются при растяжении мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сухожильные органы Гольджи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мышечные веретена",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "свободные нервные окончания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тельца Пачини",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Какие рецепторы активируются при сокращении мышцы (напряжении)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сухожильные органы Гольджи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мышечные веретена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тельца Мейснера",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "колбы Краузе",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Какова роль γ-мотонейронов в регуляции мышечного тонуса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "поддержание чувствительности мышечных веретён при сокращении мышцы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "прямое сокращение мышцы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "торможение мышцы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "расслабление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Что такое «спинальная лягушка»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лягушка с удалённым спинным мозгом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нормальная лягушка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лягушка с перерезанным спинным мозгом (отсутствует головной мозг)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "лягушка с перерезанными нервами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "Какие рефлексы сохраняются у спинальной лягушки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "все рефлексы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сегментарные спинальные рефлексы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только вегетативные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только условные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Что такое «шагательный рефлекс»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ритмические сгибательные и разгибательные движения конечностей у спинального животного",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ходьба",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "бег",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "прыжки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "Какой механизм лежит в основе шагательного рефлекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "чередование возбуждения и торможения центров сгибателей и разгибателей, подкрепляемое проприоцептивной обратной связью",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "только центральный генератор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только рефлексы с кожи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гормональная регуляция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Что такое «спинальный автоматизм»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "способность спинного мозга генерировать ритмические движения без участия вышележащих отделов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "произвольные движения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "паралич",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "атаксия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Какова роль клеток Реншо?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "возвратное торможение мотонейронов через глицинергические синапсы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "возбуждение мотонейронов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сенсорная функция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регуляция тонуса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "title": "Какие структуры образуют экстрапирамидную систему?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "базальные ядра, красное ядро, чёрная субстанция, ретикулярная формация, мозжечок",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "пирамидные пути",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сенсорные пути",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только мозжечок",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "title": "Что такое «атаксия»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нарушение координации движений",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "паралич",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "дрожание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "спазм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Какой симптом характерен для поражения мозжечка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "спастический паралич",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "интенционный тремор, дисметрия, атаксия, асинергия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ригидность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гемиплегия",
+        "isCorrect": false
+      }
+    ]
+  }
+]

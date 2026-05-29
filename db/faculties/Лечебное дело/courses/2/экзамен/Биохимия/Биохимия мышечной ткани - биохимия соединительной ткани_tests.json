@@ -1,0 +1,782 @@
+[
+  {
+    "id": 1,
+    "title": "Каковы основные функции мышечной ткани?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только обеспечение движения суставов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "выполнение механической работы, поддержание позы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез гормонов и ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "генерация и проведение нервного импульса к волокнам",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какие типы мышечной ткани выделяют в организме человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только скелетная и сердечная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "поперечнополосатая и гладкая",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "скелетная и сосудистая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "миокардиальная и нервная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Как классифицируют мышечные волокна по скорости сокращения и утомляемости?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "красные и синие",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "быстрые и медленные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "толстые и тонкие",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "активные и пассивные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Чем характеризуются медленные (красные) мышечные волокна?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "высоким содержанием миоглобина и митохондрий, устойчивостью к утомлению",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "низким содержанием митохондрий, быстрым утомлением",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "отсутствием капилляров, работой только в анаэробных условиях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "большим количеством гликогена и быстрой скоростью сокращения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какой белок придает скелетным мышцам красный цвет и запасает кислород?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гемоглобин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "миоглобин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "цитохром с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ферритин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой процент от массы мышцы составляет вода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "40-50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "60-65%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "70-80%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "90-95%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какие белки составляют основу сократимого аппарата мышц?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "коллаген и эластин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "актин и миозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фибриноген и альбумин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кератин и дистрофин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какое соединение служит основным резервным макроэргом в мышцах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "креатинфосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкозо-6-фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пируват",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какой углевод депонируется в мышечной ткани?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "крахмал",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "целлюлоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гликоген",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "фруктоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какие ионы играют ключевую роль в механизме мышечного сокращения?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Na⁺ и Cl⁻",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ca²⁺ и Mg²⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "K⁺ и PO₄³⁻",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Fe²⁺ и Zn²⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой источник энергии используется в первые 3-5 секунд максимальной нагрузки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аэробное окисление жиров",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "запасы АТФ и креатинфосфата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюконеогенез",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "β-окисление жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какой метаболический путь преобладает в мышцах при интенсивной кратковременной работе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цикл Кребса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "анаэробный гликолиз",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пентозофосфатный путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "окислительное фосфорилирование",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Что накапливается в мышцах при гипоксии и способствует развитию утомления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мочевина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аммиак",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кетоновые тела",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какой путь окисления преобладает при длительной умеренной физической нагрузке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "анаэробный гликолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аэробное окисление жирных кислот и глюкозы в митохондриях",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "брожение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтез гликогена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какой фермент катализирует перенос фосфатной группы с креатинфосфата на АДФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гексокиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "креатинкиназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "лактатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пируваткиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какой гормон усиливает распад мышечного гликогена при физической нагрузке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "адреналин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кальцитонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пролактин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Как мышцы обеспечивают поступление глюкозы в клетки при сокращении без участия инсулина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "за счет ГЛЮТ-1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "за счет ГЛЮТ-4",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "путем простой диффузии через мембрану",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "за счет натрий-калиевого насоса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Что такое саркомер?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "отдельная мышечная клетка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "структурно-функциональная единица миофибриллы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "оболочка мышечного пучка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "митохондрия мышечного волокна",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Из какого белка состоят толстые филаменты миофибриллы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "актин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "миозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тропомиозин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "коллаген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какие белки входят в состав тонких филаментов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "миозин и титин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "актин и тропомиозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кератин и дистрофин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фибрин и фибриноген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какую роль играет тропомиозин в покоящейся мышце?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "связывает ионы кальция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "блокирует центры связывания миозина на актине",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образует поперечные мостики",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "запасает АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какая субъединица тропонина связывает ионы Ca²⁺?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тропонин I",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тропонин T",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тропонин C",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "тропонин M",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Как называется светлая полоса саркомера, содержащая только тонкие филаменты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "A-диск",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "I-диск",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "H-зона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Z-линия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Что является непосредственным триггером мышечного сокращения?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "поступление АТФ в саркомер",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышение концентрации Ca²⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "снижение уровня лактата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфорилирование актина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Откуда высвобождаются ионы кальция при возбуждении мышечного волокна?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из внеклеточной жидкости",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из саркоплазматического ретикулума",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из ядра клетки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какую роль играет АТФ в цикле сокращения-расслабления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только обеспечивает энергию для сокращения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "обеспечивает отсоединение миозина от актина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "блокирует тропонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтезирует креатинфосфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Как называется теория, объясняющая механизм мышечного сокращения?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "теория мембранного потенциала",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "теория скользящих нитей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "теория ферментативного катализа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "теория окислительного фосфорилирования",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Что происходит с длиной саркомера при сокращении мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличивается",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "уменьшается",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не изменяется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала уменьшается, затем увеличивается",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какое наследственное заболевание связано с дефектом белка дистрофина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "миастения Гравис",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мышечная дистрофия Дюшенна",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "боковой амиотрофический склероз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синдром Иценко-Кушинга",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какой фермент крови служит наиболее специфичным маркером повреждения сердечной мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аспартатаминотрансфераза (АСТ)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тропонин I/T и креатинкиназа-МВ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аланинаминотрансфераза (АЛТ)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "щелочная фосфатаза",
+        "isCorrect": false
+      }
+    ]
+  }
+]

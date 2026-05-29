@@ -1,0 +1,1042 @@
+[
+  {
+    "id": 1,
+    "title": "Какой процент массы тела составляет печень у взрослого человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1-2%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2-3%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "5-7%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10-12%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Сколько долей анатомически выделяют в печени человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "одна доля",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "три доли",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "две доли",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "четыре доли",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Через какой сосуд в печень поступает венозная кровь, богатая питательными веществами из кишечника?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "печёночная артерия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "воротная вена",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "печёночная вена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нижняя полая вена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Через какой сосуд в печень поступает артериальная кровь, богатая кислородом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "воротная вена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "печёночная артерия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "печёночная вена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "селезёночная вена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какая структурно-функциональная единица печени является основной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "долька",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацинус",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "каналец",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синусоид",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какие клетки печени выполняют основные метаболические функции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "клетки Купфера",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гепатоциты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "звёздчатые клетки Ито",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эндотелиальные клетки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Сколько основных функций выполняет печень в организме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3-4 функции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5-6 функций",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "более 500 функций",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "около 50 функций",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой процент от массы печени составляет вода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50-60%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "70-75%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "80-85%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "90-95%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какой белок составляет основную часть белков печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глобулины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "альбумины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фибриноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "иммуноглобулины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какой фермент печени является маркёром повреждения гепатоцитов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аланинаминотрансфераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "креатинкиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой витамин в наибольшем количестве депонируется в печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "витамин С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "витамин А",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "витамин В₁₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "витамин Е",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какой процент от массы печени составляют липиды в норме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1-2%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3-5%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10-15%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "20-25%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какой углевод в наибольшем количестве содержится в печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "крахмал",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликоген",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "целлюлоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фруктоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какой процесс в печени обеспечивает поддержание уровня глюкозы в крови в постабсорбтивном периоде?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гликолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюконеогенез и гликогенолиз",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пентозофосфатный путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтез жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какой фермент печени катализирует фосфорилирование глюкозы и имеет высокое значение Км?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гексокиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкокиназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фосфофруктокиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пируваткиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какой процесс в печени обеспечивает синтез кетоновых тел при голодании?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гликолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-окисление жирных кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гликогенолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глюконеогенез",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какой белок плазмы крови синтезируется преимущественно в печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гемоглобин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "альбумин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "миоглобин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "иммуноглобулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какой процесс в печени обеспечивает обезвреживание аммиака?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трансаминирование",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "синтез мочевины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дезаминирование",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "декарбоксилирование",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой фермент орнитинового цикла локализован в матриксе митохондрий гепатоцитов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аргиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "карбамоилфосфатсинтетаза-1",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аргининосукцинатлиаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аргининосукцинатсинтетаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какой процесс в печени активируется инсулином после приёма углеводной пищи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гликогенолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "синтез гликогена",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюконеогенез",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кетогенез",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какой гормон стимулирует глюконеогенез в печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкагон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тироксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эстроген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой процесс в печени обеспечивает синтез липопротеинов для транспорта липидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-окисление жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "синтез и сборка ЛПОНП, ЛПНП, ЛПВП",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кетогенез",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтез желчных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Почему печень является главным органом детоксикации аммиака?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что в печени много митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потому что в печени локализованы все ферменты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что печень фильтрует кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что в печени много рибосом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Что такое ксенобиотики?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эндогенные токсичные метаболиты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "чужеродные для организма соединения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "продукты распада белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "желчные пигменты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Сколько фаз включает процесс детоксикации ксенобиотиков в печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "одна фаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "две фазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "три фазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "четыре фазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какие ферменты играют ключевую роль в фазе I детоксикации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "цитохром Р450-зависимые монооксигеназы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глутатион-S-трансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "УДФ-глюкуронозилтрансферазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какая реакция характерна для фазы II детоксикации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "окисление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "восстановление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "конъюгация с глюкуроновой кислотой, сульфатом, глутатионом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гидролиз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какой кофактор необходим для реакции глюкуронирования в фазе II?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "УДФ-глюкуроновая кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАДФН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глутатион",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какой белок печени связывает и транспортирует билирубин внутри гепатоцита?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альбумин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глутатион-S-трансфераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трансферрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "церулоплазмин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Почему при циррозе печени снижается эффективность детоксикации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что увеличивается количество гепатоцитов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потому что уменьшается функциональная масса гепатоцитов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что усиливается синтез ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что увеличивается кровоток через печень",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какой продукт образуется при окислении этанола в печени под действием алкогольдегидрогеназы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "этанол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетальдегид",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какой пигмент образуется при катаболизме гема в ретикулоэндотелиальной системе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "билирубин-диглюкуронид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "биливердин, который затем восстанавливается до билирубина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "уробилиноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стеркобилин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "В какой форме билирубин транспортируется в крови к печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в свободной форме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в комплексе с альбумином",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в комплексе с глобулином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в конъюгированной форме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какой фермент печени катализирует конъюгацию билирубина с глюкуроновой кислотой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гем-оксигеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "билирубин-УДФ-глюкуронозилтрансфераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "биливердинредуктаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "β-глюкуронидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какой тип билирубина определяется как «прямой» в клинических анализах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "неконъюгированный билирубин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "конъюгированный билирубин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "биливердин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "уробилиноген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Куда секретируется конъюгированный билирубин из гепатоцитов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в желчные канальцы, затем в желчь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в лимфу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в мочу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Что происходит с конъюгированным билирубином в кишечнике под действием бактериальной флоры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "он окисляется до биливердина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "он деконъюгируется с образованием уробилиногена",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "он превращается в холестерин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "он всасывается обратно в кровь в неизменном виде",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Повышение активности каких ферментов в сыворотке крови наиболее специфично для повреждения гепатоцитов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза и липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "АЛТ и АСТ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "креатинкиназа и лактатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "щелочная фосфатаза и γ-глутамилтрансфераза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какой показатель биохимического анализа крови указывает на нарушение синтетической функции печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышение билирубина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "снижение уровня альбумина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "повышение глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "снижение мочевины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какой маркёр наиболее информативен для оценки холестаза (нарушения оттока желчи)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АЛТ и АСТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "щелочная фосфатаза и γ-глутамилтрансфераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "амилаза и пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лактатдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  }
+]

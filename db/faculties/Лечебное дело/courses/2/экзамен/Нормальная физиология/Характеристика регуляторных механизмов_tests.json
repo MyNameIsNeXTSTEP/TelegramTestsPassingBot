@@ -1,0 +1,1406 @@
+[
+  {
+    "id": 1,
+    "title": "Какие три механизма регуляции функций организма выделяют?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "соматический, висцеральный, гуморальный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нервный, гуморальный, миогенный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "условно-рефлекторный, безусловно-рефлекторный, гормональный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "центральный, периферический, местный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Что понимают под «регуляцией по отклонению»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "включение регуляторных механизмов при отклонении показателя от нормы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "предварительное включение механизмов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "регуляцию по команде из коры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регуляцию без обратной связи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какой принцип регуляции является ведущим в организме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "регуляция по опережению",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "регуляция по отклонению",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "положительная обратная связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гомеостатическая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Что такое «нервизм»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "учение о нервной системе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "концепция о ведущей роли нервной системы в регуляции функций организма",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "раздел физиологии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "теория рефлекса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какая структура является основным компонентом гематоэнцефалического барьера (ГЭБ)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "астроциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "эндотелий капилляров мозга с плотными контактами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "базальная мембрана",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "питуициты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Что такое «функциональная система» по П.К. Анохину?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "совокупность органов, выполняющих общую функцию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "динамическая совокупность различных органов и систем, объединяющихся для достижения полезного приспособительного результата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "генетически детерминированная система",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "анатомическое образование",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какие показатели внутренней среды называют «жёсткими»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "концентрация глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "pH, осмотическое давление",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "артериальное давление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "температура тела",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Примером регуляции по опережению является:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расширение сосудов мышц при гипоксии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "усиление вентиляции лёгких при физической нагрузке до изменения газов крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "увеличение диуреза при повышении АД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потоотделение при перегревании",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какие механизмы относятся к местной саморегуляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рефлексы с барорецепторов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "миогенная регуляция, метаболическая вазодилатация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гормональная регуляция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "центральные рефлексы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Что такое «гуморальная регуляция»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "регуляция с помощью нервных импульсов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "регуляция с помощью гормонов, медиаторов, метаболитов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "регуляция через мышечное сокращение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регуляция через изменение pH",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какую роль играют тканевые гормоны (простагландины, кинины)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пусковую",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "модулирующую",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только сосудорасширяющую",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только сосудосуживающую",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Что такое «аутокриния»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "регуляция соседних клеток",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "регуляция функции самой клетки, которая высвободила вещество",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "регуляция через кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нервная регуляция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какое вещество является главным гуморальным стимулятором дыхательного центра (действует и непосредственно, и через хеморецепторы)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "O2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "CO2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "H+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "адреналин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что такое «принцип обратной связи»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "информирование центра о результате регуляции для коррекции",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "передача сигнала от центра к эффектору",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "связь между двумя центрами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "усиление сигнала",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какое влияние на сердечную деятельность оказывает блуждающий нерв при наличии у него тонуса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стимулирует",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тормозит (сдерживает)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает экстрасистолы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Что такое «положительная обратная связь»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "усиление секреции пищеварительных соков под действием продуктов гидролиза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "стабилизация АД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "торможение дыхания при гипервентиляции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сужение сосудов при повышении АД",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какая функция ГЭБ является защитной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "регуляция температуры мозга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "предотвращение попадания микробов и токсинов в ткань мозга",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез ликвора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "обеспечение энергией нейронов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какие зоны мозга практически не имеют ГЭБ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гипофиз, эпифиз, некоторые отделы гипоталамуса и продолговатого мозга",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "спинной мозг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Что такое «афферентный синтез» в функциональной системе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обработка и сопоставление мотивации, обстановочной и пусковой афферентации с памятью",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "формирование программы действия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оценка результата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эфферентный сигнал",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какой тип регуляции обеспечивает наиболее быструю связь (скорость)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гуморальный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нервный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "миогенный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "паракринный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Что называют «акцептором результата действия» (АРД)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нервную модель будущего результата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "исполнительный орган",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "обратную афферентацию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мотивацию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какое влияние на организм оказывают метаболиты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только местное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "местное и общее (через кровь и ЦНС)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только через ЦНС",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только через эндокринные железы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Что такое «рефлекс»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ответная реакция организма на раздражение рецепторов, осуществляемая через нервную систему",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "спонтанная активность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гуморальный ответ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мышечное сокращение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какое звено рефлекторной дуги отсутствует у соматических рефлексов по сравнению с вегетативными?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рецептор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "афферентный путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "периферический ганглий (эффекторный нейрон вне ЦНС)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "эффектор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Что называют «рефлексогенной зоной»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "участок коры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "совокупность рецепторов, раздражение которых вызывает определённый рефлекс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "спинной мозг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нервный центр",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какой рефлекс является моносинаптическим?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сгибательный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "коленный разгибательный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "брюшной",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "зрачковый",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Что такое «миогенный механизм регуляции»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "регуляция через нервы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изменение силы сокращения мышцы при её растяжении",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гуморальная регуляция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "центральная регуляция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какую роль в регуляции тонуса сосудов играет NO (оксид азота)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сужение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "расширение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает спазм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Что понимают под «системным принципом регуляции»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "регуляцию только одной системой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "поддержание показателя с помощью многих органов и систем",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "регуляцию через кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регуляцию на клеточном уровне",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какое звено в функциональной системе обеспечивает сличение достигнутого результата с заданным?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "афферентный синтез",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "акцептор результата действия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "программа действия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мотивация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Что такое «вегетативный рефлекс»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рефлекс скелетных мышц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "рефлекс, эффектором которого являются внутренние органы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "рефлекс на слово",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "условный рефлекс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какой гормон является главным стимулятором реабсорбции воды в почках?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "АДГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "натрийуретический пептид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ангиотензин II",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Что понимают под «регуляцией по опережению»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "включение механизмов до реального изменения показателя на основе прогноза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "запаздывающую регуляцию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "регуляцию по отклонению",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "отрицательную обратную связь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какое влияние на сердце оказывает блуждающий нерв?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "положительное инотропное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "отрицательное хронотропное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "положительное хронотропное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "не влияет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Что такое «рефлекторная дуга»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "совокупность структур, с помощью которых осуществляется рефлекс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "путь от рецептора до эффектора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нервный центр",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синапс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какие рефлексы называют «условными»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "врождённые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "приобретённые в онтогенезе",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "спинальные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вегетативные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Что такое «доминанта» по А.А. Ухтомскому?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стойкий господствующий очаг возбуждения в ЦНС, подчиняющий себе другие центры",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "торможение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "память",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рефлекс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какая структура является главным интегратором вегетативных и эндокринных функций?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гипоталамус",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "таламус",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Что такое «гематоэнцефалический барьер»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "барьер между кровью и ликвором",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "избирательно проницаемый барьер между кровью и тканью мозга",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "барьер между кровью и спинномозговой жидкостью",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "барьер между нейронами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какова роль ликвора?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "защита мозга, питание, удаление метаболитов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "проведение ПД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "синтез гормонов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только защита",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Что такое «паракринная регуляция»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "действие вещества на соседние клетки без поступления в кровь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "действие через кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "действие на саму клетку",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нервная регуляция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какой гормон является антагонистом инсулина по действию на уровень глюкозы в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкагон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "соматостатин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кортизол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Что такое «миогенная ауторегуляция» тонуса сосудов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "способность сосудов поддерживать постоянный кровоток при изменении давления за счёт сокращения гладких мышц",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "регуляция через нервы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гормональная регуляция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регуляция тонуса скелетных мышц",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какой тип регуляции преобладает при поддержании pH крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "регуляция по опережению",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "регуляция по отклонению",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "положительная обратная связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "условно-рефлекторная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Что такое «трофическое действие нервной системы»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "регуляция сокращений",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "влияние на обмен веществ, рост и регенерацию тканей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "проведение импульсов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "выделение гормонов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какой эксперимент доказал наличие медиаторного механизма передачи нервных влияний (О. Леви)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "раздражение блуждающего нерва на сердце лягушки с перфузией",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "раздражение вагосимпатического ствола одного сердца, перфузат вызывал те же эффекты на втором сердце",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "перерезка спинного мозга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "выработка условного рефлекса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какое влияние на АД оказывает раздражение депрессорного нерва?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "снижает",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала повышает, затем снижает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Что такое «рефлекс Гольца»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "торможение сердца при механическом раздражении желудка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "учащение сердца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сужение сосудов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "расширение зрачков",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какие центры расположены в продолговатом мозге?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дыхательный, сосудодвигательный, глотания, рвоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "зрительный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "слуховой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "двигательный центр коры",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Что такое «афферентная импульсация»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "поток нервных импульсов от рецепторов в ЦНС",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "импульсы от ЦНС к эффекторам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "импульсы между нейронами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "спонтанная активность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какой механизм регуляции является филогенетически наиболее древним?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нервный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гуморальный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "миогенный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "условно-рефлекторный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Что такое «обратная афферентация» в функциональной системе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "информация о параметрах достигнутого результата, поступающая в акцептор результата действия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "пусковой стимул",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "обстановочная афферентация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мотивация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Что такое «пластичность» физиологических систем?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "способность к регенерации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "способность перестраивать функциональные свойства при изменении условий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "эластичность тканей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "постоянство",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какой фактор надежности физиологических систем обеспечивается парностью органов (лёгкие, почки)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "регенерация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дублирование",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адаптация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "экономичность",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,2628 @@
+[
+  {
+    "id": 1,
+    "title": "Кто впервые измерил артериальное давление у лошади с помощью стеклянной трубки (1733 г.)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Стивен Хейлс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Уильям Гарвей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Карл Людвиг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Илья Цион",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой метод позволяет непрерывно регистрировать АД в эксперименте (ртутный кимограф)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метод Карла Людвига",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "метод Короткова",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "метод Рива-Роччи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "осциллометрия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Кто открыл тонус блуждающего нерва и его тормозное влияние на сердце (1845 г.)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Илья Цион",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Братья Вебер",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Отто Леви",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой метод регистрации ЭКГ в 12 отведениях используется в клинике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метод Неба",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "метод Эйнтховена",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "метод Уилсона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "метод Гольдбергера",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Кто доказал медиаторную передачу нервных влияний на сердце (опыт с двумя изолированными сердцами лягушки, 1921 г.)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Отто Леви",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Генри Дейл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Джон Ленгли",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Илья Цион",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой прибор используется для измерения АД по методу Короткова?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "плетизмограф",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реограф",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сфигмоманометр",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "флоуметр",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Кто открыл наличие сосудосуживающих нервов (опыт с перерезкой симпатического нерва на шее кролика)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Карл Людвиг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Илья Цион",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Клод Бернар",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Александр Вальтер",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой метод используется для измерения минутного объёма крови (МОК) методом разведения красителя?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метод Стюарта–Гамильтона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "метод Фика",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "метод Крога",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "термодилюция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какова продолжительность систолы желудочков при ЧСС 75 уд./мин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,1 с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "0,33 с",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "0,5 с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,8 с",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какова продолжительность общей паузы сердца при ЧСС 75 уд./мин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,1 с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "0,2 с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "0,37 с",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "0,5 с",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какое давление в левом желудочке в фазу быстрого изгнания?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "80–90 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "120–130 мм рт. ст.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "30–40 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "200 мм рт. ст.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какой клапан закрывается в начале систолы желудочков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "полулунные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "атриовентрикулярные (двустворчатый и трёхстворчатый)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "все клапаны открыты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "клапаны аорты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какой клапан открывается в фазу изгнания из левого желудочка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "двустворчатый",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трёхстворчатый",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "клапан лёгочной артерии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аортальный (полулунный)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какова длительность потенциала действия кардиомиоцита желудочка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2–4 мс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "300–350 мс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "100 мс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "500 мс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какой ион обеспечивает фазу плато ПД кардиомиоцита?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "быстрый вход Na⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "медленный вход Ca²⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "быстрый выход K⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вход Cl⁻",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какова абсолютная рефрактерная фаза миокарда желудочков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2–4 мс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "10 мс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "около 270 мс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "500 мс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Почему сердечная мышца не может сокращаться тетанически?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из-за низкой возбудимости",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из-за длительного рефрактерного периода, совпадающего с сокращением",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из-за отсутствия Ca²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из-за малой силы сокращения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Где расположен водитель ритма первого порядка (основной пейсмекер)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "атриовентрикулярный узел",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пучок Гиса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "волокна Пуркинье",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синоатриальный узел",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какова частота генерации импульсов синоатриальным узлом в покое?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30–40 в мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "60–80 в мин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "100–120 в мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "20–30 в мин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какова частота генерации импульсов атриовентрикулярным узлом (при выключении СА-узла)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "60–80 в мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "40–50 в мин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "20–30 в мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10–15 в мин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Что такое «градиент автоматии»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "убывание частоты генерации импульсов по проводящей системе от предсердий к верхушке",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "возрастание частоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "одинаковость частоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "отсутствие автоматии",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какова скорость проведения возбуждения по волокнам Пуркинье?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,05 м/с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3 м/с",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "1 м/с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10 м/с",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какова скорость проведения возбуждения через атриовентрикулярный узел?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,05 м/с (задержка)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "1 м/с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3 м/с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "5 м/с",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какова продолжительность атриовентрикулярной задержки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,01 с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "0,3 с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "0,5 с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,05–0,1 с",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какой зубец ЭКГ отражает деполяризацию предсердий?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Q",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "P",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "R",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "T",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какой комплекс ЭКГ отражает деполяризацию желудочков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "QRS",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "P",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "T",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "U",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой зубец ЭКГ отражает реполяризацию желудочков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Q",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "R",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "T",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "P",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какая продолжительность интервала R–R при ЧСС 75 уд./мин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,6 с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "0,8 с",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "1,0 с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,4 с",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какой тон сердца возникает при захлопывании атриовентрикулярных клапанов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "II тон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "III тон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "IV тон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "I тон",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какой тон сердца возникает при захлопывании полулунных клапанов (аорты и лёгочной артерии)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I тон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "II тон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "III тон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "IV тон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Каков систолический объём (СВ) левого желудочка в покое?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "65–75 мл",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "30–40 мл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "100–120 мл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "150–200 мл",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Каков минутный объём кровообращения (МОК) в покое?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2–3 л/мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "10–12 л/мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "4–6 л/мин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "20–25 л/мин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Каков индекс выброса (фракция выброса) в покое?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "около 0,5 (50%)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "0,8 (80%)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "0,2 (20%)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,1 (10%)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какой метод определения МОК основан на измерении потребления O₂ и артериовенозной разницы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метод Крога",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "метод Фика",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "метод разведения индикатора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "термодилюция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какой гормон вырабатывается в сердце?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "атриопептид",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ренин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "эритропоэтин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ангиотензин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какой медиатор выделяется окончаниями блуждающего нерва в сердце?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетилхолин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дофамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какой тип рецепторов в сердце активируется ацетилхолином?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β₁-адренорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "N-холинорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "M₂-холинорецепторы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "α₁-адренорецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какое влияние на сердце оказывает симпатическая нервная система?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "положительное хронотропное и инотропное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "отрицательное хронотропное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "отрицательное инотропное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "не влияет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какой медиатор выделяется симпатическими нервами в сердце?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "норадреналин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "серотонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какие рецепторы в сердце активируются норадреналином?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α₁",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β₁",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "β₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "М",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Что такое «гетерометрический механизм регуляции» сердца (Франка–Старлинга)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличение силы сокращения при увеличении растяжения миокарда (конечно-диастолического объёма)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "увеличение силы при увеличении ЧСС",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "усиление под действием адреналина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ослабление под действием ацетилхолина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Что такое «гомеометрический механизм регуляции» сердца (ритмо-инотропная зависимость)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличение силы сокращения при увеличении частоты (накопление Ca²⁺)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "зависимость от растяжения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гормональная регуляция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нервная регуляция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какой рефлекс (Даньини–Ашнера) возникает при надавливании на глазные яблоки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тахикардия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "брадикардия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гипертензия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какое влияние на сердце оказывает увеличение концентрации K⁺ в крови (гиперкалиемия)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличение ЧСС",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "снижение возбудимости, вплоть до остановки в диастоле",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "усиление сокращений",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "не влияет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какое влияние на сердце оказывает увеличение концентрации Ca²⁺ в крови (гиперкальциемия)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ослабление сокращений",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "аритмия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "усиление сокращений, остановка в систоле",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какова средняя линейная скорость кровотока в аорте (см/с)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "20–25",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "0,05–0,1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "5–10",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "50–100",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какова суммарная площадь поперечного сечения капилляров (см²)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3–4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2500–3000",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "6–8",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "100–200",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Каково систолическое артериальное давление в норме у взрослых?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "60–80 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "150–180 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "40–60 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "115–140 мм рт. ст.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Каково диастолическое артериальное давление в норме у взрослых?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30–40 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "60–90 мм рт. ст.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "100–120 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "40–50 мм рт. ст.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Что такое «пульсовое давление»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "разница между систолическим и диастолическим давлением",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "среднее давление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "давление в капиллярах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "центральное венозное давление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Что такое «среднее артериальное давление»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "(Рсист + Рдиаст)/2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "- Рдиаст + 1/3 пульсового давления",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Рсист – Рдиаст",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Рдиаст + пульсовое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какова скорость распространения пульсовой волны в аорте?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,5–1 м/с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "20–30 м/с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "5–8 м/с",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "100 м/с",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Что такое «анакрота» на сфигмограмме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "подъём кривой в систолу",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "спад в диастолу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "дикротическая волна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "плато",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какой фактор в основном определяет сопротивление току крови в сосудах (R)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "длина сосуда",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вязкость крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "радиус сосуда (в 4-й степени)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "давление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какое давление в артериальном конце капилляра большого круга?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5–10 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "30 мм рт. ст.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "60 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "15 мм рт. ст.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какое давление в венозном конце капилляра?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "15 мм рт. ст.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "5 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0 мм рт. ст.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какое онкотическое давление плазмы крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "40 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "5 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "25 мм рт. ст.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Что такое «фильтрационное давление» в капилляре?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ГДК + ОДТ – ОДК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ГДК – ОДК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ОДК – ГДК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ГДК + ОДК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Что такое «реабсорбционное давление» в капилляре?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ГДК – ОДК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ОДК – ГДК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ОДК – ГДК – ОДТ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ГДК + ОДТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какой объём жидкости фильтруется из капилляров в ткани за сутки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1–2 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "около 20 л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "5 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "50 л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Какой объём жидкости возвращается в кровь через лимфатическую систему за сутки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "около 2 л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "0,5 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "10 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,1 л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Какое центральное венозное давление в норме (вблизи сердца)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10–15 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "0–5 мм рт. ст. (может быть отрицательным)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "20–30 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "–10 мм рт. ст.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Какой фактор способствует возврату венозной крови к сердцу при ходьбе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только работа сердца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "только дыхание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мышечный насос",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гравитация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Какой сосуд называют «резистивным» (сосудом сопротивления)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аорта",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "артериолы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "капилляры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вены",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Какой сосуд называют «ёмкостным»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "артериолы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вены и венулы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аорта",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "капилляры",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Где расположен сосудодвигательный центр (прессорная и депрессорная зоны)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в гипоталамусе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в коре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в спинном мозге",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в продолговатом мозге",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Какое влияние на тонус сосудов оказывает стимуляция симпатических нервов (в основном)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расширение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сужение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "двоякое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Какое влияние на сосуды скелетных мышц оказывают низкие (физиологические) концентрации адреналина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сужение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "расширение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "спазм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Какое вещество, вырабатываемое эндотелием, вызывает сильную вазоконстрикцию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "NO",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "простациклин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "брадикинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эндотелин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Какое вещество, вырабатываемое эндотелием, вызывает вазодилатацию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "NO (оксид азота)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "эндотелин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тромбоксан A₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ангиотензин II",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Какой гормон (ренин-ангиотензиновая система) является мощным вазоконстриктором?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "АДГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ангиотензин II",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "атриопептид",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Какое влияние на системное АД оказывает альдостерон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышает",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала снижает, затем повышает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Какие рецепторы активируются при снижении АД в каротидном синусе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "барорецепторы (уменьшение импульсации)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "барорецепторы (уменьшение импульсации → повышение АД)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "хеморецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "механорецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Какой рефлекс (прессорный) возникает при снижении АД в каротидном синусе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "брадикардия, вазодилатация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "остановка сердца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не изменяет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тахикардия, вазоконстрикция",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Какое влияние на кровоток в коронарных сосудах оказывает диастола желудочков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличивает",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "уменьшает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "прекращает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Какая особенность кровотока в головном мозге?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "зависимость от дыхания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "только симпатическая регуляция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "миогенная ауторегуляция, постоянство кровотока",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "низкая интенсивность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Какой фактор в наибольшей степени определяет общее периферическое сопротивление сосудов (ОПСС)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "радиус артериол (в 4-й степени)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "вязкость крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "длина сосудов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "систолический выброс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Какой эффект на системное АД оказывает увеличение ЧСС (при неизменном ударном объёме)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "повышает (увеличение МОК)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "сначала снижает, затем повышает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Какой рефлекс (депрессорный) возникает при повышении АД в каротидном синусе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "брадикардия, вазодилатация (снижение АД)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тахикардия, вазоконстрикция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "остановка сердца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "не изменяет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Какой нерв (депрессорный) передаёт импульсы от дуги аорты в ЦНС?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синокаротидный нерв (Геринга)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "симпатический нерв",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "диафрагмальный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "левый аортальный нерв (ветвь блуждающего)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Какой тип капилляров характерен для почечных клубочков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "соматические (сплошные)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "синусоидные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "все типы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фенестрированные (с порами)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Какое давление в капиллярах почечного клубочка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50 мм рт. ст.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "30 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "15 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "70 мм рт. ст.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Какой фактор способствует движению крови в венах нижних конечностей при вертикальном положении?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только гравитация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мышечный насос и венозные клапаны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только работа сердца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "артериальная пульсация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Какой тип нервных волокон вызывает расширение сосудов скелетных мышц при физической нагрузке (холинергические симпатические)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "симпатические холинергические",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "симпатические адренергические",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "парасимпатические",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "соматические",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Какое вещество, выделяемое эндотелием, вызывает агрегацию тромбоцитов и вазоконстрикцию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "NO",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "простациклин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "брадикинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тромбоксан A₂",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Как предсердный натрийуретический пептид действует на почки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличивает выведение Na⁺ и воды (снижает АД)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "уменьшает выведение Na⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "повышает АД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "не влияет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Какой фермент ингибируется каптоприлом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ренин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "киназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ангиотензинпревращающий фермент",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "протеаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Какой метод измерения АД является прямым (инвазивным)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "катетеризация артерии",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "метод Короткова",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "осциллометрический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пальпаторный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Какой электролит (ион) в высокой концентрации вызывает остановку сердца в диастоле?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "K⁺ (гиперкалиемия)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Ca²⁺ (гиперкальциемия)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Na⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Mg²⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Какой отдел сердца работает против большего сопротивления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "левый желудочек",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "правый желудочек",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "предсердия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "одинаково",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Какой фактор увеличивает силу сердечных сокращений (положительный инотропный) независимо от нервов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличение конечно-диастолического объёма (закон Франка–Старлинга)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "увеличение ЧСС",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "снижение Ca2+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "повышение K+",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Какой электролит (ион) вызывает остановку сердца в систоле?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ca2+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "K+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Na+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Cl–",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Какой из перечисленных факторов не способствует венозному возврату крови к сердцу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "положение стоя (гравитация)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мышечный насос",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "дыхательные движения (присасывание грудной клетки)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тонус вен",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Какой гормон активирует выработку альдостерона?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ангиотензин II",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ангиотензин I",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только АДГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только атриопептид",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Какой фактор запускает секрецию ренина в почках?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышение АД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гиперволемия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ангиотензин II+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "снижение АД, снижение Na+ в дистальных канальцах, симпатическая стимуляция",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Какой белок плазмы является предшественником ангиотензина II?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ангиотензиноген (α2-глобулин)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "альбумин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фибриноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ренин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Какой фермент превращает ангиотензиноген в ангиотензин I?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АПФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ренин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "химотрипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "калликреин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Где преимущественно находится АПФ (ангиотензинпревращающий фермент)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эндотелий капилляров лёгких",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "печень",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "почки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "плазма крови",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Какой из перечисленных органов не является кровяным депо?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "селезёнка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "печень",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "головной мозг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "кожа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Какое явление называется «дикротой» на сфигмограмме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вторичный подъём на катакроте",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "анакрота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "инцизура",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "плато",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Какой метод измерения АД является аускультативным (тоны Короткова)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "прямой метод",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "осциллометрический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пальпаторный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "метод Короткова",
+        "isCorrect": true
+      }
+    ]
+  }
+]

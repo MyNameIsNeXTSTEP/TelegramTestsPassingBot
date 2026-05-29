@@ -1,0 +1,1926 @@
+[
+  {
+    "id": 1,
+    "title": "С чего начинается катаболизм большинства аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "с декарбоксилирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с отщепления α-аминогруппы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "с окисления углеводородного радикала",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "с гидролиза пептидной связи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Что такое трансаминирование аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "реакция отщепления аминогруппы с образованием аммиака",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реакция переноса α-аминогруппы с аминокислоты на α-кетокислоту",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "реакция присоединения аминогруппы к кетокислоте",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "реакция окисления аминокислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какой кофермент необходим для работы аминотрансфераз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиаминпирофосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пиридоксальфосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "биотин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кофермент А",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какие аминокислоты чаще всего участвуют в реакциях трансаминирования?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "валин, лейцин, изолейцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глутамат, аланин, аспартат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глицин, серин, треонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фенилаланин, тирозин, триптофан",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какой фермент катализирует перенос аминогруппы с аланина на α-кетоглутарат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аспартатаминотрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аланинаминотрансфераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глутаматдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лактатдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Что такое дезаминирование аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "реакция переноса аминогруппы на кетокислоту",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реакция отщепления α-аминогруппы от аминокислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "реакция присоединения аминогруппы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "реакция гидролиза аминокислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какой фермент катализирует окислительное дезаминирование глутамата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аланинаминотрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глутаматдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аспартатаминотрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лактатдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой кофермент необходим для работы глутаматдегидрогеназы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАД⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФМН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ТПФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Что такое трансдезаминирование?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "прямое окислительное дезаминирование аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "непрямое дезаминирование",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "неокислительное дезаминирование серина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "внутримолекулярное дезаминирование гистидина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какая аминокислота может дезаминироваться неокислительным путём?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутамат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "серин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аспартат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой фермент катализирует неокислительное дезаминирование серина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутаматдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сериндегидратаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аланинаминотрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "триптофаноксигеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Почему аммиак токсичен для организма?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что он разрушает белки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потому что он токсичен для ЦНС",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что он ингибирует гликолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что он блокирует дыхательную цепь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "В какую нетоксичную форму превращается аммиак в организме человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в мочевую кислоту",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в мочевину",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в креатинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в аммониевые соли",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какая реакция является основной для связывания аммиака во всех тканях?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез мочевины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "синтез глутамина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез аланина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтез аспарагина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какой фермент катализирует гидролиз глутамина с освобождением аммиака?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутаматдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глутаминаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глутаминсинтетаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аспарагиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Где происходит основной синтез мочевины в организме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в почках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печени",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в головном мозге",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Где в клетке локализован орнитиновый цикл?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "полностью в матриксе митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в лизосомах и пероксисомах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "частично в матриксе, частично в цитозоле",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в ядре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "С какой аминокислоты начинается орнитиновый цикл?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "с цитруллина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с орнитина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "с аргинина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "с глутамата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой фермент катализирует первую реакцию орнитинового цикла?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "орнитинтранскарбамоилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "карбамоилфосфатсинтетаза-1",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аргининосукцинатсинтетаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аргиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Сколько молекул аммиака расходуется на синтез одной молекулы мочевины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Сколько макроэргических связей расходуется на синтез одной молекулы мочевины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой продукт орнитинового цикла связывает его с циклом трикарбоновых кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цитруллин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аргининосукцинат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фумарат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "малат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какой фермент завершает орнитиновый цикл, высвобождая мочевину?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аргининосукцинатлиаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аргиназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "орнитинтранскарбамоилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "карбамоилфосфатсинтетаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Что такое гипераммониемия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение уровня аммиака в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышение уровня аммиака в крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нормальный уровень аммиака в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "выведение аммиака с мочой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какая причина может вызвать гипераммониемию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "избыток белка в пище",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дефект ферментов цикла мочевины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "недостаток углеводов в пище",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "избыток жиров в пище",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Что такое декарбоксилирование аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "реакция отщепления аминогруппы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реакция отщепления карбоксильной группы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "реакция окисления аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "реакция трансаминирования",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой кофермент необходим для большинства декарбоксилаз аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиаминпирофосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пиридоксальфосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "биотин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кофермент А",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какой биогенный амин образуется при декарбоксилировании гистидина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дофамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гистамин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ГАМК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какой биогенный амин образуется при декарбоксилировании глутамата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дофамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "γ-аминомасляная кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гистамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какой биогенный амин образуется при декарбоксилировании триптофана?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дофамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "серотонин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гистамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ГАМК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какая биологическая функция у ГАМК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "возбуждающий медиатор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тормозной медиатор высших отделов мозга",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "регулятор воспаления",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гормон пищеварения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какая биологическая функция у гистамина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тормозной медиатор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "медиатор воспаления",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "возбуждающий медиатор сетчатки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регулятор аппетита",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Из какой аминокислоты синтезируется дофамин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из триптофана",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из тирозина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из фенилаланина напрямую",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из гистидина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Что такое глюкозо-аланиновый цикл?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "превращение глюкозы в гликоген в печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "транспорт пирувата из мышц в печень в форме аланина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "окисление глюкозы в эритроцитах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "перенос избыточного аммиака из тканей в почки в виде глутамина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какая роль у аланина в глюкозо-аланиновом цикле?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "источник энергии для мышц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "транспортная форма азота из мышц в печень",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "предшественник для синтеза жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регулятор гликолиза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Куда поступает аминогруппа аланина в печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "на синтез белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "на синтез мочевины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "на синтез нуклеотидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "на синтез жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Что происходит с углеродным скелетом аминокислот после дезаминирования?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "он выводится с мочой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "он используется для глюконеогенеза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "он превращается в аммиак",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "он накапливается в клетках",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какие аминокислоты являются глюкогенными?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминокислоты, которые превращаются в жирные кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аминокислоты, чьи углеродные скелеты дают глюкозу",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аминокислоты, чьи углеродные скелеты дают ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аминокислоты, содержащие в радикале гидроксильные группы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какие аминокислоты являются кетогенными?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминокислоты, которые превращаются в жирные кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аминокислоты, чьи углеродные скелеты дают ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аминокислоты, чьи углеродные скелеты дают глюкозу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аминокислоты, содержащие в радикале гидроксильные группы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какая аминокислота является и глюкогенной, и кетогенной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фенилаланин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глутамат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аспартат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Где происходит окислительное дезаминирование глутамата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только в цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в митохондриях",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только в ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в лизосомах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Что регулирует активность глутаматдегидрогеназы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только концентрация субстрата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "активация АДФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только температура среды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только рН среды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какой фермент катализирует синтез карбамоилфосфата в орнитиновом цикле?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "карбамоилфосфатсинтетаза-2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "карбамоилфосфатсинтетаза-1",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "орнитинтранскарбамоилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аргининосукцинатсинтетаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Где локализована карбамоилфосфатсинтетаза-1?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в матриксе митохондрий печени",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "на внутренней мембране митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в ядре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какой активатор необходим для работы карбамоилфосфатсинтетазы-1?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "N-ацетилглутамат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "цитруллин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аргинин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Что образуется при действии аргиназы на аргинин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цитруллин и аммиак",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "орнитин и мочевина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аргининосукцинат и фумарат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глутамат и α-кетоглутарат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Почему новорождённые дети более чувствительны к гипераммониемии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что у них больше мышц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потому что у них не активны ферменты цикла мочевины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что они потребляют больше белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что у них высокая активность глутаминсинтетазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какой продукт азотистого обмена обладает выраженной токсичностью для центральной нервной системы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мочевина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мочевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "NH₃",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "креатинин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какой процесс в тканях является основным источником свободного аммиака?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трансаминирование аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дезаминирование аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "декарбоксилирование аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтез белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какой фермент катализирует окислительное дезаминирование глутамата с образованием аммиака?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутаминсинтетаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глутаматдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аланинаминотрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сериндегидратаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Почему аммиак токсичен для клеток головного мозга?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "разрушает мембраны нейронов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нарушает энергетический обмен",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "блокирует синтез нейромедиаторов напрямую",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "повышает осмотическое давление в клетках",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Где в организме образуется значительное количество аммиака под действием кишечной микрофлоры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в тонком кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в толстом кишечнике",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в печени",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "В какой форме аммиак транспортируется от периферических тканей к печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в свободном виде в плазме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в виде глутамина и аланина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в виде пирувата и оксалоацетата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в виде мочевой кислоты и мочевины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какой процент выводимого из организма азота приходится на долю мочевины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30-40%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "50-60%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "70-80%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "до 90%",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какова нормальная суточная экскреция мочевины у здорового взрослого человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5-10 г/сут",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "10-15 г/сут",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "~25 г/сут",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "50-60 г/сут",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какая реакция является основной для обезвреживания аммиака во всех тканях организма?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез мочевины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "синтез глутамина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез аланина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтез аспарагина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какой фермент катализирует присоединение аммиака к глутамату?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутаминаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глутаминсинтетаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глутаматдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аспарагинсинтетаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какая аминокислота служит основной транспортной формой аммиака в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глутамин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аспартат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глицин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "В каких органах происходит гидролитическое освобождение аммиака из глутамина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в печени и сердце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в клетках кишечника и почек",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в скелетных мышцах и мозге",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в легких и селезенке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какой фермент расщепляет глутамин с высвобождением аммиака?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутаминсинтетаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глутаминаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "амидофосфорибозилтрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аспарагиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Как почки выводят аммиак при метаболическом ацидозе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в виде мочевины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в виде свободного NH₃",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в виде иона аммония NH₄⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в виде глутамина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "С каким ионом связывается аммиак в почечных канальцах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "с ионом натрия Na⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с ионом калия K⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "с ионом водорода H⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "с ионом хлора Cl⁻",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Какая соль аммония преимущественно экскретируется с мочой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сульфат аммония",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфат аммония",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "хлорид аммония",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "карбонат аммония",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Зачем почки активно секретируют аммиак в просвет канальцев при ацидозе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "для повышения рН крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "для связывания избытка H⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "для стимуляции синтеза глутамина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "для активации карбоангидразы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Где в клетке локализована глутаминсинтетаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в митохондриях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в цитоплазме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в лизосомах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "В каком органе происходит основной синтез мочевины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в почках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печени",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в скелетных мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в головном мозге",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Как называется циклический процесс синтеза мочевины из аммиака?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цикл Кребса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "орнитиновый цикл",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "цикл Кори",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "цикл аланина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Кто экспериментально установил схему синтеза мочевины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Дж. Уотсон и Ф. Крик",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Г. Кребс и К. Гензелейт",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Л. Пастер и Р. Кох",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "А. Лавуазье и Д. Менделеев",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Где в клетке протекают остальные три реакции орнитинового цикла?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в митохондриях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в цитоплазме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в лизосомах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "на эндоплазматическом ретикулуме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Какая аминокислота регенерируется в конце цикла, замыкая его?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цитруллин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аргинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "орнитин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "аспартат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Сколько молекул аммиака используется для синтеза одной молекулы мочевины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Откуда поступает первый атом азота в молекулу мочевины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из аспартата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из свободного аммиака",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из глутамата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из аланина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Откуда поступает второй атом азота в молекулу мочевины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из свободного аммиака",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из аспартата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из глутамина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из орнитина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Откуда берется углеродный атом мочевины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из CO₂",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из пирувата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из ацетил-КоА",
+        "isCorrect": false
+      }
+    ]
+  }
+]

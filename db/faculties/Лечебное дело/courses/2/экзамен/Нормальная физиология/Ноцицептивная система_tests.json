@@ -1,0 +1,938 @@
+[
+  {
+    "id": 1,
+    "title": "Кто впервые сформулировал теорию «воротного контроля» боли?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Чарльз Шеррингтон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Рональд Мелзак и Патрик Уолл",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ганс Селье",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой метод используется для оценки болевой чувствительности в клинике (альгезиметрия)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метод пороговой стимуляции",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "аудиометрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "визометрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Кто открыл эндогенные опиоиды (эндорфины и энкефалины) в 1970-х годах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Уолтер Кэннон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ганс Селье",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Джон Хьюз и Ханс Костерлиц",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой метод используется для локальной блокады боли в стоматологии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проводниковая анестезия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "акупунктура",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гипноз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "общая анестезия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Кто впервые применил акупунктуру для обезболивания в европейской медицине (XX в.)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Феликс Манн",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Герман Гельмгольц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Жорж Сулье де Моран",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой метод используется для визуализации активности антиноцицептивной системы мозга?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "позитронно-эмиссионная томография",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "МРТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ЭКГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Кто открыл опиатные рецепторы в ЦНС?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ганс Костерлиц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Джон Хьюз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Кандас Перт и Соломон Снайдер",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Патрик Уолл",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой метод используется для оценки вегетативных компонентов боли (КГР, ЧСС, АД)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "полиграфическое исследование",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "альгезиметрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "аудиометрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рефлексометрия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какие волокна проводят «медленную» (жгучую, тупую) боль?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аδ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "С",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Аβ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Аγ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какие вещества (алгогены) возбуждают болевые рецепторы при воспалении?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гистамин, брадикинин, K⁺, простагландины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "адреналин, норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ацетилхолин, серотонин (в ЦНС)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ГАМК, глицин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Где переключаются болевые волокна (первые нейроны) в спинном мозге?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в задних рогах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "в передних рогах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в боковых рогах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в белом веществе",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какой путь проводит болевую и температурную чувствительность в спинном мозге?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "боковой спиноталамический путь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "задние канатики",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "передний спиноталамический путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кортикоспинальный путь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какое ядро таламуса является релейным для болевой чувствительности?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "специфические и неспецифические ядра (вентральное заднее, интраламинарные)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "медиальное коленчатое тело",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "латеральное коленчатое тело",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ретикулярное ядро",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что такое «антиноцицептивная система»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эндогенная система подавления боли",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "система проведения боли",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "система памяти о боли",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "воспалительная реакция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какие вещества являются эндогенными опиоидами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эндорфины, энкефалины, динорфины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гистамин, брадикинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "глутамат, аспартат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "адреналин, норадреналин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какие структуры ствола мозга активируют антиноцицептивную систему (ЦСОВ, ядра шва)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "центральное серое околоводопроводное вещество (ЦСОВ) и ядра шва (серотонин)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "красные ядра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "вестибулярные ядра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "оливы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какой медиатор ядер шва является ключевым в нисходящем торможении боли?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "серотонин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "дофамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какие опиатные рецепторы активируются эндорфинами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "μ, δ, κ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "α, β",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "M, N",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "H₁, H₂",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой метод обезболивания основан на блокаде Na⁺-каналов нервных волокон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "местная анестезия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "общая анестезия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "акупунктура",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гипноз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какое явление называется «гипералгезией»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышенная болевая чувствительность",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "пониженная болевая чувствительность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "полная аналгезия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "боль без стимула",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Где расположены ноцицепторы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в коже, внутренних органах, мышцах, сосудах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "только в коже",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только во внутренних органах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только в мозге",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой эффект оказывает вещество P (субстанция P) на передачу боли?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "облегчает",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тормозит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "блокирует",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какой метод аналгезии использует иглоукалывание?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "акупунктурная аналгезия (активация эндорфинов)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "фармакологическая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "физическая (холод)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "психотерапия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какое влияние на болевую чувствительность оказывает стресс?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышает (гипералгезия) или снижает (стресс-индуцированная аналгезия)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "всегда повышает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "всегда снижает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какой опиоидный пептид выделяется из гипофиза при стрессе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-эндорфин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мет-энкефалин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лей-энкефалин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "динорфин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какие рецепторы (воротный контроль) в задних рогах спинного мозга модулируют болевой сигнал?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "субстанция желатинозная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "клетки Реншо",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "α-мотонейроны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "γ-мотонейроны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой препарат является антагонистом опиатных рецепторов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "морфин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "налоксон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "атропин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фентоламин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какой тип волокон (Аδ или С) проводит быструю боль?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Аδ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оба",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Аβ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какое вещество является основным медиатором первичных афферентов боли?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутамат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "вещество P (модулятор)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ГАМК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какой метод обезболивания активирует эндогенную опиоидную систему?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "акупунктура",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "массаж",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только наркоз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только местная анестезия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какой эффект оказывает морфин на болевую чувствительность?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аналгезия (активация опиатных рецепторов)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гипералгезия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает судороги",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Где расположены μ-опиатные рецепторы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в ЦНС (периакведуктальное серое вещество, желатинозная субстанция)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "только на периферии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только в сердце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в скелетных мышцах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какой эффект оказывает норадреналин на передачу болевого сигнала?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "облегчение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "торможение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "двойной",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какой эффект оказывает серотонин на передачу болевого сигнала?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "торможение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "облегчение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает гипералгезию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какая структура мозга является главным центром антиноцицептивной системы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "центральное серое вещество среднего мозга",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "таламус",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гипоталамус",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какой эффект оказывает электрическая стимуляция ЦСОВ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипералгезия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "судороги",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аналгезия",
+        "isCorrect": false
+      }
+    ]
+  }
+]

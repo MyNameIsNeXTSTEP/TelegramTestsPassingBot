@@ -1,0 +1,1328 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое транскрипция?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез ДНК на матрице ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "синтез иРНК на матрице ДНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез белка на матрице иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "модификация пре-иРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Где происходит транскрипция в эукариотической клетке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в цитоплазме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "на рибосомах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в ядре клетки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в митохондриях",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какой фермент осуществляет основную работу при транскрипции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ДНК-полимераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ДНК-зависимая РНК-полимераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "РНК-зависимая РНК-полимераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лигаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Что такое транскриптон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "единица трансляции белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фрагмент ДНК, с которого происходит считывание",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "молекула зрелой иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "комплекс рибосомы с иРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Что такое промотор в структуре транскриптона?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "область, кодирующая белок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стартовая последовательность для РНК-полимеразы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сигнал окончания транскрипции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "некодирующая вставка в гене",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Что такое терминатор в структуре транскриптона?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стартовая последовательность для РНК-полимеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кодирующая область гена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сигнал окончания транскрипции",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "участок связывания рибосомы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Сколько этапов включает процесс транскрипции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1 этап",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2 этапа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3 этапа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "4 этапа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Что происходит на этапе инициации транскрипции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "достраивание цепи РНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "присоединение РНК-полимеразы к промотору",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "отсоединение РНК-полимеразы от ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "модификация концов иРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "В каком направлении осуществляется синтез иРНК при транскрипции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "от 3' к 5'",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "от 5' к 3'",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в обоих направлениях одновременно",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "направление не имеет значения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "По какому принципу происходит сборка иРНК при транскрипции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "идентичности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "комплементарности",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "случайного подбора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "параллельного считывания",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Что такое транскрибируемая цепь ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цепь, с которой не считывается информация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "цепь ДНК, с которого считывается информация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "цепь, содержащая только интроны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "цепь, кодирующая рРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какова приблизительная скорость сборки иРНК при транскрипции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5 нуклеотидов в секунду",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "20 нуклеотидов в секунду",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "около 50 нуклеотидов в секунду",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "100 нуклеотидов в секунду",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Что происходит на этапе элонгации транскрипции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "присоединение РНК-полимеразы к промотору",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "достраивание цепи РНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "отсоединение готовой иРНК от ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "удаление интронов из пре-иРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что происходит на этапе терминации транскрипции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "начало синтеза иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "продвижение РНК-полимеразы по ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "узнавание стоп-сигнала",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "модификация 5'-конца иРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Чем отличается транскриптон у прокариот от транскриптона у эукариот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "у прокариот транскриптон всегда содержит один ген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "у прокариот транскриптон содержит несколько генов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "у эукариот нет промоторов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "у прокариот транскрипция происходит в цитоплазме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Что такое процессинг иРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез пре-иРНК на матрице ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "модификация пре-иРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трансляция белка на рибосоме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "деградация иРНК после синтеза белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Что такое интроны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кодирующие участки гена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "некодирующие участки в пре-иРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сигнальные последовательности для рибосом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "участки связывания тРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Что такое экзоны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "некодирующие вставки в гене",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кодирующие фрагменты пре-иРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "регуляторные последовательности промотора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "участки терминации транскрипции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Что такое 5'-кэп?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "поли(А)-хвост на 3'-конце иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гуаниновый нуклеотид на 5'-концу пре-иРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "последовательность для связывания рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "метилированный адениловый нуклеотид",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Что такое поли(А)-хвост?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гуаниновый нуклеотид на 5'-конце пре-иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "метилированный адениловый нуклеотид",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "участок связывания тРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сигнал начала трансляции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какова функция 5'-кэпа и поли(А)-хвоста?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кодирование дополнительных аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "помощь в экспорте иРНК из ядра, защита от деградации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "удаление интронов из пре-иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сигнализация о завершении трансляции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Где происходит процессинг пре-иРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в цитоплазме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "на рибосомах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в ядре эукариотической клетки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в эндоплазматическом ретикулуме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Что образуется в результате процессинга пре-иРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пре-тРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "рРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "иРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "пре-рРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Как зрелая иРНК попадает из ядра в цитоплазму?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "путём простой диффузии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "путём активного транспорта с затратой АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "через ядерные поры",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "путём экзоцитоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Что такое полисома?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "комплекс нескольких молекул иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "комплекс рибосом с одной молекулой иРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "группа интронов в пре-иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "комплекс шаперонов для фолдинга белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Что такое трансляция?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез иРНК на матрице ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "процесс сборки белка на рибосоме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "модификация белка после синтеза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "удаление интронов из пре-иРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Где происходит трансляция в эукариотической клетке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "на рибосомах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в митохондриях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в аппарате Гольджи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какова функция тРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "перенос генетической информации от ДНК к рибосоме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "доставка аминокислот к рибосоме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образование структурной основы рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "катализ образования пептидной связи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какую форму имеет молекула тРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "линейную цепь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "двойную спираль",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "«клеверный лист»",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "сферическую",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Что находится на 3'-конце тРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "антикодон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "специфическая аминокислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сигнал для связывания с рибосомой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "участок распознавания кодона",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Что такое антикодон тРНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "последовательность для связывания аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "три нуклеотида в тРНК, комплементарные кодону на иРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сигнал начала трансляции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "участок связывания с рибосомой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Сколько основных этапов включает процесс трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1 этап",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2 этапа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3 этапа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "4 этапа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Что происходит на этапе инициации трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образование пептидной связи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "узнавание старт-кодона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "продвижение рибосомы по иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "отсоединение готового белка от рибосомы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какие три участка (сайта) для связывания тРНК есть на рибосоме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "А, В, С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "А, Р, Е",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "1, 2, 3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "α, β, γ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Что происходит в А-участке рибосомы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "находится инициаторная тРНК с метионином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "поступает новая аминоацил-тРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "находится деацилированная тРНК перед выходом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "происходит отсоединение готового белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Что происходит в Р-участке рибосомы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "поступает новая аминоацил-тРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "находится тРНК с растущей полипептидной цепью",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "деацилирование тРНК перед выходом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "происходит распознавание стоп-кодона",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Что происходит в Е-участке рибосомы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "поступает новая аминоацил-тРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "находится тРНК с растущей полипептидной цепью",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "деацилирование тРНК перед её выходом из рибосомы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "образование пептидной связи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Где катализируется образование пептидной связи при трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в А-участке малой субъединицы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в пептидилтрансферазном центре",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в Е-участке рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в цитоплазме вне рибосомы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Что такое транслокация при трансляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "присоединение аминокислоты к тРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "перемещение пептидил-тРНК на один кодон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "отсоединение готового белка от рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "узнавание стоп-кодона факторами терминации",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Что такое шапероны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ферменты, синтезирующие белки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белки, способствующие правильному фолдингу белков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "регуляторные факторы транскрипции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "компоненты рибосомы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Что такое фолдинг белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез полипептидной цепи на рибосоме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "процесс укладки полипептидной цепи в трехмерную структуру",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "удаление интронов из пре-иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "транспорт белка в нужную часть клетки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Что может произойти при нарушении функции шаперонов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ускорение синтеза белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "формирование белковых отложений",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "повышение точности трансляции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "удаление лишних интронов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Как действует интерферон на трансляцию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "блокирует А-центр рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "активирует протеинкиназы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ингибирует пептидил-трансферазу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает ошибку считывания кодона",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Как действует стрептомицин на трансляцию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "блокирует А-центр рибосомы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вызывает ошибку считывания первого кодона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ингибирует пептидил-трансферазу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "блокирует транслоказу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Как действует тетрациклин на трансляцию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вызывает ошибку считывания кодона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "блокирует А-центр рибосомы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ингибирует пептидил-трансферазу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "блокирует транслоказу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Что может произойти при нарушении функции шаперонов и неправильном фолдинге белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ускорение синтеза белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "формирование белковых отложений",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "повышение точности трансляции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "удаление лишних интронов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Что такое полисома?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "комплекс нескольких молекул иРНК, связанных рибосомой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "комплекс рибосом с одной молекулой иРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "группа интронов в пре-иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "комплекс шаперонов для фолдинга белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какова биологическая роль полисом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "защита иРНК от деградации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "синтез множества копий одного белка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ускорение процессинга пре-иРНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "транспорт иРНК из ядра в цитоплазму",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какая посттрансляционная модификация белка заключается в образовании ковалентных связей между остатками цистеина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфорилирование",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "образование дисульфидных мостиков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гликозилирование",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "метилирование",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Что такое частичный протеолиз как посттрансляционная модификация?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "полное расщепление белка до аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "удаление части пептидной цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "присоединение химических групп к белку",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "объединение протомеров в олигомер",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Что такое олигомерный белок?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белок, состоящий из одной полипептидной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белок, состоящий из нескольких полипептидных цепей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "белок с простетической группой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "белок, подвергшийся частичному протеолизу",
+        "isCorrect": false
+      }
+    ]
+  }
+]

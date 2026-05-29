@@ -1,0 +1,1562 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое витамины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "высокомолекулярные соединения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "низкомолекулярные соединения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "белковые катализаторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "необходимые источники энергии для организма",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Каковы источники витаминов у человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только пища",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "только кишечные бактерии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пища и кишечные бактерии",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "синтез в печени",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Что такое провитамины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "активные формы витаминов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "предшественники витаминов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "разрушенные витамины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтетические аналоги витаминов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Что такое гиповитаминоз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "избыток витаминов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "недостаток витаминов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "полное отсутствие витаминов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "отравление витаминами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Что такое авитаминоз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "недостаток витаминов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "избыток витаминов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "отсутствие витаминов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "нормальное содержание витаминов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Что такое гипервитаминоз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "недостаток витаминов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "избыток витаминов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нормальный уровень витаминов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нарушение всасывания витаминов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какие причины гиповитаминозов относятся к экзогенным?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нарушение всасывания в ЖКТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "недостаток витаминов в пище",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "поражение микрофлоры кишечника",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "врождённые дефекты ферментов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Что такое антивитамины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "активные формы витаминов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вещества, сходные с витаминами, но не обладающие активностью",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "предшественники витаминов, превращающиеся в активные вещества",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "коферментные формы витаминов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какова биологическая роль витамина D?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "участвует в процессе свёртывания крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "является антиоксидантом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "регулирует обмен кальция и фосфора",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "участвует в процессе зрения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какая форма витамина D образуется в коже человека под действием УФ-лучей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эргокальциферол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "холекальциферол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кальцидиол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "холестерол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "На сколько групп делятся витамины по растворимости?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "одна группа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "две группы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "три группы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "четыре группы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какие витамины относятся к водорастворимым?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "витамины A, D, E, K",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "витамины группы B",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "витамины D и E",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "витамины A и K",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какие витамины относятся к жирорастворимым?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "витамины группы B",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "витамин C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "витамины A, D, E, K",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "витамин PP",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какое другое название имеет витамин B₁?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рибофлавин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тиамин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ниацин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пиридоксин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какое физиологическое название имеет витамин B₁?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "витамин роста",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "антиневритный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "антицинготный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "антипеллагрический",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Из каких колец состоит структура тиамина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из двух тиазоловых колец",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из пиримидинового и тиазолового колец",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из двух пиримидиновых колец",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из бензольного и тиазолового колец",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какая форма витамина B₁ является действующей в организме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тиаминдифосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тиаминмонофосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "свободный тиамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какова суточная потребность взрослого человека в витамине B₁?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,5-1 мг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2-3 мг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "5-10 мг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "15-20 мг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какое заболевание развивается при недостатке витамина B₁?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цинга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пеллагра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "бери-бери",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "рахит",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какое другое название имеет витамин B₂?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "рибофлавин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пиридоксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ниацин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "На какой структуре основана структура витамина B₂?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пиримидиновой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изоаллоксазина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тиазоловой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "бензольной",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какие коферменты образуются из рибофлавина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД и НАДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФМН и ФАД",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "КоА и АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ТДФ и ПФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какие клинические проявления характерны для недостаточности рибофлавина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "полиневрит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "конъюктивиты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "цинга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рахит",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какое другое название имеет витамин B₅?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "рибофлавин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пантотеновая кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "пиридоксин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Что означает слово «пантотеновая» в переводе с греческого?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "«малый»",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "«всё» или «весь»",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "«кислый»",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "«основной»",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какая коферментная форма пантотеновой кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кофермент А",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ТДФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какова суточная потребность в пантотеновой кислоте?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,5-1 мг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1-2 мг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3-5 мг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "10-15 мг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какое другое название имеет витамин PP?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пантотеновая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ниацин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "рибофлавин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Из какой аминокислоты может синтезироваться витамин PP в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глицина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аланина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "триптофана",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "лизина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "В состав каких коферментов входит витамин PP?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФМН и ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАД и НАДФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "КоА и АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ТДФ и ПФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какое заболевание развивается при недостатке витамина PP?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цинга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "бери-бери",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пеллагра",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "рахит",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какие три основных признака характерны для пеллагры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дерматит, диарея, депрессия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дерматит, диарея, деменция",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дерматит, дистрофия, деменция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "диарея, диспепсия, деменция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какое другое название имеет витамин B₆?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "рибофлавин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пиридоксин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ниацин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "На какой структуре основана структура витамина B₆?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиазоловом кольце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изоаллоксазине",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пиридиновом кольце",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "пиримидиновом кольце",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какие коферменты образуются из витамина B₆?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФМН и ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАД и НАДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пиридоксальфосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ТДФ и КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Для какого обмена необходим витамин B₆?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "углеводного обмена и синтеза АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белкового обмена и катаболизма аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "липидного обмена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нуклеинового обмена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какое другое название имеет витамин B₉?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кобаламин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фолиевая кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "биотин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пантотеновая кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какое другое название имеет витамин K?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ретинол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "токоферол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "холекальциферол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "филлохинон",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какая активная форма фолиевой кислоты образуется в организме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дигидрофолиевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тетрагидрофолиевая кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "моногидрофолиевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пентагидрофолиевая кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Для переноса каких групп необходима ТГФК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфатных групп",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "одноуглеродных групп",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацильных групп",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аминогрупп",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какая анемия развивается при недостатке фолиевой кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гемолитическая анемия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мегалобластическая анемия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "железодефицитная анемия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "апластическая анемия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какое другое название имеет витамин B₁₂?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фолиевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кобаламин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "биотин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какой металл содержится в витамине B₁₂?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "железо",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "медь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кобальт",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "цинк",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Кто синтезирует витамин B₁₂ в природе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "растения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "животные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "микроорганизмы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "грибы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какова суточная потребность в витамине B₁₂?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1-2 мг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "100-200 мкг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1-2 мкг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "10-20 мкг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какая анемия развивается при недостатке витамина B₁₂?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "железодефицитная анемия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "макроцитарная анемия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гемолитическая анемия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "апластическая анемия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какое другое название имеет витамин C?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ретинол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аскорбиновая кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "токоферол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "филлохинон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "В каких формах существует витамин C?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в форме солей и эфиров",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в восстановленной и окисленной формах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в водорастворимой и жирорастворимой формах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в активной и пассивной формах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "В каких реакциях участвует аскорбиновая кислота?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "реакциях фосфорилирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реакциях гидроксилирования",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "реакциях дегидрирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "реакциях декарбоксилирования",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какое заболевание развивается при недостатке витамина C?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пеллагра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "рахит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "цинга",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "бери-бери",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какое заболевание развивается при недостатке витамина D у детей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цинга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пеллагра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "рахит",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "бери-бери",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какой витамин участвует в процессе свёртывания крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "витамин A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "витамин E",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "витамин D",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "витамин K",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой витамин является биологическим антиоксидантом и препятствует перекисному окислению липидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "витамин A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "витамин D",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "витамин E",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "витамин K",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какой витамин участвует в синтезе коллагена и предотвращает цингу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "витамин A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "витамин D",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "витамин E",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "витамин C",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Почему жирорастворимые витамины могут вызывать токсические эффекты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "они быстро выводятся из организма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "они способны накапливаться",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "они разрушаются при нагревании",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "они не усваиваются в кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какое другое название имеет витамин A?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "токоферол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ретинол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "филлохинон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "холекальциферол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какое физиологическое название имеет витамин A?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "антирахитический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "антигеморрагический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "антиксерофтальмический",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "антистерильный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "В каких продуктах содержится витамин A?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в растительных маслах и орехах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печени, яичном желтке, рыбьем жире",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в цитрусовых и шиповнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в хлебе и крупах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Что такое каротиноиды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "активная форма витамина A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "провитамины A",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "разрушенная форма витамина A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "антагонисты витамина A",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какое заболевание развивается при недостатке витамина A?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рахит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "цинга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "куриная слепота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "пеллагра",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,2342 @@
+[
+  {
+    "id": 1,
+    "title": "Где начинается переваривание липидов в организме человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в ротовой полости",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в двенадцатиперстной кишке",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой фермент слюны может частично гидролизовать жиры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "липаза языка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "трипсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "При каком рН происходит основное переваривание липидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1,5-2,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "4,0-5,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "7,5-8,0",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "9,0-10,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Что такое эмульгирование жиров?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расщепление жиров на жирные кислоты и глицерол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "измельчение крупных капель жира",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез жиров в печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "транспорт жиров в лимфу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Где синтезируются желчные кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в поджелудочной железе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печени",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в желчном пузыре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Из чего синтезируются желчные кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из триацилглицеролов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из холестерола",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из фосфолипидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какие гормоны стимулируют сокращение желчного пузыря?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гастрит и секретин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "холецистокинин и панкреозимин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин и норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин и трийодтиронин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой фермент поджелудочной железы является основным для переваривания жиров?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "липаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "химотрипсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "В какой форме секретируется панкреатическая липаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в активной форме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в неактивной форме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в виде зимогена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в виде кофермента",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Что активирует пролипазу в активную липазу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "колипаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "амилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какие связи расщепляет панкреатическая липаза в триацилглицеролах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "все три сложноэфирные связи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "только связи в положениях sn-1 и sn-3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только связь в положении sn-2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только α-1,6-гликозидные связи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Что образуется при гидролизе триацилглицеролов панкреатической липазой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глицерол и жирные кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2-моноацилглицерол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "диацилглицеролы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфолипиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какой фермент гидролизует эфиры холестерола в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "холестеролоксидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "холестеролэстераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "холестеролтрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "холестеролгидрокисилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что такое мицеллы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "крупные капли жира",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мелкие агрегаты липидов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "белковые комплексы для транспорта липидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ферменты для расщепления жиров",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Где происходит всасывание продуктов переваривания липидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в энтероцитах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в печени",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Как всасываются коротко- и среднецепочечные жирные кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в форме ресинтезированных жиров",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сразу в кровь воротной вены",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в составе лимфатических хиломикронов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "через связывание с желчными мицеллами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Что происходит с длинноцепочечными жирными кислотами и 2-моноацилглицеролами в энтероцитах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "они окисляются до СО₂ и Н₂О",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "они ресинтезируются в триацилглицеролы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "они выводятся из организма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "они превращаются в глюкозу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "В какой форме жирные кислоты активируются перед ресинтезом триацилглицеролов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в виде свободных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в виде ацил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в виде ацилкарнитина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в виде фосфолипидов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой фермент катализирует активацию жирных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацил-КоА-синтетаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "карнитинпальмитоилтрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфолипаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Что необходимо для активации жирных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАДФН и ионы Мг²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "АТФ и КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД и карнитин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только НАД⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "В какой форме липиды транспортируются из энтероцитов в лимфу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в виде свободных жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в виде хиломикронов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в виде мицелл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в виде липопротеинов высокой плотности",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Что такое хиломикроны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ферменты для переваривания жиров",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "частицы, транспортирующие триацилглицеролы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "смешанные мицеллы продуктов переваривания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "продукты гидролиза фосфолипидов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какой аполипопротеин является основным структурным компонентом хиломикронов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "апоА-1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "апоВ-48",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "апоС-2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "апоЕ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Где созревают хиломикроны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в просвете кишечника",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в жировой ткани",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какой фермент гидролизует триацилглицеролы хиломикронов в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "панкреатическая липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "липопротеинлипаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гормоночувствительная липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "печёночная липаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Где локализована липопротеинлипаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в просвете кишечника",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "на поверхности эндотелия капилляров",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в матриксе митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в лизосомах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой аполипопротеин активирует липопротеинлипазу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "апоВ-100",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "апоС-2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "апоА-1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "апоЕ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Что происходит с хиломикронами после гидролиза триацилглицеролов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "полностью разрушаются",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "захватываются печенью",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "превращаются в ЛПВП",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "выводятся с мочой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какой источник липидов поступает в печень из жировой ткани?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "хиломикроны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "свободные жирные кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фосфолипиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эфиры холестерола",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какой гормон стимулирует мобилизацию жиров из жировой ткани?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкагон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тироксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "соматостатин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какой фермент катализирует гидролиз триацилглицеролов в жировой ткани?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "липопротеинлипаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гормоночувствительная липаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "панкреатическая липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфолипаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Как регулируется активность гормоночувствительной липазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аллостерически АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "путём фосфорилирования протеинкиназой А",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "путём дефосфорилирования фосфатазой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "путём протеолиза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Что активирует протеинкиназу А в адипоцитах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аденилатциклаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "цАМФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ионы нвтрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "жирные кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Где происходит окисление жирных кислот в клетке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в матриксе митохондрий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "на эндоплазматическом ретикулуме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "В какой форме жирные кислоты транспортируются в митохондрии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в виде свободных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в виде ацил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в виде ацилкарнитина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в виде триацилглицеролов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какой переносчик необходим для транспорта длинноцепочечных жирных кислот через внутреннюю мембрану митохондрий?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альбумин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "карнитин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "коэнзим А",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какой фермент переносит ацильную группу с КоА на карнитин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацил-КоА-синтетаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "карнитинпальмитоилтрансфераза-1",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "карнитин-ацилкарнитин-транслоказа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "карнитинпальмитоилтрансфераза-2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Где локализована карнитинпальмитоилтрансфераза-1?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "на внутренней мембране митохондрий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в матриксе митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в межмембранном пространстве",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Сколько основных стадий включает β-окисление жирных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2 стадии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3 стадии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "4 стадии",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "5 стадий",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Что образуется на первой стадии β-окисления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-гидроксиацил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "транс-Δ²-еноил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "β-кетоацил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какой кофермент восстанавливается на первой стадии β-окисления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФАД",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАДФ⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиаминпирофосфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Что образуется на второй стадии β-окисления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "еноил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-гидроксиацил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "β-кетоацил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какой фермент катализирует гидратацию двойной связи в β-окислении?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацил-КоА-дегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "еноил-КоА-гидратаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "β-гидроксиацил-КоА-дегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиолаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Что образуется на третьей стадии β-окисления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "еноил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-гидроксиацил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "β-кетоацил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какой кофермент восстанавливается на третьей стадии β-окисления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАД⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАДФ⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "биотин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Что происходит на четвёртой стадии β-окисления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дегидрирование",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гидратация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "окисление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиолитическое расщепление",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какой фермент катализирует тиолитическое расщепление в β-окислении?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацил-КоА-дегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "еноил-КоА-гидратаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "β-гидроксиацил-КоА-дегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "β-кетоацил-КоА-тиолаза",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Сколько молекул ацетил-КоА образуется при полном β-окислении пальмитиновой кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "9",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Сколько циклов β-окисления требуется для полного окисления пальмитиновой кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "9",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Сколько молекул АТФ образуется при окислении одного НАДН в дыхательной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Сколько молекул АТФ образуется при окислении одного ФАДН₂ в дыхательной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Сколько молекул АТФ образуется при полном окислении одной молекулы ацетил-КоА в ЦТК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "10",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "12",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Каков чистый выход АТФ при полном окислении пальмитиновой кислоты (С16)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "110 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "120 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "108 АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "130 АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Что такое α-окисление жирных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "окисление по ω-концу цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Укорочение цепи на один углерод у α-атома",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "классическое β-окисление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "окисление только ненасыщенных жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "В каких тканях особенно важно α-окисление жирных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в печени и мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в мозговой ткани",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только в жировой ткани",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только в почках",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Что такое ω-окисление жирных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "окисление по β-положению",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "окисление с отщеплением ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "окисление по метильному (ω-) концу цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "окисление только насыщенных жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Где происходит ω-окисление жирных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в митохондриях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в ЭПР",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в лизосомах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Кетоновыми телами называют?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "продукты β-окисления жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетоацетат, β-гидроксибутират и ацетон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "промежуточные продукты ЦТК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "продукты синтеза холестерола",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Где синтезируются кетоновые тела?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в жировой ткани",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в печени",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в мозге",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "При каких условиях усиливается кетогенез?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "после приёма углеводной пищи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "при голодании и сахарном диабете",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "при избытке инсулина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "при высокой концентрации глюкозы в крови",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Что такое энтерогепатическая циркуляция желчных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез желчных кислот в кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "перенос желчных кислот из кишечника обратно в печень",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "выведение желчных кислот с калом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "превращение желчных кислот в холестерин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Где происходит основная реабсорбция желчных кислот при энтерогепатической циркуляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в двенадцатиперстной кишке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в подвздошной кишке",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Сколько раз в сутки желчные кислоты циркулируют между печенью и кишечником в норме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1-2 раза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3-5 раз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "6-10 раз",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "15-20 раз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Какой процент желчных кислот обычно теряется с калом и должен восполняться за счёт синтеза в печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1-2%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5-10%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "20-30%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "50%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Что происходит при нарушении энтерогепатической циркуляции желчных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "усиливается переваривание жиров",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "развивается стеаторея («жирный стул»)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "увеличивается синтез холестерина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "улучшается всасывание жирорастворимых витаминов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Какая причина может привести к нарушению переваривания липидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "избыток панкреатической липазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нарушение поступления желчи в кишечник",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "усиленная энтерогепатическая циркуляция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "избыток желчных кислот в кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Что такое стеаторея?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нарушение переваривания белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышенное содержание глюкозы в кале",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "повышенное содержание непереваренных жиров в кале",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "отсутствие кала",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Какие витамины плохо всасываются при нарушении переваривания и всасывания липидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "водорастворимые витамины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "жирорастворимые витамины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только витамин С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "все витамины одинаково",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Что происходит с желчными кислотами в кишечнике под действием бактериальной флоры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "они превращаются в холестерин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "они превращаются во вторичные желчные кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "они полностью разрушаются",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "они превращаются в триацилглицеролы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Какой липопротеин считается наиболее атерогенным (способствующим развитию атеросклероза)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "хиломикроны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ЛПВП (липопротеины высокой плотности)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ЛПНП (липопротеины низкой плотности)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ЛПОНП (липопротеины очень низкой плотности)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Что такое кетоз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышение уровня глюкозы в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "накопление кетоновых тел в крови и тканях",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "снижение уровня холестерина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нарушение всасывания жиров",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "При каком состоянии развивается кетоацидоз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "после приёма углеводной пищи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "при длительном голодании",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "при избытке инсулина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "при нормальном уровне глюкозы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Какой показатель крови используется для оценки риска развития атеросклероза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "уровень глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "соотношение ЛПНП/ЛПВП",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "уровень билирубина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "концентрация мочевины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Что такое кетоновые тела?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "продукты гликолиза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетоацетат, β-гидроксибутират",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетил-КоА и ацилкарнитин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "производные холестерина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "В каком органе преимущественно синтезируются кетоновые тела?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в скелетных мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в жировой ткани",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в печени",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в головном мозге",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Где в клетке происходит биосинтез кетоновых тел?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в матриксе митохондрий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "на внутренней мембране митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в ядре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Какой основной субстрат служит предшественником для синтеза кетоновых тел?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глицерол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "оксалоацетат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Какой фермент является ключевым и лимитирующим в синтезе кетоновых тел?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетил-КоА-карбоксилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ГМГ-КоА-синтаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "липопротеинлипаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сукцинил-КоА-тиокиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Почему печень не может окислять кетоновые тела?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3-гидроксибутиратдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетоацетил-КоА-тиолаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ацетоацетат-КоА-трансфераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ГМГ-КоА-лиаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "В каких тканях происходит окисление (утилизация) кетоновых тел?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только в печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в эритроцитах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в скелетных мышцах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в жировой ткани",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "При каком физиологическом состоянии усиливается кетогенез?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "после приёма углеводной пищи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "при длительном голодании",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в период активного роста",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "при гиперинсулинемии",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Какой продукт является непосредственным предшественником ацетоацетата в реакции, катализируемой ГМГ-КоА-лиазой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-гидрокси-β-метилглутарил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сукцинил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "малонил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Какое вещество образуется при спонтанном декарбоксилировании ацетоацетата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-гидроксибутират",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "CO₂ и H₂O",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Почему при голодании мозг начинает использовать кетоновые тела?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что глюкоза становится токсичной",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потому что служат альтернативным источником энергии",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что в мозге усиливается гликолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что кетоновые тела стимулируют синтез нейромедиаторов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Какой кофермент восстанавливается при превращении ацетоацетата в β-гидроксибутират?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАДН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАДФН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиаминпирофосфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Какие соединения накапливаются в крови при выраженном кетоацидозе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аммиак и орнитат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетоацетат и β-гидроксибутират",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетил-КоА и ацилкарнитин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "жирные кислоты и глицерол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Какой запах изо рта характерен для пациента с кетоацидозом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гнилостный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аммиачный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "отсутствует",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Почему кетоновые тела считаются удобной формой транспорта энергии в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что они синтезируются в воде",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потому что они транспортируются без связывания с белками",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что они содержат много гидроксильных групп",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что они распадаются до CO₂ и H₂O ещё в крови",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Какой фермент катализирует обратимое превращение ацетоацетата в β-гидроксибутират?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетоацетил-КоА-тиолаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-гидроксибутиратдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ГМГ-КоА-синтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сукцинатдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Что является основной биологической ролью кетоновых тел в организме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез холестерина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "регуляция уровня инсулина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "обеспечение энергией периферических тканей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "участие в синтезе желчных кислот",
+        "isCorrect": false
+      }
+    ]
+  }
+]

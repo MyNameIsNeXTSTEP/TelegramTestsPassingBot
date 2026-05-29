@@ -1,0 +1,1562 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое углеводы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белковые соединения, состоящие из аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "альдегидные или кетонные производные многоатомных спиртов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сложные эфиры высших жирных кислот и трехатомного спирта глицерина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "длинные полимерные цепи, состоящие из нуклеотидов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какова общая формула углеводов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "CₙH₂ₙOₙ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Cₙ(H₂O)ₘ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "CₙH₂ₙ₊₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "CₙH₂ₙO₂",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какую основную функцию выполняют углеводы в организме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "структурную",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "защитную",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "энергетическую",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "транспортную",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "На какие группы делятся углеводы по способности к гидролизу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "простые и сложные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "моносахариды, полисахариды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "альдозы и кетозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "растворимые и нерастворимые",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Сколько атомов углерода содержится в гексозах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "6",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какая из перечисленных аминокислот является кетозой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фруктоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "галактоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рибоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "В какой конфигурации находятся моносахариды в организме млекопитающих?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в L-конфигурации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в D-конфигурации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в обеих конфигурациях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "не имеют конфигурации",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какая аминокислота не имеет асимметричного α-углеродного атома?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глицин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "валин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лейцин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Что такое мутаротация?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "переход сахаров из D-ряда в L-ряд",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "взаимопревращение α- и β-аномеров",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "превращение глюкозы во фруктозу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "окисление глюкозы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какой тип связи соединяет моносахариды в олиго- и полисахаридах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пептидная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сложноэфирная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гликозидная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "дисульфидная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой дисахарид состоит из двух остатков глюкозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахароза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мальтоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "целлюлоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Из каких моносахаридов состоит сахароза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкоза + галактоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкоза + фруктоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкоза + глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фруктоза + галактоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какой дисахарид содержится в молоке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мальтоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сахароза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лактоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "целлобиоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какой полисахарид является основным резервным углеводом у животных и человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "крахмал",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "целлюлоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гликоген",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "хитин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Где в организме человека содержится наибольшее количество гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в сердце и почках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печени и мышцах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в мозге и лёгких",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в коже и костях",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какими связями соединены остатки глюкозы в линейных цепях крахмала и гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-(1→4)-гликозидными",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-(1→4)-гликозидными",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "α-(1→6)-гликозидными",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "β-(1→6)-гликозидными",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "В каких точках гликогена и амилопектина образуются ветвления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-(1→2)-связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-(1→3)-связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "α-(1→6)-связями",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "β-(1→4)-связями",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какой полисахарид является основным структурным компонентом клеточной стенки растений?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "крахмал",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликоген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "целлюлоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "хитин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какими связями соединены остатки глюкозы в молекуле целлюлозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-(1→4)-гликозидными",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-(1→4)-гликозидными",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "α-(1→6)-гликозидными",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "β-(1→6)-гликозидными",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какой полисахарид входит в состав наружного скелета членистоногих?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "целлюлоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликоген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "крахмал",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "хитин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какой тип связи соединяет моносахариды в дисахаридах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пептидная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сложноэфирная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гликозидная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "дисульфидная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой дисахарид состоит из двух остатков глюкозы, соединённых α-(1→4)-связью?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахароза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мальтоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "целлюлоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какой дисахарид состоит из двух остатков глюкозы, соединённых α-(1→6)-связью?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахароза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "изомальтоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "целлюлоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какая из перечисленных аминокислот является триозой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "диацилглицерол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "эритроза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "галактоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рибоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "К какой группе углеводов относится глюкоза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дисахариды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "полисахариды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "моносахариды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "олигосахариды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "К какой группе углеводов относится гликоген?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дисахариды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "моносахариды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "полисахариды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "олигосахариды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "К какой группе углеводов относится гиалуроновая кислота?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дисахариды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "моносахариды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "полисахариды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "олигосахариды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Что такое эпимеры моносахаридов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "изомеры, отличающиеся положением карбонильной группы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стереоизомеры с различием в одном С-атоме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "зеркальные изомеры (D- и L-формы)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "циклические и линейные формы одного сахара",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какая форма глюкозы преобладает в водном растворе при физиологических условиях?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "открытая альдегидная форма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "циклическая форма",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фуранозная форма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кетонная форма",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Что такое гликозидная связь?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "связь между двумя карбоксильными группами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "связь между атомом углерода и OH группой моносахаридов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "водородная связь между двумя моносахаридами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ионная связь в полисахаридах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Почему сахароза не является восстанавливающим сахаром?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что она состоит из двух кетоз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потому что аномерные центры заняты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что она имеет β-(1→2)-связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что она нерастворима в воде",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какой фермент расщепляет сахарозу в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лактаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мальтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сахараза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "амилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Почему лактоза плохо усваивается у некоторых взрослых людей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из-за избытка лактазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из-за снижения лактазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из-за отсутствия рецепторов к лактозе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из-за быстрого расщепления лактозы в желудке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какой дисахарид образуется при частичном гидролизе крахмала?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахароза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мальтоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "целлобиоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какая гликозидная связь характерна для лактозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-(1→4)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-(1→4)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "α-(1→6)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "β-(1→2)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "В чём основное структурное отличие амилозы от амилопектина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилоза содержит фруктозу, амилопектин – глюкозу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "амилоза имеет линейную структуру, амилопектин – разветвлённую",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "амилоза растворима в воде, амилопектин – нет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "амилоза синтезируется в печени, амилопектин – в растениях",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какую функцию выполняет гиалуроновая кислота в организме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "энергетическую",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "структурную",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "транспортную",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "регуляторную",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Почему гепарин обладает антикоагулянтным действием?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что он связывает кальций",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потому что он активирует антитромбин III",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что он расщепляет фибрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что он блокирует синтез протромбина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какой полисахарид входит в состав клеточной стенки грибов и экзоскелета членистоногих?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "целлюлоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликоген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "хитин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "пектин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Почему декстрины образуются при частичном гидролизе крахмала?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "они являются конечными продуктами гидролиза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-амилаза не может расщепить связи вблизи точек ветвления",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "декстрины более устойчивы к ферментам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "декстрины имеют β-конфигурацию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Как определяется принадлежность моносахарида к D- или L-ряду?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "по конфигурации первого асимметричного атома углерода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "по конфигурации последнего асимметрического атома углерода",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "по количеству атомов кислорода в цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "по наличию кетонной или альдегидной группы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Как называются альдозы, отличающиеся конфигурацией лишь у одного асимметрического атома углерода, соседнего с карбонильной группой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аномеры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "энантиомеры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "эпимеры",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "диастереомеры",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "В каком состоянии находятся моносахариды в кристаллическом виде?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в открытой оксоформе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в циклическом строении",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в виде полимеров",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в полностью ионизированной форме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какие изомеры образуются при замыкании кольца глюкозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "D- и L-изомеры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α- и β-аномеры",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "эпимеры и энантиомеры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пираноза и фураноза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Где располагается ОН-группа у α-D-глюкозы относительно плоскости кольца?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "над плоскостью кольца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ниже плоскости кольца",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в плоскости кольца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в произвольном положении",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Где располагается ОН-группа у β -D-глюкозы относительно плоскости кольца?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "над плоскостью кольца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "выше плоскости кольца",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в плоскости кольца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в произвольном положении",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "На какие две группы делятся полисахариды по типу входящих в их состав мономеров?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "структурные и резервные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гомополисахариды и гетерополисахариды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "линейные и разветвлённые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "растворимые и нерастворимые",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Из каких двух компонентов состоит крахмал?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "целлюлоза и гликоген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "амилоза и амилопектин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкоза и фруктоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "хитин и пектин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какими связями соединены остатки глюкозы в линейных участках амилозы и амилопектина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-(1→4)-связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-(1→6)-связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "α-(1→4)-связями",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "β-(1→6)-связями",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какими связями образуются точки ветвления в амилопектине?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-(1→4)-связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-(1→4)-связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "α-(1→6)-связями",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "β-(1→6)-связями",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "В каких тканях содержится наибольшее количество гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в головном мозге и сердце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печени и скелетных мышцах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в почках и лёгких",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в жировой ткани и коже",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какие типы связей присутствуют в молекуле гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только β-(1→4)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-(1→4) и α-(1→6)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только α-(1→6)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "α-(1→4) и β-(1→4)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой полисахарид является наиболее распространённым структурным компонентом растительного мира?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "крахмал",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликоген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "целлюлоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "хитин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "В какой форме находятся глюкозные остатки в молекуле целлюлозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-пиранозная форма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-пиранозная форма",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "α-фуранозная форма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "β-фуранозная форма",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какими связями соединены мономеры в линейной цепи целлюлозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-(1→4)-связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-(1→6)-связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "β-(1→4)-связями",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "β-(1→6)-связями",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "К какому классу соединений относятся хондроитинсульфаты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гомополисахариды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликозаминогликаны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "резервные полисахариды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фруктаны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какую основную функцию выполняет гиалуроновая кислота в синовиальной жидкости?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обеспечение проницаемости синовиальной мембраны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "биологической смазки суставов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "поддержание осмотического давления внутри суставной сумки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "обеспечение иммунной защиты суставных тканей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Что представляет собой молекула гепарина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "простой полисахарид из остатков глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "полисахаридные цепи, связанные с общим ядром",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "стероидный комплекс с холестерином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сильно разветвлённый аналог крахмала",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какие аминокислоты преимущественно входят в состав белкового ядра гепарина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лизин и аргинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "серин и глицин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аланин и валин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глутамат и аспартат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Из каких мономерных звеньев состоит структура хитина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "остатки D-глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "остатки N-ацетил-D-глюкозамина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "остатки галактозы и маннозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "остатки глюкозаминовой кислоты",
+        "isCorrect": false
+      }
+    ]
+  }
+]

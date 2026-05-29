@@ -1,0 +1,912 @@
+[
+  {
+    "id": 1,
+    "title": "Кто впервые описал лимфатические сосуды как «млечные сосуды» брыжейки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Гаспаре Азелли",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Марчелло Мальпиги",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Уильям Гарвей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Жан Пеке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой метод используется для визуализации лимфатических узлов при онкологических заболеваниях?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ангиография",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лимфосцинтиграфия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "лимфография с контрастом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "УЗИ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Кто открыл грудной проток и описал его впадение в левый венозный угол?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Томас Бартолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Олаф Рудбек",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Жан Пеке",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Гаспаре Азелли",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой метод позволяет измерить давление в лимфатических сосудах in vivo?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сфигмография",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "флебография",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "микроканюляция и микроманометрия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "плетизмография",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Кто доказал наличие собственной ритмической сократительной активности лимфангионов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "У. Гарвей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Г. Азелли",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Р.С. Орлов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "К. Бернар",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой метод используется для оценки сократительной способности лимфангионов в эксперименте?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ЭКГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сфигмография",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "изолированный лимфангион с тензометрией",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Кто впервые применил рентгеноконтрастную лимфографию у человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Ж. Пеке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Г. Азелли",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "М. Мальпиги",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ж. Кинмонт",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой метод позволяет визуализировать лимфатические капилляры в живом организме (в эксперименте)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "УЗИ с допплером",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "МРТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "прижизненная микроскопия с флуоресцентными красителями",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "КТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какова основная функция лимфатической системы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "возврат белка и избытка воды из интерстиция в кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "транспорт O₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "свёртывание крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "выработка эритроцитов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какой объём лимфы образуется за сутки у взрослого человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,1–0,5 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1,5–3 л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "5–10 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,5–1 л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Что такое «лимфангион»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "участок лимфатического сосуда между двумя клапанами, обладающий автоматией",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "лимфатический узел",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "грудной проток",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "капилляр",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Где расположен грудной проток?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "впадает в правый венозный угол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "впадает в верхнюю полую вену",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "впадает в левый венозный угол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "впадает в нижнюю полую вену",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какое давление в лимфатических капиллярах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "выше атмосферного",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ниже атмосферного",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "равно атмосферному",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пульсирует",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какой фактор не способствует движению лимфы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сокращение лимфангионов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пульсация артерий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сокращение скелетных мышц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "расслабление лимфангионов",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какие клетки преобладают в лимфе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эритроциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нейтрофилы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тромбоциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лимфоциты",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какой белок плазмы крови отсутствует в лимфе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альбумины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глобулины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фибриноген",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "все присутствуют",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какова роль лимфатических узлов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образование лимфоцитов, иммунная защита",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "фильтрация крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "выработка эритропоэтина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтез гормонов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какое влияние на лимфоток оказывает симпатическая нервная система?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тормозит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "вызывает обратный ток",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "усиливает",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какова скорость тока лимфы по грудному протоку?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,01–0,02 мл/мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1–2 мл/мин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10–20 мл/мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "50 мл/мин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Где наиболее развита лимфатическая сеть?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в головном мозге",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печени, тонком кишечнике",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в костях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в хрящах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Что происходит с лимфой в лимфатических узлах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "превращается в кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "теряет белок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "очищается от бактерий, обогащается лимфоцитами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "насыщается O₂",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой проток собирает лимфу от правой верхней конечности и правой половины головы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "грудной проток",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "правый лимфатический проток",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кишечный ствол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "яремный ствол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какой фактор способствует образованию лимфы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фильтрационное давление в капиллярах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "активный транспорт",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сокращение лимфангионов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только осмос",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какое вещество в основном транспортируется лимфой из кишечника?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "жиры (хиломикроны)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "витамины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какой процент белка возвращается в кровь через лимфу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "30–50%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "80%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "100%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какой отдел лимфатической системы обладает пейсмекерной активностью?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лимфангион",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "лимфатический капилляр",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лимфатический узел",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "грудной проток",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой медиатор усиливает сокращения лимфангионов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетилхолин (в малых дозах)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "норадреналин (через α-рецепторы)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гистамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какой фактор не влияет на лимфоток?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пульсация артерий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сокращение скелетных мышц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "артериальное давление",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "дыхательные движения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какое давление в грудном протоке в норме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5–10 мм рт. ст.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "20–30 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "–5 мм рт. ст.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какая структура лимфатического сосуда предотвращает обратный ток лимфы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "клапаны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гладкие мышцы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "эндотелий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "адвентиция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Где отсутствуют лимфатические капилляры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в головном мозге, хрящах, роговице",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в коже",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в лёгких",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какова роль лимфоцитов в лимфе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "транспорт кислорода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "свёртывание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "питание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "иммунная защита",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какой процесс происходит в лимфатических узлах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "антигензависимая дифференцировка лимфоцитов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "фильтрация крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "синтез эритропоэтина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "выработка желчи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какова скорость лимфотока в капиллярах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "очень быстрая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "медленная (0,01–0,02 мм/с)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "такая же, как в венах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пульсирующая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какой объём лимфы возвращается в кровь за сутки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,5–1 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2–4 л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "20 л",
+        "isCorrect": false
+      }
+    ]
+  }
+]

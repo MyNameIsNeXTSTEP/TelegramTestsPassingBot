@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "title": "Что является основным источником нуклеопротеинов в питании человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "растительные продукты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мясо, субпродукты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "молочные продукты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "углеводные продукты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой фермент желудка участвует в начальном расщеплении нуклеопротеинов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пепсин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "трипсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Что образуется при действии соляной кислоты и пепсина на нуклеопротеины в желудке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нуклеиновые кислоты и белки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только нуклеотиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только пуриновые основания",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Где происходит основное переваривание нуклеиновых кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в тонком кишечнике",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в ротовой полости",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какие ферменты поджелудочной железы расщепляют нуклеиновые кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "протеазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "липазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нуклеазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "амилазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Что такое рибонуклеаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фермент, расщепляющий ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фермент, расщепляющий РНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фермент, синтезирующий РНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фермент, фосфорилирующий нуклеотиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Что такое дезоксирибонуклеаз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фермент, расщепляющий РНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фермент, расщепляющий ДНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фермент, синтезирующий ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фермент, декарбоксилирующий нуклеотиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какие продукты образуются при действии панкреатических нуклеаз на нуклеиновые кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только свободные основания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "олигонуклеотиды и динуклеотиды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нуклеозиды и фосфорный остаток",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "азотистые основания и пентоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какой фермент расщепляет олигонуклеотиды до мононуклеотидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нуклеаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "полинуклеотидаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нуклеозидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ксантиноксидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Что образуется при гидролизе нуклеотидов под действием нуклеотидаз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "азотистые основания и пентозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нуклеозиды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "олигонуклеотиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аминокислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой фермент расщепляет нуклеозиды на основания и пентозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нуклеотидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нуклеозидаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ксантиноксидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфатаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Куда поступают нуклеозиды после всасывания в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сразу в большой круг кровообращения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печень через воротную вену",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в лимфатическую систему",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в жировую ткань",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какой фермент в энтероцитах превращает пуриновые основания в мочевую кислоту?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аденин-дезаминаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ксантиноксидаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гуанин-дезаминаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "уриказа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что происходит с пиримидиновыми основаниями, не успевшими всосаться в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "они выводятся в неизменном виде",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "они расщепляются микрофлорой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "они превращаются в пурины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "они всасываются в толстом кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Выполняют ли нуклеиновые кислоты пищи роль непосредственных предшественников нуклеиновых кислот тканей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "да, полностью",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "практически нет",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только пуриновые нуклеиновые кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только пиримидиновые нуклеиновые кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "На какие два типа делятся нуклеазы по специфичности действия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "протеазы и липазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "рибонуклеазы и дезоксирибонуклеазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "эндо- и экзонуклеазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтетазы и гидролазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Что катализирует ДНК-аза I?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "парные разрывы обеих цепей ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "разрыв связей в одной цепи ДНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез новой цепи ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфорилирование нуклеотидов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Что катализирует ДНК-аза II?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "разрыв связей в одной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "разрывы связей обеих цепей ДНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез РНК на матрице ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "декарбоксилирование нуклеотидов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Что такое экзонуклеазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ферменты, расщепляющие внутренние связи в нуклеиновых кислотах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ферменты, отщепляющие концевые нуклеотиды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ферменты, синтезирующие нуклеиновые кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ферменты, фосфорилирующие нуклеозиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Что образуется при гидролизе нуклеозидов нуклеозидазой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нуклеотиды и вода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "азотистое основание и пентоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аминокислоты и фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "олигонуклеотиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "С чего начинается катаболизм большинства аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "с декарбоксилирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с отщепления α-аминогруппы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "с окисления углеводородного радикала",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "с гидролиза пептидной связи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Что такое трансаминирование пуриновых нуклеотидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "реакция окислительного дезаминирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реакция переноса аминогруппы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "реакция декарбоксилирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "реакция гидролиза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какой кофермент необходим для работы аминотрансфераз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиаминпирофосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пиридоксальфосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "биотин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кофермент А",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "В результате дезаминирования аденина образуется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ксантин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гипоксантин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мочевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аллантоин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "В результате дезаминирования гуанина образуется:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипоксантин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ксантин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мочевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аллантоин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какой конечный продукт образуется при катаболизме пуриновых нуклеотидов у человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аллантоин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мочевина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мочевая кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "β-аланин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Что образуется при дезаминировании цитозина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тимин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "урацил",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ксантин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гипоксантин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Что образуется в результате восстановления и гидролиза урацила?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-аминоизобутират",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-аланин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мочевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аллантоин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Что образуется в результате восстановления и гидролиза тимина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-аминоизобутират",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мочевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гипоксантин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Где в клетке происходит биосинтез пуриновых нуклеотидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в митохондриях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в цитоплазме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в лизосомах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "На чём происходит сборка пуринового кольца при биосинтезе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "на молекуле глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "на молекуле рибозо-5-фосфата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "на молекуле АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "на молекуле глутамина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какой ключевой предшественник необходим для синтеза пуриновых нуклеотидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкозо-6-фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФРПФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фруктозо-1,6-бисфосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пируват",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какая аминокислота поставляет основную часть каркаса пуринового кольца?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глутамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аспартат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "глицин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "серин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какие соединения являются источниками азота для синтеза пуринового кольца?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только глицин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глутамин и аспартат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "валин и лейцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аланин и серин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Что является источником углерода для синтеза пуринового кольца?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "СО₂",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Что поставляют производные тетрагидрофолата (ТГФ) для синтеза пуринового кольца?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "атомы азота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "одноуглеродные фрагменты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "атомы кислорода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфатные группы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какой нуклеотид является предшественником всех пиримидиновых нуклеотидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АМФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ГМФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "УМФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ЦМФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Из чего образуется карбамоилфосфат на начальной стадии синтеза пиримидинов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из глюкозы и АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из NH₃ и СО₂",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из пирувата и НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из ацетил-КоА и оксалоацетата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "С какой аминокислотой реагирует карбамоилфосфат при синтезе пиримидинов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глицином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аспартатом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глутаматом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "серином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Что образуется в результате циклизации и окисления карбамоиласпартата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цитозин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "оротовая кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "урацил",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тимин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Что присоединяется к оротовой кислоте для образования ОМФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкозо-6-фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФРПФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аспартат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глутамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Что образуется при декарбоксилировании ОМФ (оротидин-5'-монофосфата)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ЦМФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "УМФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "АМФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ГМФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Из какого нуклеотида образуется ЦТФ (цитидинтрифосфат)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из УТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из ГТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из ТТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какой фермент катализирует превращение dУДФ в тимидиловый нуклеотид?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "уридилатсинтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тимидилатсинтаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "рибонуклеотидредуктаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ДНК-полимераза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Что является донором метильной группы при синтезе ТМФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метионин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "N⁵,N¹⁰-метилен-ТГФК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пируват",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Почему в составе ДНК нет уридиловых нуклеотидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что урацил нестабилен",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потому что в ДНК урацил заменен на тимин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что урацил токсичен",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что урацил не синтезируется в клетке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какой фермент катализирует образование карбамоилфосфата для синтеза пиримидинов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "карбамоилфосфатсинтетаза-1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "карбамоилфосфатсинтетаза-2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "орнитинтранскарбамоилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аргиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Где локализована карбамоилфосфатсинтетаза-2, участвующая в синтезе пиримидинов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в матриксе митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в цитоплазме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "на эндоплазматическом ретикулуме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Чем отличается карбамоилфосфатсинтетаза-1 от карбамоилфосфатсинтетазы-2?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "они идентичны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "КФС-1 участвует в орнитиновом цикле, КФС-2 – в синтезе пиримидинов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "КФС-1 использует глутамин, КФС-2 – аммиак",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "КФС-1 находится в цитоплазме, КФС-2 – в митохондриях",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Что происходит с пентозами, образовавшимися при распаде нуклеиновых кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "они выводятся с мочой в неизменном виде",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "они окисляются до СО₂ и Н₂О",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "они превращаются в жирные кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "они используются для синтеза гликогена",
+        "isCorrect": false
+      }
+    ]
+  }
+]

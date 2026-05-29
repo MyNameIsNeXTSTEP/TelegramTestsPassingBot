@@ -1,0 +1,1510 @@
+[
+  {
+    "id": 1,
+    "title": "Какие гормоны по химической природе относятся к стероидам?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин, глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кортикоиды, половые гормоны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин, норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин, трийодтиронин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой гормон передней доли гипофиза стимулирует секрецию гормонов щитовидной железы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АКТГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ТТГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "СТГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ФСГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какой гормон гипоталамуса стимулирует секрецию АКТГ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "соматостатин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кортиколиберин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тиреолиберин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пролактинингибирующий фактор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какое действие на организм оказывает соматотропный гормон (СТГ) в детском возрасте?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стимулирует рост",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "регулирует половое созревание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "влияет на углеводный обмен",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стимулирует лактацию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какой гормон задней доли гипофиза вызывает реабсорбцию воды в почках?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "окситоцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вазопрессин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пролактин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "меланоцитостимулирующий гормон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какое заболевание развивается при недостаточности вазопрессина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахарный диабет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "несахарный диабет",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "акромегалия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "микседема",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какой гормон щитовидной железы является наиболее активным?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тироксин (Т4)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трийодтиронин (Т3)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тиреокальцитонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиреоглобулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какое влияние оказывают тиреоидные гормоны на основной обмен?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижают",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышают",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияют",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала повышают, затем снижают",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какой гормон щитовидной железы участвует в регуляции кальциевого обмена, снижая уровень Ca2+ в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тироксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тиреокальцитонин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трийодтиронин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиреоглобулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какой гормон паращитовидных желез повышает уровень Ca2+ в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "паратгормон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "кальцитонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кальцитриол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какие клетки поджелудочной железы секретируют инсулин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-клетки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "δ-клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "РР-клетки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какое действие на уровень глюкозы в крови оказывает глюкагон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышает",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала повышает, затем снижает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какие клетки коры надпочечников секретируют глюкокортикоиды (кортизол)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "клубочковая зона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пучковая зона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сетчатая зона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мозговой слой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какое действие на иммунную систему оказывают глюкокортикоиды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стимулируют",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "подавляют",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияют",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стимулируют выработку антител",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какой гормин коры надпочечников регулирует водно-солевой обмен (реабсорбцию Na+)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кортизол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "альдостерон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дегидроэпиандростерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "адреналин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какое влияние на артериальное давление оказывает альдостерон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышает",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "снижает, затем повышает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какой фермент, выделяемый почками, запускает ренин-ангиотензиновую систему?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ангиотензиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ренин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "урокиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эритропоэтин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какой гормон мозгового слоя надпочечников стимулирует расщепление гликогена в печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "адреналин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дофамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кортизол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какие половые гормоны преобладают у мужчин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эстрогены",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "андрогены",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "прогестерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пролактин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какой гормон желтого тела яичника подготавливает эндометрий к имплантации и поддерживает беременность?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эстрадиол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "прогестерон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "эстрон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фолликулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какой гормон эпифиза подавляет секрецию гонадотропинов и сдерживает половое созревание?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мелатонин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гистамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "адреногломерулотропин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой гормон тимуса стимулирует дифференцировку Т-лимфоцитов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тимозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тироксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кальцитонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "паратгормон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какое влияние на синтез белка оказывает инсулин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тормозит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимулирует",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стимулирует распад",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какой гормон поджелудочной железы подавляет секрецию инсулина и глюкагона (паракринно)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "панкреатический полипептид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "соматостатин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "амилин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "грелин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какое влияние на уровень глюкозы в крови оказывают глюкокортикоиды (кортизол)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижают (гипогликемия)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышают (глюконеогенез)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияют",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала снижают, затем повышают",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какой витамин необходим для синтеза стероидных гормонов в коре надпочечников?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "витамин А",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "витамин С",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "витамин D",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "витамин В12",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой гормон активирует остеокласты и повышает уровень Ca2+ в крови (вместе с паратгормоном)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кальцитонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кальцитриол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тироксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "инсулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какое действие на уровень Ca2+ в крови оказывает кальцитонин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "снижает",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала снижает, затем повышает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какой гормон передней доли гипофиза стимулирует овуляцию и образование жёлтого тела?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФСГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ЛГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пролактин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "СТГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какой гормон передней доли гипофиза стимулирует рост фолликулов в яичниках и сперматогенез?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФСГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ЛГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пролактин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АКТГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какое влияние на уровень глюкозы в крови оказывает адреналин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышает",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала повышает, затем снижает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какой гормон гипоталамуса тормозит секрецию пролактина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "соматолиберин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дофамин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тиреолиберин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кортиколиберин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какой гормон передней доли гипофиза стимулирует лактацию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "СТГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пролактин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФСГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ЛГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какое влияние на уровень натрия в крови оказывает альдостерон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижает (увеличивает выведение)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышает (увеличивает реабсорбцию)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала повышает, затем снижает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какой гормон вырабатывается в юкстагломерулярном аппарате почек?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ангиотензин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ренин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "эритропоэтин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кальцитриол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какое влияние на секрецию инсулина оказывает блуждающий нерв?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тормозит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимулирует",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает апоптоз β-клеток",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какое влияние на белковый обмен оказывают андрогены (тестостерон)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "катаболическое (распад)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "анаболическое (синтез белка)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияют",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тормозят синтез белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какой гормон обеспечивает сокращение матки во время родов и выделение молока?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пролактин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "окситоцин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "эстрадиол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "прогестерон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какое влияние на тонус миометрия оказывает прогестерон во время беременности?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "снижает (расслабление)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает гипертонус",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какая железа внутренней секреции уменьшается (инволюционирует) после полового созревания?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипофиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тимус (вилочковая железа)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "щитовидная железа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "надпочечники",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какой гормон поджелудочной железы называют «гормоном голода»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкагон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "соматостатин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "панкреатический полипептид",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какое влияние на аппетит оказывает грелин (вырабатывается в желудке)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "подавляет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимулирует",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только на жажду",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какой гормон жировой ткани сигнализирует в гипоталамус о насыщении?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "грелин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лептин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адипонектин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "резистин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какое действие на синтез гликогена в печени оказывает инсулин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тормозит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимулирует",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стимулирует распад гликогена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какой гормон щитовидной железы не содержит йода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тироксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тиреокальцитонин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трийодтиронин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиреоглобулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какое влияние на функцию щитовидной железы оказывает ТТГ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тормозит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимулирует",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает атрофию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какой гормон гипофиза называют «тропным» (действует на другую эндокринную железу)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АКТГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "пролактин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "вазопрессин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "окситоцин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какое влияние на уровень K+ в крови оказывает альдостерон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "снижает",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала снижает, затем повышает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какой гормон участвует в механизмах стресса («стресс-реакция»)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кортизол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кальцитонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "паратгормон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какое влияние на уровень Ca2+ в крови оказывает паратгормон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышает",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала повышает, затем снижает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какой гормон вырабатывается в S-клетках желудка и стимулирует секрецию соляной кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "секретин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гастрин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "холецистокинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мотилин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какой гормон двенадцатиперстной кишки стимулирует секрецию бикарбонатов поджелудочной железой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "холецистокинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "секретин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гастрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ВИП",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой гормон двенадцатиперстной кишки стимулирует сокращение желчного пузыря и выделение ферментов поджелудочной железы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "секретин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "холецистокинин-панкреозимин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гастрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мотилин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какое влияние на сосудистый тонус оказывает ангиотензин II?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расширение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сужение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала сужение, затем расширение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какой гормон передней доли гипофиза стимулирует сперматогенез?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ЛГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФСГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пролактин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "СТГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какой гормон передней доли гипофиза стимулирует секрецию андрогенов клетками Лейдига?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФСГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ЛГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пролактин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "СТГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какое влияние на диурез оказывает вазопрессин (АДГ)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличивает (диурез)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "уменьшает (антидиурез)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает несахарный диабет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какой гормон вырабатывается в сердце (предсердиях) и способствует выведению Na+ и воды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ренин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "атриопептид",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ангиотензин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альдостерон",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,1328 @@
+[
+  {
+    "id": 1,
+    "title": "Где в организме человека содержится наибольшее количество гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в сердце и почках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печени и мышцах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в мозге и лёгких",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в коже и костях",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какими связями соединены остатки глюкозы в линейных участках гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-(1→4)-гликозидными",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-(1→4)-гликозидными",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "α-(1→6)-гликозидными",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "β-(1→6)-гликозидными",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "В каких точках гликогена образуются ветвления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-(1→2)-связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-(1→3)-связями",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "α-(1→6)-связями",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "β-(1→4)-связями",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой фермент катализирует первую реакцию синтеза гликогена – фосфорилирование глюкозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфоглюкомутаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликогенсинтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гексокиназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гликогенфосфорилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Что является донором остатка глюкозы при синтезе гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ-глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "УДФ-глюкоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ГТФ-глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "свободная глюкоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой фермент катализирует присоединение остатков глюкозы к растущей цепи гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфоглюкомутаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликогенсинтаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фермент ветвления",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гликогенфосфорилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какой фермент образует точки ветвления в молекуле гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гликогенсинтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "олигосахаридтрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "амилоглюкозилтрансфераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "α-1,6-глюкозидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Каким путём происходит основной распад гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гидролизом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфоролизом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "окислением",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "восстановлением",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какой фермент катализирует фосфоролиз гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гликогенсинтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликогенфосфорилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фосфоглюкомутаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "α-1,6-глюкозидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Что образуется при действии гликогенфосфорилазы на гликоген?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "свободная глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкозо-1-фосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкозо-6-фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фруктозо-6-фосфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Почему в печени гликоген может служить источником глюкозы для крови, а в мышцах нет?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что в мышцах отсутствует фермент гликогенфосфорилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из-за отсутствия в мышцах переносчиков ГЛЮТ-2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "потому что в печени есть фермент глюкозо-6-фосфатаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "потому что в мышцах гликоген не расщепляется",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какой гормон стимулирует распад гликогена в печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкагон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какой гормон стимулирует синтез гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "инсулин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "кортизол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какой фермент катализирует присоединение остатков глюкозы к растущей цепи гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфоглюкомутаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликогенсинтаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фермент ветвления",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гликогенфосфорилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какова физиологическая роль гликогена печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обеспечение энергией мышечного сокращения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "поддержание уровня глюкозы в крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образование кетоновых тел",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Почему эритроциты получают энергию только за счёт гликолиза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что в них много митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потому что в них нет митохондрий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что они не нуждаются в АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что они используют только жирные кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Что такое гликолиз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез гликогена из глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "превращение глюкозы в пируват",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "расщепление гликогена до глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "окисление жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Где протекает гликолиз в клетке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в митохондриях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в цитозоле",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в лизосомах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Сколько стадий можно выделить в процессе гликолиза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "одна стадия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "две стадии",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "три стадии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "четыре стадии",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Что происходит на подготовительной стадии гликолиза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез 8 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "распад на две триозы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образование пирувата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "восстановление НАД⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Что происходит на окислительной стадии гликолиза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только расход АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "образование пирувата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только синтез гликогена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только расщепление жиров",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой фермент катализирует первую реакцию гликолиза – фосфорилирование глюкозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфофруктокиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "альдолаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гексокиназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "пируваткиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Что образуется в первой реакции гликолиза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фруктозо-6-фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкозо-6-фосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фруктозо-1,6-бисфосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пируват",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какой фермент превращает глюкозо-6-фосфат во фруктозо-6-фосфат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фруктозо-6-фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкозо-6-фосфат-изомераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фруктозо-1,6-бифосфатаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альдолаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какая реакция гликолиза является ключевой регуляторной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "первая реакция (гексокиназная)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "третья реакция (фосфофруктокиназная)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "шестая реакция (дегидрогеназная)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "последняя реакция (пируваткиназная)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Что образуется при действии альдолазы на фруктозо-1,6-бисфосфат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "две молекулы пирувата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "две молекулы триозы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкозо-6-фосфат и фруктозо-6-фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "две молекулы лактата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой фермент катализирует взаимопревращение триозфосфатов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альдолаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "триозофосфат-изомераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "триозофосфат-трансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фруктозо-1,6-фосфатаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "В какой реакции гликолиза образуется НАДН?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в реакции с фосфоглицераткиназой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в реакции с глицеральдегид-3-фосфатдегидрогеназой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в реакции с пируваткиназой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в реакции с енолазой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Что образуется в реакции, катализируемой глицеральдегид-3-фосфатдегидрогеназой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3-фосфоглицерат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1,3-бисфосфоглицерат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "2-фосфоглицерат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфоенолпируват",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "В какой реакции гликолиза происходит первое субстратное фосфорилирование?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в реакции с фосфоглицератмутазой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в реакции с фосфоглицераткиназой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в реакции с пируваткиназой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в реакции с енолазой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Что такое субстратное фосфорилирование?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез АТФ в дыхательной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфорильной АДФ субстратом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гидролиз АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфорилирование субстрата за счёт АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какой фермент превращает 3-фосфоглицерат в 2-фосфоглицерат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфоглицераткиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфоглицератмутаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "енолаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пируваткиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какой фермент катализирует образование фосфоенолпирувата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфоглицератмутаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "енолаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пируваткиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альдолаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "В какой реакции гликолиза образуется пируват?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в реакции с фосфоглицераткиназой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в реакции с пируваткарбоксикиназой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в реакции с пируваткиназой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в реакции с лактатдегидрогеназой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Сколько молекул АТФ затрачивается на подготовительной стадии гликолиза на одну молекулу глюкозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Сколько молекул АТФ образуется на окислительной стадии гликолиза на одну молекулу глюкозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "8",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Каков чистый выход АТФ при анаэробном гликолизе на одну молекулу глюкозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2 АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "4 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "6 АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Что происходит с пируватом в анаэробных условиях в мышцах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "он окисляется до ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "он восстанавливается до лактата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "он превращается в этанол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "он превращается в оксалоацетат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какой фермент катализирует превращение пирувата в лактат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пируватдекарбоксилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактатдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пируваткиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "малатдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Что необходимо для регенерации НАД⁺ в анаэробных условиях?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "участие кислорода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "восстановление пирувата до лактата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "окисление лактата до пирувата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синтез АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Каков чистый выход АТФ при аэробном гликолизе на одну молекулу глюкозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "4 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "8 АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "38 АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Куда поступает пируват в аэробных условиях?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "превращается в цитруллин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "окисляется до ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "превращается в лактат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "превращается в этанол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какой кофермент необходим для работы глицеральдегид-3-фосфатдегидрогеназы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАД⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФМН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "коэнзим А",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какой ион необходим как кофактор для многих киназ гликолиза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кальций (Ca²⁺)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "натрий (Na⁺)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "магний (Mg²⁺)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "калий (K⁺)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Что происходит с лактатом, образовавшимся в мышцах при интенсивной работе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "он остаётся в мышцах навсегда",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "он транспортируется в печень",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "он окисляется в мышцах до СО₂ и Н₂О",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "он выводится с мочой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какой фермент гликолиза ингибируется АТФ и активируется АМФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гексокиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфофруктокиназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пируваткиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альдолаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Что является конечным продуктом аэробного гликолиза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лактат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пируват",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "этанол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Что является конечным продуктом анаэробного гликолиза в мышцах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "этанол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Сколько молекул НАДН образуется при гликолизе одной молекулы глюкозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Что является конечным продуктом гликолиза в скелетных мышцах при недостатке кислорода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "этанол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Зачем в анаэробных условиях пируват восстанавливается до лактата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "для получения дополнительной энергии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "для регенерации НАД⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "для активации фосфофруктокиназы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "для синтеза гликогена",
+        "isCorrect": false
+      }
+    ]
+  }
+]

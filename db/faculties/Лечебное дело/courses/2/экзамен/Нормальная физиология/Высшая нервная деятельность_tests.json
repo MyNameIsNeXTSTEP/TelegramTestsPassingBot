@@ -1,0 +1,1874 @@
+[
+  {
+    "id": 1,
+    "title": "Кто впервые описал условный рефлекс и ввёл понятие «вторая сигнальная система»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Иван Петрович Павлов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Иван Сеченов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Владимир Бехтерев",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Алексей Ухтомский",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой метод позволяет оценить тип ВНД человека по скорости переделки сигнального значения раздражителей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "хронорефлексометрия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ПЭТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "МРТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Кто создал учение о доминанте?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Пётр Анохин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Алексей Алексеевич Ухтомский",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Лев Выготский",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой метод регистрации электрической активности мозга используется для анализа фаз сна?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ЭКГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "полисомнография",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "реоэнцефалография",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "миография",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Кто экспериментально доказал роль ретикулярной формации в цикле сон–бодрствование?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Натанаэль Клейтман",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Джузеппе Моруцци и Хорас Мэгун",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Алексей Ухтомский",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой метод используется для изучения памяти у животных?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метод водного лабиринта Морриса",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "МРТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ПЭТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Кто открыл феномен долговременной потенциации (LTP) как основы памяти?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Дональд Хебб",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Эрик Кандель",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Терье Лёмо",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой метод используется для оценки кратковременной вербальной памяти у человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тест «повторение цифр»",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "проба Мюнстерберга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тест Струпа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тест рисования часов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Кто открыл условные рефлексы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "И.М. Сеченов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "И.П. Павлов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "А.А. Ухтомский",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "П.К. Анохин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какой раздражитель называется «условным»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "индифферентный, сигнализирующий о подкреплении",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "безусловный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "любой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сверхсильный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какое условие необходимо для выработки условного рефлекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "совпадение во времени условного и безусловного раздражителей (условный предшествует)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "условный после безусловного",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "однократное сочетание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "отсутствие подкрепления",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Что такое «динамический стереотип»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "устойчивая система условных рефлексов на определённую последовательность сигналов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "одиночный условный рефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "безусловный рефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "хаотическая активность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какое торможение условных рефлексов возникает при действии постороннего раздражителя?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "внешнее (безусловное)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "угасательное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "дифференцировочное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "запаздывательное",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какое торможение вырабатывается при неподкреплении условного сигнала?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "внешнее",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "запредельное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "угасательное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "условный тормоз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какое торможение вырабатывается при неподкреплении близкого по параметрам раздражителя?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дифференцировочное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "угасательное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "запаздывательное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "внешнее",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какое торможение возникает при действии чрезмерно сильного условного сигнала?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "угасательное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дифференцировочное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "запредельное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "внешнее",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Что такое «вторая сигнальная система»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "система словесных сигналов (речь), присущая только человеку",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "система условных рефлексов на свет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "система безусловных рефлексов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вегетативная система",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какие типы высшей нервной деятельности (ВНД) по Павлову соответствуют сангвинику?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сильный, уравновешенный, подвижный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сильный, неуравновешенный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сильный, уравновешенный, инертный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "слабый",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой тип ВНД соответствует холерику?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сильный, уравновешенный, подвижный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "слабый",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "инертный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сильный, неуравновешенный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какой тип ВНД соответствует меланхолику?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "слабый",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сильный, уравновешенный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сильный, неуравновешенный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "инертный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какое свойство нервной системы характеризует скорость переделки сигнального значения раздражителей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сила возбуждения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "подвижность",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сила торможения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "уравновешенность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Что такое «память»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "способность приобретать, хранить и воспроизводить информацию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "только запоминание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "забывание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "научение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какая память связана с циркуляцией возбуждения по замкнутым нейронным цепям?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "долговременная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "промежуточная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кратковременная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "генетическая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какой механизм лежит в основе долговременной памяти?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез белка и структурные изменения в синапсах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "циркуляция возбуждения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "изменение проницаемости мембран",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "активация NMDA-рецепторов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какая структура мозга ключевая для консолидации памяти (перевода в долговременную)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "таламус",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гипоталамус",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гиппокамп",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Что такое «импринтинг» (запечатление)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "быстрое, прочное научение в раннем онтогенезе",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "привыкание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сенситизация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "условный рефлекс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какая форма научения основана на методе проб и ошибок?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "классическое условное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "импринтинг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оперантное научение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "когнитивное",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какая стадия сна характеризуется десинхронизацией ЭЭГ, быстрыми движениями глаз и полной атонией мышц?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "быстрый (REM) сон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "медленный сон (стадия 1)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "медленный сон (стадия 4)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "поверхностный сон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какова продолжительность одного цикла «медленный сон – быстрый сон» у человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30 мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "90 мин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "2 часа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10 мин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какой гормон секретируется преимущественно во время медленного сна?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гормон роста (СТГ)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "кортизол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альдостерон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какая структура мозга считается центром бодрствования?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ретикулярная формация ствола",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ядра шва",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "голубое пятно",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гипоталамус",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какой медиатор ядер шва индуцирует медленный сон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дофамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какой медиатор голубого пятна участвует в пробуждении?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глутамат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Что такое «гипноз»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "искусственно вызванное состояние суженного сознания с повышенной внушаемостью",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "глубокий сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "патологический сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "медитация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какая стадия гипноза характеризуется каталепсией и амнезией?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "средний и глубокий транс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гипноидность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лёгкий транс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "бодрствование",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Что такое «амнезия»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нарушение речи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нарушение движений",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "потеря памяти",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "нарушение сознания",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какой тип ВНД по Павлову соответствует писателям, художникам (преобладание первой сигнальной системы)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "художественный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мыслительный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "средний",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "слабый",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какой тип ВНД соответствует учёным-математикам (преобладание второй сигнальной системы)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "художественный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "средний",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мыслительный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "сильный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Что такое «экстраполяционный рефлекс» (по Крушинскому)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "способность предвидеть траекторию движения объекта, исчезнувшего из поля зрения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "условный рефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "безусловный рефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "инстинкт",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какая фаза сна характеризуется «сонными веретенами» (12–15 Гц)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стадия 1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стадия 4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "быстрый сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стадия 2 медленного сна",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какой ритм ЭЭГ доминирует в бодрствовании с открытыми глазами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-ритм",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "α-ритм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "θ-ритм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "δ-ритм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какая стадия сна наиболее важна для восстановления физических сил?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "медленный сон (стадии 3–4)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "быстрый сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "стадия 1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стадия 2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какая стадия сна наиболее важна для психического восстановления и памяти?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "быстрый (REM) сон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "медленный сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "стадия 1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стадия 2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Что такое «поллюции»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "непроизвольная эякуляция во сне (обычно в REM-фазе)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ночное недержание мочи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "снохождение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кошмарные сновидения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какое явление открыл А.А. Ухтомский?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "условный рефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "центральное торможение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "доминанта",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "медиаторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какое свойство доминанты (инертность) означает?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "способность сохраняться длительное время",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "быстрое угасание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "высокую возбудимость",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "способность тормозить другие центры",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какой вид торможения условных рефлексов требует выработки (является условным)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дифференцировочное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "внешнее",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "запредельное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "все ответы верны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Что такое «сенсорное насыщение»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "насыщение, возникающее во время еды за счёт афферентной импульсации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "метаболическое насыщение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "голод",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "жажда",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какой центр голода находится в гипоталамусе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вентромедиальный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "латеральный гипоталамус",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дорсомедиальный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "супраоптический",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какой центр насыщения находится в гипоталамусе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вентромедиальный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "латеральный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "паравентрикулярный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аркуатный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какое влияние на пищевое поведение оказывает грелин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стимулирует аппетит",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "подавляет аппетит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает насыщение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какое влияние на пищевое поведение оказывает лептин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "подавляет аппетит",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "стимулирует",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает голод",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой тип научения называют «инсайт»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метод проб и ошибок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "внезапное озарение, решение задачи без проб и ошибок",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "привыкание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сенситизация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какая форма научения лежит в основе выработки инструментальных условных рефлексов (оперантное)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "научение действием с подкреплением",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "павловское классическое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "импринтинг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "привыкание",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Что такое «реакция следования» (импринтинг)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "автоматическое следование новорождённого за движущимся объектом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "условный рефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "безусловный рефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "таксис",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какая стадия развития ребёнка наиболее сензитивна для импринтинга?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "первые часы и дни жизни",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "1 месяц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1 год",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "5 лет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какой метод исследования ВНД заключается в регистрации электрической активности мозга?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ЭЭГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ПЭТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "МРТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ЭКГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какой тип ВНД по Павлову характеризуется слабостью как возбудительного, так и тормозного процессов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "меланхолик",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "холерик",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сангвиник",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "флегматик",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какое свойство нервной системы оценивается по скорости выработки дифференцировочного торможения?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сила торможения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сила возбуждения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "подвижность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "уравновешенность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какое свойство нервной системы оценивается по кофеиновой пробе (доза, вызывающая запредельное торможение)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сила торможения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "подвижность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лабильность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сила возбуждения",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Какая форма научения лежит в основе выработки классических павловских условных рефлексов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ассоциативное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "оперантное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "импринтинг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "привыкание",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Какая форма научения лежит в основе выработки инструментальных рефлексов (нажатие рычага для получения пищи)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "оперантное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "классическое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "импринтинг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сенситизация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Какая форма научения характерна для новорождённых (запечатление родителя)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "импринтинг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "условный рефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "метод проб и ошибок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "когнитивное",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Какая фаза сна характеризуется отсутствием быстрых движений глаз, но наличием «сонных веретён» (12–15 Гц)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стадия 2 медленного сна",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "стадия 1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "стадия 4",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "REM",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Какая фаза сна наиболее важна для восстановления метаболизма белков (секреция гормона роста)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "быстрый сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стадия 1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "медленный сон (стадии 3–4)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "стадия 2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Какой медиатор (норадреналин) в основном участвует в поддержании бодрствования (активация)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дофамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Какой медиатор активен во время быстрого сна и бодрствования?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ацетилхолин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ГАМК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Какая структура мозга является «биологическими часами»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипоталамус",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "эпифиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "таламус",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кора",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Какой гормон эпифиза регулирует циркадианные ритмы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мелатонин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "АДГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "окситоцин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Какое явление называется «десинхронозом»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рассогласование биологических ритмов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "потеря памяти",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нарушение речи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "расстройство сна",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Какой тип условных рефлексов вырабатывается на цепь раздражителей (динамический стереотип)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цепные рефлексы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "следовые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "инструментальные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "оборонительные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Какой метод исследования ВНД основан на регистрации кожно-гальванической реакции (КГР)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "психофизиологический",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ПЭТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "МРТ",
+        "isCorrect": false
+      }
+    ]
+  }
+]

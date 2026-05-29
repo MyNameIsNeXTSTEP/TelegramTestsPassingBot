@@ -1,0 +1,1588 @@
+[
+  {
+    "id": 1,
+    "title": "Какой белок входит в состав тонких (актиновых) нитей саркомера?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "миозин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "титин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "актин, тропомиозин, тропонин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "небулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Что называют «саркомером»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "клетку мышечного волокна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сократительную единицу миофибриллы между Z-полосками",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "часть саркоплазматического ретикулума",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "комплекс миозиновых нитей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какую роль выполняют ионы Ca2+ в сокращении скелетной мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "активируют Na/K-насос",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "связываются с тропонином, вызывая смещение тропомиозина и открытие активных центров актина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "вызывают гиперполяризацию мембраны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "инактивируют миозин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой тип мышечных волокон наиболее устойчив к утомлению?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белые быстрые (гликолитические)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "красные медленные (окислительные)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "красные быстрые (окислительно-гликолитические)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тонические",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Что понимают под «электромеханическим сопряжением»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проведение ПД по сарколемме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "последовательность процессов от ПД до сокращения (выход Ca2+ из СПР, взаимодействие актина и миозина)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "выделение медиатора в синапсе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "работу Na/K-насоса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой механизм ресинтеза АТФ является самым быстрым, но кратковременным (до 6 с)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аэробное окисление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфогенная система (креатинфосфат)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "анаэробный гликолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "окисление жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Что называют «тетаническим сокращением»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "одиночное сокращение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "длительное сокращение, возникающее при суммировании одиночных сокращений на фоне неизрасходованного Ca2+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сокращение без ПД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сокращение, вызванное одним стимулом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой вид сокращения характерен для большинства натуральных двигательных актов (одновременное изменение и длины, и напряжения)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "изометрическое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изотоническое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ауксотоническое",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "эксцентрическое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какую функцию выполняет миоглобин в мышечном волокне?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "транспорт O2 в митохондрии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "депо кислорода (отдаёт O2 при Po2 ниже 10 мм рт. ст.)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "связывание CO2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "буферная система",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какое влияние оказывает серотонин на развитие центрального утомления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ускоряет процессы центрального утомления",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "задерживает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стимулирует восстановление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какие мышечные волокна иннервируются γ-мотонейронами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "экстрафузальные волокна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "интрафузальные волокна мышечных веретён",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гладкие мышцы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сердечная мышца",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Что называют «двигательной (нейромоторной) единицей»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "один саркомер",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "совокупность мышечных волокон, иннервируемых одним α-мотонейроном",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нервно-мышечный синапс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "одну миофибриллу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какова максимальная частота генерации ПД в скелетной мышце (лабильность)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "200–400 Гц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "100–200 Гц",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "30–50 Гц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "500 Гц",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что характерно для изотонического сокращения?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сокращение с изменением напряжения при постоянной длине",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сокращение с постоянным напряжением, но изменением длины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сокращение с изменением и длины, и напряжения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сокращение без участия Ca2+",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какая фаза ПД сердечной мышцы соответствует «плато»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фаза деполяризации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нисходящая часть фазы инверсии (медленная реполяризация)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фаза быстрой реполяризации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "следовая гиперполяризация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какой белок обеспечивает эластичность и возврат саркомера в исходное состояние?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "актин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "миозин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "титин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "тропонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Что происходит с мышечным волокном при полном отсутствии АТФ (например, в трупе)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расслабление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трупное окоченение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нормальное сокращение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "полное расслабление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какой тип мышечных волокон преобладает у спринтеров?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "красные медленные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белые быстрые",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "красные быстрые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тонические",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Что такое «рабочая гиперемия» в мышце?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сужение сосудов при работе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "расширение сосудов из-за накопления метаболитов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "увеличение числа капилляров",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "уменьшение кровотока",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какова роль тропонина в сокращении скелетной мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "связывает Ca2+ и инициирует конформационные изменения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "связывает Ca2+, что приводит к смещению тропомиозина и открытию активных центров актина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гидролизует АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образует поперечные мостики",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какова длительность ПД скелетного мышечного волокна?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2–4 мс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "до 10 мс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "100 мс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,5 мс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Что понимают под «ауксотоническим сокращением»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сокращение без изменения длины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "одновременное изменение длины и напряжения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сокращение при постоянной нагрузке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сокращение, вызванное одним стимулом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какая энергетическая система обеспечивает работу мышц в течение нескольких часов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфогенная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "анаэробный гликолиз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "аэробное окисление",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "креатинфосфатный путь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какой вид сокращения наблюдается при удержании неподвижного груза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "изотоническое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изометрическое",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ауксотоническое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "концентрическое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какое количество энергии (в % от основного обмена) тратится на функционирование скелетной мускулатуры в покое?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "25%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "40%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Что называют «гребковым движением» миозинового мостика?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сгибание головки миозина, приводящее к скольжению актина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "отсоединение миозина от актина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гидролиз АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "транспорт Ca2+",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какие мышечные волокна называют «тоническими»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "волокна, генерирующие ПД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "волокна, на которых расположено много синапсов, и ПКП непосредственно запускает сокращение без ПД",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "быстрые волокна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "волокна с высокой АТФазной активностью",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "При какой предварительной длине мышцы сила её сокращения максимальна?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "при минимальной",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "при оптимальной",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "при максимальной",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сила не зависит от длины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Что называют «кислородным долгом»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "количество O2, необходимое для полного окисления молочной кислоты после работы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "накопление недоокисленных продуктов (лактата) во время интенсивной анаэробной работы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дефицит O2 в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "количество O2, связанное с миоглобином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какая мышца человека обладает наибольшей удельной силой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "икроножная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "жевательная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "двуглавая плеча",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "прямая мышца живота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Что такое «суммация сокращений»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличение амплитуды и длительности сокращения при повторных стимулах, поступающих до полного расслабления",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "одновременное сокращение всех волокон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "уменьшение сокращения при частой стимуляции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "слияние ПД",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какой фермент в миозине обеспечивает гидролиз АТФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аденилатциклаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "миозиновая АТФаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фосфорилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "креатинкиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Что такое «пластичность» гладкой мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "способность сокращаться при растяжении",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "способность сохранять длину при изменении напряжения, предотвращая избыточный рост давления в полых органах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "способность генерировать ПД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "способность к тетанусу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какую роль в гладких мышцах сосудов играет оксид азота (NO)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вызывает сокращение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вызывает расслабление (сосудорасширение)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает пролиферацию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какой источник Ca2+ преобладает в сокращении гладкомышечных клеток (в отличие от скелетных)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из СПР",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вход Ca2+ из внеклеточной среды через потенциалзависимые каналы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из ядра",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какой белок в гладких мышцах связывает Ca2+ и активирует киназу лёгких цепей миозина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тропонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кальмодулин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тропомиозин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "актин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какова частота спонтанных ПД в пейсмекерных клетках гладких мышц ЖКТ (базальный электрический ритм)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1–2 в минуту",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3–12 в минуту",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "20–30 в минуту",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "60–80 в минуту",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Что такое «миогенный тонус»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тонус, поддерживаемый нервной системой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "способность гладких мышц сохранять напряжение при растяжении без нервной стимуляции",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тонус, вызванный гормонами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тонус скелетных мышц в покое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какой тип мышечных волокон содержит больше митохондрий и миоглобина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "красные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "промежуточные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "все одинаково",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Что происходит с ПД мышечного волокна при снижении силы сокращения из-за утомления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ПД не изменяется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ПД уменьшается (при снижении на 60% сила падает на 20–30%)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ПД исчезает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ПД становится кальциевым",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какой фактор в первую очередь ограничивает силу тетанического сокращения?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "частота стимуляции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "степень суммации в каждом волокне",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тип иннервации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "содержание гликогена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какое правило иллюстрирует наибольшую работу мышцы при среднем грузе и среднем ритме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "закон «всё или ничего»",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "правило средних нагрузок",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "закон Франка–Старлинга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "закон Вебера–Фехнера",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Как влияет увеличение частоты раздражения на силу одиночного сокращения (ритмо-инотропная зависимость) в сердце?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сила уменьшается",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сила увеличивается (увеличение запаса Ca2+ в СПР)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сила не изменяется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сила сначала падает, затем растёт",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какой тип мышечных волокон преобладает у марафонцев?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белые быстрые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "красные медленные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "красные быстрые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тонические",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какова роль ацетилхолина в нервно-мышечном синапсе скелетной мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вызывает гиперполяризацию концевой пластинки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вызывает деполяризацию (ПКП) через N-холинорецепторы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "блокирует Na-каналы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "активирует аденилатциклазу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Что такое «концевая пластинка»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "постсинаптическая мембрана нервно-мышечного синапса",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "пресинаптическое окончание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "митохондрия в синапсе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "участок аксона",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какое вещество является основным источником энергии для ресинтеза АТФ в сердечной мышце в покое?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "свободные жирные кислоты и молочная кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кетоновые тела",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аминокислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какой тип сокращения развивается в мышце, если оба её конца зафиксированы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "изотоническое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изометрическое",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ауксотоническое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "концентрическое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Что такое «эксцентрическое сокращение»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сокращение с укорочением",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "напряжение мышцы при её удлинении (например, при приседании)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сокращение без изменения длины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "одиночное сокращение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какой белок входит в состав толстых (миозиновых) нитей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "актин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "миозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тропонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "титин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какое явление лежит в основе активного отдыха (И.М. Сеченов)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пассивный отдых",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "смена вида деятельности, вызывающая доминантное взаимодействие центров",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "массаж",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какова роль Na/K-насоса в мышечном волокне при утомлении?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "не участвует",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "поддержание градиентов ионов; при утомлении не успевает, что ведёт к деполяризации",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "вызывает гиперполяризацию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только в покое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Что такое «саркоплазматический ретикулум» (СПР)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "система Т-трубочек",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "внутриклеточное депо Ca2+ (система цистерн и канальцев)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "митохондрии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ядро",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какую функцию выполняют Т-трубочки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "проведение ПД внутрь волокна и активация СПР",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "депонирование Ca2+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сокращение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Что такое «триада» в скелетной мышце?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "комплекс: Т-трубочка + две терминальные цистерны СПР",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "три саркомера",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "три миофибриллы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "три синапса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Что такое «потенциал концевой пластинки» (ПКП)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ПД мышечного волокна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ВПСП большой амплитуды (30–40 мВ) на постсинаптической мембране",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ТПСП",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "локальный потенциал пресинапса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какое влияние на силу сокращения скелетной мышцы оказывает увеличение частоты стимуляции (до оптимума)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сила уменьшается",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сила увеличивается (суммация, тетанус)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сила не изменяется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мышца расслабляется",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какой тип мышечных волокон имеет самую высокую АТФазную активность миозина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "красные медленные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белые быстрые",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "красные быстрые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тонические",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Что такое «остаточный объем» в желудочке сердца?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "объём крови после систолы в покое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "объём крови, остающийся после максимального сокращения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "резервный объём",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "конечно-диастолический объём",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какой механизм регуляции силы сердечных сокращений описан Франком и Старлингом (гетерометрический)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличение силы при увеличении ЧСС",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "увеличение силы при увеличении растяжения миокарда",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "увеличение силы под действием адреналина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "увеличение силы под действием ацетилхолина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Какой ион необходим для сопряжения возбуждения и сокращения в сердечной мышце (в отличие от скелетной)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Na+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ca2+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "K+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Cl–",
+        "isCorrect": false
+      }
+    ]
+  }
+]

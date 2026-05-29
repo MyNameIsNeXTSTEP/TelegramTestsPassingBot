@@ -1,0 +1,1718 @@
+[
+  {
+    "id": 1,
+    "title": "Кто впервые описал мальпигиево тельце почки (почечный клубочек)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Марчелло Мальпиги",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Уильям Боумен",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Карл Людвиг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Александр Шумлянский",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой метод позволяет раздельно оценить скорость клубочковой фильтрации и почечный плазмоток?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проба Реберга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "клиренс-метод",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "проба Зимницкого",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нефросцинтиграфия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Кто доказал, что первичная моча образуется путём ультрафильтрации в клубочках (середина XIX в.)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Карл Людвиг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Марчелло Мальпиги",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Уильям Боумен",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Александр Шумлянский",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой метод используется для визуализации почечных артерий и диагностики стеноза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "КТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "УЗИ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ренальная ангиография",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "МРТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Кто открыл роль юкстагломерулярного аппарата в секреции ренина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Эрнст Старлинг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Фридрих Киль",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Уолтер Кэннон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Ханс Гольдблатт",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой метод позволяет оценить концентрационную способность почек (измерение осмоляльности мочи)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "криоскопия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "проба Зимницкого",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "проба Реберга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "общий анализ мочи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Кто создал модель нефрона как поворотно-противоточной системы (1960-е гг.)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Питер Дент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Альфред Рихтер",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Хьюберт Дэвисон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Карл Готтшалк и Вернер Куль",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой метод используется для биопсии почки с последующим гистологическим анализом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пункционная биопсия под УЗИ-контролем",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "нефроскопия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "МРТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "КТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какова функциональная единица почки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нефрон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "почечное тельце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "петля Генле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "собирательная трубка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Сколько нефронов в одной почке человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "100 тыс.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "около 1 млн",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10 млн",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10 тыс.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какое давление в капиллярах почечного клубочка (ГДК)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "15–20 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "50 мм рт. ст.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "70–80 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "30 мм рт. ст.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какое онкотическое давление плазмы крови (ОДК)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "25 мм рт. ст.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "40 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "5 мм рт. ст.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какое гидростатическое давление первичной мочи в капсуле (ГДП)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "10 мм рт. ст.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "20 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0 мм рт. ст.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Чему равно фильтрационное давление (ФД) в клубочке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50 – 25 – 10 = 15 мм рт. ст.",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "50 – 25 = 25 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "50 – 10 = 40 мм рт. ст.",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "50 мм рт. ст.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какой объём первичной мочи образуется за сутки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1,5 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "180 л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "50 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "500 л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какой объём конечной мочи в сутки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1,0–1,5 л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "180 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "10 л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,5 л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какой процент воды реабсорбируется в канальцах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "99%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "80%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "90%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "В каком отделе нефрона реабсорбируется 65% фильтрата (обязательная реабсорбция)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проксимальный извитой каналец",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "петля Генле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "дистальный каналец",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "собирательная трубка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой механизм лежит в основе реабсорбции глюкозы и аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "простая диффузия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "натрийзависимый транспорт (симпорт)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "облегчённая диффузия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пиноцитоз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какой гормон увеличивает реабсорбцию воды (увеличивает проницаемость собирательных трубок)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "АДГ (вазопрессин)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "натрийуретический пептид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "паратгормон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какой гормон увеличивает реабсорбцию Na⁺ и выделение K⁺?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альдостерон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "АДГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "атриопептид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глюкагон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой гормон (предсердий) увеличивает выведение Na⁺ и воды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "атриопептид (натрийуретический пептид)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "АДГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ренин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какова осмоляльность мочи в норме (мосмоль/л)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "100–200",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "300–1200 (вариабельно)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "1500–2000",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "50–100",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какой показатель используется для определения почечного плазмотока (ППТ)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "клиренс инулина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "клиренс парааминогиппуровой кислоты (ПАГ)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "клиренс креатинина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "клиренс мочевины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Что такое «клиренс» (очищение)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "объём плазмы, полностью очищенный от вещества за 1 мин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "количество вещества в моче",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "скорость фильтрации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "скорость реабсорбции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Каков клиренс инулина (скорость клубочковой фильтрации) у мужчин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50 мл/мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "125 мл/мин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "200 мл/мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "30 мл/мин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой отдел нефрона создаёт высокое осмотическое давление в мозговом слое почки (поворотно-противоточная система)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проксимальный каналец",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "петля Генле (преимущественно юкстамедуллярные нефроны)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дистальный каналец",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "собирательная трубка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какой ион секретируется в дистальных канальцах в обмен на реабсорбцию Na⁺?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "K⁺ и H⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Cl⁻",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Ca²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Mg²⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какой механизм поддерживает pH крови в почках?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "секреция H⁺ в канальцы, реабсорбция HCO₃⁻",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "секреция HCO₃⁻",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "реабсорбция H⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фильтрация H⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какой гормон стимулирует секрецию ренина в юкстагломерулярном аппарате?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение АД, симпатическая стимуляция",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "повышение АД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "увеличение Na⁺ в дистальных канальцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АДГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какой фермент превращает ангиотензин I в ангиотензин II?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ренин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "АПФ (ангиотензинпревращающий фермент)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "химотрипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эластаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какое влияние на АД оказывает ангиотензин II?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышает (сильный вазоконстриктор)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "снижает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала снижает, затем повышает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какой механизм мочеобразования нарушается при шоке (резкое падение АД)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фильтрация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "реабсорбция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "секреция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только секреция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какой отдел нефрона непроницаем для воды, но реабсорбирует NaCl (создаёт гиперосмоляльность интерстиция)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нисходящее колено петли",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "восходящее колено петли",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "проксимальный каналец",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "собирательная трубка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какой гормон увеличивает реабсорбцию Ca²⁺ в почках?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "паратгормон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "кальцитонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тироксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "инсулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Каков нормальный pH мочи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "7,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "около 6,0",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "8,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "7,5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какой белок в норме отсутствует в моче?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альбумин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "глобулины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мукопротеиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "все отсутствуют",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Что такое «глюкозурия»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "появление глюкозы в моче",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "норма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "наличие кетоновых тел",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "наличие белка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какой нерв (парасимпатический) иннервирует мочевой пузырь и вызывает его сокращение?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тазовый нерв (S₂–S₄)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "блуждающий нерв",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "чревный нерв",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "седалищный нерв",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какой нерв (симпатический) расслабляет стенку мочевого пузыря и сокращает внутренний сфинктер?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "подчревный нерв (L₁–L₂)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тазовый нерв",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "срамной нерв",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "диафрагмальный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какой сфинктер мочевого пузыря состоит из поперечно-полосатой мускулатуры и управляется произвольно?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "наружный сфинктер уретры",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "внутренний сфинктер",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оба",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только шейка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какой объём мочи вызывает первый позыв к мочеиспусканию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50–100 мл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "150–200 мл",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "500 мл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "30 мл",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какая структура почки вырабатывает ренин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "юкстагломерулярный аппарат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "плотное пятно",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "подоциты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "собирательные трубки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какой витамин активируется в почках?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "витамин D",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "витамин A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "витамин E",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "витамин K",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какова максимальная осмоляльность мочи (при дефиците воды)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "300 мосмоль/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1200–1450 мосмоль/л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "600 мосмоль/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "2000 мосмоль/л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какой гормон увеличивает почечный кровоток и фильтрацию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вазодилататоры местного действия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ангиотензин II",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вазопрессин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какой метод исследования функции почек основан на определении клиренса эндогенного креатинина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проба Реберга–Тареева",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "проба Зимницкого",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "проба Нечипоренко",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "проба с ПАГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какой показатель характеризует концентрационную способность почек?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проба Зимницкого (колебания плотности мочи)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "клиренс креатинина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "уровень мочевины в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "суточный диурез",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "На какие клетки действует гормон АДГ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "на главные клетки собирательных трубок (встраивание аквапоринов)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "на проксимальные канальцы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "на петлю Генле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "на клубочки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какая часть нефрона наиболее чувствительна к гипоксии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проксимальный каналец",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "петля Генле (толстая восходящая часть)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дистальный каналец",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "собирательная трубка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какой процент Na⁺ реабсорбируется в проксимальных канальцах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "65%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "90%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какой процесс происходит в нисходящем колене петли Генле?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "реабсорбция воды (пассивно)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "реабсорбция NaCl",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "секреция K⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фильтрация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой процесс происходит в восходящем колене петли Генле?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "реабсорбция воды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реабсорбция NaCl (активно, непроницаемо для воды)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "секреция H⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фильтрация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какое вещество секретируется в проксимальных канальцах (первично-активно)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ПАГ (парааминогиппуровая кислота), пенициллин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Na⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вода",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какой фактор увеличивает фильтрацию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сужение приносящей артериолы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сужение выносящей артериолы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "снижение системного АД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "увеличение онкотического давления",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какой фактор уменьшает фильтрацию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сужение приносящей артериолы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сужение выносящей артериолы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "снижение онкотического давления",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "увеличение ГДК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какой объём мочи называют «вынужденным» (минимальный для выведения продуктов обмена)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "100 мл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "400 мл",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "800 мл",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1500 мл",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какой показатель характеризует скорость клубочковой фильтрации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "клиренс инулина или эндогенного креатинина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "клиренс ПАГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "концентрация мочевины в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "диурез",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какой процесс обеспечивает выведение K⁺ из организма?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "секреция в дистальных канальцах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "фильтрация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "реабсорбция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "все ответы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какой процесс обеспечивает выведение H⁺ (регуляция pH)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "секреция H⁺ в канальцы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "фильтрация H⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "реабсорбция H⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "связывание с белками",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Какой фермент почек участвует в активации витамина D?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1α-гидроксилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "25-гидроксилаза (в печени) и 1α-гидроксилаза (в почках)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ренин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эритропоэтин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Какой фактор стимулирует выработку эритропоэтина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипоксия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гипероксия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "повышение АД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гиперволемия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Какой гормон секретируется при повышении осмоляльности плазмы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АДГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "секретин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только при кровопотере",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альдостерон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Какой гормон секретируется при снижении Na⁺ в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альдостерон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "вазопрессин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АДГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Какой орган является основным источником эритропоэтина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "почки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "печень",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "селезёнка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "костный мозг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Какой процесс происходит в проксимальных канальцах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "реабсорбция глюкозы, аминокислот, Na⁺, воды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "только секреция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только фильтрация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "создание осмотического градиента",
+        "isCorrect": false
+      }
+    ]
+  }
+]

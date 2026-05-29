@@ -1,0 +1,1562 @@
+[
+  {
+    "id": 1,
+    "title": "Где в клетке локализован пируватдегидрогеназный комплекс (ПДК)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в матриксе митохондрий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "на внутренней мембране митохондрий",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какова основная функция пируватдегидрогеназного комплекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез глюкозы из пирувата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "превращение пирувата в ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "превращение пирувата в лактат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "окисление пирувата до этанола",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Сколько ферментов входит в состав пируватдегидрогеназного комплекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1 фермент",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2 фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3 фермента",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "5 ферментов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой фермент ПДК катализирует первую реакцию – декарбоксилирование пирувата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альдолаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пируваткиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пируватдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ацетил-КоА-синтетаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какой кофермент необходим для работы пируватдегидрогеназы (Е1)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тиаминпирофосфата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "кофермент А",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой кофермент выполняет функцию переносчика ацильных групп в ПДК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиаминпирофосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "липоевая кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "НАД⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какой кофермент служит донором ацетильной группы при образовании ацетил-КоА?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиаминпирофосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "липоевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кофермент А",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ФАД",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой кофермент принимает электроны от восстановленной липоевой кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФАД",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ТДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "биотин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какой кофермент является конечным акцептором электронов в реакции ПДК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ТДФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "НАД⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "кофермент А",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какие продукты образуются при окислительном декарбоксилировании пирувата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лактат и НАДН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетил-КоА и НАДН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "этанол и СО₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "оксалоацетат и НАДН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Чем ингибируется активность пируватдегидрогеназного комплекса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АДФ и Са²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетил-КоА и НАДН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пируват и КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АТФ и НАД⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Что активирует пируватдегидрогеназный комплекс в мышцах при сокращении?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "высокий уровень АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ионы кальция (Са²⁺)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "НАДН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какую роль играет пируватдегидрогеназный комплекс в метаболизме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "связывает гликолиз с пентозофосфатным путём",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "связывает гликолиз с циклом трикарбоновых кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "обеспечивает синтез гликогена из пирувата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "катализирует превращение пирувата в оксалоацетат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Сколько последовательных реакций (стадий) включает механизм окислительного декарбоксилирования пирувата в ПДК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2 стадии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3 стадии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "5 стадий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "7 стадий",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Что активирует пируватдегидрогеназный комплекс в мышцах при сокращении?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "высокий уровень АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ионы кальция (Са²⁺)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетил-КоА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "НАДН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Где в клетке локализован цикл трикарбоновых кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в матриксе митохондрий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "на внутренней мембране митохондрий",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "С каким соединением конденсируется ацетил-КоА при вступлении в ЦТК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пируватом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сукцинатом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оксалоацетатом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "цитратом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Сколько молекул НАДН образуется за один оборот цикла трикарбоновых кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой кофермент восстанавливается в реакции окисления сукцината до фумарата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФАД",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАДФ⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ТДФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "На какой стадии ЦТК происходит прямое образование макроэргического соединения?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "при образовании цитрата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "при окислении изоцитрата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "при окислении α-кетоглутарата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "при превращении сукцинил-КоА в сукцинат",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какие вещества являются основными аллостерическими ингибиторами ферментов ЦТК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АДФ и НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "АТФ и НАДН",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "АМФ и Са²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетил-КоА и оксалоацетат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "На каких этапах ЦТК происходит отщепление молекул СО₂?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "при образовании цитрата и изоцитрата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "при окислении изоцитрата и α-кетоглутарата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "при окислении сукцината и малата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "при превращении фумарата в малат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Каков энергетический выход (в эквивалентах АТФ) за один оборот ЦТК (с учётом окислительного фосфорилирования)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "6 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "8 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "10 АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "12 АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какой фермент катализирует первую реакцию ЦТК – конденсацию ацетил-КоА с оксалоацетатом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аконитаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "цитратсинтаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "изоцитратдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сукцинил-КоА-синтетаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какая реакция пополняет пул интермедиатов ЦТК, превращая пируват в оксалоацетат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "реакция пируватдегидрогеназного комплекса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реакция пируваткарбоксилазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "реакция лактатдегидрогеназы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "реакция малатдегидрогеназы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Сколько молекул ФАДН₂ образуется за один полный оборот цикла Кребса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "3",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "На каких этапах ЦТК происходит отщепление молекул СО₂?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "при образовании цитрата и изоцитрата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "при окислении изоцитрата и α-кетоглутарата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "при окислении сукцината и малата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "при превращении фумарата в малат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какой фермент катализирует превращение цитрата в изоцитрат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цитратсинтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аконитаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "изоцитратдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сукцинатдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Сколько молекул СО₂ выделяется за один полный оборот цикла Кребса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Что образуется при превращении сукцинил-КоА в сукцинат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ГТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАДН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ФАДН₂",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какой кофермент восстанавливается при окислении сукцината?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФАД",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАДФ⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ТДФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какой фермент катализирует гидратацию фумарата в малат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сукцинатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фумараза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "малатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аконитаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какой фермент завершает цикл Кребса, окисляя малат в оксалоацетат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фумараза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сукцинатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "малатдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "цитратсинтаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Что такое глюконеогенез?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "распад гликогена до глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "синтез глюкозы внутри клетки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "окисление глюкозы до пирувата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "превращение глюкозы в гликоген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Где в основном протекает глюконеогенез?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в скелетных мышцах и мозговом слое почек",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печени и корковом веществе почек",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в головном мозге и эритроцитах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в мышцах и селезенке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какие вещества являются первичными субстратами глюконеогенеза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пируват и нуклеотиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактат и аминокислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "жирные кислоты и глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетил-КоА и витамины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Сколько необратимых реакций гликолиза обходит глюконеогенез?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какой фермент катализирует карбоксилирование пирувата в глюконеогенезе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пируваткиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пируваткарбоксилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фосфоенолпируваткарбоксикиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пируватдегидрогеназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какой кофермент необходим для работы пируваткарбоксилазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиаминпирофосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "биотин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пиридоксальфосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кофермент А",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Где локализован фермент пируваткарбоксилаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в цитозоле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в матриксе митохондрий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "на внутренней мембране митохондрий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в ядре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Как оксалоацетат покидает митохондрии для продолжения глюконеогенеза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в виде пирувата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в виде малата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в виде цитрата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в виде ацетил-КоА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какой фермент катализирует превращение фруктозо-1,6-бисфосфата во фруктозо-6-фосфат?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фруктозо-6-фосфотаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фруктозо-1,6-бисфосфатаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "альдолаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфоглюкоизомераза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Почему в мышцах гликоген не может служить источником глюкозы для крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из-за отсутствия гликогенфосфорилазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из-за отсутствия глюкокиназы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "из-за отсутствия глюкозо-6-фосфатазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "из-за отсутствия в мышцах переносчиков ГЛЮТ-2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какой гормон стимулирует глюконеогенез в печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкагон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Что активирует пируваткарбоксилазу аллостерически?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетил-КоА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАДН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пируват",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какова энергетическая стоимость синтеза одной молекулы глюкозы из двух молекул пирувата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "4 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "8 АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "6 АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "12 АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Что такое глюкозо-лактатный цикл (цикл Кори)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "перенос аминогрупп из мышц в печень в виде аланина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "перенос лактата из мышц в печень для синтеза глюкозы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "превращение лактата в гликоген внутри мышечной клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "транспорт избытка глюкозы из крови в мышечное депо",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какую роль выполняет аланин в глюкозо-аланиновом цикле?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "перенос продуктов анаэробного гликолиза из мышц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "транспортная форма азота и пирувата из мышц в печень",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "транспорт аммиака в виде нейтрального глутамина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "обратный перенос глюкозы из печени в мозг при гипогликемии",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Где в клетке протекает пентозофосфатный путь?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в митохондриях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в ядре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в цитозоле",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "на ЭПР",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "На сколько стадий делится пентозофосфатный путь?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "одна стадия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "две стадии",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "три стадии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "четыре стадии",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какие два основных продукта образуются в пентозофосфатном пути?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АТФ и пируват",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАДФН и рибозо-5-фосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "НАДН и рибозо-1-фосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ФАДН₂ и фруктозо-6-фосфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какой фермент катализирует первую реакцию окислительной стадии пентозофосфатного пути?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "6-фосфоглюконатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкозо-6-фосфатдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фосфоглюкоизомераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "6-фосфоглюконолактоназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой кофермент восстанавливается в окислительной стадии пентозофосфатного пути?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "НАД⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "НАДФ⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ФМН",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Сколько молекул НАДФН образуется при полном окислении одной молекулы глюкозо-6-фосфата до 6СО₂ в пентозофосфатном пути?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "12",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "18",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "24",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какой кофермент необходим для работы транскетолазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пиридоксальфосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тиаминпирофосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФАД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кофермент А",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какие метаболиты гликолиза образуются в неокислительной стадии пентозофосфатного пути?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пируват и лактат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фруктозо-6-фосфат и глицеральдегид-3-фосфат",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкозо-6-фосфат и фруктозо-1,6-бисфосфат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "оксалоацетат и малат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "В каких тканях активность пентозофосфатного пути наиболее высока?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в скелетных мышцах и сердце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печени и жировой ткани",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в головном мозге и лёгких",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в почках и селезёнке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Для чего в организме необходим НАДФН, образующийся в пентозофосфатном пути?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "для синтеза АТФ в дыхательной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "для восстановления глутатиона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "для транспорта электронов в митохондриях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "для гликолиза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Для чего необходима рибозо-5-фосфат, образующаяся в пентозофосфатном пути?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "для синтеза гликогена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "для синтеза нуклеотидов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "для синтеза жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "для образования пирувата",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какой фермент пентозофосфатного пути часто бывает дефектным при наследственной гемолитической анемии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "6-фосфоглюконатдегидрогеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкозо-6-фосфатдегидрогеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трансаминаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "трансальдолаза",
+        "isCorrect": false
+      }
+    ]
+  }
+]

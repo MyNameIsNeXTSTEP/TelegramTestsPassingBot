@@ -1,0 +1,2082 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое гормоны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "высокомолекулярные белки, катализирующие реакции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "биологически активные вещества, регулирующие обмен веществ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "низкомолекулярные соединения, используемые как источник энергии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "структурные компоненты клеточных мембран",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Сколько основных систем участвует в поддержании гомеостаза у человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "одна система",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "две системы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "три системы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "четыре системы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какой тип регуляции характеризуется быстрой и кратковременной реакцией?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "внутриклеточный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гормональный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нервный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гуморальный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой тип регуляции осуществляется через гормоны и характеризуется медленным и длительным контролем (минуты, часы)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "внутриклеточный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гормональный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нервный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "локальный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Что такое аутокринное действие гормона?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "действие на соседние клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "действие на отдалённые клетки через кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "действие на ту же клетку, которая секретировала гормон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "действие только в пределах одной ткани",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Что такое паракринное действие гормона?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "действие на отдалённые клетки через кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "действие на соседние клетки без выхода в кровь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "действие на ту же клетку",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "действие только через лимфу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Что такое телекринное действие гормона?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "действие в пределах одной клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "действие на соседние клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "действие на отдалённые клетки-мишени через кровь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "действие только в пределах эндокринной железы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какие железы относятся к эндокринным?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "железы, имеющие протоки и выделяющие секрет на поверхность тела",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "железы, не имеющие протоков и выделяющие гормоны в кровь или лимфу",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "железы, выделяющие ферменты в полость кишечника",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "железы, выделяющие слизь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "К каким железам относится гипоталамус?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "к периферическим эндокринным железам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "к центральным эндокринным железам",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "к экзокринным железам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "к смешанным железам",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какие железы относятся к аденогипофиз-зависимым?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "паращитовидные железы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мозговое вещество надпочечников",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "щитовидная железа, кора надпочечников",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "островки Лангерганса поджелудочной железы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какие железы относятся к аденогипофиз-независимым?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "щитовидная железа, половые железы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кора надпочечников, мозговой слой надпочечников",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "паращитовидные железы, мозговое вещество надпочечников",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "семенники и яичники, щитовидная железа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "По какому признаку классифицируют гормоны по химическому составу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "по месту синтеза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "по химической структуре",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "по механизму действия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "по биологической функции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "К какой группе гормонов относится инсулин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "к стероидным гормонам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "к гормонам аминокислотной природы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "к пептидным гормонам",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "к производным жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "К какой группе гормонов относится тироксин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "к пептидным гормонам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "к аминокислотным гормонам",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "к стероидным гормонам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "к производным жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "К какой группе гормонов относится кортизол?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "к пептидным гормонам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "к аминокислотным гормонам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "к стероидным гормонам",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "к производным витаминов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какой механизм действия характерен для пептидных гормонов и адреналина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проникают через мембрану и связываются с внутриклеточными рецепторами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "связываются с мембранными рецепторами и активируют вторичные посредники",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "действуют только в ядре клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "действуют только в цитоплазме без рецепторов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какой механизм действия характерен для стероидных и тиреоидных гормонов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "связываются только с мембранными рецепторами и активируют вторичные посредники",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "проникают через мембрану и связываются с внутриклеточными рецепторами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "действуют только через цАМФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "действуют только через ионы кальция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Что такое первичные посредники гормональных сигналов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вторичные мессенджеры внутри клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сами гормоны, действующие на мембране клетки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ферменты, катализирующие реакции в клетке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ионы, участвующие в передаче сигнала",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Что такое вторичные посредники (мессенджеры) гормональных сигналов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сами гормоны, действующие на мембране клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вещества, передающие сигнал от рецептора к мишеням",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "белки-рецепторы на мембране",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ферменты, синтезирующие гормоны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какой вторичный посредник образуется из АТФ под действием аденилатциклазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "цГМФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "цАМФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "диацилглицерол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "инозитолтрифосфат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какой ион является важным вторичным посредником во многих сигнальных путях?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "натрий (Na⁺)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "калий (K⁺)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кальций (Ca²⁺)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "магний (Mg²⁺)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой газ может выступать в роли вторичного посредника?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кислород (О₂)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "углекислый газ (СО₂)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оксид азота (NO)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "водород (Н₂)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какая протеинкиназа активируется цАМФ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "протеинкиназа С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "протеинкиназа А",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тирозинкиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кальмодулин-зависимая киназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Что происходит при связывании гидрофильного гормона с мембранным рецептором?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гормон проникает в ядро и влияет на транскрипцию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "активируется аденилатциклаза, образуется цАМФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гормон связывается с ДНК напрямую",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гормон разрушается в цитоплазме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Что происходит при связывании гидрофобного (стероидного) гормона с рецептором?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гормон активирует аденилатциклазу на мембране",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гормон влияет на транскрипцию мРНК",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гормон разрушается в лизосомах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гормон активирует протеинкиназу С",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какой гормон гипоталамуса стимулирует секрецию АКТГ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиролиберин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кортиколиберин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "соматолиберин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гонадолиберин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой гормон гипоталамуса ингибирует секрецию гормона роста?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пролактолиберин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "меланолиберин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "соматостатин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "тиролиберин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Сколько либеринов вырабатывается в гипоталамусе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "12",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Сколько статинов вырабатывается в гипоталамусе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какой гормон гипофиза стимулирует рост организма и синтез белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пролактин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "АКТГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "соматотропный гормон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "тиреотропный гормон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какой гормон гипофиза стимулирует лактацию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "соматотропин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пролактин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "окситоцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "меланоцитстимулирующий гормон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какой гормон гипофиза стимулирует секрецию кортикостероидов корой надпочечников?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиреотропный гормон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "адренокортикотропный гормон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фолликулостимулирующий гормон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лютеинизирующий гормон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какой гормон гипофиза регулирует синтез и секрецию тироксина и трийодтиронина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АКТГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ТТГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ФСГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ЛГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какие гормоны относятся к гонадотропным гормонам гипофиза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АКТГ и ТТГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ФСГ и ЛГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "СТГ и пролактин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "окситоцин и вазопрессин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какой гормон нейрогипофиза регулирует водный обмен и реабсорбцию воды в почках?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "окситоцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вазопрессин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пролактин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "меланоцитстимулирующий гормон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какой гормон нейрогипофиза стимулирует сокращение гладкой мускулатуры матки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вазопрессин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "окситоцин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пролактин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "соматостатин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Из какого количества аминокислотных остатков состоит вазопрессин и окситоцин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "9",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "12",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Где синтезируются вазопрессин и окситоцин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в аденогипофизе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в нейрогипофизе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в гипоталамусе",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в коре надпочечников",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "При гипофункции соматотропного гормона в детстве развивается:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "акромегалия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гигантизм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гипофизарный нанизм",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ожирение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "При гиперфункции соматотропного гормона у взрослых развивается:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипофизарный нанизм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гигантизм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "акромегалия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "кахексия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какие гормоны синтезирует щитовидная железа?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиреотропный и адренокортикотропные гормоны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тироксин и трийодтиронин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкокортикоиды и минералокортикоиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "адреналин и норадреналин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Из какой аминокислоты синтезируются тиреоидные гормоны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фенилаланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тирозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "триптофан",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гистидин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какой фермент катализирует образование «активного» йода при синтезе тиреоидных гормонов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тирозингидроксилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "йодпероксидаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дейодиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиреоглобулиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "В каком белке происходит йодирование тирозина при синтезе тиреоидных гормонов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в альбумине",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в тиреоглобулине",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в трансферрине",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в глобулине",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какая форма тиреоидных гормонов является биологически более активной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тироксин (Т₄)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трийодтиронин (Т₃)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "обратный Т₃",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиреоглобулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какой основной эффект тиреоидных гормонов на энергетический обмен?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение базального метаболизма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "увеличение расхода АТФ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ингибирование гликолиза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стимуляция синтеза гликогена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какое заболевание развивается при гиперфункции щитовидной железы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "микседема",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "эндемический зоб",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Базедова болезнь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "кретинизм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какое заболевание развивается при гипотиреозе у детей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "микседема",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кретинизм",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "эндемический зоб",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "акромегалия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Что является причиной эндемического зоба?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "избыток йода в пище",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "недостаточное поступление йода с пищей и водой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гиперфункция щитовидной железы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дефицит кальция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какой гормон регулирует обмен кальция и фосфатов, снижая их уровень в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "паратгормон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кальцитонин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кальцитриол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альдостерон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "В каких клетках щитовидной железы синтезируется кальцитонин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в фолликулярных тироцитах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в С-клетках",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в клетках Лейдига",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в главных клетках",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какой гормон повышает уровень кальция в крови, стимулируя резорбцию костной ткани?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кальцитонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "паратгормон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кальцитриол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Что является основным регулятором секреции паратгормона?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "уровень фосфора в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "концентрация ионов Ca²⁺ во внеклеточной жидкости",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "концентрация ионов Ca²⁺ в костях и поченых клубочках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "концентрация фосфатов в костной ткани",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "В какой форме витамин D превращается в активный гормон кальцитриол?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в коже под действием УФ-лучей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в почках",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Как называется активная форма витамина D₃?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "холекальциферол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кальцидиол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кальцитриол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "эргокальциферол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какой основной эффект кальцитриола на кишечник?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ингибирование всасывания кальция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимуляция всасывания кальция",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "стимуляция всасывания железа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ингибирование всасывания жиров",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какое заболевание развивается при дефиците кальцитриола у детей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "остеомаляция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "рахит",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "остеопороз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гиперкальциемия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какие катехоламины синтезируются в мозговом слое надпочечников?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкокортикоиды и минералокортикоиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дофамин, адреналин и норадреналин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кортизол и кортикостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альдостерон и паратгормон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Из какой аминокислоты синтезируются катехоламины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фенилаланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тирозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "триптофан",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какой гормон мозгового слоя надпочечников вызывает гипергликемию, учащение сердцебиения и повышение АД?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "адреналин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дофамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кортизол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "В какой зоне коры надпочечников синтезируются минералокортикоиды (альдостерон)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в пучковой зоне",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в сетчатой зоне",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в клубочковой зоне",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в мозговом слое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "В какой зоне коры надпочечников синтезируются глюкокортикоиды (кортизол)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в клубочковой зоне",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в пучковой зоне",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в сетчатой зоне",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в мозговом слое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "В какой зоне коры надпочечников синтезируются половые стероиды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в клубочковой зоне",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в пучковой зоне",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в сетчатой зоне",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в мозговом слое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Какие эффекты характерны для глюкокортикоидов на белковый обмен?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стимуляция синтеза белков во всех тканях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "усиление катаболизма белков в тканях",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ингибирование трансаминирования",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стимуляция синтеза коллагена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Какие эффекты характерны для глюкокортикоидов на углеводный обмен?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение уровня глюкозы в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимуляция глюконеогенеза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "стимуляция гликогенеза в мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ингибирование гликогенолиза в печени",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Какой минералокортикоид регулирует транспорт натрия в почечных канальцах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кортизол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кортикостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "альдостерон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "дегидроэпиандростерон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Какой эффект оказывает альдостерон на выведение калия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "задерживает калий в организме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимулирует выведение калия с мочой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет на обмен калия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стимулирует всасывание калия в кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "В каких клетках поджелудочной железы синтезируется инсулин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в А (α)-клетках островков Лангерганса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в В (β)-клетках островков Лангерганса",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в D (δ)-клетках островков Лангерганса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в экзокринных ацинусных клетках",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Что является главным регулятором секреции инсулина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "уровень аминокислот в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "концентрация глюкозы в плазме крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "уровень жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "концентрация кальция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "В каких клетках поджелудочной железы синтезируется глюкагон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в В (β)-клетках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в А (α)-клетках",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в D (δ)-клетках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в РР-клетках",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Какие гормоны синтезируются в мозговом слое надпочечников?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кортизол и альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "адреналин, норадреналин и дофамин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тестостерон и эстрадиол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин и трийодтиронин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Из какой аминокислоты синтезируются катехоламины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фенилаланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тирозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "триптофан",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гистидин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Какой основной эффект глюкокортикоидов на углеводный обмен?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение уровня глюкозы в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимуляция глюконеогенеза и повышение глюкозы в крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "стимуляция гликогенеза в мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ингибирование гликогенолиза в печени",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Какой минералокортикоид регулирует транспорт натрия в почечных канальцах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кортизол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кортикостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "альдостерон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "дегидроэпиандростерон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Какой эффект оказывает альдостерон на выведение калия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "задерживает калий в организме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимулирует выведение калия с мочой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет на обмен калия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стимулирует всасывание калия в кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "К какому классу химических соединений относятся половые гормоны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "к пептидам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "к производным аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "к стероидам",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "к производным жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Какой основной андроген синтезируется в мужских половых железах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эстрадиол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "прогестерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тестостерон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "дегидроэпиандростерон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "В каких органах, кроме семенников, могут синтезироваться андрогены?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только в печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в яичниках и коре надпочечников",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только в почках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только в гипофизе",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Какие две основные группы женских половых гормонов синтезируются в яичниках?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "андрогены и прогестины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "эстрогены и прогестины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкокортикоиды и минералокортикоиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тиреоидные гормоны и кальцитонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Какой основной эффект прогестерона?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стимуляция овуляции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "обеспечение имплантации оплодотворённой яйцеклетки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "стимуляция лактации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ингибирование синтеза белка",
+        "isCorrect": false
+      }
+    ]
+  }
+]

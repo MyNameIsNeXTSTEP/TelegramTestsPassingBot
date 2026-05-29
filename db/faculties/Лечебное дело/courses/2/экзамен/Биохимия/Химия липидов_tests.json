@@ -1,0 +1,1562 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое липиды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "водорастворимые органические соединения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "органические соединения, нерастворимые в воде",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "высокомолекулярные азотсодержащие вещества",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "углеводные полимеры",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какая функция НЕ характерна для липидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "структурная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "энергетическая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "каталитическая",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "теплоизоляционная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "На какие две основные группы делятся липиды по химическому строению?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "насыщенные и ненасыщенные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "простые и сложные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "водорастворимые и жирорастворимые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "алифатические и ароматические",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Что представляют собой простые липиды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сложные эфиры жирных кислот с фосфорной кислотой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сложные эфиры жирных кислот с различными спиртами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сложные эфиры жирных кислот с углеводами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "производные стероидных спиртов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Что такое триацилглицеролы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сложные эфиры жирных кислот с одноатомными спиртами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сложные эфиры глицерина и жирных кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "производные сфингозина и жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сложные эфиры холестерола и жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какие жирные кислоты преобладают в твёрдых животных жирах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ненасыщенные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "насыщенные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "короткоцепочечные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ароматические",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Сколько атомов углерода обычно содержат жирные кислоты в липидах человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "от 11 до 23",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "от 12 до 24",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "от 16 или 18 атомов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "от 5 до 10 атомов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какая жирная кислота обозначается как 18:1 Δ9?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стеариновая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "олеиновая",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пальмитиновая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "линолевая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Что означает обозначение ω-3 для полиненасыщенных жирных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "первая двойная связь находится у 3-го атома от карбоксильного конца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "первая двойная связь находится у 3-го атома от метильного конца цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "первая двойная связь находится у 3-го атома от карбонильного конца цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "первая двойная связь находится у 3-го атома от амино-конца цепи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какая конфигурация двойных связей характерна для природных ненасыщенных жирных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "транс-конфигурация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "цис-конфигурация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "обе конфигурации в равной мере",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "линейная конфигурация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какая жирная кислота является незаменимой для человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пальмитиновая (16:0)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стеариновая (18:0)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "линолевая (18:2 Δ9,12)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "олеиновая (18:1 Δ9)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Что образуется при омылении триацилглицеролов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только жирные кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глицерол и жирные кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только глицерол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфолипиды и глицерол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Что такое воска?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сложные эфиры трехатомного спирта глицерина и жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сложные эфиры высших жирных кислот и одноатомных спиртов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "производные холестерола и спирта сфингозина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфорсодержащие липиды с сфингомиелином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что обязательно входит в состав фосфолипидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "жирные кислоты, спирт и азотсодержащие сахара",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "жирные кислоты, спирт, фосфорная кислота и азотистые основания",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глицерин, жирные кислоты, фосфорный остаток и аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "углеводные остатки, жирные кислоты , сфингозин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "На какие две группы делятся фосфолипиды в зависимости от спирта?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфоглицериды и триацилглицериды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глицерофосфолипиды и сфингофосфолипиды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глицерофосфаты и стероидные спирты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "диацилглицеролы и моноацилглицеролы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какой азотистый компонент входит в состав фосфатидилхолинов (лецитинов)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "этаноламин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "серин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "холин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "инозитол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какой фосфолипид является важным компонентом внутренней мембраны митохондрий?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфатидилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфатидилэтаноламин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фосфатидилинозитол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "сфингомиелин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Что такое плазмалогены?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфолипиды с двумя остатками фосфорной кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфолипиды, содержащие β-ненасыщенный спирт",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фосфолипиды без азотистого основания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфолипиды с углеводным компонентом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой спирт входит в основу структуры сфинголипидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глицерин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сфингозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "холестерол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "этаноламин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Что образуется при гидролизе сфингомиелинов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "жирные кислоты, спирт, фосфорная кислота и азотистые основания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "жирная кислота, сфингозин, фосфорная кислота и азотистое основание",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "жирные кислоты, глицерин, фосфорный остаток и аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "холестерол и жирные кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Что такое церамид?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сложный эфир глицерина и двух жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "соединение сфингозина с жирной кислотой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "производное холестерола",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "углеводный компонент гликолипидов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Что входит в состав цереброзидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глицерин, жирные кислоты и глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "церамид и остаток сахара",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "холестерол и олигосахарид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфорная кислота и углевод",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Что отличает ганглиозиды от цереброзидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "наличие фосфорной кислоты и азотистого основания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "наличие молекул сиаловой кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "отсутствие углеводного компонента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "наличие двух остатков глицерина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "К какой группе липидов относится холестерол?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "к простым липидам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "к фосфолипидам",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "к стероидам",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "к гликолипидам",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Что такое стериды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "свободные стероидные спирты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "эфиры стеролов и жирных кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "производные глицерина и жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфорсодержащие стероиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Как располагаются фосфолипиды в биологических мембранах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "хаотично, без определённой ориентации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "асимметрично, образуя билипидный слой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только в одном слое мембраны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в виде мицелл внутри мембраны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Что такое сульфатиды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфолипиды с сульфогруппой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сульфокислые эфиры цереброзидов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "производные холестерола с серой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гликолипиды без серы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какая жирная кислота имеет самую низкую температуру плавления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стеариновая (18:0)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пальмитиновая (16:0)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "олеиновая (18:1)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "линоленовая (18:3)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Что такое омыляемые липиды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "липиды, которые не гидролизуются щелочами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "липиды, которые гидролизуются щелочью",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "липиды, содержащие только остатки холестерина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "липилы, которые не образуют солей жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Жирные кислоты, не содержащие двойных связей называют?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ненасыщенные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "насыщенные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "моноеновые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "полиеновые",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Что представляют собой триацилглицеролы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сложные эфиры одноатомных спиртов и жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сложные эфиры трёхатомного спирта глицерина и высших жирных кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "производные сфингозина и жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сложные эфиры холестерола и жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Почему животные жиры (сало) твёрдые при комнатной температуре?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из-за высокого содержания ненасыщенных жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из-за значительного содержания насыщенных жирных кислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из-за наличия фосфорной кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из-за высокой молекулярной массы глицерина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Как называются жиры, содержащие преимущественно ненасыщенные жирные кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "салом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "восками",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "маслами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "стероидами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какая реакция триацилглицеролов имеет наибольшее практическое значение при действии кислот или щелочей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "окисление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "восстановление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "омыление",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "полимеризация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Что образуется в результате омыления жиров?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только жирные кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глицерол и жирные кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только глицерол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфолипиды и глицерол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какой процент жирных кислот в конопляном масле составляют ненасыщенные кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "70%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "85%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "95%",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "При какой температуре плавится жир человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "при 0°С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "при 15°С",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "при 37°С",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "при 50°С",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какая жирная кислота преобладает (около 70%) в жире человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стеариновая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пальмитиновая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "олеиновая",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "линоленовая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Как называется соединение глицерина с одной жирной кислотой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "триацилглицерол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "диацилглицерол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "моноацилглицерол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "фосфатидная кислота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Где в организме триацилглицеролы находятся преимущественно в форме резервного жира?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в жировой ткани",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в мышцах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Что такое воска по химической природе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сложные эфиры трехатомного спирта глицерина и жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сложные эфиры высших жирных кислот и одноатомных спиртов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "производные холестерола и желчных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сложные эфиры спирта сфингозина, жирных кислот и фосфорного остатка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Сколько атомов углерода обычно содержат спирты, входящие в состав восков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "от 2 до 6",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "от 8 до 12",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "от 16 до 22",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "от 30 до 40",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Где в природе чаще всего встречаются воска у растений?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в корнях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в семенах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "на плодах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в древесине",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Что дополнительно содержат природные воска (пчелиный, спермацет, ланолин) помимо сложных эфиров?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "воду",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "свободные жирные кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нуклеотиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аминокислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какую функцию выполняют воска у животных и птиц?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "энергетическую",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "защитную",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "транспортную",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "каталитическую",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Что обязательно входит в состав фосфолипидов, кроме жирных кислот и спирта?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "остаток серной кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "остаток фосфорной кислоты",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "остаток глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "остаток холестерина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "На какие две группы делятся фосфолипиды в зависимости от спирта?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гликофосфолипиды и фосфопротеиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глицерофосфолипиды и сфингофосфолипиды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "диацилглицеролы и моноглицеролы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "плазмалогены и кардиолипины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какой азотистый компонент входит в состав фосфатидилхолинов (лецитинов)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "этаноламин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "серин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "холин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "инозитол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какой фосфолипид является важным компонентом внутренней мембраны митохондрий?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфатидилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфатидилэтаноламин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кардиолипин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "сфингомиелин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Что такое плазмалогены?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфолипиды с двумя остатками фосфорной кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфолипиды, содержащие β-ненасыщенный спирт",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фосфолипиды без азотистого основания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфолипиды с углеводным компонентом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какое свойство фосфолипидов обусловлено наличием гидрофобных хвостов и гидрофильной головки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кристалличность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "амфифильность",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "радиоактивность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "оптическая активность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какое азотистое основание входит в состав фосфатидилэтаноламинов (кефалинов)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "холин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "этаноламин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "серин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глицерин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой подкласс глицерофосфолипидов не содержит азота?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фосфатидилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фосфатидилсерин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "фосфатидилинозитол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "фосфатидилэтаноламин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Что образуется при гидролизе плазмалогенов в разбавленных кислотах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глицерол и жирные кислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "насыщенный альдегид",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фосфорная кислота и холин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сфингозин и галактоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Что такое кардиолипин по химической структуре?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "монофосфатидилглицерол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дифосфатидилглицерол",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сложный эфир холестерола",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гликолипид с серной кислотой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Где в мембранах клеток млекопитающих преимущественно расположены фосфатидилсерин и фосфатидилинозитол?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в наружном листочке мембраны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "во внутреннем листочке мембраны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "равномерно в обоих листочках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только в белковых каналах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Где в мембранах митохондрий клеток млекопитающих преимущественно расположены сфингомиелин и фосфатидилхолин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "во внутреннем листочке мембраны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в наружном листочке мембраны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в межмембранном пространстве",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в цитозоле",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какое название получили фосфатидилэтаноламины в старой биохимической номенклатуре?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лецитины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кефалины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сфингомиелины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ганглиозиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какой двухатомный ненасыщенный спирт лежит в основе структуры сфинголипидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глицерин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сфингозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "холестерол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "этаноламин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Что такое церамид?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сложный эфир глицерина и двух жирных кислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "соединение сфингозина с жирной кислотой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "производное холестерола",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "углеводный компонент гликолипидов",
+        "isCorrect": false
+      }
+    ]
+  }
+]

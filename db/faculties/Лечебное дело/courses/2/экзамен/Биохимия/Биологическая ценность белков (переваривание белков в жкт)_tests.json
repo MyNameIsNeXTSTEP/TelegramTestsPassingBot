@@ -1,0 +1,1562 @@
+[
+  {
+    "id": 1,
+    "title": "Что определяет биологическую ценность пищевого белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "общее содержание азота в продукте",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "близость аминокислотного состава пищи к составу белков организма",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "количество пептидных связей в молекуле белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "калорийность продукта",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Сколько аминокислот входит в состав белков человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "20",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "25",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Сколько незаменимых аминокислот для организма взрослого человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "9",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "12",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какая аминокислота относится к незаменимым?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аланин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глицин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "валин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "серин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Что такое заменимые аминокислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминокислоты, которые не участвуют в синтезе белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аминокислоты, которые могут синтезироваться в организме человека",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "аминокислоты, которые поступают только с пищей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аминокислоты, которые разрушаются в организме",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какая аминокислота относится к полузаменимым?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лейцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гистидин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "изолейцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "метионин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Что происходит при недостатке одной незаменимой аминокислоты в пище?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "организм синтезирует её из других аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нарушается усвоение других аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "увеличивается потребность в жирах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "снижается потребность в углеводах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какая формула используется для расчёта аминокислотного скора?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "(А/В) × 50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "(А/В) × 100%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "(В/А) × 100%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "(А+В) × 100%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Что такое лимитирующая аминокислота?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминокислота с наибольшим аминокислотным скором",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "незаменимая аминокислота с наименьшим аминокислотным скором",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "заменимая аминокислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аминокислота, которая не усваивается",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какой белок часто принимают за «идеальный» при расчёте аминокислотного скора?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белок мяса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белок сои",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "белок куриного яйца",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "белок молока",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какая суточная потребность в белках для взрослого человека при умеренной физической нагрузке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50-70 г",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "100-120 г",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "150-180 г",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "200-250 г",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какая суточная потребность в белках для людей физического труда?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "80-100 г",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "130-150 г",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "180-200 г",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "250-300 г",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какая суточная потребность в белках для детей раннего возраста?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "20-30 г",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "40-50 г",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "55-72 г",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "90-100 г",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что происходит при недостаточном поступлении белков с пищей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличивается синтез тканевых белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "распад тканевых белков превосходит их синтез",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не происходит никаких изменений",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "увеличивается запас гликогена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какие системы организма наиболее чувствительны к белковому голоданию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пищеварительная и выделительная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нервная и эндокринная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "костная и хрящевая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кожная и мышечная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Почему белки мяса, молока и яиц имеют высокую биологическую ценность?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "они имеют высокую молекулярную массу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "их аминокислотный состав ближе к составу организма",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "они легко перевариваются",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "они содержат большое количество пептидных связей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Почему кератин волос и фиброин шелка имеют низкую пищевую ценность, несмотря на близкий аминокислотный состав?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что они содержат токсичные вещества",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потому что они не гидролизуются протеиназами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что они не содержат незаменимых аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что они быстро разрушаются при хранении",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какая аминокислота может частично компенсировать потребность в фенилаланине?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "серин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тирозин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глицин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аланин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какая аминокислота снижает потребность в метионине?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "серин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "цистеин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "треонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лизин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Что необходимо учитывать при оценке биологической ценности пищевого продукта?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминокислотный состав отдельных белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аминокислотный состав всего комплекса белков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только содержание незаменимых аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только содержание заменимых аминокислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Где начинается переваривание белков в организме человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в ротовой полости",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в желудке",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в тонком кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой фермент желудка начинает переваривание белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "химотрипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пепсин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "карбоксипептидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "При каком рН активен пепсин в желудке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5,0-6,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3,5-4,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1,5-2,5",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "7,0-8,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какие пептидные связи преимущественно расщепляет пепсин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образованные глицином и аланином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "образованные ароматическими аминокислотами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образованные лизином и аргинином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образованные серином и треонином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какой гормон стимулирует выделение панкреатического сока в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "секретин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "адреналин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "В какой форме секретируются протеазы поджелудочной железы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в активной форме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в виде неактивных проферментов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в виде коферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в виде простых белков",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой фермент активирует трипсиноген в трипсин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сам трипсин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "химотрипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "карбоксипептидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какие пептидные связи преимущественно расщепляет трипсин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образованные ароматическими аминокислотами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "образованные аргинином и лизином",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образованные глицином и аланином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образованные серином и треонином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какие пептидные связи преимущественно расщепляет химотрипсин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образованные лизином и аргинином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "образованные ароматическими аминокислотами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образованные глицином и аланином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образованные серином и треонином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какой фермент отщепляет С-концевые аминокислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аминопептидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "карбоксипептидаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "химотрипсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Где происходит окончательное расщепление пептидов до свободных аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в просвете тонкого кишечника",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "на поверхности энтероцитов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Каким путём аминокислоты всасываются в энтероцитах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "путём простой диффузии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "путём облегчённой диффузии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "путём вторично-активного транспорта",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "путём эндоцитоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Что создаёт градиент концентрации натрия, необходимый для всасывания аминокислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Na⁺/K⁺-АТФ-аза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "трипсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Куда поступают аминокислоты после всасывания в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сразу в большой круг кровообращения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печень через воротную вену",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в лимфатическую систему",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в жировую ткань",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Что такое протеазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ферменты, синтезирующие пептидные связи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ферменты, ккатализирующие гидролиз пептидных связей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ферменты, транспортирующие аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ферменты, окисляющие аминокислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какие ферменты расщепляют внутренние пептидные связи в полипептидной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "экзопептидазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "эндопептидазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трансферазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лиазы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какие ферменты отщепляют аминокислоты с концов полипептидной цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эндопептидазы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "экзопептидазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "изомеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дегидрогеназы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Аминопептидазы отщепляют аминокислоты с:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "С-конца полипептидной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "N-конца полипептидной цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "середины цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "любого конца цепи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Карбоксипептидазы отщепляют аминокислоты с:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "N-конца полипептидной цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "С-конца полипептидной цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "середины цепи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "любого конца цепи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Что определяет специфичность действия протеаз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только концентрация фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "субстратная специфичность фермента",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только температура среды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только рН среды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какой тип связи расщепляют протеолитические ферменты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гликозидную связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пептидную связь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сложноэфирную связь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дисульфидную связь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Что образуется при гидролизе пептидной связи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только свободные аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "более короткие пептиды",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только ди- и трипептиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нуклеотиды и аминокислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Что активирует пепсиноген в активный пепсин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "бикарбонаты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "соляная кислота",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "амилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "При каком значении рН оптимален для действия пепсина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5,0-6,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "4,0-5,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1,5-2,5",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "7,0-8,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какие пептидные связи преимущественно расщепляет пепсин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образованные глицином и аланином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "образованные ароматическими аминокислотами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образованные лизином и аргинином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образованные серином и треонином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Что происходит с белками пищи под действием соляной кислоты в желудке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "они синтезируются в новые белки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "происходит их денатурация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "они полностью расщепляются до аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "они превращаются в жиры",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какое дополнительное действие оказывает соляная кислота в желудке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стимулирует синтез инсулина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "обладает бактерицидным действием",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "активирует амилазу слюны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нейтрализует желчные кислоты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какие клетки желудка секретируют соляную кислоту?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "главные клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "обкладочные клетки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "добавочные клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "энтероциты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какие клетки желудка секретируют пепсиноген?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обкладочные клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "главные клетки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "добавочные клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "клетки Лейдига",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Что выделяют добавочные клетки эпителия желудка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "соляную кислоту",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пепсиноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "муцинсодержащую слизь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "бикарбонаты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Куда поступает желудочное содержимое (химус) после переваривания в желудке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в толстый кишечник",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в двенадцатиперстную кишку",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "обратно в желудок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в поджелудочную железу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какой гормон выделяется в ответ на низкое рН химуса в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "секретин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "адреналин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Что стимулирует секретин в поджелудочной железе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "секрецию пепсиногена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "выделение бикарбонатов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез инсулина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "активацию трипсиногена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "До какого значения повышается рН в тонком кишечнике после нейтрализации желудочного сока?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "до 3,0-4,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "до 5,0-6,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "до 7,0-8,0",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "до 9,0-10,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "В какой форме синтезируются протеазы поджелудочной железы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в активной форме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в не активной форме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в виде коферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в виде простых белков",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какие проферменты синтезируются в поджелудочной железе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только пепсиноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трипсиноген, химотрипсиноген",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только амилазу и липазу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только инсулин и глюкагон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какой фермент активирует трипсиноген в активный трипсин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сам трипсин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "химотрипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "карбоксипептидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какие пептидные связи преимущественно расщепляет трипсин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образованные ароматическими аминокислотами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "образованные карбоксильными группами аргинина и лизина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образованные глицином и аланином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образованные серином и треонином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какие пептидные связи преимущественно расщепляет химотрипсин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "образованные лизином и аргинином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "образованные ароматическими аминокислотами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "образованные глицином и аланином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образованные серином и треонином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "В какой форме секретируются аминопептидазы и дипептидазы кишечника?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в виде проферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в активной форме",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в виде коферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в виде зимогенов",
+        "isCorrect": false
+      }
+    ]
+  }
+]

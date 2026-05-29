@@ -1,0 +1,1172 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое «психическая деятельность»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "идеальная, субъективно осознаваемая деятельность, осуществляемая с помощью нейрофизиологических процессов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "совокупность нейрофизиологических процессов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только мышление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только эмоции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Что такое «сознание»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "состояние, при котором организм может дать действительности оценку",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "высшая нервная деятельность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "память",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "внимание",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какая структура мозга обеспечивает восходящие активирующие влияния на кору (необходимые для сознания)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ретикулярная формация ствола",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "базальные ядра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гиппокамп",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какое минимальное время активации коры необходимо для осознания сигнала?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1–10 мс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "100–300 мс",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "0,5–1 с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10 с",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какое мышление свойственно только человеку?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "абстрактное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "образное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "конкретно-предметное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "наглядно-действенное",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какое полушарие у правшей является доминантным для речи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "левое",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "правое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оба",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "зависит от возраста",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какая зона коры является центром Брока (моторная речь)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нижняя лобная извилина (поле 44)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "верхняя височная извилина (поле 22)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "затылочная область (поле 17)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "постцентральная извилина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какая зона коры является центром Вернике (сенсорная речь, понимание)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нижняя лобная извилина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "верхняя височная извилина (поле 22)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "угловая извилина (поле 39)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "прецентральная извилина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какое нарушение речи (афазия) возникает при поражении центра Брока?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "моторная афазия (нарушение произношения при сохранении понимания)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сенсорная афазия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "алексия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аграфия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какое нарушение речи возникает при поражении центра Вернике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сенсорная афазия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "моторная афазия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "анартрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дислексия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Что такое «эмоция»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ярко выраженное переживание",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мышление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "память",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "внимание",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какая структура мозга является ключевой для формирования эмоций?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лимбическая система (амигдала, гипоталамус)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "базальные ядра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "таламус",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какое влияние на агрессивность оказывает удаление амигдалы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "повышение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "извращение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какая зона гипоталамуса при стимуляции вызывает положительные эмоции (центр удовольствия)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "медиальный пучок переднего мозга, латеральный гипоталамус",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "вентромедиальный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "дорсомедиальный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "супраоптический",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какой нейромедиатор в основном связан с системой вознаграждения?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дофамин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какая эмоция называется «стенической»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышающая активность организма (гнев, радость)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "угнетающая активность (горе, страх)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "безразличие",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "удивление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какая теория эмоций (П.К. Анохин) связывает эмоции с удовлетворением потребности?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "биологическая теория",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "информационная теория",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "полифакторная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "когнитивная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Что такое «мотивация»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "побуждение к действию для удовлетворения потребности",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "потребность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "эмоция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рефлекс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какая структура мозга является ключевой для формирования мотиваций?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипоталамус",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "спинной мозг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какая стадия функциональной системы завершается положительной эмоцией?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "оценка результата (совпадение обратной афферентации с АРД)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "афферентный синтез",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "принятие решения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "действие",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какое влияние на психическую деятельность оказывает кора большого мозга?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "организует и контролирует",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "не участвует",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только вегетативные функции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только двигательные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Что такое «внимание»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "состояние активного бодрствования, направленность деятельности",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мышление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "память",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ощущение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какая структура мозга участвует в произвольном внимании?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "затылочные доли",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "височные доли",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лобные доли",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какой метод исследования психической деятельности регистрирует локальную метаболическую активность мозга?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ПЭТ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "МРТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ЭКГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Что такое «латерализация функций»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "специализация полушарий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "расположение функций в коре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "доминирование одного полушария",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пластичность мозга",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какое полушарие лучше распознаёт интонацию речи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "правое",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "левое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оба одинаково",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "зависит от возраста",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какое полушарие связано с положительными эмоциями?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "правое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "левое",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "оба",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "подкорка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какое нарушение поведения возникает при лобном синдроме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эмоциональная тупость, нарушение планирования, растормаживание",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "афазия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "агнозия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "атаксия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Что такое «агнозия»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нарушение узнавания",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "нарушение речи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нарушение движений",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нарушение письма",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Что такое «праксис»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "способность к целенаправленным действиям",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "узнавание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "память",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "речь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какая структура мозга отвечает за праксис?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "теменная кора (надкраевая извилина, поле 39–40)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "лобная кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "затылочная кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "височная кора",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какая структура мозга отвечает за гнозис (узнавание)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "теменная и височная кора",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "лобная кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гипоталамус",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какая структура мозга участвует в формировании долговременной памяти?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гиппокамп, миндалина, кора",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "таламус",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гипоталамус",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какой метод исследования психической деятельности регистрирует магнитные поля мозга?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "магнитоэнцефалография (МЭГ)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ПЭТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "МРТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какое влияние на память оказывает эмоциональное возбуждение?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "улучшает консолидацию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ухудшает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стирает память",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Что такое «функциональная асимметрия мозга»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "различие в функциях левого и правого полушарий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "повреждение одного полушария",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "доминирование одного полушария",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "равнозначность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какая структура мозга участвует в произвольном внимании и планировании?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "затылочная кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "височная кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лобная кора",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Кто разработал концепцию функциональной системы поведенческого акта (1960-е гг.)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Константин Судаков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Алексей Ухтомский",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Пётр Кузьмич Анохин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какой метод используется для визуализации активности мозга во время выполнения психических задач (фМРТ)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "функциональная магнитно-резонансная томография (BOLD-сигнал)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ПЭТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "МРТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Кто ввёл понятие «стресс» и описал общий адаптационный синдром?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Уолтер Кэннон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Ганс Селье",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Чарльз Шеррингтон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какой метод используется для оценки эмоциональной реакции по кожно-гальванической реакции (КГР)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "полиграф",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ПЭТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "МРТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Кто открыл явление «экстраполяционного рефлекса» (способность животных предвидеть траекторию движения)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Леонид Викторович Крушинский",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Владимир Бехтерев",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Алексей Ухтомский",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какой метод используется для оценки латерализации психических функций (Wada-тест)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фМРТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "интракаротидная проба с амиталом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ПЭТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Кто разработал модель «расщеплённого мозга» и получил Нобелевскую премию за исследования функциональной асимметрии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Роджер Сперри",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Александр Лурия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Карл Прибрам",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какой метод используется для исследования речевых центров у пациентов с эпилепсией (электрическая стимуляция коры)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "электрокортикография во время нейрохирургических операций",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ПЭТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "МРТ",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,2056 @@
+[
+  {
+    "id": 1,
+    "title": "Кто разработал метод хронической фистулы желудка и «мнимого кормления»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Иван Петрович Павлов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Карл Людвиг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Эрнст Старлинг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Уильям Бомонт",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой метод используется для регистрации моторики желудка с поверхности брюшной стенки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "электрогастрография (ЭГГ)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "баллонная гастрография",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "рентгеноскопия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эндоскопия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Кто открыл секретин – первый гормон пищеварительной системы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Джон Эдкинс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Уильям Бейлисс и Эрнст Старлинг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Роберт Грегори",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой метод используется для измерения внутрипросветного pH в разных отделах ЖКТ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фиброгастроскопия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "эндорадиозондирование",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "бариевая взвесь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "УЗИ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Кто впервые описал условно-рефлекторную фазу желудочной секреции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Клод Бернар",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Роберт Кох",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Иван Петрович Павлов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Эрнст Старлинг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой метод позволяет визуализировать перистальтику пищевода и желудка в реальном времени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "рентгеноскопия с бариевой взвесью",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "эндоскопия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "УЗИ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "КТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Кто открыл энтерокиназу (фермент, активирующий трипсиноген)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Эрнст Старлинг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Иван Павлов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Клод Бернар",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Рудольф Гейденгайн",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой метод используется для оценки всасывательной функции тонкой кишки (D-ксилозный тест)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тест Шиллинга (B₁₂)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гидрогеновый дыхательный тест",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "копрограмма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тест с D-ксилозой",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какой фермент слюны расщепляет крахмал?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лизоцим",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-амилаза (птиалин)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мальтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пепсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Каков pH смешанной слюны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1,5–2,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5,8–7,4",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "7,5–8,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "8,0–9,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой фермент слюны обладает бактерицидным действием?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лизоцим",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мальтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нуклеаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какое вещество в слюне обеспечивает ослизнение пищевого комка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "муцин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "лизоцим",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "бикарбонаты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какая фаза глотания является произвольной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ротовая",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "глоточная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пищеводная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "все фазы произвольны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какой нерв обеспечивает парасимпатическую иннервацию слюнных желёз (барабанная струна)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "VII пара",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "IX пара",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "X пара",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "V пара",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какое влияние на слюноотделение оказывает симпатическая нервная система?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обильную жидкую слюну",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "небольшое количество густой слюны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тормозит",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какие клетки желудка секретируют соляную кислоту?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "главные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "обкладочные (париетальные)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "добавочные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "G-клетки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какие клетки желудка секретируют пепсиноген?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обкладочные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "добавочные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "энтерохромаффинные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "главные",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какова pH желудочного сока натощак?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "7,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "8,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1,5–2,0",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой фермент желудочного сока активируется соляной кислотой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пепсиноген → пепсин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "желатиназа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какая функция соляной кислоты в желудке является основной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эмульгирование жиров",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "всасывание витаминов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нейтрализация щелочи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "активация пепсиногена и денатурация белков",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какой белок (внутренний фактор Касла) выделяется обкладочными клетками?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гастромукопротеид",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "муцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гастрин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какая фаза желудочной секреции запускается видом и запахом пищи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "желудочная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кишечная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гуморальная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сложнорефлекторная",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какой гормон (G-клетки антрального отдела) стимулирует секрецию HCl?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "секретин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гастрин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "холецистокинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гистамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какой гормон (в двенадцатиперстной кишке) стимулирует секрецию бикарбонатов поджелудочной железой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "холецистокинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гастрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мотилин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "секретин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какой гормон стимулирует сокращение желчного пузыря и секрецию ферментов поджелудочной железой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "секретин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "холецистокинин-панкреозимин (ХЦК)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гастрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ГИП",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какова продолжительность периода желудочной секреции после приёма пищи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30 мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "несколько часов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10 мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1 сутки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой фермент поджелудочной железы активируется энтерокиназой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "химотрипсиноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "прокарбоксипептидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "трипсиноген",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "профосфолипаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Каков pH панкреатического сока?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "7,5–8,8",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "6,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какой фермент поджелудочной железы расщепляет жиры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "липаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нуклеаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какой компонент желчи эмульгирует жиры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "билирубин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "холестерин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лецитин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "желчные кислоты",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Где происходит реабсорбция желчных кислот (энтерогепатическая циркуляция)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "желудок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "подвздошная кишка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "толстая кишка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "двенадцатиперстная кишка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какое влияние на желчеобразование оказывает блуждающий нерв?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стимулирует",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тормозит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает застой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какие ферменты осуществляют пристеночное (мембранное) пищеварение?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ферменты, встроенные в мембрану микроворсинок (интегральные белки)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ферменты слюны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ферменты поджелудочного сока в полости кишки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ферменты желудочного сока",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Кто открыл пристеночное пищеварение?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "И.П. Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "А.М. Уголев",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "К. Бернар",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Э. Старлинг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какова частота медленных электрических волн (базальный ритм) желудка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1–2 в мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3 в мин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10–12 в мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "20–30 в мин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какова частота базального ритма двенадцатиперстной кишки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3 в мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "10–12 в мин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "5–6 в мин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1–2 в мин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Что такое «мигрирующий моторный комплекс» (ММК)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "периодическая голодная моторика ЖКТ (циклы 90 мин)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "постоянная моторика после еды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "перистальтика толстой кишки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "антиперистальтика",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какой гормон вызывает чувство голода (стимулирует пищевое поведение)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лептин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нейропептид Y (в ЦНС)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "холецистокинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "грелин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какой фермент желудка расщепляет белки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гастриксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реннин (у детей)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "желатиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пепсин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какие клетки желудка выделяют гистамин, стимулирующий секрецию HCl?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "G-клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ECL-клетки (энтерохромаффиноподобные)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "D-клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "главные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какой препарат блокирует H₂-гистаминовые рецепторы (уменьшает секрецию HCl)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "атропин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "циметидин, ранитидин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "омепразол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "панкреатин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какой фермент поджелудочной железы расщепляет нуклеиновые кислоты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нуклеаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "липаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какой фермент кишечника активирует трипсиноген?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "химотрипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "энтерокиназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "карбоксипептидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какая часть тонкой кишки наиболее активна в всасывании?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "подвздошная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "все одинаково",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только двенадцатиперстная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "двенадцатиперстная и тощая",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какой механизм всасывания аминокислот и глюкозы является основным?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "простая диффузия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "натрийзависимый транспорт (симпорт с Na⁺)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "облегчённая диффузия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пиноцитоз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какой механизм всасывания моноглицеридов и жирных кислот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "прямая диффузия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "активный транспорт",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "образование мицелл с желчными кислотами, затем ресинтез триглицеридов и образование хиломикронов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "фильтрация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Где всасываются хиломикроны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в лимфу (грудной проток)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в портальную вену",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в желчные протоки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какой витамин всасывается в подвздошной кишке в комплексе с внутренним фактором?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "B₁₂",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "D",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какой гормон тормозит желудочную секрецию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гастрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "секретин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ГИП (гастроингибирующий пептид)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "мотилин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какая функция толстой кишки является основной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "переваривание белков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "переваривание жиров",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "секреция ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "всасывание воды и формирование кала",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какие бактерии преобладают в толстой кишке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кишечная палочка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "бифидобактерии и бактероиды (облигатные анаэробы)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "лактобактерии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стрептококки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какой витамин синтезируется микрофлорой толстой кишки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "D",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "K",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой сфинктер прямой кишки образован поперечно-полосатой мускулатурой и управляется произвольно?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "наружный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "внутренний",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оба",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только сфинктер Одди",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какой гормон (желудочно-ободочный рефлекс) стимулирует моторику толстой кишки после еды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гастрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "холецистокинин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "секретин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мотилин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какова нормальная микрофлора желудка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обильная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "практически стерильна (из-за HCl)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "такая же, как в толстой кишке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "грибы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какой гормон (поджелудочной железы) тормозит секрецию инсулина и глюкагона (паракринно)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "соматостатин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "панкреатический полипептид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "амилин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какой кишечный гормон стимулирует секрецию инсулина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ГИП (гастроингибирующий пептид)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "секретин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ХЦК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "грелин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какой тип пищеварения происходит на мембране микроворсинок энтероцитов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "полостное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пристеночное (мембранное)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "внутриклеточное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аутолитическое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какой фермент слюны расщепляет мальтозу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мальтаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "лизоцим",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нуклеаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какая железа выделяет «запальный» сок (по И.П. Павлову)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "поджелудочная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "желудочные железы (в сложнорефлекторную фазу)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "печень",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "слюнные железы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Какова роль бикарбонатов в панкреатическом соке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нейтрализация кислого желудочного содержимого в двенадцатиперстной кишке",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "активация ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "эмульгирование жиров",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "всасывание витаминов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Какой фермент поджелудочной железы активируется трипсином?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "трипсиноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "прокарбоксипептидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "профосфолипаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "химотрипсиноген",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Какой отдел желудка секретирует гастрин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фундальный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "антральный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кардиальный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дно",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Какой вид сокращений кишечника обеспечивает перемешивание химуса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "перистальтика",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ритмическая сегментация и маятникообразные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тонические",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пропульсивные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Гормон ВИП оказывает влияние на моторику кишечника следующее действие",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расслабление (торможение)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "стимуляция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает спазм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Какой фермент слюны отсутствует у человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "целлюлаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мальтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лизоцим",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Какой витамин необходим для синтеза факторов свёртывания в печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "K",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "E",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "C",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Какой гормон участвует в регуляции кальция?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиреокальцитонин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "паратгормон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кальцитриол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эстрадиол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Какая буферная система слюны является основной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "бикарбонатная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "фосфатная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "белковая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гемоглобиновая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Какой фермент поджелудочной железы расщепляет белки до аминокислот (экзопептидаза)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "карбоксипептидаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "трипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "химотрипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эластаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Какой гормон (желудочный) стимулирует секрецию HCl и пепсиногена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гастрин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "секретин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ХЦК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мотилин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Какой гормон (двенадцатиперстной кишки) тормозит секрецию HCl и стимулирует выработку бикарбонатов поджелудочной железой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "секретин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гастрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ХЦК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ГИП",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Какой тип пищеварения происходит в полости кишки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "полостное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "пристеночное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "внутриклеточное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аутолитическое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Какой витамин всасывается в подвздошной кишке в комплексе с внутренним фактором Касла?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "B₁₂",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "D",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Какой гормон (жировой ткани) подавляет аппетит?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лептин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "грелин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нейропептид Y",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Какой гормон (желудка) стимулирует аппетит?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "грелин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "лептин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ХЦК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "секретин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Какой pH оптимален для действия пепсина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1,5–2,0",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "6,0–7,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "7,5–8,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "5,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Какая фаза желудочной секреции запускается растяжением желудка и действием продуктов гидролиза белков?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "желудочная (нейрогуморальная)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сложнорефлекторная (мозговая)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кишечная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "цефалическая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Как гормон гистамин действует на обкладочные клетки через H₂-рецепторы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стимулирует секрецию HCl",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тормозит секрецию HCl",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "стимулирует секрецию пепсиногена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тормозит моторику",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,1510 @@
+[
+  {
+    "id": 1,
+    "title": "Кто создал первый калориметр для измерения теплопродукции человека (конец XIX в.)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Макс Рубнер",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Уилбур Этуотер",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Антуан Лавуазье",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Карл Фохт",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой метод используется для определения основного обмена в клинике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "прямая калориметрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "биоимпедансометрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "денситометрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "непрямая калориметрия",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Кто ввёл понятие «основной обмен» (Basal Metabolic Rate)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Антуан Лавуазье",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Макс Рубнер",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Христиан Бор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой прибор позволяет измерять потребление O₂ и выделение CO₂ в покое и при нагрузке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метаболиметр",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "капнограф",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оксиметр",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пневмотахограф",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Кто экспериментально доказал, что пищеварение не является процессом брожения, а связано с действием ферментов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Антуан Лавуазье",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Клод Бернар",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "Юлиус Либих",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой метод используется для оценки состава тела (жировая, мышечная масса) на основе электрического сопротивления?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "биоимпедансометрия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гидростатическое взвешивание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "калиперометрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "денситометрия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Кто открыл роль гипоталамуса в терморегуляции (эксперименты с локальным нагревом и охлаждением)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Уолтер Кэннон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ханс Селье",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Иван Павлов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Клод Бернар",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой метод используется для измерения температуры тела в разных точках (кожа, ректум, подмышка) в термонейтральных условиях?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инфракрасная термография",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ртутный термометр",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "электротермометрия (мультисенсорная)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "термопара",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Что такое «основной обмен»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "минимальный расход энергии в стандартных условиях (покой, натощак, комфортная температура)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "расход энергии при физической работе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "энергия, затрачиваемая на пищеварение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "общий суточный расход",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какова величина основного обмена у мужчин (ккал/сут)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1000–1200",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1500–1700",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "2000–2500",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "3000–3500",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой фактор повышает основной обмен?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "проживание в холодном климате",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "вегетарианство",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "возраст старше 70 лет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Каков дыхательный коэффициент при смешанном питании?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,7",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "0,8–0,9",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "1,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1,2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Каков калорический эквивалент кислорода при окислении углеводов (ккал/л O₂)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "4,48",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5,05",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "4,69",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "5,5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какое соотношение белков, жиров и углеводов в сбалансированном питании (по массе)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1:1:1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1:1,2:4,6",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "2:1:2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1:2:5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Каков физиологический калорический коэффициент белков (ккал/г)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "9,3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "4,1",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "5,05",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "4,5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какова доля белков в энергообеспечении организма при сбалансированном питании?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "15%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "30%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "5%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какие аминокислоты называются незаменимыми?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "не синтезируются в организме и должны поступать с пищей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "синтезируются из других аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "содержатся только в растительных белках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "их 20",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Какой азотистый баланс наблюдается в период роста?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "отрицательный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "положительный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "азотистое равновесие",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нулевой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой витамин является антиоксидантом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "B₁",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "A, C, E",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "D",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "K",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какой микроэлемент входит в состав гемоглобина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "медь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "железо",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кобальт",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "магний",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какой гормон стимулирует липолиз (мобилизацию жиров из депо)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "адреналин, глюкагон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эстроген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой гормон стимулирует синтез гликогена в печени?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кортизол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какой гормон повышает уровень глюкозы в крови (глюконеогенез)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кортизол, глюкагон, адреналин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только тироксин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эстроген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какова нормальная концентрация глюкозы в крови (ммоль/л)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2,0–3,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3,5–6,5",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "7,0–8,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10–12",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какой орган является основным депо гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "печень и мышцы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сердце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мозг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "жировая ткань",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какой тип теплоотдачи преобладает при температуре окружающей среды выше температуры тела?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "конвекция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "испарение (потоотделение)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "излучение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "проведение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой вид теплопродукции наиболее эффективен при охлаждении?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "произвольная двигательная активность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "непроизвольная дрожь и терморегуляторный тонус",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "усиление обмена веществ в печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "несократительный термогенез в бурой жировой ткани",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какой механизм теплоотдачи осуществляется инфракрасными лучами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "излучение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "конвекция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "проведение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "испарение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какой гормон увеличивает теплопродукцию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тироксин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "инсулин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АДГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какова температура «ядра» тела человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "около 37 °C",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "35 °C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "39 °C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "33 °C",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какой тип терморецепторов преобладает в коже?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тепловые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "холодовые",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "равное количество",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "болевые",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какова суточная потребность в воде (л) для взрослого человека в умеренном климате?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2,5–3,0",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "1,0–1,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "4,0–5,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,5–1,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какой гормон щитовидной железы увеличивает основной обмен?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тироксин (T₄)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "кальцитонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "паратгормон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "инсулин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какой тип ожирения связан с преобладанием углеводов в рационе (алиментарное)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "экзогенно-конституциональное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "гипоталамическое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "эндокринное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "наследственное",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какой витамин синтезируется в коже под действием ультрафиолета?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "D",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "E",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "K",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какой микроэлемент входит в состав тироксина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "йод",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "железо",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "медь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "цинк",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какой отдел мозга отвечает за теплопродукцию (химическая терморегуляция)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "задний гипоталамус",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "передний гипоталамус",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "продолговатый мозг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какой отдел мозга отвечает за теплоотдачу (физическая терморегуляция)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "передний гипоталамус",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "задний гипоталамус",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "таламус",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гипофиз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какой механизм теплоотдачи преобладает в состоянии покоя при комфортной температуре?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "излучение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "испарение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "конвекция",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "проведение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какова суточная потребность в белке (г/кг массы тела) для взрослого человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1,0–1,2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "2,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "3,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какой продукт является полноценным белком?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пшеничный хлеб",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "яйцо",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "рис",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "горох",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какой метод калориметрии основан на измерениях количества тепла, выделенного организмом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "непрямая калориметрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "прямая калориметрия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "метод Крога",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "метод Фика",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Каков КПД организма при мышечной работе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "20%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "40%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "60%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какой гормон (щитовидной железы) увеличивает основной обмен?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тироксин (T₄) и трийодтиронин (T₃)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "кальцитонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "паратгормон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АДГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какой тип нервных волокон стимулирует потоотделение?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "симпатические холинергические",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "симпатические адренергические",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "парасимпатические",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "соматические",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какова нормальная температура в подмышечной впадине?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "35,0–35,5 °C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "36,0–36,9 °C",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "37,5–38,0 °C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "34,0 °C",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какой тип ожирения связан с избытком углеводов в рационе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "алиментарное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "эндокринное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гипоталамическое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "наследственное",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какая незаменимая жирная кислота относится к семейству омега-3?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "олеиновая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "линоленовая",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пальмитиновая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стеариновая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какой витамин необходим для всасывания кальция в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "A",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "D",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "E",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "K",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какой минерал является основным внутриклеточным катионом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Na⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "K⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Ca²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Mg²⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какая суточная потребность в NaCl (г)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1–2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5–8",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "15–20",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какой вид терморегуляции преобладает у новорождённых (несократительный термогенез)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "бурая жировая ткань",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "дрожь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "произвольные движения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вазодилатация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой гормон стимулирует выработку тиреоидных гормонов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тиреолиберин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "кортиколиберин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "соматолиберин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гонадолиберин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какой фактор увеличивает расход энергии при основном обмене?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "возраст старше 60 лет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "холодовая адаптация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вегетарианство",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какова оптимальная температура окружающей среды для обнажённого человека (температура комфорта)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "18–20 °C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "26–28 °C",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "30–32 °C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10–12 °C",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какой гормон мозгового слоя надпочечников усиливает теплопродукцию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кортизол",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "адреналин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "альдостерон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тироксин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какой жир является наиболее биологически ценным (содержит незаменимые жирные кислоты)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "говяжий жир",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "растительные масла",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сливочное масло",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "бараний жир",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Какова потребность в белке (г/кг массы тела) для взрослого человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1,0–1,2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "2,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "3,0",
+        "isCorrect": false
+      }
+    ]
+  }
+]

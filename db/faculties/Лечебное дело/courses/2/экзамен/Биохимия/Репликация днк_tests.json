@@ -1,0 +1,1016 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое репликация ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез РНК на матрице ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "удвоение молекулы ДНК перед делением клетки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "расщепление ДНК на отдельные нуклеотиды",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ремонт повреждённых участков хромосом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой механизм репликации ДНК характерен для всех живых организмов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "консервативный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дисперсивный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "полуконсервативный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "спонтанный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "В каком направлении ДНК-полимераза синтезирует новую цепь ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3' → 5'",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5' → 3'",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в обоих направлениях одновременно",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "направление синтеза не имеет значения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Что обязательно необходимо для начала работы любой ДНК-полимеразы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только матричная цепь ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "только дезоксинуклеозидтрифосфаты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "наличие праймера со свободной 3'-ОН-группой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "только ионы магния",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Из каких нуклеотидов состоит РНК-праймер, необходимый для запуска репликации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из дезоксирибонуклеотидов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из рибонуклеотидов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из липидных молекул",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой фермент синтезирует короткий РНК-праймер при репликации ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ДНК-полимераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ДНК-лигаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "праймаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "хеликаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какая цепь синтезируется непрерывно в направлении движения репликативной вилки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "отстающая цепь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лидирующая цепь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "матричная цепь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "праймерная цепь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Как называются короткие фрагменты ДНК, синтезируемые на отстающей цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фрагменты Клебса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фрагменты Оказаки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фрагменты Уотсона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фрагменты Мезельсона",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какой фермент соединяет фрагменты Оказаки в единую непрерывную цепь ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ДНК-полимераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "праймаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ДНК-лигаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "топоизомераза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какой фермент раскручивает двойную спираль ДНК в репликативной вилке, разрывая водородные связи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "топоизомераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "хеликаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ДНК-полимераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лигаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какая ДНК-полимераза у прокариот (например, E. Coli) является основным ферментом репликации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ДНК-полимераза I",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ДНК-полимераза II",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ДНК-полимераза III",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ДНК-полимераза IV",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какую основную функцию выполняет ДНК-полимераза I у прокариот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "основной синтез новой цепи ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "удаление РНК-праймеров",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "распознавание точки начала репликации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сшивание концов хромосом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Сколько точек начала репликации (ориджинов) обычно имеет хромосома эукариот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "одна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "две",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "множество",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ни одной",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какая ДНК-полимераза эукариот образует комплекс с праймазой и инициирует синтез новой цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ДНК-полимераза α",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ДНК-полимераза β",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ДНК-полимераза γ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ДНК-полимераза δ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какая ДНК-полимераза эукариот является основным ферментом синтеза лидирующей цепи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ДНК-полимераза α",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ДНК-полимераза ε",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ДНК-полимераза δ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ДНК-полимераза β",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какая ДНК-полимераза эукариот преимущественно синтезирует отстающую цепь?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ДНК-полимераза α",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ДНК-полимераза ε",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ДНК-полимераза δ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ДНК-полимераза γ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какая ДНК-полимераза эукариот отвечает за репликацию митохондриальной ДНК?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ДНК-полимераза α",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ДНК-полимераза δ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ДНК-полимераза γ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ДНК-полимераза ε",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Что такое генетический код?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "способ хранения энергии в ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "шифр кодирования белка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "механизм репликации ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "процесс транскрипции РНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Сколько нуклеотидов составляет один кодон генетического кода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Сколько всего возможных кодонов существует в генетическом коде?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "20",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "40",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "64",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "100",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Сколько аминокислот кодируется генетическим кодом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "20",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "64",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Что означает свойство «триплетность» генетического кода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "один нуклеотид кодирует одну аминокислоту",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "три нуклеотида кодируют одну аминокислоту",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "три аминокислоты кодируются одним нуклеотидом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "код состоит из трёх частей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Что означает свойство «вырожденность» (избыточность) генетического кода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "одну аминокислот кодирует только один триплет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "одну аминокислоту могут кодировать несколько разных кодонов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кодоны могут перекрываться",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "код содержит лишние нуклеотиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Что означает свойство «универсальность» генетического кода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "код работает только у человека",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "код одинаков для ДНК и РНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "код одинаков для всех организмов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "код универсален для всех белков",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Что означает свойство «однозначность» генетического кода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "один кодон может кодировать несколько аминокислот",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "каждый триплет кодирует только одну аминокислоту",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "код одинаков для всех организмов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "все кодоны одинаковы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Что означает свойство «непрерывность» генетического кода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "код не прерывается при репликации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "между кодонами нет пропусков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "код читается без остановок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нуклеотиды не могут повторяться",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Что означает свойство «неперекрываемость» генетического кода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "между кодонами нет пропусков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "каждый нуклеотид входит только в один кодон",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кодоны не могут находиться рядом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "код универсален для всех организмов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какие триплеты являются стоп-кодонами синтеза белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "АУГ, УУУ, ЦЦЦ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "УАА, УАГ, УГА",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ААА, ГГГ, ЦЦЦ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "УУУ, ЦЦЦ, ААА",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какой кодон является стартовым при синтезе белка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "УАА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "УГА",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "АУГ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "УАГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Что такое колинеарность генетического кода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "совпадение последовательностей в ДНК и РНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "соотношение оследовательности аминокислот и нуклеотидов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "линейное расположение генов в хромосоме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "параллельное считывание двух цепей ДНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какая аминокислота кодируется только одним кодоном?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лейцин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "серин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "метионин и триптофан",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "аланин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Что кодируют смысловые кодоны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сигналы начала и конца транскрипции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "конкретные аминокислоты в составе белка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "регуляторные последовательности ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "интроны в пре-иРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "В каком направлении движутся две репликативные вилки от ориджина у прокариот?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в одном направлении",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в противоположных направлениях",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "по кругу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "хаотично",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Что такое теломеры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "точки начала репликации в бактериальной хромосоме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ферменты, раскручивающие ДНК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "концевые участки линейных хромосом эукариот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "фрагменты РНК-праймеров, остающиеся после репликации",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Почему теломеры укорачиваются при каждой репликации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что ДНК-полимераза повреждает концы хромосом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "после удаления праймера нет 3'-конца для достройки цепи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что теломеры не реплицируются",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что хеликаза не может раскрутить концы хромосом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какой фермент компенсирует укорочение теломер при репликации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ДНК-полимераза α",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ДНК-лигаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "теломераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "топоизомераза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Что является матрицей для синтеза теломерных повторов теломеразой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "РНК-праймер, синтезированный праймазой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "собственная РНК-компонента теломеразы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мРНК теломеразного гена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тРНК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "В каких клетках человека наиболее активна теломераза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в зрелых эритроцитах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в нейронах головного мозга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в стволовых клетках",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в клетках кожи",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Почему укорочение теломер связывают со старением клеток?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что теломеры кодируют белки старения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "запускает программу клеточного старения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что теломеры регулируют синтез АТФ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что теломеры контролируют деление митохондрий",
+        "isCorrect": false
+      }
+    ]
+  }
+]

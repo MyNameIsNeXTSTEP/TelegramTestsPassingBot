@@ -1,0 +1,782 @@
+[
+  {
+    "id": 1,
+    "title": "Какова относительная плотность цельной крови у здорового человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1,010-1,015",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "1,050-1,060",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "1,080-1,090",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1,100-1,110",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Что такое осмотическое давление крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "давление, создаваемое белками плазмы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "давление, создаваемое низкомолекулярными веществами",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "давление, создаваемое эритроцитами",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "давление в артериальной системе",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Что такое онкотическое давление крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "давление, создаваемое электролитами плазмы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "давление, создаваемое белками плазмы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "давление в венозной системе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "давление в капиллярах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Каково нормальное значение рН артериальной крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "6,8-7,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "7,0-7,2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "7,35-7,45",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "7,6-7,8",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какие буферные системы участвуют в поддержании рН крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "легочная вентиляция и выделение углекислого газа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "бикарбонатная, фосфатная, гемоглобиновая системы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "почечная реабсорбция бикарбоната и секреция ионов водорода",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только карбоангидраза и ионы хлора",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Что такое ацидоз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышение рН крови выше 7,45",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "снижение рН крови ниже 7,35",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нормальное значение рН",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "колебание рН в пределах нормы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какова нормальная концентрация общего белка в плазме крови взрослого человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30-45 г/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "65-85 г/л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "90-110 г/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "120-140 г/л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой белок составляет основную часть белков плазмы крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глобулины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "альбумины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фибриноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "иммуноглобулины",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какова основная функция альбуминов крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "транспорт гормонов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "поддержание онкотического давления и транспорт различных веществ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "участие в свёртывании крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "иммунная защита",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какие глобулины относятся к α-глобулинам?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "иммуноглобулины и трансферин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α₁-антитрипсин, церулоплазмин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фибриноген и β-липопротеины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "С-реактивный белок",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какие белки относятся к β-глобулинам?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альбумины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трансферрин, β-липопротеины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "иммуноглобулины G",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фибриноген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какие белки относятся к γ-глобулинам?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альбумины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трансферрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "иммуноглобулины",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "фибриноген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какой белок плазмы участвует в транспорте железа?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альбумин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трансферрин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "церулоплазмин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гаптоглобин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какой белок плазмы связывает свободный гемоглобин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "альбумин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трансферрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гаптоглобин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "фибриноген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Что такое белки острой фазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белки, синтезируемые только при хронических заболеваниях",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белки, концентрация которых резко возрастает при воспалении",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "белки, снижающиеся при любом патологическом процессе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "белки, участвующие только в свёртывании крови",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какой из перечисленных белков НЕ относится к белкам острой фазы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "С-реактивный белок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фибриноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "α₁-антитрипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альбумин",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Что такое гипопротеинемия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышение концентрации общего белка в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "снижение концентрации общего белка в крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нормальная концентрация белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "изменение соотношения белковых фракций",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Что может быть причиной гипопротеинемии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "избыточное потребление белка с пищей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "недостаточное поступление белка",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "обезвоживание организма",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "повышение синтеза иммуноглобулинов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Что такое гиперпротеинемия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение концентрации общего белка в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышение концентрации общего белка в крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нормальная концентрация белка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "изменение только альбуминовой фракции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Что такое диспротеинемия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "изменение только концентрации альбуминов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нарушение соотношения между белковыми фракциями",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "полное отсутствие глобулинов в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "повышение только фибриногена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Что такое остаточный азот крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "азот, содержащийся в белках плазмы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "азот, содержащийся в небелковых соединениях",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "азот, связанный с гемоглобином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "азот, входящий в состав липидов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какова нормальная концентрация остаточного азота в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5-10 ммоль/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "14,3-25,0 ммоль/л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "30-40 ммоль/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "50-60 ммоль/л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какое соединение составляет основную часть остаточного азота крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мочевая кислота",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "креатинин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мочевина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "аммиак",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Повышение уровня мочевины в крови чаще всего указывает на:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нарушение функции печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нарушение функции почек",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "избыточное потребление углеводов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "снижение мышечной массы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Повышение уровня мочевой кислоты в крови характерно для:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахарного диабета",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "подагры",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гипотиреоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "анемии",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Что такое креатининемия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение уровня креатинина в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышение уровня креатинина в крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нормальный уровень креатинина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "появление креатинина в моче",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Что такое гиперферментемия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение активности ферментов в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышение активности ферментов в крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нормальная активность ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "отсутствие ферментов в крови",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какая основная причина появления внутриклеточных ферментов в крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "усиленный синтез ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повреждение клеток",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "снижение выведения ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "повышение температуры тела",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какой фермент является специфическим маркёром повреждения миокарда?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "аланинаминотрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "креатинкиназа-МВ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "щелочная фосфатаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Повышение активности аминотрансфераз (АЛТ, АСТ) в крови чаще всего указывает на:",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повреждение почек",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повреждение печени или миокарда",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нарушение функции поджелудочной железы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "заболевание щитовидной железы",
+        "isCorrect": false
+      }
+    ]
+  }
+]

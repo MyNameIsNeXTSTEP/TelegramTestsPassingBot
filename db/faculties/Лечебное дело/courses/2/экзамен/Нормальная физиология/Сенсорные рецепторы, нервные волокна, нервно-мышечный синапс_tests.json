@@ -1,0 +1,1354 @@
+[
+  {
+    "id": 1,
+    "title": "Какой медиатор высвобождается в нервно-мышечном синапсе скелетной мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетилхолин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "глутамат",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ГАМК",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Что такое «генераторный потенциал» (ГП) во вторичном рецепторе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ПД рецепторной клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "локальный потенциал постсинаптической мембраны окончания афферентного нейрона, возникающий под действием медиатора",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "рецепторный потенциал самой рецепторной клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ПД афферентного волокна",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Какова скорость быстрого аксонного транспорта?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1–2 мм/сут",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "200–400 мм/сут",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10–20 см/с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,5 м/с",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какое вещество является медиатором в тормозных синапсах спинного мозга (клетки Реншо)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ГАМК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глицин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дофамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "серотонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Что происходит с медиатором в синаптической щели после передачи сигнала?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "он накапливается",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "разрушается ферментом (ацетилхолинэстеразой) и частично реабсорбируется пресинапсом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "пассивно диффундирует в кровь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "поглощается постсинаптической мембраной",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какая структура нервно-мышечного синапса содержит N-холинорецепторы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пресинаптическая мембрана",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "постсинаптическая мембрана",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синаптические пузырьки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "митохондрии",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какова ширина синаптической щели в нервно-мышечном синапсе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "2–4 нм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "50 нм",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "1 мкм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10 нм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какое количество квантов медиатора (везикул) выделяется из пресинаптического окончания нервно-мышечного синапса в ответ на один ПД?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1–2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "200–300",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "1000–2000",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10–20",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Что такое «миниатюрные потенциалы концевой пластинки»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потенциалы, возникающие при сильной стимуляции",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "спонтанно возникающие потенциалы амплитудой 0,4–0,8 мВ из-за выделения 1–2 квантов медиатора",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потенциалы, возникающие при блокаде ацетилхолинэстеразы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "подпороговые ВПСП",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какие нервные волокна являются немиелинизированными и имеют скорость проведения 1–2 м/с (тип С)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Aα",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Aγ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "B",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "C",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Где локализуются электроуправляемые (потенциалзависимые) ионные каналы в миелинизированном нервном волокне?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "по всей мембране аксона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "только в перехватах Ранвье",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в миелиновой оболочке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в аксонном холмике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Что такое «рецепторный потенциал» (РП) в первичном рецепторе?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ПД в афферентном волокне",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "деполяризация (иногда гиперполяризация) мембраны рецепторного окончания под действием раздражителя",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "генераторный потенциал",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ВПСП",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какова роль антидромной импульсации в регуляции чувствительности рецепторов (латеральное торможение)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "она не имеет значения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "через выделение АТФ из соседних окончаний вызывает торможение рецепторов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "усиливает возбуждение рецепторов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "блокирует проведение в ЦНС",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что такое «валлеровская дегенерация»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "восстановление нерва после травмы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "распад периферического отрезка нерва, лишённого связи с телом нейрона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "разрастание миелиновой оболочки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "образование новых синапсов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Что такое «аксонный транспорт»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проведение ПД по аксону",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "перемещение веществ (органелл, белков) по аксону с затратой энергии",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "выделение медиатора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рост аксона",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какой медиатор выделяется из преганглионарных волокон вегетативной нервной системы (и симпатических, и парасимпатических)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетилхолин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дофамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какое вещество блокирует N-холинорецепторы постсинаптической мембраны нервно-мышечного синапса (курареподобные)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "атропин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тубокурарин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "прозерин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фентоламин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Что происходит с передачей в химическом синапсе при длительной высокой частоте стимуляции (синаптическая депрессия)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потенциация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "утомление из-за истощения медиатора",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "переход в электрический синапс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "блокада постсинаптических рецепторов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какова лабильность нервно-мышечного синапса (максимальная частота передачи сигналов в 1 с)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "200–400 Гц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "30–50 Гц",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "100–200 Гц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "10–20 Гц",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Что такое «облегчённая диффузия» через мембрану?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "транспорт с помощью белка-переносчика без затраты энергии, но с насыщением",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "первичный активный транспорт",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "свободное прохождение через липидный бислой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фильтрация через поры",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какая скорость проведения характерна для преганглионарных вегетативных волокон типа B?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "100–160 м/с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5–15 м/с",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "1–2 м/с",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "50–70 м/с",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Что такое «электротоническое распространение» возбуждения?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пассивное распространение локального потенциала с затуханием (декрементом)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "распространение ПД без декремента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сальтаторное проведение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "передача через электрический синапс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какова роль миелиновой оболочки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "питание аксона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изоляция и увеличение скорости проведения возбуждения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез медиатора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фагоцитоз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Что такое «синаптическая задержка»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "время между приходом ПД и выделением медиатора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "время от прихода ПД до возникновения ПД в постсинаптической клетке (0,5–1 мс)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "время жизни медиатора в щели",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "период рефрактерности синапса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какие рецепторы относятся к быстроадаптирующимся (фазическим)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проприорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тельца Пачини, тельца Мейснера",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "болевые рецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "мышечные веретена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Что такое «нейротрофогены»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вещества, разрушающие нейроны",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "специальные белки и пептиды, регулирующие синтез белка в теле нейрона и трофику эффекторов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "медиаторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гормоны гипофиза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой ион необходим для выделения медиатора из пресинаптического окончания (вход через потенциалзависимые каналы)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Na+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Ca2+",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "K+",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Cl–",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какой тип проведения возбуждения характерен для безмиелиновых нервных волокон (тип С)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сальтаторное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "непрерывное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "электротоническое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только ортодромное",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Что происходит при блокаде ацетилхолинэстеразы прозерином (неостигмином)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "прекращение синаптической передачи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "увеличение амплитуды и длительности ПКП за счёт накопления АХ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "блок постсинаптических рецепторов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гиперполяризация постсинаптической мембраны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какие рецепторы являются первичными (чувствительные окончания дендрита) по классификации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фоторецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "обонятельные, тактильные, болевые, проприорецепторы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "вкусовые",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "слуховые",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какова роль обратного (ретроградного) аксонного транспорта?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "доставка АТФ к окончаниям",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "перенос факторов роста (нейротрофогенов) и остатков разрушенных структур в тело нейрона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "выделение медиатора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "проведение ПД",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Какое явление лежит в основе одностороннего проведения возбуждения в химических синапсах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "высокая лабильность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "чувствительность постсинаптической мембраны только к медиатору, а пресинаптической — только к ПД",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "наличие клапанов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рефрактерность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Что такое «сенситизация» рецепторов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение чувствительности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышение чувствительности (увеличение РП) под влиянием симпатической нервной системы или катехоламинов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адаптация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "деполяризация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какова роль фактора роста нервов (ФРН)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "разрушение нервных клеток",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимуляция роста и поддержание структуры симпатических и спинальных ганглиев",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "выделение медиатора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "миелинизация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какое расстояние может преодолеть электрическое поле ПД в миелинизированном волокне, чтобы вызвать ПД в соседнем перехвате Ранвье?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "0,1–1 мм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "до 5 мм",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "10–20 мм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,01 мм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Что такое «аккомодация» рецептора (адаптация)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение возбудимости и уменьшение частоты ПД при длительном действии раздражителя",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "повышение возбудимости",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "спонтанная активность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "генерация ПД без стимула",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Каков механизм спонтанной (фоновой) активности рецепторов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "постоянное действие раздражителя",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "постоянная утечка ионов через неуправляемые каналы и работа насосов (колебания ПП)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "выделение медиатора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "влияние ЦНС",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Что такое «первичный афферентный нейрон»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нейрон ЦНС",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "нейрон спинального ганглия (или ганглия черепного нерва), дендрит которого образует рецептор",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мотонейрон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вставочный нейрон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какое влияние на проведение возбуждения в нервно-мышечном синапсе оказывает увеличение частоты стимуляции?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только облегчение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сначала облегчение (потенциация), затем при высокой частоте — депрессия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сначала облегчение (потенциация), затем при очень высокой частоте — депрессия (утомление)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "только депрессия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Что такое «посттетаническая потенциация»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "длительное улучшение синаптической передачи после серии высокочастотных стимулов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ухудшение передачи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "выключение синапса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "превращение в электрический синапс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какой тип волокон (по Эрлангеру–Гассеру) относится к постганглионарным волокнам ВНС?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Aα",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Aδ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "B",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "C",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Что такое «перехват Ранвье»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "участок миелинизированного волокна, свободный от миелина, содержащий потенциалзависимые Na-каналы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "место контакта двух нейронов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "синаптическая бляшка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "начальный сегмент аксона",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какова роль митохондрий в пресинаптическом окончании?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "синтез медиатора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "обеспечение энергией (АТФ) для работы Ca-насоса и синтеза медиатора",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "рециклинг везикул",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "деградация медиатора",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Что такое «квант медиатора»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "содержимое одной синаптической везикулы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "одна молекула медиатора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "один ПД",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "один рецептор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какой фермент синтезирует ацетилхолин в цитоплазме окончания?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетилхолинэстераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "холинацетилтрансфераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тирозингидроксилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "МАО",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Где в ЦНС встречаются электрические синапсы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в коре",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в мезэнцефальном ядре тройничного нерва, вестибулярном ядре Дейтерса, нижней оливе",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в гиппокампе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в мозжечке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Что происходит с выделением медиатора при удалении Ca2+ из внеклеточной среды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличивается",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "прекращается",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не изменяется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "становится непрерывным",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какой белок пресинаптической мембраны отвечает за обратный захват медиатора (для катехоламинов)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Na/K-АТФаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "транспортёр обратного захвата",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ацетилхолинэстераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Са-насос",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Что такое «нервно-мышечный синапс» скелетной мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "химический синапс между аксоном α-мотонейрона и мышечным волокном, медиатор — ацетилхолин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "электрический синапс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "синапс между аксоном и вегетативным ганглием",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "синапс между двумя мышечными волокнами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какова локализация концевой пластинки (постсинаптической мембраны) на скелетном мышечном волокне?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в области Z-линии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "около середины мышечного волокна",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "на концах волокна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "равномерно по всей длине",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Что такое «потенциал концевой пластинки» (ПКП)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ПД мышечного волокна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "локальный деполяризационный потенциал постсинаптической мембраны, возникающий под действием АХ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тормозной постсинаптический потенциал",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рецепторный потенциал",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Почему ПКП всегда вызывает ПД в скелетном мышечном волокне?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из-за высокой лабильности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из-за высокой амплитуды ПКП (30–40 мВ), электрическое поле которого обеспечивает деполяризацию соседнего участка до КП",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из-за отсутствия рефрактерности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из-за наличия электрических синапсов",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,1458 @@
+[
+  {
+    "id": 1,
+    "title": "Какой отдел вегетативной нервной системы (ВНС) называют «эрготропным» (мобилизующим)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "парасимпатический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "симпатический",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "метасимпатический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "соматический",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какие преганглионарные волокна являются холинергическими?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "и симпатические, и парасимпатические",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "только симпатические",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "только парасимпатические",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только серотонинергические",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Где расположены преганглионарные нейроны симпатической нервной системы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в крестцовых сегментах спинного мозга (S2–S4)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в тораколюмбальных сегментах (C8–L2)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в продолговатом мозге",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в среднем мозге",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какие рецепторы активируются ацетилхолином в вегетативных ганглиях?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "М-холинорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "N-холинорецепторы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "α-адренорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "β-адренорецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какое влияние на сердце оказывает блуждающий нерв?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увеличение ЧСС и силы сокращений",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "уменьшение ЧСС",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает экстрасистолы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой фермент разрушает норадреналин в симпатических окончаниях?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетилхолинэстераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "МАО (моноаминоксидаза) и катехол-О-метилтрансфераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "протеинкиназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фосфодиэстераза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Что такое «симпатический тонус» для сосудов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "отсутствие активности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "постоянная умеренная активность, поддерживающая сосуды в состоянии сужения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только расширение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "хаотическая активность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой эффект на бронхи оказывает стимуляция симпатических нервов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сужение (бронхоспазм)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "расширение (бронходилатация) через β2-адренорецепторы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "увеличение секреции слизи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "не влияет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Где расположены парасимпатические ганглии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в симпатическом стволе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "вблизи иннервируемого органа или интраорганно",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в спинном мозге",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в головном мозге",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какие черепные нервы несут парасимпатические волокна?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I, II, III",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "III, VII, IX, X",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "V, VI, VII",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "XI, XII",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какой эффект оказывает ацетилхолин на гладкие мышцы желудочно-кишечного тракта (через М-рецепторы)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расслабление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сокращение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает спазм сфинктеров",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какие рецепторы преобладают в сердце для норадреналина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α1-адренорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β1-адренорецепторы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "β2-адренорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "М-холинорецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Что такое «феномен ускользания» сердца из-под влияния блуждающего нерва?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "прекращение влияния нерва",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "восстановление сердечных сокращений при продолжающейся стимуляции блуждающего нерва",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "остановка сердца",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фибрилляция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Какой медиатор выделяют преганглионарные симпатические волокна, идущие к мозговому слою надпочечников?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетилхолин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "серотонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какое вещество выделяется из мозгового слоя надпочечников в кровь при возбуждении симпатической системы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в основном норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в основном адреналин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "дофамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Какое влияние на моторику желудка оказывает симпатический нерв (через α-адренорецепторы)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "стимулирует",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тормозит",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает ретроградную перистальтику",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какие сосуды не имеют парасимпатической иннервации?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сосуды слюнных желез",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сосуды половых органов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сосуды кожи и большинства внутренних органов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "сосуды головного мозга",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Что такое «серотонинергический отдел ВНС»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "волокна, выделяющие серотонин, усиливающие сокращения ЖКТ",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "волокна, выделяющие адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "волокна, выделяющие дофамин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "соматические волокна",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какой тип рецепторов в вегетативных ганглиях (N-холинорецепторы) является?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "метаботропным",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ионотропным",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "внутриклеточным",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ядерным",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какое влияние на потовые железы оказывает симпатическая нервная система?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "не иннервирует их",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "стимулирует",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тормозит",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только сужает сосуды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Что такое «симпатическая денервация» сосуда?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сужение сосуда",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "расширение сосуда",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не изменяет просвет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "спазм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какой эффект оказывает норадреналин на α-адренорецепторы сосудов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расширение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сужение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала расширение, затем сужение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Какие адренорецепторы локализуются на пресинаптических мембранах симпатических окончаний и регулируют выделение норадреналина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "β2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "α1",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Что такое «ваготония»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "преобладание тонуса парасимпатической нервной системы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "преобладание симпатического тонуса",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "равновесие",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "атония",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какое влияние на тонус сфинктеров желудочно-кишечного тракта оказывает симпатическая нервная система?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расслабление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сокращение (повышение тонуса)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "чередование",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какой нерв является главным парасимпатическим нервом грудной и брюшной полости?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "диафрагмальный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "блуждающий",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "чревный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тазовый",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какие эффекты на сердце вызывают катехоламины (норадреналин, адреналин)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "отрицательные хроно- и инотропные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "положительные хроно- и инотропные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только хронотропный отрицательный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только инотропный отрицательный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какие парасимпатические волокна иннервируют органы малого таза (мочевой пузырь, прямая кишка)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из блуждающего нерва",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из тазового нерва (S2–S4)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из чревного сплетения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из седалищного нерва",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какой медиатор выделяется из постганглионарных парасимпатических волокон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетилхолин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "АТФ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какое влияние на зрачок оказывает стимуляция симпатической нервной системы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сужение (миоз)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "расширение (мидриаз)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нарушение аккомодации",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какой тип рецепторов в сердце для ацетилхолина (блуждающий нерв)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "N-холинорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "M2-холинорецепторы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "β-адренорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "α-адренорецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Что такое «метасимпатическая нервная система» (интраорганная)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "совокупность интрамуральных ганглиев и сплетений, обеспечивающих местную регуляцию",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "симпатическая система",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "парасимпатическая система",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "соматическая система",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какой медиатор выделяют тормозные нейроны интраорганной нервной системы кишечника?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ВИП (вазоактивный пептид)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "глутамат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какое влияние на артериальное давление оказывает альдостерон?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижает",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "повышает",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "снижает, затем повышает",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какие рецепторы в сосудах скелетных мышц расширяются под влиянием физиологических концентраций адреналина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "α2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "М",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Где расположены центры симпатической нервной системы в спинном мозге?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в передних рогах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в боковых рогах (C8–L2)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в задних рогах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в центральном канале",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какой эффект оказывает блуждающий нерв на атриовентрикулярную проводимость?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ускоряет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "замедляет",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает блокаду",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какие волокна иннервируют сосуды?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только парасимпатические",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в основном симпатические",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "соматические",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только чувствительные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какой эффект оказывает атропин на частоту сердечных сокращений?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "урежение (брадикардия)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "учащение (тахикардия)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аритмия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Что такое «холинергические симпатические волокна»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "симпатические волокна, выделяющие ацетилхолин (потовые железы, сосуды мышц)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "парасимпатические волокна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "соматические волокна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "все симпатические волокна",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какой эффект на коронарные сосуды оказывает норадреналин (в высоких дозах)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расширение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сужение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала расширение, затем сужение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какие рецепторы активируются в сосудах под влиянием гистамина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α-адренорецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "H1-рецепторы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "β-рецепторы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "N-холинорецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Что такое «рефлекс Бейнбриджа»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "урежение пульса при повышении давления в каротидном синусе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "учащение пульса при растяжении правого предсердия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "остановка сердца при раздражении брюшины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сужение сосудов при гиперкапнии",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какое влияние на секрецию слюны оказывает симпатическая нервная система?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обильную жидкую слюну",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "небольшое количество густой слюны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тормозит",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какое влияние на секрецию слюны оказывает парасимпатическая нервная система?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обильную жидкую слюну",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "густую слюну",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тормозит",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какой медиатор выделяют постганглионарные парасимпатические волокна, иннервирующие слюнные железы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ацетилхолин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "серотонин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гистамин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какое влияние на сокращения мочевого пузыря оказывает парасимпатическая нервная система?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расслабление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сокращение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "повышает тонус сфинктера",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какое влияние на тонус внутреннего сфинктера мочевого пузыря оказывает симпатическая нервная система?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расслабление",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сокращение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вызывает непроизвольное мочеиспускание",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какой тип рецепторов в гладких мышцах бронхов вызывает их расширение?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "α1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β2",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "М3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Н1",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Что такое «внутрисердечная нервная система»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "собственная рефлекторная дуга внутри сердца (афферентные и эфферентные нейроны)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "симпатические нервы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "парасимпатические нервы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "соматические нервы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какое вещество является медиатором в тормозных ВИП-ергических нейронах ЖКТ?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ацетилхолин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ВИП (вазоактивный пептид)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "норадреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "серотонин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какое влияние на тонус артериол оказывает ангиотензин II?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "расширение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сильное сужение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сначала расширение, затем сужение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какое влияние на тонус сосудов оказывает предсердный натрийуретический пептид (атриопептид)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сужение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "расширение",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "повышает чувствительность к адреналину",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какое вещество, выделяемое эндотелием, вызывает расслабление гладких мышц сосудов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эндотелин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "NO (оксид азота)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "ангиотензин II",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тромбоксан A2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какое вещество, выделяемое эндотелием, вызывает сокращение гладких мышц сосудов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "эндотелин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "NO",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "простациклин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "брадикинин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какой отдел ВНС называют «трофотропным» (анаболическим)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "симпатический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "парасимпатический",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "соматический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "серотонинергический",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,2394 @@
+[
+  {
+    "id": 1,
+    "title": "Кто открыл родопсин и изучил фотохимию зрения (конец XIX в.)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Томас Юнг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Франц Болль и Вильгельм Кюне",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Герман Гельмгольц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Иван Сеченов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какой метод используется для оценки остроты зрения (разрешающей способности)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "таблица Сивцева–Головина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "периметрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кампиметрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рефрактометрия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Кто создал трёхкомпонентную теорию цветового зрения (1802 г.)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Томас Юнг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Герман Гельмгольц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Эвальд Геринг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Михаил Ломоносов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Какой метод позволяет регистрировать электрическую активность сетчатки в ответ на световую вспышку?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вызванные потенциалы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "электроокулография",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "электроретинография",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Кто впервые описал явление аудиометрии (измерение остроты слуха)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Иван Сеченов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Герман Гельмгольц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Альфонс Гальтон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Артур Хартман",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой прибор используется для исследования слуха (определение порогов слышимости)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аудиометр",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "камертон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "отоскоп",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тимпанометр",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Кто открыл функцию полукружных каналов как органов равновесия (1870-е гг.)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Эрнст Мах и Йозеф Брейер",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "Роберт Барани",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "Герман Гельмгольц",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Альфонс Гальтон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Какой метод используется для исследования вестибулярного аппарата (вращательное кресло)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аудиометрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "калорическая проба и вращательный тест",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тимпанометрия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "отоакустическая эмиссия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какой отдел сенсорной системы называется «проекционной зоной» коры?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "первичная сенсорная зона",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "вторичная сенсорная зона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ассоциативная зона",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "моторная зона",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какой отдел сенсорной системы представлен ретикулярной формацией (неспецифические пути)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проводниковый отдел (коллатерали)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "периферический отдел",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "корковый отдел",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "рецепторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Какие рецепторы являются вторичными?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обонятельные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фоторецепторы, вкусовые, слуховые, вестибулярные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тактильные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "болевые",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Какое явление называется «адаптацией» рецептора?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "снижение чувствительности при длительной стимуляции",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "повышение чувствительности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "генерация ПД без стимула",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "утомление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какие рецепторы адаптируются медленно (тонические)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "проприорецепторы, болевые",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тельца Пачини",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тельца Мейснера",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "обонятельные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Что такое «нистагм»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ритмические движения глаз (медленная и быстрая фазы)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "тремор",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "подёргивание век",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "косоглазие",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какой путь является общим для слуховой и вестибулярной систем?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "медиальная петля",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "преддверно-улитковый нерв",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "зрительный нерв",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тройничный нерв",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Где находится кортиев орган?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в преддверии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в улитке (на базальной мембране)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в полукружных каналах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в барабанной полости",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какова роль наружных волосковых клеток улитки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "усиление и настройка колебаний базальной мембраны",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "передача сигнала",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "питание",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "защита",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "По каким путям проводится тонкая и тактильная чувствительность?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "спиноталамический путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "задние канатики (пучки Голля и Бурдаха)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "спиноцеребеллярные пути",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "руброспинальный путь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какое ядро таламуса является релейным для слуха?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "латеральное коленчатое тело",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "медиальное коленчатое тело",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "вентральное заднее ядро",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "подушка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Что такое «ретинотопическая проекция»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "топографическое представительство сетчатки в коре",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "проекция тела",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "проекция звуков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "проекция запахов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Какой пигмент содержится в палочках?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "йодопсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "родопсин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фотопсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "меланин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какая теория цветового зрения наиболее признана для рецепторного уровня?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "оппонентная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трёхкомпонентная (Ломоносова–Юнга–Гельмгольца)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "резонансная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "частотная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Что такое «темновая адаптация»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышение чувствительности зрения в темноте (ресинтез родопсина)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "понижение чувствительности на свету",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сужение зрачка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "расширение зрачка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какова роль пигментного эпителия сетчатки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "регенерация зрительных пигментов, фагоцитоз отторгнутых дисков",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "преломление света",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "проведение сигнала",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "аккомодация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Что такое «аккомодация» глаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "изменение преломляющей силы хрусталика для фокусировки на разноудалённых предметах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "изменение размера зрачка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "движение глаз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "слезоотделение",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какая аномалия рефракции исправляется двояковогнутыми линзами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гиперметропия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "миопия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "астигматизм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пресбиопия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Что такое «близорукость» (миопия)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фокус впереди сетчатки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "фокус за сетчаткой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "разная кривизна роговицы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "возрастная дальнозоркость",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Что такое «дальнозоркость» (гиперметропия)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фокус впереди сетчатки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "фокус за сетчаткой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "астигматизм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "норма",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какую функцию выполняет слёзная жидкость?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "увлажнение, питание роговицы, антибактериальная защита",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "преломление света",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "изменение хрусталика",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только защита",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Что такое «глаукома»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышение внутриглазного давления, ведущее к атрофии зрительного нерва",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "катаракта",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "близорукость",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "дальнозоркость",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какие структуры образуют оптическую систему глаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "роговица, водянистая влага, хрусталик, стекловидное тело",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сетчатка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сосудистая оболочка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "склера",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Что такое «жёлтое пятно»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "область сетчатки с наибольшей остротой зрения (только колбочки)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "место выхода зрительного нерва",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "пигментный слой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "слепое пятно",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Что такое «слепое пятно»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "область выхода зрительного нерва, лишённая фоторецепторов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "центральная ямка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "повреждённый участок сетчатки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "макула",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какова роль вестибулярного аппарата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "восприятие ускорения и положения головы в пространстве",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "слух",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "зрение",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "обоняние",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какие структуры вестибулярного аппарата реагируют на угловое ускорение?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "макулы (отолитовый аппарат)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "полукружные каналы (ампулярные гребешки)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "улитка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эндолимфа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Что такое «киноцилия» в волосковых клетках вестибулярного аппарата?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "один длинный волосок, при отклонении в его сторону происходит деполяризация",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "множество коротких волосков",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "базальная мембрана",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "отолит",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Что такое «фи-феномен»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ощущение движения при последовательной стимуляции двух точек сетчатки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "слияние мельканий",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "последовательный образ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "адаптация",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какова критическая частота мельканий (КЧМ) у человека (Гц)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5–10",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "20–24",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "50–60",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "100",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Какие рецепторы сетчатки обеспечивают цветовое зрение?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "палочки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "колбочки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "биполярные клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ганглиозные клетки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какой витамин необходим для синтеза родопсина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "C",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "A",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "D",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "E",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Где расположена центральная ямка сетчатки?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "область наибольшей остроты зрения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "слепое пятно",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "периферия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пигментный слой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Какова острота зрения в норме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1,0",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "0,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "2,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "0,1",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Какая аномалия рефракции исправляется двояковыпуклыми линзами?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "миопия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гиперметропия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "астигматизм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пресбиопия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какая структура глаза изменяет кривизну хрусталика (аккомодация)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "радужка",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ресничная мышца",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "роговица",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стекловидное тело",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какой нерв (парасимпатический) иннервирует цилиарную мышцу и сфинктер зрачка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глазодвигательный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "симпатический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "зрительный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "отводящий",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какая мышца расширяет зрачок (мидриаз)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "дилататор",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сфинктер",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "цилиарная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "прямая",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какова звуковая область восприятия человека (Гц)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5–10000",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "20–20000",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "200–20000",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "1000–5000",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какая структура улитки содержит рецепторы (кортиев орган)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "базальная мембрана",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "вестибулярная мембрана",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "геликотрема",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "овальное окно",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какой ион входит в волосковые клетки при изгибе стереоцилий в сторону киноцилии?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Na⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "K⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Ca²⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Cl⁻",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Какая теория объясняет кодирование высоты звука по месту максимальной вибрации базальной мембраны?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "частотная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "пространственная",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "воротная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "оппонентная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Какая извилина коры является первичной слуховой зоной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "прецентральная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "верхняя височная (поля 41, 42)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "затылочная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "постцентральная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какие структуры вестибулярного аппарата реагируют на линейное ускорение и гравитацию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "макулы (отолитовый аппарат)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "полукружные каналы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кортиев орган",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вестибулярные ядра",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Какой черепной нерв несёт вестибулярную и слуховую информацию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "VIII",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "V",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "VII",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "X",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Какие ядра ствола являются первым центром вестибулярной системы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вестибулярные ядра",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "красные ядра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ядра шва",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "голубое пятно",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Какое влияние на мышцы-разгибатели оказывает вестибулярное ядро Дейтерса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "возбуждающее",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тормозное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "не влияет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только на сгибатели",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какой рецептор чувствителен к длине мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мышечное веретено",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "сухожильный орган Гольджи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тельце Пачини",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "свободное нервное окончание",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какой рецептор чувствителен к напряжению (силе) мышцы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мышечное веретено",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сухожильный орган Гольджи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тельце Мейснера",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "колба Краузе",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Где расположены тела первых нейронов проприоцептивной чувствительности?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в передних рогах спинного мозга",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в спинальных ганглиях",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в продолговатом мозге",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в коре",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какой путь проводит осознаваемую проприоцептивную чувствительность?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "задние канатики (пучки Голля и Бурдаха) → медиальная петля",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "спиноталамический путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "спиноцеребеллярный путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "руброспинальный путь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Какой путь проводит неосознаваемую проприоцепцию в мозжечок?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "спиноцеребеллярные пути (Флексига, Говерса)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "медиальная петля",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "спиноталамический путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кортикоспинальный путь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Где расположен корковый центр вкуса?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "постцентральная извилина и островок",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "затылочная доля",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лобная доля",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "височная доля",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Какие черепные нервы несут вкусовую иннервацию от передних 2/3 языка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "VII пара",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "IX пара",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "X пара",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "V пара",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Какие черепные нервы несут вкусовую иннервацию от задней 1/3 языка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "VII",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "IX",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "X",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "V",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Какое ощущение воспринимается корнем языка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сладкое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "горькое",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "солёное",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "кислое",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Какое ощущение воспринимается кончиком языка?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сладкое и солёное",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "горькое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кислое",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "все",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Какие рецепторы являются первичными для обоняния?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "биполярные нейроны обонятельного эпителия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "вкусовые почки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "свободные окончания",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тельца",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Где находятся обонятельные луковицы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "на решётчатой кости",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "в височной доле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в лобной доле",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в таламусе",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Какой нерв является обонятельным?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "I пара",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "II пара",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "III пара",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "V пара",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Какая кора является первичной обонятельной?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "обонятельная извилина, гиппокамп, прегрушевидная область",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "затылочная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "височная (слуховая)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "постцентральная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Какой тип рецепторов кожи реагирует на прикосновение?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тельца Мейснера",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тельца Руффини (тепло)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "колбы Краузе (холод)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "свободные окончания (боль)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Какой тип рецепторов кожи реагирует на вибрацию?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тельца Пачини",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тельца Мейснера",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тельца Руффини",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "диски Меркеля",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Какой путь проводит тактильную чувствительность от туловища и конечностей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "задние канатики и передний спиноталамический путь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "боковой спиноталамический путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "кортикоспинальный путь",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "руброспинальный путь",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Какие рецепторы воспринимают холод?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "колбы Краузе",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "тельца Руффини",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тельца Пачини",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "свободные окончания",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Какие рецепторы воспринимают тепло?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "тельца Руффини",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "колбы Краузе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "тельца Мейснера",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "диски Меркеля",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Какая сенсорная система имеет самый низкий порог (наивысшую чувствительность)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "зрительная",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "обонятельная (одна молекула)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "слуховая",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тактильная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Какое явление называется «сенситизацией» в сенсорных системах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышение чувствительности под влиянием опыта или модуляторов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "снижение чувствительности",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "адаптация",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "утомление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Что такое «он-рецептор» (on-клетка) в сетчатке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "возбуждается при включении света",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "возбуждается при выключении света",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "всегда активна",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тормозится светом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Какие фоторецепторы обеспечивают сумеречное (скотопическое) зрение?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "палочки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "колбочки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "биполярные клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ганглиозные клетки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Какое поле зрения наиболее широкое?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кнутри",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "кнаружи (90°)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кверху",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "книзу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Какой метод исследования сенсорных систем регистрирует электрические ответы мозга на стимулы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "вызванные потенциалы (ВП)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "ЭЭГ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "МРТ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ПЭТ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Какой тип рецепторов (палочки или колбочки) обеспечивает сумеречное зрение?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "палочки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "колбочки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "оба",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ганглиозные клетки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Какой пигмент содержится в колбочках, чувствительных к красному свету?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "йодопсин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "родопсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "цианолаб",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "меланин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Какова максимальная чувствительность палочек (длина волны)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "500 нм (зелёно-голубая)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "700 нм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "400 нм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "600 нм",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Какое нарушение цветового зрения называется протанопией?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "неразличение красного цвета",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "неразличение зелёного",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "неразличение синего",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "полная цветовая слепота",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Какое нарушение цветового зрения называется дейтеранопией?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "неразличение зелёного цвета",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "неразличение красного",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "неразличение синего",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "всё верно",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Какая структура внутреннего уха содержит рецепторы слуха (кортиев орган)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "улитка (базальная мембрана)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "полукружные каналы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "преддверие",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эндолимфатический проток",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Какой тип клеток кортиева органа являются первичными рецепторами (волосковые)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "внутренние и наружные волосковые клетки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "поддерживающие клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "клетки столба",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ганглиозные клетки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Какой ядерный комплекс ствола мозга является первым слуховым центром?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кохлеарные ядра (вентральное и дорсальное)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "верхние оливы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "латеральная петля",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "нижние холмики",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Какая структура среднего мозга является первичным слуховым рефлекторным центром?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "нижние холмики четверохолмия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "верхние холмики",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "красные ядра",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "чёрная субстанция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Какой тип движений глаз называется «саккадами»?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "быстрые скачкообразные движения",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "плавные следящие",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "нистагм",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "тремор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Какая структура мозга отвечает за быстрые саккадические движения глаз?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "лобные поля и верхние холмики",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "мозжечок",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "затылочная кора",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вестибулярные ядра",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Какой рефлекс вызывает сужение зрачка при аккомодации (конвергенции)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "аккомодационный рефлекс (миоз)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "фоторефлекс",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ортостатический",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "болевой",
+        "isCorrect": false
+      }
+    ]
+  }
+]

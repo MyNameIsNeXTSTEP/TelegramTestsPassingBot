@@ -1,0 +1,1666 @@
+[
+  {
+    "id": 1,
+    "title": "Что такое гемопротеины?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "простые белки, содержащие аминокислоты",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сложные белки, содержащие гем",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "углеводные соединения с железом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "липидные комплексы с порфиринами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какая основная функция гемоглобина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "катализ окислительно-восстановительных реакций",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "запасание кислорода в мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "транспорт кислорода от лёгких к тканям",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "детоксикация веществ в печени",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Из чего состоит молекула гемоглобина взрослого человека (HbA)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из 2 α- и 2 γ-цепей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из 2 α- и 2 β-цепей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из 4 α-цепей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из 2 β- и 2 δ-цепей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Что такое гем?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белковая часть гемоглобина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "протопорфирин с ионом Fe²⁺ в центре",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "углеводный компонент эритроцитов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "липидная молекула в мембране",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Сколько полипептидных цепей входит в состав молекулы гемоглобина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какой ион железа содержится в функциональном гемоглобине?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "Fe³⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Fe²⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "Fe⁰",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "Fe⁴⁺",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какой гемоглобин является основным у плода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "HbA",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "HbF",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "HbA₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "HbP",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Сколько аминокислотных остатков содержит α-цепь гемоглобина взрослого человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "130",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "136",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "141",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "146",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Сколько аминокислотных остатков содержит β-цепь гемоглобина взрослого человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "141",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "146",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "150",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "156",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Какой гемоглобин имеет более высокое сродство к кислороду?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "HbA",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "HbF",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "метгемоглобин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "карбоксигемоглобин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Что такое метгемоглобин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гемоглобин, связанный с кислородом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гемоглобин с окисленным железом Fe³⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гемоглобин, связанный с углекислым газом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гемоглобин с изменённой белковой частью",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "С чем связывается гемоглобин в тканях, образуя карбогемоглобин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "с кислородом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с углекислым газом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "с угарным газом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "с водой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Что такое карбоксигемоглобин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гемоглобин, связанный с кислородом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гемоглобин, связанный с углекислым газом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "гемоглобин, связанный с угарным газом (СО)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "гемоглобин с окисленным железом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Во сколько раз сродство угарного газа (СО) к гемоглобину выше, чем у кислорода?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в 10-20 раз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в 50-100 раз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в 200-300 раз",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в 500-1000 раз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Какой фермент катализирует первую стадию катаболизма гема?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "биливердинредуктаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гем-оксигеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "билирубин-УДФ-глюкуронозилтрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ферропортин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Что образуется при действии гем-оксигеназы на гем?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "билирубин, Fe²⁺, CO₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "биливердин, Fe³⁺, CO, H₂O",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "уробилиноген, Fe²⁺, H₂O",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стеркобилиноген, Fe³⁺, CO₂",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Какой фермент превращает биливердин в билирубин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гем-оксигеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "биливердинредуктаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "билирубин-УДФ-глюкуронозилтрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "β-глюкуронидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "С каким белком плазмы транспортируется неконъюгированный билирубин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "с трансферрином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с альбумином",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "с глобулином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "с фибриногеном",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Где происходит конъюгация билирубина с глюкуроновой кислотой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в селезёнке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в костном мозге",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в печени",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в почках",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какой фермент катализирует конъюгацию билирубина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гем-оксигеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "биливердинредуктаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "билирубин-УДФ-глюкуронозилтрансфераза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "β-глюкуронидаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Что такое «прямой» билирубин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "неконъюгированный билирубин, связанный с альбумином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "конъюгированный билирубин, водорастворимый",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "биливердин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "уробилиноген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Что такое «непрямой» билирубин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "неконъюгированный билирубин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 2,
+        "text": "конъюгированный билирубин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "биливердин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "уробилин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Где происходит образование уробилиногена из конъюгированного билирубина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в почках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в кишечнике",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в селезёнке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Какой пигмент придаёт калу характерный коричневый цвет?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "билирубин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "биливердин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "стеркобилин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "уробилин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какой белок транспортирует железо в плазме крови?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ферритин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гемосидерин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "трансферрин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "альбумин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "В какой форме железо всасывается в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только Fe³⁺",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "преимущественно Fe²⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только в составе гема",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только в составе ферритина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Какой белок обеспечивает транспорт двухвалентного железа через апикальную мембрану энтероцита?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ферропортин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "DMT1",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трансферрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гефестин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Какой белок выводит железо из энтероцита в кровь?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "DMT1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ферропортин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трансферрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ферритин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "В какой форме железо запасается в клетках печени и других тканей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только в составе гема",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в виде ферритина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в виде трансферрина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в виде свободного иона",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Где в основном происходит разрушение старых эритроцитов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в печени и почках",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в селезёнке и костном мозге",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в лёгких и сердце",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в головном мозге и мышцах",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какая основная функция гемоглобина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "катализ окислительно-восстановительных реакций",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "запасание кислорода в мышцах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "транспорт кислорода от лёгких к тканям",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "детоксикация веществ в печени",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Из чего состоит молекула гемоглобина взрослого человека (HbA)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из 2 α- и 2 γ-цепей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из 2 α- и 2 β-цепей",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из 4 α-цепей",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из 2 β- и 2 δ-цепей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какая функция характерна для миоглобина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "транспорт кислорода в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "запасание кислорода в мышечной ткани",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "участие в детоксикации веществ",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "разрушение перекиси водорода",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Из чего состоит молекула гема?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из 3 пиррольных колец и иона магния",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из 4 пиррольныпиррольни и иона железа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из 5 пиррольных колец и иона железа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из белковой цепи и иона меди",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Какой цвет имеет биливердин, образующийся при распаде гема?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "жёлто-оранжевый",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "красный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "сине-зелёный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "бесцветный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какой газ образуется в организме при действии гем-оксигеназы на гем?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "кислород (О₂)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "углекислый газ (СО₂)",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "угарный газ (СО)",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "аммиак (NH₃)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Где преимущественно происходит всасывание железа в желудочно-кишечном тракте?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "проксимальной части тощей кишки",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в подвздошной кишке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какой белок транспортирует железо через базальную мембрану энтероцита в кровь?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "DMT1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ферропортин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "трансферрин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гефестин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Что такое гемосидерин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "белок, транспортирующий железо в плазме",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "белок с более высоким депо железа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фермент, восстанавливающий железо в кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "форма железа, входящая в состав гема",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Какой процент железа, поступающего с пищей, обычно всасывается в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "1-2%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "около 10%",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "около 50%",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "90-100%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Какова средняя продолжительность жизни зрелых эритроцитов в кровотоке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "30-40 дней",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "60-70 дней",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "110-120 дней",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "180-200 дней",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "В каких органах преимущественно фагоцитируются стареющие эритроциты?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в почках и лёгких",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в селезёнке и костном мозге",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в сердце и поджелудочной железе",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в кишечнике и коже",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Что происходит с белковой частью гемоглобина (глобином) после распада эритроцита?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "выводится почками в неизменном виде",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гидролизуется до аминокислот",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "превращается в билирубин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "откладывается в селезёнке в виде гемосидерина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Какой фермент инициирует катаболизм гема, раскрывая его тетрапиррольную структуру?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "биливердинредуктаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гем-оксигеназа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "β-глюкуронидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "трансфераза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Какие вещества являются продуктами реакции, катализируемой гем-оксигеназой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "билирубин, Fe²⁺, CO₂",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "биливердин, Fe³⁺, CO, H₂O",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "уробилиноген, Fe²⁺, NH₃",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стеркобилиноген, Fe³⁺, O₂",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Какая реакция в организме человека является единственной известной реакцией, в результате которой образуется оксид углерода (CO)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "окисление глюкозы в ЦТК",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "реакция расщепления гема гем-оксигеназой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "синтез мочевины",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "окисление жирных кислот",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Какой цвет имеет биливердин, образующийся на первом этапе распада гема?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "жёлто-оранжевый",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сине-зелёный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "красный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "бесцветный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Какой фермент восстанавливает метенильный мостик биливердина, превращая его в билирубин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гем-оксигеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "биливердинредуктаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "билирубин-УДФ-глюкуронозилтрансфераза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "уробилиногенредуктаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Какой цвет имеет билирубин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сине-зелёный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "жёлто-оранжевый",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "тёмно-красный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "бесцветный",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Сколько миллиграммов билирубина образуется ежедневно на 1 кг массы тела?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "около 1 мг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "около 4 мг",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "около 10 мг",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "около 20 мг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "С каким белком плазмы транспортируется нерастворимый в воде билирубин?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "с трансферрином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с глобулином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "с альбумином",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "с фибриногеном",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Какое дополнительное физиологическое свойство, помимо продукта распада гема, присуще билирубину?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "является коферментом окислительных ферментов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "является мощным эндогенным антиоксидантом",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "стимулирует синтез гемоглобина",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "активирует иммунные клетки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Как билирубин попадает в гепатоциты из печёночных синусоидов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только путём активного транспорта",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "путём пассивной диффузии",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только через желчные канальцы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "путём пиноцитоза с альбумином",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Что происходит с комплексом «альбумин-билирубин» на синусоидальной поверхности гепатоцита?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "комплекс целиком поглощается клеткой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "комплекс диссоциирует, освобождая билирубин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "альбумин окисляется, освобождая билирубин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "комплекс выводится с желчью",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "С какой кислотой преимущественно конъюгирует билирубин в гепатоцитах для придания водорастворимости?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "с серной кислотой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "с глюкуроновой кислотой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "с уксусной кислотой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "с молочной кислотой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Какая изоформа билирубин-глюкуронида является преобладающей в норме?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "моноглюкуронид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "диглюкуронид билирубина",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "триглюкуронид",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "сульфат билирубина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Какое свойство придаёт конъюгация билирубину?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "липофильность",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гидрофильность",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "способность связываться с альбумином",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "устойчивость к окислению",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Как в клинической практике называют конъюгированный билирубин, дающий прямую реакцию с реактивом Эрлиха?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "непрямой билирубин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "прямой билирубин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "свободный билирубин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "альбуминсвязанный билирубин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Какой тип билирубина преобладает в крови здорового человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "конъюгированный",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "неконъюгированный",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "уробилиноген",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "стеркобилиноген",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "В каком отделе ЖКТ конъюгированный билирубин восстанавливается и деконъюгируется кишечной флорой?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в двенадцатиперстной кишке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в толстой кишке",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в тощей кишке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Какой бактериальный фермент восстанавливает двойные связи конъюгированного билирубина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-глюкуронидаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "билирубинредуктаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "уробилиногеназа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лактаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Какой фермент кишечной флоры удаляет молекулы глюкуроновой кислоты от билирубина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "билирубинредуктаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "β-глюкуронидаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "протеаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Как называются бесцветные продукты восстановления билирубина в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "биливердин и билирубин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "уробилиноген и стеркобилиноген",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "мочевина и аммиак",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "индол и скатол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Как приём антибиотиков может влиять на уровень билирубина в сыворотке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышает синтез билирубина в печени",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "подавляет кишечную флору, уменьшая количество уробилиногена",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "блокирует конъюгацию в гепатоцитах",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "разрушает альбумин в крови",
+        "isCorrect": false
+      }
+    ]
+  }
+]

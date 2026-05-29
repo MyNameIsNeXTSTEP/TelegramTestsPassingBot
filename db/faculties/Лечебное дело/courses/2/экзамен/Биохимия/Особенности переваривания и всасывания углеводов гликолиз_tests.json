@@ -1,0 +1,1276 @@
+[
+  {
+    "id": 1,
+    "title": "Какой фермент слюны начинает расщепление крахмала?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "пепсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-амилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "трипсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Какие связи расщепляет α-амилаза слюны в крахмале?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "β-(1→4)-гликозидные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-(1→4)-гликозидные",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "α-(1→6)-гликозидные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пептидные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Почему в ротовой полости не происходит полного расщепления крахмала?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из-за недостатка фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из-за кратковременного действия фермента",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из-за низкой температуры",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из-за отсутствия воды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "При каком рН прекращается действие амилазы слюны в желудке?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "5,0-6,0",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "3,5-4,5",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "1,5-2,5",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "7,0-8,0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Какой фермент поджелудочной железы продолжает расщепление крахмала в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "липаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "трипсин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "панкреатическая α-амилаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "пепсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Какие продукты образуются при действии панкреатической амилазы на крахмал?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мальтоза, изомальтоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "только фруктоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только галактоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Какой дисахарид состоит из двух остатков глюкозы, соединённых α-(1→4)-связью?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахароза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мальтоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "целлюлоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Где происходит окончательное расщепление дисахаридов до моносахаридов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в тонком кишечнике",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в ротовой полости",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Какой фермент расщепляет лактозу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мальтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сахараза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лактаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "амилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Каким путём глюкоза и галактоза всасываются в энтероцитах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "путём простой диффузии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "путём облегчённой диффузии",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "путём вторично-активного транспорта с Na⁺",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "путём эндоцитоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Что создаёт градиент концентрации Na⁺, необходимый для всасывания глюкозы?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "амилаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "Na⁺/K⁺-АТФ-аза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "лактаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "пепсин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Каким путём всасывается фруктоза в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "активный транспорт с натрием",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "облегчённая диффузия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "простая диффузия через липидный бислой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эндоцитоз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Какой тип переносчика глюкозы (ГЛЮТ) является инсулинзависимым?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "ГЛЮТ-1",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "ГЛЮТ-2",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "ГЛЮТ-3",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ГЛЮТ-4",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "В какой форме углеводы всасываются в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в виде дисахаридов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в виде полисахаридов",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в виде моносахаридов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в виде декстринов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Где происходит основное всасывание моносахаридов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в тонком кишечнике",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в ротовой полости",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Что происходит с глюкозой после всасывания в энтероцит?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "она сразу окисляется до СО₂ и Н₂О",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "она транспортируется в печень",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "она превращается в гликоген в кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "она выводится из организма",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Почему для всасывания глюкозы необходим натрий?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "натрий является коферментом для глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "имеют сводную систему захвата клеткой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "натрий расщепляет гликозидные связи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "натрий активирует ферменты кишечника",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Куда поступает глюкоза из воротной вены после всасывания?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сразу в большой круг кровообращения",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в печень, где часть её депонируется в виде гликогена",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в мышцы для немедленного окисления",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в жировую ткань для превращения в липиды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Какое заболевание характеризуется стойким повышением уровня глюкозы в крови из-за недостатка инсулина или нарушения его действия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипогликемия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сахарный диабет",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гликогеноз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лактазная недостаточность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Какой гормон снижает концентрацию глюкозы в крови, стимулируя её транспорт в клетки и синтез гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкагон",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "адреналин",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "инсулин",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "кортизол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Что является причиной лактазной недостаточности?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "избыточное всасывание лактозы в кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "дефицит фермента лактазы",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "недостаток глюкозы в пище",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "избыток инсулина в крови",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Какое состояние развивается при чрезмерном снижении уровня глюкозы в крови (<3,3 ммоль/л)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гипергликемия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гипогликемия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "кетоз",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "ацидоз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Что такое глюкозурия?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "повышение уровня глюкозы в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "появление глюкозы в моче",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "нарушение синтеза гликогена",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "избыточное выведение кетоновых тел",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Каков примерный почечный порог для глюкозы у здорового взрослого человека?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "3,3-4,5 ммоль/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "5,5-6,0 ммоль/л",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "8,8-10,0 ммоль/л",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "15-18 ммоль/л",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Какой тип диабета характеризуется абсолютной недостаточностью инсулина?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахарный диабет 2 типа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сахарный диабет 1 типа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гестационный диабет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "вторичный диабет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Какой тип диабета характеризуется инсулинорезистентностью тканей?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахарный диабет 1 типа",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сахарный диабет 2 типа",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гестационный диабет",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "неонатальный диабет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Что такое гликированный гемоглобин (HbA1c)?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "гемоглобин, связанный с кислородом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гемоглобин, связанный с глюкозой",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "гемоглобин с окисленным железом",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "гемоглобин, связанный с угарным газом",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Что такое гипогликемическая кома?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "состояние при очень высоком уровне глюкозы в крови",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "состояние при резком снижении глюкозы в крови",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "состояние при накоплении кетоновых тел",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "состояние при обезвоживании организма",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Какое наследственное заболевание связано с дефектом ферментов метаболизма гликогена?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "фенилкетонурия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "гликогеноз",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "галактоземия",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "муковисцидоз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Какие связи расщепляет панкреатическая α-амилаза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только α-(1→6)-гликозидные",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "α-(1→4)-гликозидные связи в крахмале и декстринах",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "β-(1→4)-гликозидные связи",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "все типы гликозидных связей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Какие продукты образуются при действии панкреатической амилазы на крахмал?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только свободная глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "мальтоза, изомальтоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "фруктоза и галактоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только галактоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Почему панкреатическая амилаза не расщепляет α-(1→6)-гликозидные связи?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из-за отсутствия субстрата",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из-за специфичности фермента к типу связи",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из-за низкой концентрации фермента",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из-за ингибирования желчными кислотами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Какой дисахарид состоит из двух остатков глюкозы, соединённых α-(1→4)-связью?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахароза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мальтоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "целлюлоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Какой дисахарид образуется из разветвлённых участков крахмала?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мальтоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "изомальтоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "сахароза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "лактоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Где происходит окончательное расщепление дисахаридов до моносахаридов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в просвете тонкого кишечника",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "на поверхности энтероцитов",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Какой фермент расщепляет мальтозу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "сахараза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "лактаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "мальтаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "амилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Какой фермент расщепляет сахарозу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мальтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сахараза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "лактаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "амилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Какой фермент расщепляет лактозу?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "мальтаза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "сахараза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "лактаза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "амилаза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "На какие моносахариды расщепляется лактоза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкоза + глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкоза + фруктоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "галактоза + глюкоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "галактоза + фруктоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "На какие моносахариды расщепляется сахароза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "глюкоза + глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "глюкоза + фруктоза",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "галактоза + глюкоза",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "фруктоза + фруктоза",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Каким путём всасывается фруктоза в кишечнике?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "активный транспорт с натрием",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "облегчённая диффузия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "простая диффузия через липидный бислой",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "эндоцитоз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Почему фруктоза всасывается медленнее, чем глюкоза?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из-за большего размера молекулы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из-за пассивного механизма транспорта",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из-за быстрого метаболизма в кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из-за связывания с желчными кислотами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Где происходит основное всасывание моносахаридов?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в желудке",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в толстом кишечнике",
+        "isCorrect": false
+      },
+      {
+        "optionId": 3,
+        "text": "в тонком кишечнике",
+        "isCorrect": true
+      },
+      {
+        "optionId": 4,
+        "text": "в ротовой полости",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Куда поступают моносахариды после всасывания в энтероцит?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "в почечные канальцы для фильтрации",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "в кровь воротной вены и далее в печень",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в межклеточное пространство и далее в лимфу",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "в общий кровоток для поглощения жировой тканью",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Что происходит с глюкозой в печени после всасывания?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "полностью превращается в глюкозо-6-фосфат для синтеза жиров",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "часть депонируется в виде гликогена, часть поступает в общий кровоток",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "подвергается гликогенолизу для поддержания уровня сахара",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "транспортируется в неизменном виде исключительно в скелетные мышцы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Почему глюкоза и галактоза используют один и тот же транспортёр SGLT1?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "из-за одинакового размера молекул",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "из-за структурного сходства",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "из-за одинакового заряда молекул",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "из-за одинаковой растворимости",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Что происходит с транспортом глюкозы при дефиците натрия в просвете кишечника?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "транспорт ускоряется",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "транспорт замедляется или прекращается",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "транспорт переключается на облегчённую диффузию",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "транспорт становится активным без натрия",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "В каком направлении работает ГЛЮТ-2 в энтероцитах?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "только внутрь клетки",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "только из клетки в кровь",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "в обоих направлениях активно",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "только при наличии инсулина",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Почему всасывание глюкозы называют вторично-активным транспортом?",
+    "options": [
+      {
+        "optionId": 1,
+        "text": "потому что оно происходит по градиенту концентрации глюкозы",
+        "isCorrect": false
+      },
+      {
+        "optionId": 2,
+        "text": "потому что оно использует энергию градиента натрия",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
+        "text": "потому что оно происходит пассивно",
+        "isCorrect": false
+      },
+      {
+        "optionId": 4,
+        "text": "потому что оно требует участия двух ферментов",
+        "isCorrect": false
+      }
+    ]
+  }
+]
