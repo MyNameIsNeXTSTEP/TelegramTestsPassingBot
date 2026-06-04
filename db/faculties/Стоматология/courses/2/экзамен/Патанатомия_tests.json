@@ -3094,7 +3094,7 @@
       },
       {
         "optionId": 5,
-        "text": "Дисплазия Тема: Воспаление",
+        "text": "Дисплазия",
         "isCorrect": false
       }
     ]
@@ -6194,7 +6194,7 @@
       },
       {
         "optionId": 5,
-        "text": "Некроз Тема: Дистрофии",
+        "text": "Некроз",
         "isCorrect": false
       }
     ]
@@ -9294,7 +9294,7 @@
       },
       {
         "optionId": 5,
-        "text": "Гипертрофия Тема: Опухоли",
+        "text": "Гипертрофия",
         "isCorrect": false
       }
     ]
@@ -12394,7 +12394,7 @@
       },
       {
         "optionId": 5,
-        "text": "Гипертрофия Тема: Заболевание органов лимфоидной и кроветворной систем.",
+        "text": "Гипертрофия",
         "isCorrect": false
       }
     ]
@@ -14234,21 +14234,26 @@
     "options": [
       {
         "optionId": 1,
-        "text": "BCL2 Cyclin D1",
-        "isCorrect": true
+        "text": "BCL2",
+        "isCorrect": false
       },
       {
         "optionId": 2,
+        "text": "Cyclin D1",
+        "isCorrect": true
+      },
+      {
+        "optionId": 3,
         "text": "MYC",
         "isCorrect": false
       },
       {
-        "optionId": 3,
+        "optionId": 4,
         "text": "CD30",
         "isCorrect": false
       },
       {
-        "optionId": 4,
+        "optionId": 5,
         "text": "CD15",
         "isCorrect": false
       }
@@ -15856,7 +15861,7 @@
       },
       {
         "optionId": 4,
-        "text": "Шистоциты - фрагменты эритроцитов при механическом разрушении",
+        "text": "Шистоциты — фрагменты эритроцитов при механическом разрушении",
         "isCorrect": false
       },
       {
@@ -15985,7 +15990,7 @@
       },
       {
         "optionId": 5,
-        "text": "Шистоциты - фрагменты эритроцитов при механическом повреждении",
+        "text": "Шистоциты — фрагменты эритроцитов при механическом повреждении",
         "isCorrect": false
       }
     ]
@@ -17454,7 +17459,7 @@
       {
         "optionId": 1,
         "text": "Локальное выпячивание стенки сердца с истончением мышечного слоя",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -17464,7 +17469,7 @@
       {
         "optionId": 3,
         "text": "Замещение мышечной ткани сердца соединительной фиброзной тканью",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -17516,12 +17521,12 @@
       {
         "optionId": 1,
         "text": "Воспалительные инфильтраты лимфоцитов и моноцитов в миокарде",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Разрастание соединительной ткани и фиброз миокарда после длительной болезни",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -17578,7 +17583,7 @@
       {
         "optionId": 1,
         "text": "Диффузный фиброз миокарда с уплотнением сердечной мышцы",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -17598,7 +17603,7 @@
       {
         "optionId": 5,
         "text": "Гипертрофия отдельных отделов миокарда без ишемического повреждения",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -17640,7 +17645,7 @@
       {
         "optionId": 1,
         "text": "Атероматозные бляшки с кальцинозом и локальным сужением сосуда",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -17650,7 +17655,7 @@
       {
         "optionId": 3,
         "text": "Уплотнение стенки с постепенным замещением фиброзной тканью",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -17733,7 +17738,7 @@
       {
         "optionId": 1,
         "text": "Накопление жидкости в полости перикарда с признаками воспаления и отёка",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -17743,7 +17748,7 @@
       {
         "optionId": 3,
         "text": "Замещение перикарда соединительной тканью без жидкости",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -17764,7 +17769,7 @@
       {
         "optionId": 1,
         "text": "Присутствие крови в перикардиальном экссудате с включением воспалительных клеток",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -17779,7 +17784,7 @@
       {
         "optionId": 4,
         "text": "Гнойный экссудат с воспалением и разрушением тканей перикарда",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -17795,12 +17800,12 @@
       {
         "optionId": 1,
         "text": "Повреждение эндотелия и гиперкоагуляция с образованием тромба в артерии",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Атрофия миокарда без признаков тромбоза или эндотелиального повреждения",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -17857,7 +17862,7 @@
       {
         "optionId": 1,
         "text": "Расширение вен и застой крови с нарушением оттока и отёком тканей",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -17872,7 +17877,7 @@
       {
         "optionId": 4,
         "text": "Некроз тканей нижних конечностей без венозного застоя",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -17919,7 +17924,7 @@
       {
         "optionId": 1,
         "text": "Дилатация аорты с истончением стенки и риском разрыва сосуда",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -17939,7 +17944,7 @@
       {
         "optionId": 5,
         "text": "Фиброз стенки аорты без дилатации или риска разрыва",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -18012,12 +18017,12 @@
       {
         "optionId": 1,
         "text": "Утолщение и фиброз перикарда с формированием рубцов на поверхности",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Атрофия перикардиальной оболочки без признаков воспаления и фиброза",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -18043,7 +18048,7 @@
       {
         "optionId": 1,
         "text": "Повреждение эндотелия с активацией свертывающей системы крови и тромбоз",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18058,7 +18063,7 @@
       {
         "optionId": 4,
         "text": "Некроз артериальной стенки без тромбов и нарушений кровотока",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -18105,12 +18110,12 @@
       {
         "optionId": 1,
         "text": "Расширение вен и застой крови с развитием отёков и варикозного расширения",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Атрофия венозной стенки без признаков венозного застоя или расширения",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -18136,7 +18141,7 @@
       {
         "optionId": 1,
         "text": "Воспаление стенки вены с инфильтрацией лейкоцитами и отёком тканей",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18151,7 +18156,7 @@
       {
         "optionId": 4,
         "text": "Некроз участков стенки вены без воспалительных изменений",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -18167,7 +18172,7 @@
       {
         "optionId": 1,
         "text": "Дилатация аорты с истончением стенки и риском разрыва сосуда",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18177,7 +18182,7 @@
       {
         "optionId": 3,
         "text": "Склероз аортальной стенки без дилатации и изменений просвета",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -18198,7 +18203,7 @@
       {
         "optionId": 1,
         "text": "Атероматозные бляшки и кальциноз с расширением просвета сосуда",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18218,7 +18223,7 @@
       {
         "optionId": 5,
         "text": "Гипертрофия средней оболочки аорты без атеросклеротических изменений",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -18229,7 +18234,7 @@
       {
         "optionId": 1,
         "text": "Воспаление сердечной мышцы с инфильтрацией лимфоцитов и повреждением миокарда",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18244,7 +18249,7 @@
       {
         "optionId": 4,
         "text": "Некроз кардиомиоцитов без признаков воспалительной реакции или отёка",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -18291,7 +18296,7 @@
       {
         "optionId": 1,
         "text": "Постепенное сужение коронарных артерий с нарушением кровоснабжения миокарда",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18301,7 +18306,7 @@
       {
         "optionId": 3,
         "text": "Склероз сосудистой стенки без нарушения доставки кислорода к миокарду",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -18322,12 +18327,12 @@
       {
         "optionId": 1,
         "text": "Фиброз миокарда с частичной атрофией кардиомиоцитов и изменением сосудов",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Некроз кардиомиоцитов без признаков фиброза и ремоделирования ткани",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -18384,7 +18389,7 @@
       {
         "optionId": 1,
         "text": "Атероматозные бляшки с кальцинозом и утолщением интимы сосуда",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18394,7 +18399,7 @@
       {
         "optionId": 3,
         "text": "Фиброз аорты без атероматозных отложений и кальциноза",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -18415,12 +18420,12 @@
       {
         "optionId": 1,
         "text": "Воспаление перикарда с инфильтрацией лимфоцитов и накоплением экссудата",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Атрофия перикарда без признаков воспалительной реакции или экссудата",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -18446,7 +18451,7 @@
       {
         "optionId": 1,
         "text": "Фибриновые наложения на поверхности перикарда с инфильтрацией лейкоцитов",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18461,7 +18466,7 @@
       {
         "optionId": 4,
         "text": "Некроз перикарда без инфильтрации клеток и наложения фибрина",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -18508,12 +18513,12 @@
       {
         "optionId": 1,
         "text": "Присутствие крови в перикардиальном экссудате с лимфоцитарной инфильтрацией",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Фиброз перикарда без признаков кровоизлияния и инфильтрации",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -18539,7 +18544,7 @@
       {
         "optionId": 1,
         "text": "Повреждение эндотелия с активацией свертывающей системы и образованием тромба",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18559,7 +18564,7 @@
       {
         "optionId": 5,
         "text": "Фиброз стенки артерии без активации свертывания и тромбоза",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -18570,12 +18575,12 @@
       {
         "optionId": 1,
         "text": "Закупорка сосуда тромбом с нарушением кровотока и ишемией легких",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Расширение сосуда без признаков тромбоэмболии или нарушения кровотока",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -18632,12 +18637,12 @@
       {
         "optionId": 1,
         "text": "Фиброзная капсула и липидное ядро",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Атрофия и истончение сердечной мышцы",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -18694,7 +18699,7 @@
       {
         "optionId": 1,
         "text": "Бледное пятно с геморрагическими включениями",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18714,7 +18719,7 @@
       {
         "optionId": 5,
         "text": "Гной и воспалительный экссудат внутри",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -18756,7 +18761,7 @@
       {
         "optionId": 1,
         "text": "Расширение полостей с истончением стенок",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18771,7 +18776,7 @@
       {
         "optionId": 4,
         "text": "Некроз и разрушение клеток миокарда",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -18818,7 +18823,7 @@
       {
         "optionId": 1,
         "text": "Узелки Асхоффа в соединительной ткани",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18828,7 +18833,7 @@
       {
         "optionId": 3,
         "text": "Кальциноз и отложение солей кальция",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -18880,12 +18885,12 @@
       {
         "optionId": 1,
         "text": "Наличие крови в перикардиальном экссудате",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Фиброз и разрастание соединительной ткани",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -18973,7 +18978,7 @@
       {
         "optionId": 1,
         "text": "Воспаление миокарда с лимфоцитарной инфильтрацией",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -18988,7 +18993,7 @@
       {
         "optionId": 4,
         "text": "Атрофия и уменьшение объема тканей",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -19035,7 +19040,7 @@
       {
         "optionId": 1,
         "text": "Постепенное сужение коронарных артерий сердца",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -19045,7 +19050,7 @@
       {
         "optionId": 3,
         "text": "Склероз и уплотнение сосудистой стенки",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -19097,7 +19102,7 @@
       {
         "optionId": 1,
         "text": "Гипертрофия миокарда и утолщение артериол",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -19117,7 +19122,7 @@
       {
         "optionId": 5,
         "text": "Фиброз и разрастание соединительной ткани",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -19159,12 +19164,12 @@
       {
         "optionId": 1,
         "text": "Дилатация и истончение сосудистой стенки",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Атрофия и уменьшение объема тканей",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -19309,7 +19314,7 @@
   },
   {
     "id": 624,
-    "title": "Какой морфологический признак характерен для острого инфаркта миокарда через 24-48 часов?",
+    "title": "Какой морфологический признак характерен для острого инфаркта миокарда через 24–48 часов?",
     "options": [
       {
         "optionId": 1,
@@ -19929,7 +19934,7 @@
   },
   {
     "id": 644,
-    "title": "Какой морфологический признак характерен для острого инфаркта миокарда через 3-5 дней?",
+    "title": "Какой морфологический признак характерен для острого инфаркта миокарда через 3–5 дней?",
     "options": [
       {
         "optionId": 1,
@@ -20998,12 +21003,12 @@
       {
         "optionId": 3,
         "text": "Закупорка ветвей легочной артерии тромботическими массами",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 4,
         "text": "Некроз и разрушение клеток легочной ткани",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -21334,12 +21339,12 @@
       {
         "optionId": 2,
         "text": "Некроз и разрушение клеток тканей",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
         "text": "Инфекционное воспаление клапанного аппарата сердца",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 4,
@@ -21360,7 +21365,7 @@
       {
         "optionId": 1,
         "text": "Фиброз и разрастание соединительной ткани",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -21370,7 +21375,7 @@
       {
         "optionId": 3,
         "text": "Вегетации на клапанах с тромботическими наложениями",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 4,
@@ -21432,7 +21437,7 @@
       {
         "optionId": 3,
         "text": "Утолщение стенки левого желудочка сердца",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 4,
@@ -21442,7 +21447,7 @@
       {
         "optionId": 5,
         "text": "Кальциноз и отложение солей кальция",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -21453,7 +21458,7 @@
       {
         "optionId": 1,
         "text": "Фиброз и разрастание соединительной ткани",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -21463,7 +21468,7 @@
       {
         "optionId": 3,
         "text": "Воспаление миокарда с лимфоцитарной инфильтрацией",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 4,
@@ -21494,12 +21499,12 @@
       {
         "optionId": 3,
         "text": "Фиброз с лимфоцитарной инфильтрацией миокарда",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 4,
         "text": "Кальциноз и отложение солей кальция",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -21520,12 +21525,12 @@
       {
         "optionId": 2,
         "text": "Некроз и разрушение клеток тканей",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
         "text": "Образование атероматозных бляшек с кальцинозом",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 4,
@@ -21587,7 +21592,7 @@
       {
         "optionId": 3,
         "text": "Отложение фибрина на поверхности перикарда",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 4,
@@ -21597,7 +21602,7 @@
       {
         "optionId": 5,
         "text": "Гипертрофия и увеличение массы миокарда",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -21608,7 +21613,7 @@
       {
         "optionId": 1,
         "text": "Фиброз и разрастание соединительной ткани",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -21618,7 +21623,7 @@
       {
         "optionId": 3,
         "text": "Наличие крови в перикардиальном экссудате",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 4,
@@ -21689,7 +21694,7 @@
       },
       {
         "optionId": 5,
-        "text": "Некроз и разрушение клеток тканей Тема: Болезни органов дыхания",
+        "text": "Некроз и разрушение клеток тканей",
         "isCorrect": false
       }
     ]
@@ -21958,7 +21963,7 @@
       },
       {
         "optionId": 3,
-        "text": "Гранулёмы с эпителиоидными клетками и гигантскими клетками Пирогова-Лангханса",
+        "text": "Гранулёмы с эпителиоидными клетками и гигантскими клетками Пирогова–Лангханса",
         "isCorrect": true
       },
       {
@@ -22347,7 +22352,7 @@
   },
   {
     "id": 722,
-    "title": "Какой процесс лежит в основе хронического плеврита?",
+    "title": ".Какой процесс лежит в основе хронического плеврита?",
     "options": [
       {
         "optionId": 1,
@@ -22739,12 +22744,12 @@
       {
         "optionId": 4,
         "text": "Атрофия мезотелия без экссудации",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
         "text": "Накопление серозного экссудата между листками плевры",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -22770,12 +22775,12 @@
       {
         "optionId": 4,
         "text": "Наличие воздуха в плевральной полости с коллабированием лёгкого",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 5,
         "text": "Гипертрофия бронхиального эпителия без разрыва ткани",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -22786,12 +22791,12 @@
       {
         "optionId": 1,
         "text": "Кальциноз лёгочной паренхимы с уплотнением ткани",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
         "text": "Гнойно-некротическое разрушение лёгочной ткани с распадом",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 3,
@@ -22822,12 +22827,12 @@
       {
         "optionId": 2,
         "text": "Кальциноз сосудов лёгких с ригидностью стенок",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
         "text": "Окклюзия ветвей лёгочной артерии тромботическими массами",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 4,
@@ -22858,12 +22863,12 @@
       {
         "optionId": 3,
         "text": "Гипертрофия бронхиальных желёз с секрецией",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
         "text": "Накопление серозного транссудата в альвеолах и интерстиции",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 5,
@@ -22894,12 +22899,12 @@
       {
         "optionId": 4,
         "text": "Атрофия альвеол без структурных изменений",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
         "text": "Нарушение структуры паренхимы с потерей эластичности",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -22946,12 +22951,12 @@
       {
         "optionId": 2,
         "text": "Воспаление и обструкция мелких бронхиол с отёком и инфильтратом",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 3,
         "text": "Кальциноз бронхиол с потерей проходимости",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -22977,7 +22982,7 @@
       {
         "optionId": 2,
         "text": "Хроническое воспаление стенок альвеол с последующим фиброзом",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 3,
@@ -22987,7 +22992,7 @@
       {
         "optionId": 4,
         "text": "Атрофия лёгочной ткани без воспаления",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -23003,12 +23008,12 @@
       {
         "optionId": 1,
         "text": "Гипертрофия бронхиальных желёз с секрецией",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
         "text": "Накопление серозного транссудата в альвеолах с макрофагами",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 3,
@@ -23065,7 +23070,7 @@
       {
         "optionId": 1,
         "text": "Гранулёмы без казеозного некроза в лёгочной ткани",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -23075,7 +23080,7 @@
       {
         "optionId": 3,
         "text": "Атрофия альвеол с уменьшением структуры",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -23101,7 +23106,7 @@
       {
         "optionId": 2,
         "text": "Накопление белкового материала в просвете альвеол",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 3,
@@ -23111,7 +23116,7 @@
       {
         "optionId": 4,
         "text": "Атрофия лёгочной ткани",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -23132,7 +23137,7 @@
       {
         "optionId": 2,
         "text": "Некроз альвеолярного эпителия с отёком и кровоизлияниями",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 3,
@@ -23147,7 +23152,7 @@
       {
         "optionId": 5,
         "text": "Фиброз интерстиция",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -23158,12 +23163,12 @@
       {
         "optionId": 1,
         "text": "Кальциноз сосудов лёгких с ригидностью",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
         "text": "Гипертрофия и склероз стенок лёгочных артерий",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 3,
@@ -23189,12 +23194,12 @@
       {
         "optionId": 1,
         "text": "Диффузный фиброз интерстиция с утолщением перегородок",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Некроз лёгочной ткани с распадом",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -23220,7 +23225,7 @@
       {
         "optionId": 1,
         "text": "Некротическое повреждение сосудов с кровоизлияниями в паренхиму",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -23230,7 +23235,7 @@
       {
         "optionId": 3,
         "text": "Атрофия эндотелия без разрушения",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -23349,7 +23354,7 @@
       {
         "optionId": 2,
         "text": "Фибринозное заполнение альвеол с уплотнением доли",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 3,
@@ -23359,7 +23364,7 @@
       {
         "optionId": 4,
         "text": "Атрофия альвеол",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -23375,7 +23380,7 @@
       {
         "optionId": 1,
         "text": "Гнойные очаги воспаления в альвеолах с инфильтрацией",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -23395,7 +23400,7 @@
       {
         "optionId": 5,
         "text": "Эмфизема без воспаления",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -23473,12 +23478,12 @@
       {
         "optionId": 2,
         "text": "Фиброз лёгочной ткани с утолщением перегородок",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 3,
         "text": "Кальциноз альвеол",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -23499,7 +23504,7 @@
       {
         "optionId": 1,
         "text": "Спадение альвеол с уменьшением объёма лёгкого",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -23514,7 +23519,7 @@
       {
         "optionId": 4,
         "text": "Фиброз интерстиция",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -23530,12 +23535,12 @@
       {
         "optionId": 1,
         "text": "Гипертрофия и склероз сосудов лёгких",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Некроз сосудистой стенки",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -23597,7 +23602,7 @@
       {
         "optionId": 2,
         "text": "Кальциноз очага воспаления с уплотнением",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -23612,7 +23617,7 @@
       {
         "optionId": 5,
         "text": "Некроз с образованием творожистой массы",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -23633,7 +23638,7 @@
       {
         "optionId": 3,
         "text": "Гипертрофия бронхиального дерева без экссудации",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -23643,7 +23648,7 @@
       {
         "optionId": 5,
         "text": "Полость с гнойным расплавлением лёгочной ткани",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -23669,12 +23674,12 @@
       {
         "optionId": 4,
         "text": "Фиброз сосудистой стенки без закупорки",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
         "text": "Закупорка лёгочной артерии тромбом или эмболом",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -23700,12 +23705,12 @@
       {
         "optionId": 4,
         "text": "Гипертрофия и склероз стенок лёгочных артерий",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 5,
         "text": "Фиброз интерстиция без сосудистых изменений",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -23716,7 +23721,7 @@
       {
         "optionId": 1,
         "text": "Кальциноз лёгочной ткани с уплотнением",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -23736,7 +23741,7 @@
       {
         "optionId": 5,
         "text": "Гранулёмы с лимфогистиоцитарной инфильтрацией и фиброзом",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -23752,7 +23757,7 @@
       {
         "optionId": 2,
         "text": "Кальциноз интерстиция с ригидностью ткани",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -23767,7 +23772,7 @@
       {
         "optionId": 5,
         "text": "Некроз эпителия с отёком и гиалиновой мембраной",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -23788,7 +23793,7 @@
       {
         "optionId": 3,
         "text": "Атрофия альвеол без деформации бронхов",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -23798,7 +23803,7 @@
       {
         "optionId": 5,
         "text": "Необратимое расширение бронхов с разрушением их стенки",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -23824,12 +23829,12 @@
       {
         "optionId": 4,
         "text": "Фиброз без клеточной инфильтрации",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
         "text": "Лимфоцитарная инфильтрация интерстиция с отёком",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -23902,12 +23907,12 @@
       {
         "optionId": 1,
         "text": "Полость с гнойным расплавлением и разрушением лёгочной ткани",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Кальциноз лёгочной паренхимы без экссудации",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -23943,7 +23948,7 @@
       {
         "optionId": 3,
         "text": "Гипертрофия бронхиального эпителия без фиброза",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -23953,7 +23958,7 @@
       {
         "optionId": 5,
         "text": "Гнойное воспаление лёгких без хронических изменений",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -23979,12 +23984,12 @@
       {
         "optionId": 4,
         "text": "Фиброз интерстиция без острого процесса",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
         "text": "Диффузное повреждение альвеол с отёком и кровоизлияниями",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -23995,7 +24000,7 @@
       {
         "optionId": 1,
         "text": "Некротическое воспаление бронхов и прилежащей паренхимы",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -24015,7 +24020,7 @@
       {
         "optionId": 5,
         "text": "Фиброз интерстиция без экссудата",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -24062,7 +24067,7 @@
       {
         "optionId": 2,
         "text": "Атрофия альвеол без спадения",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -24077,7 +24082,7 @@
       {
         "optionId": 5,
         "text": "Коллапс альвеол с уменьшением объёма лёгкого",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24088,7 +24093,7 @@
       {
         "optionId": 1,
         "text": "Накопление серозного или фибринозного экссудата в плевре",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -24098,7 +24103,7 @@
       {
         "optionId": 3,
         "text": "Атрофия мезотелия без воспаления",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -24119,7 +24124,7 @@
       {
         "optionId": 1,
         "text": "Уплотнение и обызвествление плевральной оболочки",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -24134,7 +24139,7 @@
       {
         "optionId": 4,
         "text": "Фиброз плевры без отложения солей",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -24150,7 +24155,7 @@
       {
         "optionId": 1,
         "text": "Разрыв буллы лёгкого с попаданием воздуха в плевральную полость",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -24170,7 +24175,7 @@
       {
         "optionId": 5,
         "text": "Фиброз интерстиция без повреждения лёгкого",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -24181,7 +24186,7 @@
       {
         "optionId": 1,
         "text": "Фиброз интерстиция с утолщением и ремоделированием перегородок",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -24201,7 +24206,7 @@
       {
         "optionId": 5,
         "text": "Отёк альвеол с образованием гиалиновой мембраны",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24217,7 +24222,7 @@
       {
         "optionId": 2,
         "text": "Некроз альвеолярного эпителия с разрушением структуры",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -24232,7 +24237,7 @@
       {
         "optionId": 5,
         "text": "Повторяющееся повреждение альвеолярного эпителия с прогрессирующим фиброзом",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24253,7 +24258,7 @@
       {
         "optionId": 3,
         "text": "Атрофия альвеолярных перегородок без клеточной реакции",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -24263,7 +24268,7 @@
       {
         "optionId": 5,
         "text": "Лимфоцитарная инфильтрация интерстиция и центролобулярный фиброз",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24289,12 +24294,12 @@
       {
         "optionId": 4,
         "text": "Гипертрофия бронхиального эпителия без повреждения",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
         "text": "Некроз альвеолярного эпителия, отек и кровоизлияния",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24336,7 +24341,7 @@
       {
         "optionId": 1,
         "text": "Некроз бронхиол с разрушением их структуры",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -24356,7 +24361,7 @@
       {
         "optionId": 5,
         "text": "Фиброз и воспаление мелких бронхиол с обструкцией",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24372,7 +24377,7 @@
       {
         "optionId": 2,
         "text": "Гипертрофия слизистых желёз бронхов",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -24387,7 +24392,7 @@
       {
         "optionId": 5,
         "text": "Некротическое воспаление бронхов и прилежащей паренхимы с гнойным распадом",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24408,7 +24413,7 @@
       {
         "optionId": 3,
         "text": "Атрофия альвеол без воспалительной реакции",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -24418,7 +24423,7 @@
       {
         "optionId": 5,
         "text": "Лимфоцитарная инфильтрация стенок альвеол с отеком",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24444,12 +24449,12 @@
       {
         "optionId": 4,
         "text": "Гипертрофия бронхиального дерева",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
         "text": "Отложение гемосидерина в альвеолярных макрофагах",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24522,12 +24527,12 @@
       {
         "optionId": 1,
         "text": "Некроз с образованием творожистого белого материала",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Фиброз лёгочной ткани без распада",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -24553,7 +24558,7 @@
       {
         "optionId": 1,
         "text": "Полость с гнойным распадом ткани лёгкого",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -24563,7 +24568,7 @@
       {
         "optionId": 3,
         "text": "Атрофия альвеол без воспаления",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -24584,7 +24589,7 @@
       {
         "optionId": 1,
         "text": "Закупорка лёгочной артерии с нарушением кровотока",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -24599,7 +24604,7 @@
       {
         "optionId": 4,
         "text": "Гипертрофия сосудов без тромбоза",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -24615,7 +24620,7 @@
       {
         "optionId": 1,
         "text": "Гипертрофия и склероз стенок лёгочных артерий",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -24635,7 +24640,7 @@
       {
         "optionId": 5,
         "text": "Некроз сосудов",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -24677,12 +24682,12 @@
       {
         "optionId": 1,
         "text": "Некроз эпителия с отеком и гиалиновой мембраной",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Кальциноз лёгочной ткани",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -24708,7 +24713,7 @@
       {
         "optionId": 1,
         "text": "Расширение бронхов с утолщённой стенкой и хроническим воспалением",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -24718,7 +24723,7 @@
       {
         "optionId": 3,
         "text": "Атрофия слизистой бронхов",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -24739,7 +24744,7 @@
       {
         "optionId": 1,
         "text": "Фиброз интерстиция без грибковой инвазии и воспаления",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -24759,7 +24764,7 @@
       {
         "optionId": 5,
         "text": "Некротическое гранулематозное воспаление с гифами и инфильтратом",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24775,7 +24780,7 @@
       {
         "optionId": 2,
         "text": "Кальциноз интерстиция лёгких с утратой эластичности",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -24790,7 +24795,7 @@
       {
         "optionId": 5,
         "text": "Накопление белкового материала в просвете альвеол с нарушением газообмена",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24801,7 +24806,7 @@
       {
         "optionId": 1,
         "text": "Фиброз интерстиция без острого повреждения альвеол",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -24821,7 +24826,7 @@
       {
         "optionId": 5,
         "text": "Некроз альвеолярного эпителия с отеком и гиалиновой мембраной",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24837,7 +24842,7 @@
       {
         "optionId": 2,
         "text": "Кальциноз интерстиция с утратой эластичности",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -24852,7 +24857,7 @@
       {
         "optionId": 5,
         "text": "Лимфоцитарная инфильтрация интерстиция и центролобулярный фиброз",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24873,7 +24878,7 @@
       {
         "optionId": 3,
         "text": "Кальциноз межальвеолярных перегородок",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -24883,7 +24888,7 @@
       {
         "optionId": 5,
         "text": "Прогрессирующий фиброз интерстиция с утолщением перегородок",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24909,12 +24914,12 @@
       {
         "optionId": 4,
         "text": "Гипертрофия слизистых желёз бронхов",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
         "text": "Разрушение альвеолярных перегородок с фиброзом и гипертрофией бронхов",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24956,7 +24961,7 @@
       {
         "optionId": 1,
         "text": "Фиброз лёгочной ткани без инфекции",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -24976,7 +24981,7 @@
       {
         "optionId": 5,
         "text": "Некротическое гранулематозное воспаление с гифами",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -24992,7 +24997,7 @@
       {
         "optionId": 2,
         "text": "Гипертрофия бронхиального эпителия",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -25007,7 +25012,7 @@
       {
         "optionId": 5,
         "text": "Расширение бронхов с утолщённой стенкой и гнойным воспалением",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25018,7 +25023,7 @@
       {
         "optionId": 1,
         "text": "Закупорка ветвей лёгочной артерии с нарушением кровотока",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -25028,7 +25033,7 @@
       {
         "optionId": 3,
         "text": "Атрофия сосудистой стенки без обструкции",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -25111,7 +25116,7 @@
       {
         "optionId": 1,
         "text": "Фиброз интерстиция без экссудации",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -25131,7 +25136,7 @@
       {
         "optionId": 5,
         "text": "Отек альвеол с гиалиновой мембраной",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25173,7 +25178,7 @@
       {
         "optionId": 1,
         "text": "Скопление лимфоцитов и эпителиоидных клеток с гранулёмами",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -25183,7 +25188,7 @@
       {
         "optionId": 3,
         "text": "Кальциноз очага воспаления",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -25204,7 +25209,7 @@
       {
         "optionId": 1,
         "text": "Некроз с образованием творожистой массы",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -25219,7 +25224,7 @@
       {
         "optionId": 4,
         "text": "Атрофия альвеол без некроза",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -25271,7 +25276,7 @@
       {
         "optionId": 2,
         "text": "Кальциноз бронхов без воспаления",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -25281,7 +25286,7 @@
       {
         "optionId": 4,
         "text": "Гипертрофия слизистых желёз и воспаление бронхов",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 5,
@@ -25307,7 +25312,7 @@
       {
         "optionId": 3,
         "text": "Атрофия альвеол без инфильтрации",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -25317,7 +25322,7 @@
       {
         "optionId": 5,
         "text": "Лимфоцитарная инфильтрация стенок альвеол с отеком",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25328,7 +25333,7 @@
       {
         "optionId": 1,
         "text": "Некроз альвеолярного эпителия с отеком и гиалиновой мембраной",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -25343,7 +25348,7 @@
       {
         "optionId": 4,
         "text": "Гипертрофия бронхов без повреждения",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -25395,7 +25400,7 @@
       {
         "optionId": 2,
         "text": "Кальциноз паренхимы без воспалительной реакции",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -25410,7 +25415,7 @@
       {
         "optionId": 5,
         "text": "Некротическое гранулематозное воспаление с гифами",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25431,7 +25436,7 @@
       {
         "optionId": 3,
         "text": "Фиброз межальвеолярных перегородок",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -25441,7 +25446,7 @@
       {
         "optionId": 5,
         "text": "Накопление белкового материала в просвете альвеол",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25467,12 +25472,12 @@
       {
         "optionId": 4,
         "text": "Фиброз интерстиция без некроза",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
         "text": "Некротическое воспаление бронхов с гнойным распадом паренхимы",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25514,7 +25519,7 @@
       {
         "optionId": 1,
         "text": "Некроз сосудистой стенки без ремоделирования",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -25529,7 +25534,7 @@
       {
         "optionId": 4,
         "text": "Гипертрофия и склероз лёгочных артерий",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 5,
@@ -25550,7 +25555,7 @@
       {
         "optionId": 2,
         "text": "Кальциноз паренхимы без экссудации",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -25565,7 +25570,7 @@
       {
         "optionId": 5,
         "text": "Некроз альвеолярного эпителия с отеком и гиалиновой мембраной",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25586,7 +25591,7 @@
       {
         "optionId": 3,
         "text": "Атрофия альвеолярных перегородок",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -25596,7 +25601,7 @@
       {
         "optionId": 5,
         "text": "Лимфоцитарная инфильтрация интерстиция и центролобулярный фиброз",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25622,12 +25627,12 @@
       {
         "optionId": 4,
         "text": "Атрофия альвеол без воспаления",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
         "text": "Прогрессирующий фиброз интерстиция с утолщением перегородок",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25669,7 +25674,7 @@
       {
         "optionId": 1,
         "text": "Кальциноз бронхиального дерева без воспаления",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -25689,7 +25694,7 @@
       {
         "optionId": 5,
         "text": "Некротическое воспаление бронхов и паренхимы с гнойным распадом",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25705,7 +25710,7 @@
       {
         "optionId": 2,
         "text": "Кальциноз паренхимы без воспаления",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -25720,7 +25725,7 @@
       {
         "optionId": 5,
         "text": "Некротическое гранулематозное воспаление с гифами",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25731,7 +25736,7 @@
       {
         "optionId": 1,
         "text": "Атрофия альвеол с уменьшением дыхательной поверхности лёгких",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -25741,7 +25746,7 @@
       {
         "optionId": 3,
         "text": "Фиброз интерстиция с утолщением альвеолярных перегородок",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 4,
@@ -25767,7 +25772,7 @@
       {
         "optionId": 2,
         "text": "Некроз лёгочной паренхимы без клеточной реакции",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -25782,7 +25787,7 @@
       {
         "optionId": 5,
         "text": "Лимфогистиоцитарная инфильтрация с гранулемами и вторичным фиброзом",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25803,7 +25808,7 @@
       {
         "optionId": 3,
         "text": "Атрофия альвеол без экссудации",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -25813,7 +25818,7 @@
       {
         "optionId": 5,
         "text": "Некротическое воспаление с гнойным распадом паренхимы",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25839,12 +25844,12 @@
       {
         "optionId": 4,
         "text": "Атрофия альвеол без экссудата",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
         "text": "Накопление белкового материала в альвеолах с нарушением газообмена",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25886,7 +25891,7 @@
       {
         "optionId": 1,
         "text": "Фиброз лёгочной ткани без инфекционного процесса",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 2,
@@ -25906,7 +25911,7 @@
       {
         "optionId": 5,
         "text": "Некротическое гранулематозное воспаление с гифами",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -25917,12 +25922,12 @@
       {
         "optionId": 1,
         "text": "Гранулемы с эпителиоидными и лимфоцитарными клетками",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Фиброз лёгочной ткани без гранулём",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -25948,7 +25953,7 @@
       {
         "optionId": 1,
         "text": "Творожистый некроз с эпителиоидными клетками и лимфоцитами",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -25958,7 +25963,7 @@
       {
         "optionId": 3,
         "text": "Кальциноз очага воспаления",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -25979,7 +25984,7 @@
       {
         "optionId": 1,
         "text": "Гипертрофия и склероз лёгочных артерий",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -25994,7 +25999,7 @@
       {
         "optionId": 4,
         "text": "Фиброз интерстиция",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -26010,7 +26015,7 @@
       {
         "optionId": 1,
         "text": "Некроз альвеолярного эпителия с отеком и гиалиновой мембраной",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -26030,7 +26035,7 @@
       {
         "optionId": 5,
         "text": "Фиброз интерстиция без острого процесса",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -26134,12 +26139,12 @@
       {
         "optionId": 1,
         "text": "Лимфоцитарная инфильтрация интерстиция и центролобулярный фиброз",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Некроз альвеол без иммунной реакции",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -26165,7 +26170,7 @@
       {
         "optionId": 1,
         "text": "Закупорка лёгочной артерии тромбом или эмболом",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -26175,7 +26180,7 @@
       {
         "optionId": 3,
         "text": "Атрофия сосудистой стенки",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 4,
@@ -26196,7 +26201,7 @@
       {
         "optionId": 1,
         "text": "Накопление белкового материала в просвете альвеол",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -26211,7 +26216,7 @@
       {
         "optionId": 4,
         "text": "Фиброз межальвеолярных перегородок",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 5,
@@ -26227,7 +26232,7 @@
       {
         "optionId": 1,
         "text": "Полость с гнойным распадом паренхимы",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
@@ -26247,7 +26252,7 @@
       {
         "optionId": 5,
         "text": "Фиброз без полости распада",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -26320,12 +26325,12 @@
       {
         "optionId": 1,
         "text": "Некротическое гранулематозное воспаление с гифами",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "optionId": 2,
         "text": "Кальциноз паренхимы без инфекционного процесса",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "optionId": 3,
@@ -27889,7 +27894,7 @@
       },
       {
         "optionId": 5,
-        "text": "Некротическое гранулематозное воспаление с наличием грибковых гиф и тканевой инвазией Тема: Стоматология",
+        "text": "Некротическое гранулематозное воспаление с наличием грибковых гиф и тканевой инвазией",
         "isCorrect": true
       }
     ]
@@ -30947,7 +30952,7 @@
       },
       {
         "optionId": 2,
-        "text": "в области коронки полностью здорового зуба структуры",
+        "text": "в области коронкиполностью здорового зуба структуры",
         "isCorrect": false
       },
       {
@@ -33958,7 +33963,7 @@
       },
       {
         "optionId": 2,
-        "text": "взрослых в возрасте 30-60 лет",
+        "text": "взрослых в возрасте 30–60 лет",
         "isCorrect": true
       },
       {
@@ -35561,7 +35566,7 @@
   },
   {
     "id": 1196,
-    "title": "Сиалодохит - это поражение:",
+    "title": "Сиалодохит — это поражение:",
     "options": [
       {
         "optionId": 1,
